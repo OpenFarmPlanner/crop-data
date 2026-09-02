@@ -1,8 +1,9 @@
 # Phase 2 Prompt: Private OpenFarmPlanner Sync
 
-Use this prompt only in a private workspace when approved crop notes should be
-copied into a live OpenFarmPlanner project. Do not store tokens, project IDs,
-production IDs, or sync reports in this public repository.
+Use this prompt when approved public crop notes should be copied into a private
+OpenFarmPlanner project. The prompt may be run from this repository, but all
+private operational state must stay outside git. Do not store tokens, project
+IDs, production IDs, or sync reports in this public repository.
 
 ## Goal
 
@@ -59,3 +60,5 @@ Live-visible notes must not include:
 7. Write the patch.
 8. Read the record back and verify the changed fields.
 9. Record the sync result in a private sync log, not in this public repository.
+10. Only update public notes after syncing when the update improves reusable
+    crop knowledge rather than documenting private operational state.

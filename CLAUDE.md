@@ -2,9 +2,9 @@
 
 ## Purpose
 
-This public repository is used to research and document reusable crop data for
-OpenFarmPlanner. It is not a live database and must not contain private
-OpenFarmPlanner project details.
+This public repository is the primary workspace for researching and documenting
+reusable crop data for OpenFarmPlanner. It is not a live database and must not
+contain private OpenFarmPlanner project details.
 
 ## Public-First Rule
 
@@ -26,6 +26,11 @@ repository.
   `PHASE2_PROMPT.md` or project-specific tooling outside this public repo.
 
 Do not write to a live API during Phase 1.
+
+Do not create a parallel private research note when the information is reusable.
+Research improvements belong here first. Private files are only for credentials,
+temporary sync logs, project-specific IDs, or information that cannot be made
+public safely.
 
 ## Language
 

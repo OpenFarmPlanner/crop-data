@@ -1,11 +1,14 @@
 # OpenFarmPlanner Crop Data
 
-Public research workspace for reusable OpenFarmPlanner crop data.
+Primary public research workspace for reusable OpenFarmPlanner crop data.
 
-This repository documents crop facts, sources, planning-value derivations, and
-open questions before data is copied into an OpenFarmPlanner instance. It is
-intentionally source-focused: no private project IDs, no API tokens, no live
-sync logs, and no environment-specific production history belong here.
+This repository is the source of truth for crop-data improvements that should
+be reusable by the OpenFarmPlanner community. It documents crop facts, sources,
+planning-value derivations, and open questions before data is copied into an
+OpenFarmPlanner instance.
+
+It is intentionally source-focused: no private project IDs, no API tokens, no
+live sync logs, and no environment-specific production history belong here.
 
 ## Repository Layout
 
@@ -25,8 +28,21 @@ sync logs, and no environment-specific production history belong here.
 3. Compare variety values against the general crop values explicitly.
 4. Document source conflicts and unclear field mappings instead of deciding
    silently.
-5. Only copy data into a live OpenFarmPlanner project in a separate private
+5. Commit reusable research changes here first.
+6. Only copy data into a live OpenFarmPlanner project in a separate private
    sync step.
+
+## Private Sync Without A Private Research Repo
+
+This public repository is intended to replace the old private research repo for
+ongoing crop-data work. Keep private operational state local and ignored:
+
+- create `.openfarmplanner.env` locally when you need API access
+- write temporary sync logs under `sync-private/`
+- do not commit production IDs, project names, token scopes, or private sync
+  reports
+- after a sync, update public notes only when the change improves reusable crop
+  knowledge
 
 ## Data Principles
 
@@ -58,3 +74,10 @@ the following outside git or in a private companion repository:
 - private correction logs
 
 The `.gitignore` already excludes common private sync locations.
+
+## Historical Private Repository
+
+Older project-specific sync history may exist in a private repository. That
+history is not required for new public research work and should not be copied
+here unless it has been reviewed, translated to English, and stripped of private
+operational details.
