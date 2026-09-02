@@ -1,0 +1,14 @@
+.env
+.env.*
+.openfarmplanner.env
+.openfarmplanner-*.env
+
+# Private sync artifacts. Keep public notes neutral and source-focused.
+sync-private/
+reports/
+private/
+
+# Local/editor noise
+.DS_Store
+*.swp
+*.swo
