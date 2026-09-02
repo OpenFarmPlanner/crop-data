@@ -81,3 +81,8 @@ Older project-specific sync history may exist in a private repository. That
 history is not required for new public research work and should not be copied
 here unless it has been reviewed, translated to English, and stripped of private
 operational details.
+
+## License
+
+This repository is licensed under the GNU Affero General Public License v3.0.
+See [`LICENSE`](LICENSE) for the full license text.
