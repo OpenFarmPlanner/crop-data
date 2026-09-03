@@ -48,6 +48,9 @@ ongoing crop-data work. Keep private operational state local and ignored:
 
 - Prefer reputable horticultural, agricultural, breeding, or seed-supplier
   sources.
+- Use precise crop identities. Supplier categories and slash collection names
+  are source context, not crop names, when they combine multiple botanical
+  groups, harvest forms, or crop-calendar logic.
 - Paraphrase source text. Do not copy marketing copy or long passages.
 - Link sources directly in the text and in the source list.
 - Document derived values: source basis, calculation, rounding, and uncertainty.

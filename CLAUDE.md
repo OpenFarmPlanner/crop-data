@@ -64,6 +64,19 @@ Source conflicts, identity questions, duplicate suspects, and mapping questions
 must always be documented explicitly in the note. Do not make a silent choice
 when the correct source, crop identity, or OpenFarmPlanner field is unclear.
 
+## Use Precise Crop Identities
+
+Do not use broad supplier or shop categories as crop identities when they mix
+multiple botanical groups, harvest forms, or crop-calendar logic. Slash names
+such as "Asian leaf vegetables/mustard cabbage" may be useful source context,
+but they must not silently become the OpenFarmPlanner crop name when a more
+specific crop identity is supported by the sources.
+
+Prefer the narrowest reusable crop identity that fits the botanical evidence
+and the intended harvest logic. Document the discarded broad category and the
+reason it was not used when the source could otherwise be misread as the crop
+name.
+
 ## Compare Varieties Explicitly
 
 General crop data and variety data must never be silently treated as the same,
