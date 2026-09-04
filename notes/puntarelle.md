@@ -41,8 +41,9 @@
 - Yield: left open. No reliable per-m² yield source was found for the shoot
   harvest.
 - Harvest method: left open until a yield basis exists.
-- Thousand kernel weight: left open; chicory seed is small (roughly 1-1.5 g per
-  thousand) but a crop-specific source is needed before storing a value.
+- Thousand kernel weight: 1.4 g as a planning value. Chicory seed is about
+  600-900 seeds per gram, i.e. roughly 1.1-1.7 g per thousand
+  ([Osborne Seed - Seed Count Chart](https://www.osborneseed.com/pages/seed-count-chart)).
 
 ## Sources
 - [Plantura - Puntarelle anbauen](https://www.plantura.garden/gemuese/puntarelle/puntarelle-anbauen)
@@ -57,6 +58,7 @@
 - Synced 2026-09-04 to the live `Zwiebelzopf` project on `openfarmplanner.org`:
   `growth_duration_days` set to 70 and `harvest_duration_days` set to 30 (both
   were empty; growth duration blocked publishing).
-- Open mapping questions: yield, harvest method, and seed weight are open; no
-  crop-species link or display language is set.
-- Public-readiness: calendar values set and synced; yield open.
+  `thousand_kernel_weight_g` set to 1.4.
+- Open mapping questions: yield and harvest method are open; no crop-species
+  link or display language is set.
+- Public-readiness: calendar values and seed weight set and synced; yield open.

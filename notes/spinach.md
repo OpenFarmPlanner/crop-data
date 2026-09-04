@@ -34,8 +34,10 @@
   only a short period before bolting or quality loss. The live variety record
   `Matador` also stores 21 days.
 - Yield: about 2.5 kg/m² is the stored general value; not re-derived here.
-- Thousand kernel weight: left open; spinach seed is commonly around 8-12 g per
-  thousand, but a crop-specific source is needed before storing a value.
+- Thousand kernel weight: 12 g as a planning value. Spinach seed is commonly
+  about 50-80 seeds per gram, i.e. roughly 12-20 g per thousand
+  ([Osborne Seed - Seed Count Chart](https://www.osborneseed.com/pages/seed-count-chart)).
+  12 g is at the lower, small-seeded end; round-seeded types can be heavier.
 - Propagation duration: left empty. Spinach is direct sown.
 
 ## Sources
@@ -51,6 +53,8 @@
 - Synced 2026-09-04 to the live `Zwiebelzopf` project on `openfarmplanner.org`:
   `growth_duration_days` set to 50 and `harvest_duration_days` set to 21 (both
   were empty; growth duration blocked publishing).
-- Open mapping questions: thousand kernel weight needs a source; overwintering
-  spinach has a very different effective duration.
-- Public-readiness: calendar values inferred and synced.
+  `thousand_kernel_weight_g` set to 12.
+- Open mapping questions: overwintering spinach has a very different effective
+  duration; the seed weight is a type value, not variety-measured.
+- Public-readiness: calendar values inferred and synced; seed weight set from a
+  seed-count chart.

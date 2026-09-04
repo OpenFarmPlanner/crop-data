@@ -36,9 +36,11 @@
   stored). Dry beans mature over a few weeks; 60 days covers an uneven stand.
 - Yield: about 0.23 kg/m² dry seed is the stored general value; dry-bean yields
   are far lower than green-bean yields. Not re-derived here.
-- Thousand kernel weight: left open pending a kidney-bean-specific source.
-  General bean seed is large (well above pea seed); a precise value needs a seed
-  catalogue figure.
+- Thousand kernel weight: 470 g as a planning value for a large red-seeded
+  garden bean. `Phaseolus vulgaris` seed ranges about 250-530 g per thousand
+  ([pflanzen-deutschland](https://www.pflanzen-deutschland.de/Phaseolus_vulgaris.html));
+  kidney types sit at the upper end, and the live variety record
+  `Canadian Wonder` measures 472 g. 470 g is chosen to match.
 - Propagation duration: left empty. Kidney beans are direct sown.
 
 ## Sources
@@ -53,7 +55,7 @@
   4 months dry); no direct conflict.
 - Synced 2026-09-04 to the live `Zwiebelzopf` project on `openfarmplanner.org`:
   `growth_duration_days` set to 100 (was empty; blocked publishing).
-- Open mapping questions: thousand kernel weight and a firmer dry-seed yield
-  value still need a source.
-- Public-readiness: growth duration inferred and synced; yield and seed weight
-  need review.
+  `thousand_kernel_weight_g` set to 470.
+- Open mapping questions: a firmer dry-seed yield value still needs a source.
+- Public-readiness: growth duration and seed weight set and synced; yield needs
+  review.

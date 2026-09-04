@@ -40,8 +40,9 @@
   3.0 kg/m²; a general value should be confirmed against head weight and
   spacing before being stored.
 - Harvest method: left open until a general yield basis exists.
-- Thousand kernel weight: left open; chicory seed is small (roughly 1-1.5 g per
-  thousand) but a crop-specific source is needed.
+- Thousand kernel weight: 1.4 g as a planning value. Chicory seed is about
+  600-900 seeds per gram, i.e. roughly 1.1-1.7 g per thousand
+  ([Osborne Seed - Seed Count Chart](https://www.osborneseed.com/pages/seed-count-chart)).
 
 ## Sources
 - [meine-ernte - Radicchio](https://www.meine-ernte.de/pflanzen-a-z/gemuese/radicchio/)
@@ -56,6 +57,8 @@
 - Synced 2026-09-04 to the live `Zwiebelzopf` project on `openfarmplanner.org`:
   `growth_duration_days` set to 85 and `harvest_duration_days` set to 30 (both
   were empty; growth duration blocked publishing).
-- Open mapping questions: general yield, harvest method, and seed weight are
-  open; no crop-species link or display language is set.
-- Public-readiness: calendar values inferred and synced; yield open.
+  `thousand_kernel_weight_g` set to 1.4.
+- Open mapping questions: general yield and harvest method are open; no
+  crop-species link or display language is set.
+- Public-readiness: calendar values inferred and seed weight set and synced;
+  yield open.
