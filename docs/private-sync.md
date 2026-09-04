@@ -9,7 +9,12 @@ Create a local `.openfarmplanner.env` file when API access is needed. The file
 is ignored by git and must never be committed.
 
 Use `sync-private/` for temporary logs, API readbacks, diffs, or project-specific
-notes. This directory is ignored by git.
+notes. This directory is ignored by git. Keep the environment-to-project mapping
+in `sync-private/target-notes.md`.
+
+See [`openfarmplanner-api.md`](openfarmplanner-api.md) for host-neutral API
+mechanics: culture endpoints, which fields a sync token can and cannot write,
+and the recommended sync sequence.
 
 ## What To Commit
 
