@@ -17,6 +17,8 @@ live sync logs, and no environment-specific production history belong here.
 - `examples/` - completed example notes that demonstrate the expected style.
 - `docs/culture-field-mapping.md` - mapping between note concepts and
   OpenFarmPlanner Culture fields.
+- `docs/openfarmplanner-api.md` - host-neutral API notes for Phase 2 sync
+  (endpoints, token-writable vs ignored fields, sync sequence).
 - `PHASE2_PROMPT.md` - optional prompt for copying approved notes into a private
   OpenFarmPlanner project. Keep live credentials and sync logs outside this
   public repository.
