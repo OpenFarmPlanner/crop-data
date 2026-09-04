@@ -3,9 +3,11 @@
   `Brassica juncea`.
 - This note intentionally does not use broad shop categories such as Asian leaf
   vegetables or mixed mustard-cabbage labels as the crop identity.
-- Growth duration: open as a general structured value, because sources describe
-  fast baby-leaf harvests and longer winter harvests, and varieties differ in
-  harvest form and season.
+- Growth duration: no single true general value, because sources describe fast
+  baby-leaf harvests and longer winter harvests and varieties differ in harvest
+  form and season. An inferred planning value of 50 days is stored for a
+  developed-leaf harvest so the crop can be published (see
+  `Planning Value Derivations`).
 
 ## Sowing & Planting
 
@@ -53,11 +55,17 @@
   `Brassica juncea` with `Brassica rapa`, and its product list includes leaf,
   rosette, and stem-oriented crops. The narrower crop identity is supported by
   the `Green in Snow` botanical names from the product sources.
-- Growth duration: no single general planning value. ReinSaat's broad Asian
-  greens category gives a short warm-season harvest range and a longer winter
-  range, but because that category mixes species and harvest forms, those ranges
-  are documented as context rather than stored as one general mustard-greens
-  value.
+- Growth duration: no single true general planning value. ReinSaat's broad
+  Asian greens category gives a short warm-season harvest range and a longer
+  winter range, and that category mixes species and harvest forms. For the
+  OpenFarmPlanner publish form, which requires a value, 50 days is stored as an
+  inferred planning value for a developed-leaf harvest from a spring or
+  late-summer sowing. This is consistent with the `Green in Snow` variety
+  record (45 days) and with general `Brassica juncea` leaf-harvest timing of
+  roughly 40-60 days. Documented as inferred, not a direct source value;
+  baby-leaf (about 3 weeks) and overwintered crops deviate strongly.
+- Harvest window: 90 days as an inferred planning value for a long
+  cut-and-come-again harvest, matching the `Green in Snow` variety record.
 - Spacing: no single general planning value. Dense baby-leaf spacing, row
   sowing, broadcast sowing, and wider rosette spacing all appear in the source
   set.
@@ -74,6 +82,10 @@
 - Open source conflicts: no conflict on `Green in Snow` belonging to
   `Brassica juncea`; broad category sources remain mixed and should not define
   the crop identity.
-- Open mapping questions: structured general growth duration, harvest window,
-  spacing, and yield need more mustard-greens-specific sources.
-- Public-readiness: ready for identity mapping; planning values need review.
+- Synced 2026-09-04 to the live `Zwiebelzopf` project on `openfarmplanner.org`:
+  `growth_duration_days` set to 50 and `harvest_duration_days` set to 90 (both
+  were empty; growth duration blocked publishing).
+- Open mapping questions: the stored growth duration and harvest window are
+  inferred; spacing and yield still need more mustard-greens-specific sources.
+- Public-readiness: identity mapped; calendar values inferred and synced,
+  spacing and yield need review.
