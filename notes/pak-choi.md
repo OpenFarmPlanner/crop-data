@@ -65,20 +65,27 @@
   transplanting per Hortipendium.
 - Propagation duration: 21 days, from about 18-25 days of seedling
   production, depending on the season (Hortipendium home-garden article).
-- Harvest window: 10 days (was 14). No source gives a day count for a single
-  planting. Evidence: [Hortipendium](https://www.hortipendium.de/Pak_Choi_Erwerbsanbau)
-  (read directly) and the [LWG Bayern leaflet](https://www.lwg.bayern.de/mam/cms06/gartenakademie/dateien/2156_pak_choi.pdf)
-  (not readable as text) give no window; the LWG summary only stresses high
-  bolting risk and recommends bolt-resistant varieties, with temperatures
-  above 25 °C causing stress and bolting. Home-garden sources (search
-  summaries only) recommend successive sowings every 2-3 weeks and say that
-  heat above about 27 °C can trigger bolting within days. Derivation: heads
-  can be cut from baby size (about 4-5 weeks) up to full size (7-10 weeks),
-  which widens the window compared with head lettuce (7 days), but the
-  standard full-head harvest targeted by the 50-day growth duration
-  should be completed within about 10 days, inside the 14-21 day succession
-  interval. Inferred planning value; plausible range 7-14 days, shorter in
-  summer heat.
+- Harvest window: 10 days (kept after re-check). No source gives a day count
+  for a single planting. The [LWG Bayern leaflet](https://www.lwg.bayern.de/mam/cms06/gartenakademie/dateien/2156_pak_choi.pdf)
+  was now read as text (extracted from the downloaded PDF): it gives a
+  culture duration of 50-65 days, warns of high bolting risk (long days
+  above about 12 hours, and cool temperatures below 10 °C) and states that
+  the crop keeps well in the bed until the first frost, while keeping
+  quality after harvest is short. It gives no harvest-window figure.
+  [Hortipendium](https://www.hortipendium.de/Pak_Choi_Erwerbsanbau)
+  (read directly again) has no window or harvest-pass information. Home
+  garden sources (search summaries only) recommend sowings every 2-3 weeks,
+  and a general bok choy guide mentions bitterness when plants are cut
+  late; no university extension day count was found. Derivation: the LWG
+  statement supports a long field hold for late-season (autumn) plantings
+  sown after mid-July, while the bolting warning limits summer or spring
+  plantings. Heads can be cut from baby size to full size, so about 10 days
+  for the full-head cut inside a 14-21 day succession interval was kept as
+  an inferred value. Season: shorter (about 5-7 days) in summer heat or
+  spring long days, longer (up to 14 days or more) in cool autumn. Plausible
+  range 5-14 days. Conflict noted: the LWG "keeps until first frost" hold
+  is much longer than 10 days; it was not adopted because it refers to
+  garden use of a single stand, not planned harvest logistics.
 - Field/form constraint: whole integer days.
 - Yield: left open; no general source reviewed here gives a reliable kg/m²
   figure.
@@ -95,7 +102,7 @@
 ## Research Status
 - Researched on: 2026-09-18
 - Calendar values researched on: 2026-09-21
-- Calendar values re-verified on: 2026-09-21 (harvest window changed from 14 to 10 days; still an inferred value, no direct source day count)
+- Calendar values re-verified on: 2026-09-21 (harvest window 10 days kept; LWG leaflet now read as text, supports only bolting risk and a field hold until first frost, no day count)
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: spacing figures vary noticeably between sources
   (e.g. 25 x 25 cm vs. 30-40 x 30 cm vs. 50 x 40 cm for larger heads); the
@@ -103,6 +110,5 @@
 - Open mapping questions: growth duration depends on harvest form
   (mini/large head/baby leaf); the 50-day value targets a standard head and
   it is unclear whether the LWG range counts from sowing or planting. Yield
-  and thousand kernel weight are open. The LWG leaflet was read in this pass
-  and supplies the 50-65 day range.
+  and thousand kernel weight are open. The LWG leaflet was read as text and supplies the 50-65 day range.
 - Public-readiness: needs review; calendar values are inferred, yield is open.

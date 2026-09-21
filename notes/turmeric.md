@@ -31,10 +31,16 @@
   `Planning Value Derivations`.
 - Planting out: end of April into an unheated tunnel in that Austrian example;
   outdoors in pots only after mid-May and keep warm.
-- Planting depth: about 5 cm (garden-level source only; no extension value
-  found).
-- Spacing: no Central European tunnel spacing found; left open. Tropical
-  field reference only: 25 x 30 cm or 30 x 15 cm on ridges or beds
+- Planting depth: about 5 cm of substrate cover over the seed piece when
+  starting it in pots; this matches the extension trial of [Virginia State University](https://static1.squarespace.com/static/56bb6533c2ea51c6431244f6/t/5c1139524fa51a9a7c12949d/1544632659199/Turmeric-Publication-AR-TN-110716-Second+draft.pdf)
+  (2 inches in a 1-gallon pot). Not a Central European value; see
+  `Planning Value Derivations`.
+- Spacing (tunnel): 122 x 76 cm (4 ft between rows, 2.5 ft between plants),
+  from the same Virginia high tunnel trials (US, warmer than Central Europe;
+  used as the only available tunnel spacing, flagged as a transfer). A Missouri
+  grower talk uses 30 x 10 cm for baby ginger and turmeric combined, which is
+  a different (baby rhizome) regime and not used. Tropical field reference
+  only: 25 x 30 cm or 30 x 15 cm on ridges or beds
   ([Indian Spices Board](https://www.indianspices.com/sites/default/files/cultivation_practices-TURMERIC-1.pdf)).
 - Site: brightest, warmest position, permeable substrate, evenly moist.
 
@@ -47,8 +53,8 @@
 - Used fresh or dried and ground as a spice.
 
 ## Notes
-- Yield (kg/m²) left open, see `Planning Value Derivations`. Nutrient demand
-  left open.
+- Yield: about 1 kg/m² as a cautious tunnel planning value, see
+  `Planning Value Derivations`. Nutrient demand left open.
 
 ## Planning Value Derivations
 - Definitions: propagation duration is the start of the rhizome pieces until
@@ -78,17 +84,45 @@
   October gives only about 170 days, and tropical crops need 7-9 months in
   total, the December/January start is preferred for the crop calendar. A
   March start is kept as a lower-yield option and not modeled.
-- Yield: kg/m² left open. The Austrian report gives about 0.75 kg per plant
-  (about 8,000 plants in 2021) but no planting density, so a conversion
-  would be falsely precise. The Indian field figure is not transferable.
-- Planting depth: only the garden value of 5 cm; extension-level depth
-  recommendations for Central Europe were not found.
+- Yield: about 1.0 kg/m² (whole-tunnel basis), derived, not a direct source
+  value. [Virginia State University](https://static1.squarespace.com/static/56bb6533c2ea51c6431244f6/t/5c1139524fa51a9a7c12949d/1544632659199/Turmeric-Publication-AR-TN-110716-Second+draft.pdf) report 2-4 lb (about 0.9-1.8 kg) marketable rhizomes per plant
+  at 4 x 2.5 ft (0.93 m² per plant), i.e. about 1.0-1.9 kg/m² at plant
+  spacing; counting the whole 48 x 30 ft tunnel with 90 plants (about
+  1.5 m² per plant) gives about 0.6-1.2 kg/m². The Austrian producer
+  reports about 0.75 kg per plant without a density. The middle-to-low end
+  of the overlap, 1.0 kg/m², is used because the Virginia climate is warmer
+  than Central Europe and the Austrian per-plant figure is at the lower end
+  of the Virginia range. The Indian field figure (3.8 kg/m²) is a different
+  regime and not transferable. Note: a Bavarian trial reached 2-3 kg/m² for
+  ginger in unheated tunnels; that is ginger, not turmeric, and was not used.
+- Spacing: 122 x 76 cm from the Virginia trials (see above); no Central
+  European turmeric spacing was found. Kept as a flagged transfer.
+- Planting depth: 5 cm cover in pots (Virginia, 2 inches). Central
+  European extension values were not found.
+- Cross-check of calendar values with the Virginia high tunnel trials
+  (2010-2016): seed pieces started in pots in January, germination after
+  about 8 weeks, planting out in mid-May, harvest from the first week of
+  November. Pots to planting out is about 130-140 days (supports 140
+  propagation) and mid-May to early November is about 170-175 days
+  (supports 170 growth duration). Harvest continues until the tunnel soil
+  freezes, so the 30-day window is a conservative choice within an open
+  window of roughly 30-60 days. A Missouri grower talk (ginger and turmeric
+  combined, baby rhizomes) reports pre-sprouting from mid-March, planting out
+  mid-May and harvest 5 months later in mid-October (about 150 days); it is
+  a shorter baby-harvest regime and shows that the 170 days is at the mature
+  end, not a conflict. Tropical ICAR-IISR: 7-9 months, single-bud
+  transplants raised in trays 30-40 days before field planting; kept
+  separate.
 - Field/form constraint: whole days.
-- Uncertainty: large; based on one commercial example; outdoors in pots the
+- Uncertainty: large; two independent tunnel examples (Austria, Virginia)
+  agree on the calendar but not on climate; outdoors in pots the
   season is much shorter and may not reach maturity in Central Europe.
 
 ## Sources
 - [Ja! Natuerlich - Bio-Kurkuma aus Oesterreich](https://www.janatuerlich.at/magazin/exotisch-und-aus-oesterreich-bio-kurkuma/)
+- [Virginia State University - Growing and Selling High Tunnel Fresh Turmeric in Virginia](https://static1.squarespace.com/static/56bb6533c2ea51c6431244f6/t/5c1139524fa51a9a7c12949d/1544632659199/Turmeric-Publication-AR-TN-110716-Second+draft.pdf)
+- [OakWoods Farm - Ginger and Turmeric Production in High Tunnels (Missouri workshop slides)](https://ag.missouristate.edu/StateFruit/_Files/GingerTurmeric_KarenScott.pdf)
+- [ICAR-IISR - Turmeric extension pamphlet](https://indianspices.com/sites/default/files/185.%20Institute%20Publication-Turmeric%20Extension%20Pamphlet%20-%20March%202022.pdf)
 - [Indian Spices Board - Turmeric cultivation practices](https://www.indianspices.com/sites/default/files/cultivation_practices-TURMERIC-1.pdf)
 - [FiBL Austria - Anbauratgeber Ingwer im geschuetzten Anbau](https://www.fibl.org/fileadmin/documents/shop/1804-anbauratgeber-ingwer.pdf)
   (ginger and turmeric in tunnels; mentions turmeric only in passing, used
@@ -106,10 +140,15 @@
   December/January (documented above); Plantura suggests spring or summer
   planting, not followed.
 - Open mapping questions: rhizome planting mapped to transplant variant;
-  spacing and yield open.
-- Remaining source limits: Central European tunnel values rest on one
-  producer news article; no Austrian or German extension guide for turmeric
-  was found (the FiBL ginger guide barely covers it). Planting depth is
-  garden-level only; a peer-reviewed planting-depth paper was not accessible.
-  Calendar values are inferred from dates.
+  yield and spacing are transferred from a US tunnel trial (flagged).
+- Remaining source limits: no Central European (FiBL, LfL, BOKU, Geisenheim)
+  turmeric trial report was found or readable; the FiBL ginger guide barely
+  covers turmeric and the Bio Austria webinar page has no values. Not
+  readable (403 or full text unavailable): MDPI genotype paper, Taylor and
+  Francis planting-pattern papers, Frontiers greenhouse genotype paper
+  (only abstract seen), Canadian Journal of Plant Science Virginia
+  micropropagation paper. Yield, spacing and depth come from Virginia
+  extension trials in a warmer climate; the Austrian producer gives only
+  per-plant yield. Calendar values are inferred from dates, though now
+  supported by two tunnel examples.
 - Public-readiness: needs review.

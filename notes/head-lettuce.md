@@ -62,13 +62,29 @@
   read via search summaries) and say that uncut heads bolt under long days
   ([IVA](https://www.iva.de/iva-magazin/schule-wissen/kopfsalat-rechtzeitig-ernten-sonst-schiesst-er),
   read via a search summary). [Hortipendium](https://www.hortipendium.de/Kopfsalat_Erwerbsanbau)
-  (read directly) gives no harvest-window figure. Derivation: the commercial
-  3-4 days is a single-cut, uniform-stand figure; a mixed-head-type or garden
-  planting ripens less evenly and can be picked over about a week, so 7 days
-  was chosen as a compromise. It is still an inferred planning value: no
-  LfL, LWG, DLR, Bio Austria or extension source with a day count was found
-  (the LWG pak choi leaflet and the LKO Tirol lettuce guide could not be
-  read as text). Plausible range 3-14 days; summer heat shortens it.
+  (read directly) gives no harvest-window figure. Additional sources read
+  in the 2026-09-21 re-check: [IVA](https://www.iva.de/iva-magazin/schule-wissen/kopfsalat-rechtzeitig-ernten-sonst-schiesst-er)
+  (fetched directly) says head lettuce has only a window of a few days
+  depending on variety and that heads left standing bolt under summer long
+  days; it also gives 4-10 weeks from planting to harvest depending on
+  season and recommends successive plantings every 2-4 weeks. [BZL](https://www.landwirtschaft.de/garten/selbst-anbauen/rund-ums-jahr-salat-ernten)
+  (fetched directly) recommends staggering every 10-14 days. Derivation: the
+  only day count is the commercial 3-4 days (single cut, uniform stand,
+  weekly plantings). A garden or mixed-type stand ripens less evenly and
+  can be picked over about a week, so 7 days was kept as an inferred
+  compromise; it is roughly half of the 10-14 day garden succession
+  interval, which is consistent with plantings that do not overlap much.
+  Season: the window is shorter in summer (long days and heat trigger
+  bolting soon after heads are firm, so use nearer the commercial 3-4
+  days) and longer in cool spring or autumn (about 7-10 days). The general
+  value is therefore intended for a mid-season (spring/early autumn)
+  planting and is not split by season type here; a summer-specific
+  value of 4 days would be defensible if the crop were split by season.
+  Unresolved: no LfL, LWG, DLR, Bio Austria, KTBL, Agroscope or extension
+  source with a day count was found (the UC Davis pages and the
+  Rhineland-Palatinate Gartenakademie lettuce leaflet returned errors;
+  search summaries only mention that heads past the firm stage become
+  over-mature). Plausible range 3-10 days.
 - Field/form constraint: whole integer days.
 - Yield: left open; no general source reviewed here gives a reliable kg/m²
   or piece-count figure.
@@ -82,18 +98,19 @@
 - [Lubera - Salat säen](https://www.lubera.com/de/gartenbuch/salat-saeen-p5339)
 - [Compo - Kopfsalat](https://www.compo.de/ratgeber/pflanzen/kraeuter-obst-gemuese/kopfsalat)
 - [IVA - Kopfsalat: rechtzeitig ernten, sonst schießt er](https://www.iva.de/iva-magazin/schule-wissen/kopfsalat-rechtzeitig-ernten-sonst-schiesst-er)
+- [BZL - Rund ums Jahr Salat ernten](https://www.landwirtschaft.de/garten/selbst-anbauen/rund-ums-jahr-salat-ernten)
 - [Der kleine Garten - Kopfsalat anbauen](https://www.derkleinegarten.de/nutzgarten-kleingarten/gemuesegarten-anlegen/blattgemuese/salatanbau-kopfsalat-1.html)
 
 ## Research Status
 - Researched on: 2026-09-18
 - Calendar values researched on: 2026-09-21
-- Calendar values re-verified on: 2026-09-21 (harvest window changed from 10 to 7 days; no direct institutional source, only a 3-4 day commercial figure)
+- Calendar values re-verified on: 2026-09-21 (harvest window 7 days kept after a second search round; only a 3-4 day commercial figure and qualitative "few days" statements exist; season dependence documented)
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: sources give differing growth durations by season
   and head type (36-60 days from planting in the Hortipendium table, "about
   8 weeks" elsewhere); the 50-day value is a documented average, not a
   resolution.
-- Open mapping questions: yield and thousand kernel weight are left open;
+- Open mapping questions: whether the harvest window should be split by season type (summer about 4 days vs spring/autumn about 7-10); yield and thousand kernel weight are left open;
   growth duration, harvest window and propagation duration are inferred
   seasonal averages. Whether OpenFarmPlanner should
   eventually split head lettuce by head type (butterhead/iceberg/batavia) as
