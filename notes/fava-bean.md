@@ -1,0 +1,91 @@
+## Short Description
+- Fava / broad bean (`Ackerbohne`, garden form also called `Dicke Bohne`) is
+  `Vicia faba`, a cool-season, frost-tolerant legume grown for its large,
+  fleshy seeds. Fixes nitrogen, so nutrient demand is low.
+- Prefers heavy, neutral to slightly alkaline soil with good moisture supply
+  during flowering; struggles on waterlogged ground. Legume break of 3-5 years
+  is recommended before resowing the same plot.
+- Growth duration is left open: it depends strongly on the intended harvest
+  form. See the identity note below and `Planning Value Derivations`.
+
+## Sowing & Planting
+
+### Direct Sowing
+- Description: direct sow as soon as the soil is workable; young plants
+  tolerate light frost. Earthing-up or staking helps support the stems.
+- Sowing: about mid-February to early April, depending on region and weather;
+  agricultural guidance gives a latest sowing date around mid-April.
+- Sowing depth: about 5-12 cm; large-seeded garden types (`Dicke Bohne`) are
+  usually sown 8-12 cm deep, smaller-seeded field types (`Ackerbohne` sensu
+  stricto/field bean) 5-8 cm deep.
+
+- Spacing: about 40-60 cm between rows, 10-20 cm within the row for garden
+  cultivation.
+- Site: full sun, heavy nutrient-rich soil with reliable moisture; avoid fresh
+  manure.
+
+## Harvest & Use
+- Garden/vegetable use: pick pods once fully developed but while the seeds are
+  still soft and green, for shelling as a green vegetable.
+- Field/grain use: harvest at full maturity when leaves and stems have turned
+  black, threshing the dry seed; the dry-maturity harvest window is short
+  (about 3-4 days) because pods split quickly once ripe.
+
+## Notes
+- Identity note (explicit, not silent): sources describe two overlapping
+  cultivation contexts for `Vicia faba` under this Kultur: (1) agricultural
+  field cultivation ("Ackerbohne" in the narrow sense, smaller seed, grown to
+  full dry maturity for feed/protein use) and (2) garden cultivation ("Dicke
+  Bohne", large-seeded types, harvested green for shelling). Both are the same
+  species and are combined under one Kultur per this batch's task framing, but
+  their sowing depth, seed size, and harvest timing figures differ and are
+  documented separately above/below rather than merged into one falsely
+  precise figure.
+- Susceptible to black bean aphid (Aphis fabae); pinching out the tips after
+  flowering can reduce infestation and encourage pod set.
+
+## Planning Value Derivations
+- Growth duration: left open. Green-pod garden harvest is reachable around
+  100 days from sowing ([nutzpflanzenvielfalt.org](https://nutzpflanzenvielfalt.org/dicke-bohne-puffbohne/)),
+  while full dry-grain maturity for field use takes about 90-120 days from
+  sowing to the black-leaf ripeness stage, with combine harvest roughly 25
+  weeks after sowing depending on region
+  ([Landberatung](https://landberatung.de/fachartikel/detailansicht/article/aussaat-ackerbohnen.html)).
+  Because the two harvest forms differ by weeks and this note does not decide
+  which one the Kultur represents, no single growth-duration planning value is
+  set; see the identity note above.
+- Thousand kernel weight: left open. Agricultural field varieties measure
+  about 350-600 g per thousand seeds
+  ([Landberatung](https://landberatung.de/fachartikel/detailansicht/article/aussaat-ackerbohnen.html)),
+  while large-seeded garden `Dicke Bohne` types are known to run higher; no
+  single source-backed figure covering both forms was found, so this is left
+  as an open research question rather than an invented average.
+- Seed requirement (field context only, for reference): about 40-50
+  germinable seeds/m² is the commonly cited compromise density, with reduced
+  rates around 30 seeds/m² for precision single-seed sowing
+  ([Landberatung](https://landberatung.de/fachartikel/detailansicht/article/aussaat-ackerbohnen.html)).
+  Garden-scale seed requirement in g/m² was not found and is left open.
+- Yield: left open; no reliable kg/m² garden-scale figure was found. Field
+  yield sources report per-hectare figures (dt/ha) that do not translate
+  directly to a small-plot planning value without an unsupported conversion.
+
+## Sources
+- [nutzpflanzenvielfalt.org - Dicke Bohne/Puffbohne](https://nutzpflanzenvielfalt.org/dicke-bohne-puffbohne/)
+- [Landberatung - Aussaat Ackerbohnen](https://landberatung.de/fachartikel/detailansicht/article/aussaat-ackerbohnen.html)
+- [LTZ Augustenberg - Hinweise zum Pflanzenbau: Ackerbohne](https://ltz.landwirtschaft-bw.de/site/pbs-bw-new/get/documents/MLR.LEL/PB5Documents/ltz_ka/Service/Schriftenreihen/Hinweise%20zum%20Pflanzenbau/Hinweise%20zum%20Pflanzenbau_Ackerbohne.pdf?attachment=true)
+
+## Research Status
+- Researched on: 2026-09-18
+- General crop note exists: not applicable (this is the general crop note)
+- Open source conflicts: field-agronomy sources (sowing depth, seed size,
+  harvest timing) and garden-cultivation sources disagree because they
+  describe different harvest forms of the same species; documented above
+  rather than merged.
+- Open mapping questions: whether the OpenFarmPlanner Kultur `Ackerbohne
+  (Dicke Bohne)` should eventually be split into a field-grain identity and a
+  garden green-shell identity, similar to the `Grünkohl/Schnittkohl` split
+  documented for Siberian kale. Left open because this batch's task framing
+  treats them as one Kultur; flagging for future review rather than deciding
+  silently.
+- Public-readiness: needs review; growth duration, thousand kernel weight, and
+  yield are intentionally left open pending the identity question above.
