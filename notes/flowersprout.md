@@ -18,16 +18,17 @@
   head) and its own named varieties/harvest logic, so merging it into either
   parent crop's Kultur would misrepresent both the plant form and the
   crop-calendar logic. See `Notes` for the reasoning in more detail.
-- Growth duration is strongly variety-dependent within the Kalettes series
-  itself (see `Planning Value Derivations`); left open in this general note.
+- Planning values: growth duration 135 days from transplanting, harvest window
+  60 days, propagation 45 days (see `Planning Value Derivations`); growth
+  duration is variety-dependent within the Kalettes series.
 
 ## Sowing & Planting
 
 ### Transplants
 - Description: pre-cultivate for an even stand, similar to Brussels sprouts;
   grown as a fall/winter crop.
-- Sowing: no general-crop sowing-date source found; see the variety note for a
-  concrete window.
+- Sowing: early spring (February-April) for a fall harvest, per the `Autumn Star`
+  source; see the variety note.
 - Outdoor planting: no general-crop source found; assumed similar timing to
   Brussels sprouts (about 6-8 weeks after sowing) but not confirmed for this
   crop specifically.
@@ -57,21 +58,43 @@
   documented once here rather than repeated per variety.
 
 ## Planning Value Derivations
-- Growth duration: left open in the general note. The three named
-  `Kalettes` varieties are described with different day-to-maturity figures
-  (110, 125, and 140 days respectively, see the `Autumn Star` variety note),
-  spanning a 30-day range; averaging them would misrepresent all three, so no
-  single general value is set.
+- Definitions used for all calendar values of flowersprout (general and
+  varieties): growth duration is counted from transplanting to first harvest;
+  propagation duration is sowing to transplanting; harvest window is the
+  period over which one planting is picked.
+- Growth duration: 135 days. [Harris Seeds](https://www.harrisseeds.com/products/12769-kalette-autumn-star-f1)
+  gives 135 days from transplant (180 days from seed) for the earliest
+  variety `Autumn Star`, with sowing February-April and harvest October-
+  November. Other catalogs list the three varieties as 110, 125 and 140 days
+  ([Rural Sprout](https://www.ruralsprout.com/grow-kalettes/)); the reference
+  point of these numbers is not stated and they conflict with the Harris value
+  for `Autumn Star`. 135 days is used as the representative planting-based
+  value for the early main crop; later varieties (`Mistletoe`, `Snowdrop`)
+  need several weeks more. Selected value, not a direct value for the crop as
+  a whole.
+- Harvest window: 60 days, inferred. `Autumn Star` is picked October to
+  November (about 45 days); the three varieties are staggered through autumn
+  and early winter, so 60 days is a representative single-planting window.
+- Propagation duration: 45 days, from the difference between 180 days from
+  seed and 135 days from transplant at Harris Seeds; consistent with the 4-6
+  weeks of indoor sowing before planting at Rural Sprout.
+- Field/form constraint: whole days.
 
 ## Sources
 - [Wikipedia - Kalette](https://en.wikipedia.org/wiki/Kalette)
 - [Tasting Table - Kalettes Are The Kale And Brussels Sprouts Mashup You Need To Try](https://www.tastingtable.com/1507382/kalettes-kale-brussels-sprouts-explained/)
+- [Harris Seeds - Kalette Autumn Star F1](https://www.harrisseeds.com/products/12769-kalette-autumn-star-f1)
+- [Rural Sprout - Kalettes](https://www.ruralsprout.com/grow-kalettes/)
 - [Tozer Seeds - Kalette Seeds](https://www.tozerseeds.com/product-category/brassicas/kalettes/)
 
 ## Research Status
 - Researched on: 2026-09-18
 - General crop note exists: not applicable (this is the general crop note)
-- Open source conflicts: none found regarding origin/history.
+- Open source conflicts: none regarding origin/history. Growth duration: 110
+  days (Territorial Seed / Rural Sprout) vs. 135 days from transplant (Harris
+  Seeds) for `Autumn Star`; not resolved, 135 used (see `Planning Value
+  Derivations`).
+- Calendar values researched on: 2026-09-21
 - Open mapping questions: OpenFarmPlanner's crop-family/species mapping for a
   named commercial hybrid brand (rather than a classical botanical variety) is
   unclear; `Kalette`/`Flowersprout` may need to be entered as its own crop

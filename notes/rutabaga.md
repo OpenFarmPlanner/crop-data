@@ -40,11 +40,24 @@
   Steckrübe/rutabaga.
 
 ## Planning Value Derivations
+- Definitions: rutabaga is direct sown, so growth duration is counted from
+  sowing to first harvest; propagation duration is left empty (optional
+  seedbed pre-cultivation is not the main method).
 - Growth duration: 95 days used as an inferred midpoint of the commonly cited
   "about 90-100 days" rutabaga planning range seen across seed-catalog sources
   for this crop type (see `notes/rutabaga-helenor.md` for a variety-specific
   100-day source value). Documented as inferred rather than a single direct
   source figure for the general crop.
+- Harvest window: 60 days, inferred. Roots are harvestable from late September
+  and are commonly lifted in October and November (regionally mid-September to
+  end of November) and should be out by about Christmas because they turn
+  woody ([Gartenjournal](https://www.gartenjournal.net/steckrueben-anbau),
+  [samen.de](https://samen.de/blog/kohlrueben-ernten-richtiger-zeitpunkt-und-beste-qualitaet.html)).
+  60 days (about October to November) is a representative window for one
+  planting; storage practice allows a single lift.
+- The same sources give a vegetation period of 90-120 days from sowing, which
+  is consistent with the 95-day planning value at its lower end.
+- Field/form constraint: whole days.
 - Yield: no reliable general commercial-yield figure in kg/m² was found. A
   large-scale field figure of roughly 500 dt/ha (about 5 kg/m²) appears in one
   source discussing game-feed cultivation
@@ -57,10 +70,13 @@
 - [Bio-Gärtner - Steckrübe](https://www.bio-gaertner.de/Pflanzen/Steckruebe)
 - [Plantura - Steckrübe Pflanzenportrait](https://www.plantura.garden/gemuese/steckruebe/steckruebe-pflanzenportrait)
 - [nutzpflanzenvielfalt.de - Steckrübe, Kohlrübe](https://www.nutzpflanzenvielfalt.de/steckr%C3%BCbe)
+- [Gartenjournal - Steckrüben-Anbau](https://www.gartenjournal.net/steckrueben-anbau)
+- [samen.de - Kohlrüben ernten](https://samen.de/blog/kohlrueben-ernten-richtiger-zeitpunkt-und-beste-qualitaet.html)
 - [kraut&rüben - Die Steckrübe: Das Comeback eines vergessenen Wintergemüses](https://www.krautundrueben.de/altes-gemuese-neu-entdeckt-anbautipps-und-rezepte-rund-um-die-steckruebe-3240)
 
 ## Research Status
 - Researched on: 2026-09-18
+- Calendar values researched on: 2026-09-21
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: none botanical; the "Steckrübe = Kohlrübe" naming
   equivalence is confirmed as the same crop under different regional German
@@ -68,5 +84,5 @@
 - Open mapping questions: this crop (`Brassica napus`) must not be silently
   merged with turnip (`Brassica rapa`) if a `Mairübe`/`Herbstrübe` variety is
   added later; that would need its own general crop note.
-- Public-readiness: needs review (growth duration inferred, yield left open;
+- Public-readiness: needs review (calendar values inferred, yield left open;
   no live sync performed).

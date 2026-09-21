@@ -6,9 +6,9 @@
   Fixes nitrogen, so nutrient demand is low.
 - Prefers cool, moist conditions and struggles in summer heat; `Markerbse`
   types are more cold-sensitive at sowing than `Palerbse` types.
-- Growth duration is left open: sources give a range that depends strongly on
-  variety and pea type (see `Planning Value Derivations`), so no single
-  falsely precise figure is set here.
+- Growth duration: about 73 days from sowing to first pods; harvest window
+  about 21 days per sowing (planning values for a mid-season main type, see
+  `Planning Value Derivations`).
 
 ## Sowing & Planting
 
@@ -40,16 +40,17 @@
   conditions; good air circulation and crop rotation help.
 
 ## Planning Value Derivations
-- Growth duration: left open. General sources give "first pods after 60-70
-  days" for early varieties
-  ([Samen.de - Anleitung Markerbsen](https://samen.de/blog/anleitung-zum-anbau-und-zur-pflege-von-markerbsen.html)),
-  while the mid-late marrowfat variety `Maxigolt` is harvested from late June
-  to September from an April sowing, implying a considerably longer season for
-  that type
-  ([Bobby-Seeds - Erbse Maxigolt](https://www.bobby-seeds.com/gemuesesamen/bohnen-erbsensamen/erbsensamen/2408/erbse-maxigolt-markerbse)).
-  Because early and mid-late types diverge by several weeks, no single
-  general-crop growth-duration value is set; concrete values belong in
-  variety notes.
+- Growth duration: 73 days, measured from direct sowing to first pods (no
+  propagation; peas are direct sown). Source basis: [Samen.de](https://samen.de/blog/markerbsen-im-jahresverlauf-aussaat-und-erntekalender.html) gives
+  55-65 days for early types, 65-80 days for mid-season types and 80-90 days
+  for late types. The midpoint of the mid-season range (72.5) is rounded up to
+  73 as the representative general value. It fits a mid-season `Markerbse`
+  sown in April; early `Palerbse` types are up to about 2 weeks quicker and
+  late types (such as `Maxigold`, 85 days) about 2 weeks slower.
+- Harvest window: 21 days. The same source reports about 2-3 weeks of
+  continuous picking from one sowing when pods are picked every 2-3 days; the
+  lower-middle value of 21 days is used. Season-long harvest comes from
+  successive sowings, not from a longer window per sowing.
 - Yield: left open; no reliable kg/m² garden-scale figure was found for
   shelling peas as a general crop.
 - Thousand kernel weight: left open; large-seeded marrowfat varieties (see
@@ -63,6 +64,7 @@
 
 ## Research Status
 - Researched on: 2026-09-18
+- Calendar values researched on: 2026-09-21
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: none direct; growth-duration figures differ because
   they describe different pea types (early vs. mid-late marrowfat), documented
@@ -71,5 +73,6 @@
   be split into separate Kultur identities (similar to the bean/wax-bean
   color split) is left open; this note currently treats them as sub-types of
   one general `Erbse`/shelling-pea Kultur per the task framing.
-- Public-readiness: needs review; growth duration, yield, and thousand kernel
-  weight are intentionally left open pending variety-level data.
+- Public-readiness: needs review; yield and thousand kernel weight are
+  intentionally left open pending variety-level data. Growth duration and
+  harvest window are set as mid-season planning values.

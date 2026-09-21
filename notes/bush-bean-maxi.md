@@ -6,9 +6,8 @@
 - Mid-early, robust, upright-growing, high-yielding variety with long, round,
   completely string-free pods about 17-20 cm long; light brown seed. Tolerant
   to bean mosaic virus.
-- Growth duration: reused from the general `Buschbohne` crop (see
-  `Comparison With General Crop Data`); no `Maxi`-specific day count to first
-  harvest was found, only a germination-time figure (see below).
+- Growth duration: about 73 days from sowing to first pods (variety-specific
+  seed-catalog figure of 70-75 days, see `Planning Value Derivations`).
 
 ## Sowing & Planting
 
@@ -41,16 +40,33 @@
   crop's "about 40 cm between rows" guidance; the 8-10 cm in-row figure is
   more specific than the general note's "every few cm" and is kept as the
   variety-specific value.
-- Growth duration, harvest window, and yield are reused from the general crop
-  note (`bush-bean.md`: 49 days growth duration, 21 days harvest window, about
-  1.3 kg/m² yield). No `Maxi`-specific figures for these were found among the
-  sources checked (mostly commercial seed listings); this is an intentional
-  reuse of the general planning values, not a variety-specific source claim.
+- Growth duration deviates from the general crop: `Maxi` uses 73 days
+  (variety-specific, [Sperli](https://www.sperli.de/buschbohnensamen-maxi-80091/)
+  states about 70-75 days), whereas the general note
+  (`bush-bean.md`) carries 49 days. The general value looks short next to
+  seed-catalog figures and is flagged as an open question (the general note
+  is not edited here).
+- Harvest window and yield are reused from the general crop note (21 days
+  harvest window, about 1.3 kg/m²). No `Maxi`-specific figures for these were
+  found; this is an intentional reuse of the general planning values, not a
+  variety-specific source claim. The source describes repeated picking from
+  July to October across successive sowings, which does not contradict 21
+  days for a single sowing.
 - Thousand kernel weight: left open for this variety. The general crop uses
   160 g; `Maxi`'s seed is described as light brown and of ordinary bush-bean
   size, so no contradiction is known, but no source directly measures
   `Maxi` seed weight. Documented as an open question rather than silently
   asserting equality.
+
+## Planning Value Derivations
+
+- Growth duration: 73 days, measured from direct sowing to first pods (no
+  propagation). [Sperli](https://www.sperli.de/buschbohnensamen-maxi-80091/)
+  states first pods after about 70-75 days; the midpoint 72.5 was rounded up
+  to 73. Uncertainty: cool or late sowings take longer; the source range
+  itself is 5 days wide.
+- Harvest window: 21 days, reused from the general crop (see above);
+  inferred, not a variety-specific source value.
 
 ## Sources
 - [Sperli - Buschbohne Maxi](https://www.sperli.de/buschbohnensamen-maxi-80091/)
@@ -59,11 +75,13 @@
 
 ## Research Status
 - Researched on: 2026-09-18
+- Calendar values researched on: 2026-09-21
 - General crop note exists: yes (`bush-bean.md`)
-- Open source conflicts: none found.
+- Open source conflicts: general crop growth duration (49 days) versus the
+  `Maxi` seed-catalog figure (70-75 days); documented above, not resolved at
+  general-crop level.
 - Open mapping questions: whether the general crop's 160 g thousand-kernel
   weight applies to `Maxi` specifically is unresolved; no variety-specific
   seed-weight source was found to confirm or contradict it.
-- Public-readiness: needs review; growth duration, harvest window, yield, and
-  thousand kernel weight rely on general-crop reuse or remain open rather than
-  variety-specific sources.
+- Public-readiness: needs review; harvest window and yield are intentional
+  reuses of the general crop, and thousand kernel weight remains open.

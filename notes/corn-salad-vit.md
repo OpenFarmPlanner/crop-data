@@ -7,6 +7,8 @@
 - Growth duration: about 12 weeks (84 days) total culture duration is given
   by the source for autumn/winter cultivation; see
   `Planning Value Derivations`.
+- Harvest window: 90 days (inferred from the October to March harvest chart).
+- Propagation duration: not applicable; direct sown.
 
 ## Sowing & Planting
 
@@ -50,6 +52,10 @@
   derived from this variety's ~12-week (84-day) figure, so the two are
   intentionally close by construction; documented explicitly rather than
   presented as two independent confirmations.
+- Harvest window: general 60 days, `Vit` 90 days. `Vit` is frost-hardy and
+  marketed for winter harvest through March, so the value is longer than the
+  general compromise. Documented as a deliberate variety deviation, inferred
+  from a chart, not a direct day count.
 - Thousand kernel weight: 1.83 g is a variety-specific source value from
   ReinSaat; the general crop note leaves this open at the general level, so
   no comparison value exists yet.
@@ -61,6 +67,14 @@
   duration of 12 weeks" for autumn/winter cultivation
   ([ReinSaat](https://www.reinsaat.at/shop/EN/salate/feldsalat/vit/)). This
   is a direct source value, not inferred.
+- Harvest window: 90 days. Source basis: the
+  [ReinSaat](https://www.reinsaat.at/shop/EN/salate/feldsalat/vit/) cultivation
+  chart shows harvest from October to March (about 5-6 months across all
+  sowing dates), and a search summary states that September sowings are
+  harvested November to March. A single sowing with an 84-day growth duration
+  from mid-September is ready in December; harvest until March would be about
+  100 days. 90 days was chosen as a rounded, cautious planning value because
+  quality falls in late winter. Inferred, not a direct source value.
 - Thousand kernel weight: 1.83 g, a direct source value from ReinSaat.
 - Sowing depth: 1 cm, a direct source value from ReinSaat.
 - Row spacing: 10-15 cm, taken from the parseable part of the source's
@@ -72,11 +86,13 @@
 
 ## Research Status
 - Researched on: 2026-09-18
+- Calendar values researched on: 2026-09-21
 - General crop note exists: yes (`corn-salad.md`)
 - Open source conflicts: the ReinSaat spacing text ("10 - 30 x 1 cm row
   spacing 10-15 cm") is internally unclear; only the 10-15 cm row-spacing
   portion is used, and the within-row figure is left open rather than
   guessed.
-- Open mapping questions: within-row spacing is open; yield is open.
+- Open mapping questions: within-row spacing is open; yield is open; the
+  90-day harvest window is inferred from a chart.
 - Public-readiness: needs review; spacing text needs re-verification against
   the source, yield open.

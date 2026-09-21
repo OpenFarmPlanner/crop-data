@@ -9,10 +9,9 @@
   ([Hortipendium](https://www.hortipendium.de/Stangensellerie)). Modern
   practice favors green-stemmed types; older self-blanching/earthed-up types
   need blanching.
-- Growth duration: left open for the general crop; early and late types
-  differ (e.g. about 75 days from planting for `Conga` vs about 80 days and a
-  longer total culture for `Tango`), and sources give about 80 days as a
-  generic figure. See variety notes.
+- Growth duration: 80 days from planting (transplanting) to harvest; harvest
+  window 21 days; propagation duration 56 days (8 weeks from sowing to
+  planting). Planning values, see Planning Value Derivations.
 
 ## Sowing & Planting
 
@@ -43,9 +42,29 @@
   revisit if blanching changes the calendar significantly.
 
 ## Planning Value Derivations
-- Growth duration: left open; from-planting figures of about 75-80 days depend
-  on type, and total culture from sowing is about 150-170 days for late types.
-- Harvest window: left open; no reliable general figure.
+- Growth duration: 80 days, counted from transplanting, not from sowing.
+  Source basis: [Hortipendium](https://www.hortipendium.de/Stangensellerie_Erwerbsanbau)
+  gives about 80 days from planting; the garden article
+  [Hortipendium - Stangensellerie im Hausgarten](https://www.hortipendium.de/Stangensellerie_im_Hausgarten)
+  gives about 12 weeks (84 days); `Conga` about 75 and `Tango` about 80 days
+  (supplier figures). Value rounded to the commonly cited 80 days. Fits a
+  green-stemmed type planted in spring or early summer; blanched types add
+  about 3 weeks of light exclusion before harvest, and cool or late plantings
+  take longer. Uncertainty about +/- 10 days.
+- Harvest window: 21 days, inferred. No source states a per-planting window.
+  Cross-check: for `Conga` the season (planting late March to mid-July,
+  harvest mid-June to mid-October) implies about 15 days of harvest beyond
+  the last planting's 75-day duration; for `Tango` (planting April to early
+  July, harvest July to late October) about 11-30 days. 21 days is a
+  planning value in that range, not a source claim; stalks lose quality when
+  left too long. Uncertainty by weeks.
+- Propagation duration: 56 days, from the garden guidance of 8 weeks between
+  sowing and planting (Hortipendium garden article; Hortipendium commercial
+  plantings ranging from mid-March). Uncertain by about +/- 1-2 weeks with
+  sowing date and temperature.
+- Total culture from sowing: about 56 + 80 = 136 days by these values; late
+  types are cited at 150-170 days, so the general value is on the short side
+  for late types.
 - Yield: left open; no reliable kg/m² source was found.
 - Spacing: 0.40 x 0.40 m is documented as a garden value only.
 - Thousand kernel weight: left open; a variety supplier gives about 370 seeds
@@ -53,15 +72,18 @@
 
 ## Sources
 - [Hortipendium - Stangensellerie](https://www.hortipendium.de/Stangensellerie)
+- [Hortipendium - Stangensellerie Erwerbsanbau](https://www.hortipendium.de/Stangensellerie_Erwerbsanbau)
+- [Hortipendium - Stangensellerie im Hausgarten](https://www.hortipendium.de/Stangensellerie_im_Hausgarten)
 - [Plantura - Staudensellerie](https://www.plantura.garden/gemuese/sellerie/staudensellerie)
 - [Arenenberg - Kulturblatt Sellerie](https://arenenberg.tg.ch/public/upload/assets/9009/2015_Kulturblatt_Sellerie.pdf) (listed only; not readable)
 
 ## Research Status
 - Researched on: 2026-09-21
+- Calendar values researched on: 2026-09-21
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: planting windows differ between regions and sources
   (mid-March to mid-July vs April to early July).
-- Open mapping questions: general growth duration, harvest window, yield and
-  thousand kernel weight left open with reasons above; Arenenberg sheet needs
+- Open mapping questions: yield and thousand kernel weight left open with
+  reasons above; harvest window is inferred; Arenenberg sheet needs
   manual check for yield data.
-- Public-readiness: needs review; intentionally sparse.
+- Public-readiness: needs review; calendar values are planning values; yield open.

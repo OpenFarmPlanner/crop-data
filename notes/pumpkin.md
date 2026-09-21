@@ -19,10 +19,11 @@
   and `C. moschata` share broadly similar cultivation needs (warm soil, full
   sun, high nutrient and water demand, large spacing), which is why this note
   is not split by species.
-- Growth duration and harvest window are left open at the general-crop level:
-  fruit size, storage type, and days-to-maturity vary substantially between
-  `Hokkaido`-type and `Butternut`-type pumpkins, and a single figure would be
-  falsely precise. See variety notes for concrete values.
+- Growth duration: 105 days from planting out to first harvest; harvest
+  window 28 days; propagation duration 28 days. Values are measured from
+  planting out and represent a mid-season compromise between `Hokkaido` type
+  (100 days) and `Butternut` type (110 days); see `Planning Value
+  Derivations`.
 
 ## Sowing & Planting
 
@@ -80,16 +81,38 @@
   up to 3.5 kg fruit, different plant habit) diverge enough that a single
   number would be falsely precise. Variety notes carry more specific figures
   where sourced.
-- Growth duration / harvest window: left open at the general-crop level for
-  the same reason; see variety notes.
+- Definition: growth duration is measured from planting out (transplant) to
+  the first harvest of ripe fruit, not from sowing.
+- Propagation duration: 28 days. [Plantura](https://www.plantura.garden/gemuese/kuerbis/hokkaido-kuerbis) says Hokkaido seedlings can be
+  planted about 3 weeks after sowing, and [Samen.de](https://samen.de/blog/anbauanleitung-fuer-butternut-kuerbis-von-der-aussaat-bis-zur-ernte.html) advises sowing about
+  4 weeks before planting for Butternut; 28 days is the general compromise
+  (`Hokkaido` uses 21, `Butternut` 28).
+- Growth duration: 105 days. Source basis: about 95-120 days from sowing to
+  harvest for Hokkaido ([Plantura](https://www.plantura.garden/gemuese/kuerbis/hokkaido-kuerbis)) and 110-120 days from sowing for
+  Butternut ([Samen.de](https://samen.de/blog/anbauanleitung-fuer-butternut-kuerbis-von-der-aussaat-bis-zur-ernte.html)); a planting in mid-May with first harvest from
+  early-to-mid September and the main harvest in late September to October
+  ([Plantura Butternut](https://www.plantura.garden/gemuese/kuerbis/butternut-kuerbis)) gives about 110-140 days. Sowing-based figures
+  minus propagation time (74-99 days for Hokkaido, 82-92 days for Butternut)
+  are much shorter than the calendar-based estimate; the value 105 is a
+  compromise leaning to the calendar since fruits should be fully ripe, skin
+  hardened and stem corked. The variety values are 100 (`Hokkaido`) and 110
+  (`Butternut`). Uncertainty: about +/- 15 days, mainly with summer warmth.
+- Harvest window: 28 days. Inferred: sources give September to October (or
+  to November for Hokkaido) as the harvest season, but pumpkins are harvested
+  in one or two passes before the first frost after curing, and no source
+  gives a window in days. Four weeks is a plausible planning value.
 
 ## Sources
 - [ReinSaat - Edible Pumpkins/Squash (category)](https://www.reinsaat.at/shop/EN/kuerbis/speisekuerbis/)
 - [onfarming.at - Kürbis: Sorten, Anbau und Kulturführung](https://www.onfarming.at/inhalt/sortiment-ratgeber/ratgeber/landwirte/ackerbau/aussaat/kurbis-sorten-anbau-und-kulturfuhrung)
 - [Lubera - Hokkaido pflanzen](https://www.lubera.com/at/gartenbuch/hokkaido-pflanzen-p3814)
+- [Plantura - Hokkaido-Kürbis](https://www.plantura.garden/gemuese/kuerbis/hokkaido-kuerbis)
+- [Plantura - Butternut-Kürbis](https://www.plantura.garden/gemuese/kuerbis/butternut-kuerbis)
+- [Samen.de - Anbauanleitung Butternut-Kürbis](https://samen.de/blog/anbauanleitung-fuer-butternut-kuerbis-von-der-aussaat-bis-zur-ernte.html)
 
 ## Research Status
 - Researched on: 2026-09-18
+- Calendar values researched on: 2026-09-21
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: spacing given as 100-150 cm (garden guidance) vs.
   1.5-2.5 m x 0.5-1.5 m (commercial guidance); not silently resolved, variety
@@ -98,8 +121,8 @@
   (`Cucurbita moschata`) are different botanical species filed under one
   ReinSaat shop category and kept here as one `Kürbis` Kultur for
   garden-planning purposes; this botanical nuance is flagged explicitly
-  rather than silently ignored. Growth duration, harvest window, and a single
-  yield figure are left open at the general-crop level because of this
+  rather than silently ignored. The general calendar values are compromises
+  between the two types; a single yield figure is left open because of the
   species/type diversity.
-- Public-readiness: needs review; several calendar and yield values are
-  intentionally left open pending variety-level detail.
+- Public-readiness: needs review; calendar values are documented planning
+  compromises, and a single general yield figure is intentionally left open.

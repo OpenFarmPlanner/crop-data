@@ -5,8 +5,10 @@
   woodiness or bolting if harvested too late or grown under stress.
 - Growth duration differs strongly by type: early/greenhouse types mature in
   about 8-10 weeks from sowing, while giant/late storage types (for example
-  `Superschmelz`) need considerably longer. No single general value is set
-  here (see `Planning Value Derivations`).
+  `Superschmelz`) need considerably longer.
+- Planning values for standard types: growth duration 70 days from
+  transplanting, harvest window 14 days, propagation 42 days (see `Planning
+  Value Derivations`).
 
 ## Sowing & Planting
 
@@ -37,14 +39,31 @@
 - Eaten raw or cooked; leaves are also edible.
 
 ## Planning Value Derivations
-- Growth duration: left open as a single general value. Garden sources give a
-  range of roughly 10-14 weeks (about 70-98 days) from sowing to harvest for
-  early/standard types, with late types needing 16-30 weeks
-  ([Lubera](https://www.lubera.com/de/gartenbuch/kohlrabi-anbauen-pflanzen-p2589)-style
-  general guidance). Because the project's varieties span both an
-  early/greenhouse type (`Eder`) and potentially later types, and the spread is
-  large, this general note leaves growth duration open rather than picking a
-  falsely precise single number; variety notes provide concrete values.
+- Definitions used for all calendar values of kohlrabi (general and
+  varieties): growth duration is counted from transplanting to first harvest;
+  propagation duration is sowing to transplanting; the harvest window is the
+  period during which one planting stays at good quality.
+- Growth duration: 70 days for standard early-to-summer types in the field.
+  Sources: the breeder calendar for `Eder` implies about 60 days (planting
+  mid-March to mid-April, harvest from mid-May;
+  [Beringmeier](https://www.beringmeier.de/kohl-saatgut/oeko-kohl/kohlrabi-eder-rz-f1-oeko.html));
+  [Kiepenkerl](https://www.kiepenkerl.de/kulturanleitungen/kohlrabi/) gives
+  90-110 days in total including the nursery phase of about 3-4 weeks in
+  spring and summer (about 50-60 days in cold season), which implies roughly
+  60-70 days after planting; garden guides state about 10-14 weeks from
+  sowing ([Lubera](https://www.lubera.com/de/gartenbuch/kohlrabi-anbauen-pflanzen-p2589)),
+  and some sources up to 12 weeks after planting. 70 days is the inferred
+  representative value; it deviates for giant/late storage types (16-30 weeks
+  from sowing) and for cool-season crops.
+- Harvest window: 14 days, inferred. No source gives a day count; the
+  guidance is to harvest at tennis-ball size before bulbs turn woody, which
+  in warm weather is a matter of one to two weeks. Giant types stay usable
+  much longer.
+- Propagation duration: 42 days, from the roughly 6 weeks of young-plant
+  development given by garden guides ([Bingenheimer Saatgut](https://blog.bingenheimersaatgut.de/kohlrabi-standard-kultur-im-gemuesegarten),
+  [Plantura](https://www.plantura.garden/gemuese/kohlrabi/kohlrabi-pflanzen));
+  shorter (3-4 weeks) in summer, longer in winter.
+- Field/form constraint: whole days.
 - Yield: no reliable general commercial-yield figure was found during this
   research pass; left open.
 
@@ -52,15 +71,17 @@
 - [Lubera - Kohlrabi pflanzen](https://www.lubera.com/de/gartenbuch/kohlrabi-anbauen-pflanzen-p2589)
 - [Plantura - Kohlrabi pflanzen](https://www.plantura.garden/gemuese/kohlrabi/kohlrabi-pflanzen)
 - [Kiepenkerl - Kohlrabi Kulturanleitung](https://www.kiepenkerl.de/kulturanleitungen/kohlrabi/)
+- [Beringmeier - Kohlrabi Eder F1 Bio](https://www.beringmeier.de/kohl-saatgut/oeko-kohl/kohlrabi-eder-rz-f1-oeko.html)
+- [Bingenheimer Saatgut - Kohlrabi](https://blog.bingenheimersaatgut.de/kohlrabi-standard-kultur-im-gemuesegarten)
 - [ReinSaat - Superschmelz](https://www.reinsaat.at/shop/EN/kohlgewaechse/kohlrabi/superschmelz/)
 
 ## Research Status
 - Researched on: 2026-09-18
 - General crop note exists: not applicable (this is the general crop note)
-- Open source conflicts: growth-duration ranges differ between sources mainly
-  because they mix early and late/giant types together; treated as a
-  type-driven spread, not a factual conflict, and left open rather than
-  averaged.
+- Open source conflicts: ranges differ mainly because sources mix early and
+  late types and count from sowing or from planting; resolved into planning
+  values in `Planning Value Derivations`.
 - Open mapping questions: none for identity.
-- Public-readiness: needs review (growth duration and yield intentionally left
-  open; no live sync performed).
+- Calendar values researched on: 2026-09-21
+- Public-readiness: needs review (calendar values inferred; yield left open;
+  no live sync performed).

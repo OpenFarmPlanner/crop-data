@@ -8,9 +8,11 @@
 - Fine, tender, slightly waxy flavor with an intense aroma; used as a salt,
   salad, pan-fried, or steamed potato, and for gratins
   ([eat.de - Kartoffel Annabelle](https://eat.de/magazin/kartoffel-annabelle-eigenschaften-und-verwendung/)).
-- Maturity group: very early. Growth duration is given as about 90-110 days
-  from planting in one source and about 80-90 days in another; both are
-  documented rather than silently resolved, and both fall within the "very
+- Growth duration: 100 days from planting to harvest readiness; harvest
+  window 30 days. Maturity group: very early. Growth duration is given as
+  about 90-110 days from planting in one source and about 80-90 days in
+  another; the value is the midpoint of the first range (see `Planning Value
+  Derivations`), the conflict is documented rather than silently resolved, and both fall within the "very
   early" 90-110 day range from the general `Kartoffel` note's Reifegruppen
   overview (the 80-90 day figure is slightly below even that range).
 - Yield: no kg/m² or kg/plant figure was found in the sources checked.
@@ -52,11 +54,14 @@
 - Maturity group / growth duration: `Annabelle` is very early, matching the
   general `Kartoffel` note's "very early: 90-110 days" Reifegruppe reference
   most closely. One source's 80-90 day figure is somewhat below even that
-  range; this is documented as an open source conflict rather than silently
-  picking either figure or forcing it to match the general note's range.
-  This is the key variety-specific difference from the general crop's
-  intentionally open growth-duration value: a plausible variety-specific
-  range now exists, even though it is not a single settled figure.
+  range; this is documented as a source conflict. The variety uses 100 days,
+  20 days below the general `Kartoffel` value of 120 days, a real
+  variety-specific deviation reflecting the very early maturity group.
+- Harvest window: no variety-specific figure for a single planting; the
+  general 30 days is intentionally reused. The sourced June-to-September
+  period reflects different planting dates and leaving tubers in the ground,
+  not one lifting window.
+- Propagation duration: not applicable (seed tubers are planted directly).
 - Planting: `Annabelle`'s March-to-May planting window starts earlier than
   the general `Kartoffel` note's "early April to late May" window; consistent
   with it being one of the earliest varieties and commonly pre-sprouted or
@@ -69,6 +74,19 @@
   specific kg/m² or kg/plant figure was found, so no yield value is set here
   either; this is an intentional reuse of the general note's open state.
 
+## Planning Value Derivations
+- Growth duration: 100 days (planting of seed tubers to harvest readiness).
+  Source basis: "90-110 days after planting"
+  ([derkleinegarten.de - Kartoffelsorten](https://www.derkleinegarten.de/nutzgarten-kleingarten/gemuesegarten-anlegen/kartoffelanbau/kartoffelsorten.html))
+  and 80-90 days in another source. Derivation: midpoint of 90-110 days; the
+  80-90 day figure is treated as an outlier and noted, not averaged in. Fits
+  pre-sprouted tubers planted in April for a mid-June to early-July harvest.
+- Harvest window: 30 days, reused from the general crop; inferred, not a
+  source value.
+- Field/form constraint: whole integer days; no rounding needed.
+- Uncertainty: unsprouted tubers or cool springs push readiness toward 110
+  days; very warm years toward 90.
+
 ## Sources
 - [eat.de - Kartoffel Annabelle: Eigenschaften und Verwendung](https://eat.de/magazin/kartoffel-annabelle-eigenschaften-und-verwendung/)
 - [Wikipedia - Annabelle (Kartoffel)](https://de.wikipedia.org/wiki/Annabelle_(Kartoffel))
@@ -79,8 +97,9 @@
 - Open source conflicts: growth duration given as about 90-110 days in one
   source and about 80-90 days in another; documented above rather than
   silently resolved.
-- Open mapping questions: no single growth-duration value can be synced until
-  the conflict above is resolved; yield has no quantitative source and is
+- Open mapping questions: growth duration is set to 100 days (midpoint of the
+  90-110 day source, the 80-90 day figure kept as documented alternative); yield has no quantitative source and is
   intentionally left open, reusing the general crop's open state.
-- Public-readiness: needs review; growth duration conflict and missing
+- Calendar values researched on: 2026-09-21
+- Public-readiness: needs review; the growth duration source conflict and missing
   quantitative yield figure should be resolved before structured sync.

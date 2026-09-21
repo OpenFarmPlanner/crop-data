@@ -7,9 +7,9 @@
 - Biennial grown as an annual, frost hardy to roughly -15 C once established;
   flavor is commonly said to improve after the first frosts because starches
   convert to sugars.
-- Growth duration is strongly harvest-form dependent (see
-  `Planning Value Derivations`); left open here rather than set to a single
-  falsely precise value.
+- Growth duration: about 100 days from transplanting to first leaf harvest as a
+  planning value for the main autumn/winter crop (see `Planning Value
+  Derivations`); harvest window about 150 days; propagation about 40 days.
 
 ## Sowing & Planting
 
@@ -53,15 +53,29 @@
   variety list).
 
 ## Planning Value Derivations
-- Growth duration: left open in the general note. Sources give quite different
-  windows depending on harvest form and sowing time: [Treppens](https://www.treppens.de/Saatgut/Gemuesesaatgut/Kohlgemuese/Gruenkohl-Winterbor-F1-Brassica-oleracea-var-sabellica::2353.html)-style
-  retail sources describe a May-June sowing harvested October to April (a very
-  long effective window including overwintering), while general garden guides
-  describe sowing May to July with harvest starting in autumn. Because head
-  cabbage-style full-plant harvest and repeated leaf-picking give very
-  different effective growth durations, and because the sources do not agree
-  on a single number, no single general planning value is set here. The
-  variety note for `Winterbor` documents a concrete inferred value instead.
+- Definitions used for all calendar values of curly kale (general and
+  varieties): growth duration is counted from transplanting to the first leaf
+  harvest; propagation duration is sowing to transplanting; the harvest window
+  is the period during which a single planting can be picked.
+- Growth duration: 100 days, inferred for the main-crop situation (sowing
+  May-June, planting out mid-July to early August, first pick in October).
+  Sources: garden guides give planting mid-July to early August and harvest
+  from early October ([meine-ernte.de](https://www.meine-ernte.de/pflanzen-a-z/gemuese/gruenkohl/),
+  [Plantura](https://www.plantura.garden/gemuese/gruenkohl/gruenkohl-pflanzen));
+  late July planting to early-to-mid October is about 80-100 days. Retail
+  sources for `Winterbor` give May-June sowing and October to April harvest
+  ([Treppens](https://www.treppens.de/Saatgut/Gemuesesaatgut/Kohlgemuese/Gruenkohl-Winterbor-F1-Brassica-oleracea-var-sabellica::2353.html)).
+  100 days is the upper end of the calendar reading, chosen to cover slower
+  varieties and cool sites. It deviates for early leaf-picking of young plants
+  (much shorter) and for very late plantings (longer). Not a direct source
+  value.
+- Harvest window: 150 days, inferred from harvest beginning in early October
+  and extending into February or March in winter-hardy types (about
+  mid-October to mid-March); [Winterbor sources](https://www.treppens.de/Saatgut/Gemuesesaatgut/Kohlgemuese/Gruenkohl-Winterbor-F1-Brassica-oleracea-var-sabellica::2353.html)
+  state up to April. Actual length depends on winter severity.
+- Propagation duration: 40 days, the whole-day midpoint of the 5-6 weeks
+  (35-42 days) after sowing given in `Transplants`; not a direct source value.
+- Field/form constraint: whole days.
 - Yield: left open. General garden sources give roughly 1.6-2.4 kg/m²
   (16-24 kg per 10 m²) for home-garden cultivation
   ([Gartenfreunde](https://www.gartenfreunde.de/gartenpraxis/gartengenuss/gruenkohl-anbauen/)),
@@ -82,11 +96,13 @@
 ## Research Status
 - Researched on: 2026-09-18
 - General crop note exists: not applicable (this is the general crop note)
-- Open source conflicts: growth duration and yield ranges differ between
-  retail-variety pages and general garden guides; not resolved into a single
-  value, left open by design (see `Planning Value Derivations`).
+- Open source conflicts: retail-variety pages and general garden guides
+  describe the season differently (sowing-to-harvest vs. planting-to-harvest,
+  harvest until February vs. April); resolved into planning values in
+  `Planning Value Derivations`. Yield remains an open range.
+- Calendar values researched on: 2026-09-21
 - Open mapping questions: none for identity; the `Grünkohl` / `Schnittkohl`
   species split itself is the resolved mapping question, cross-referenced in
   `notes/siberian-kale.md`.
-- Public-readiness: needs review (calendar and yield values intentionally left
-  open; no live sync performed).
+- Public-readiness: needs review (calendar values are inferred planning
+  values; yield left open; no live sync performed).

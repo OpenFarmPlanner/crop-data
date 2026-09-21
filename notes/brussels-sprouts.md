@@ -33,29 +33,44 @@
 - Eaten cooked.
 
 ## Planning Value Derivations
-- Growth duration: left open as a single general value. General garden sources
-  describe a season of up to 9 months, with early varieties at about 6-7
-  months and late, frost-hardy varieties needing the full 9 months
-  ([Wurzelwerk](https://www.wurzelwerk.net/gemuesegarten/gemueseportraits/rosenkohl/)-style
-  guidance). Because the project's variety `Nautic` is itself documented by
-  its breeder with a specific day count, and the type spread is large, this
-  general note leaves growth duration open rather than averaging it; the
-  variety note carries the concrete value.
+- Definitions used for all calendar values of Brussels sprouts (general and
+  varieties): growth duration is counted from transplanting to first harvest;
+  propagation duration is sowing to transplanting; the harvest window is the
+  period over which a single planting is picked.
+- Growth duration: 160 days, the midpoint of the mid-early group. A garden
+  guide sorts varieties by development time from planting: very early 120-130,
+  early 130-150, mid-early 150-170, mid-late 170-200, late 200-230 days
+  ([Land-Wissen / landservice.de](https://www.landservice.de/regionale-lebensmittel/gemuese/rosenkohl));
+  the whole range is 150-195 days in one summary of that source. 160 days
+  represents a mid-early variety planted in late May to June with harvest from
+  October; earlier and later groups deviate by up to about 40 days. Selected,
+  not a direct single-source value.
+- Harvest window: 60 days, inferred. `Nautic` (early) is picked early October
+  to mid-November (about 6 weeks); the main season runs from late autumn into
+  January and later types into February
+  ([landservice.de](https://www.landservice.de/regionale-lebensmittel/gemuese/rosenkohl)).
+  60 days is a representative single-planting window; late types extend
+  longer.
+- Propagation duration: 49 days, the midpoint of the 6-8 weeks after sowing
+  given in `Transplants` (42-56 days, rounded to 7 weeks).
+- Field/form constraint: whole days.
 - Yield: about 0.6-0.8 kg/m² (60-80 kg per 100 m²) is given by general garden
   sources as a home-garden planning range; kept as a range rather than a
   single value pending a more authoritative source.
 
 ## Sources
 - [Wurzelwerk - Rosenkohl pflanzen](https://www.wurzelwerk.net/gemuesegarten/gemueseportraits/rosenkohl/)
+- [Land-Wissen - Rosenkohl](https://www.landservice.de/regionale-lebensmittel/gemuese/rosenkohl)
 - [Der kleine Garten - Rosenkohl selbst anbauen](https://www.derkleinegarten.de/nutzgarten-kleingarten/gemuesegarten-anlegen/kohlgemuese/rosenkohl-selbst-anbauen.html)
 - [Samen.de - Ertragsoptimierung bei Rosenkohl](https://samen.de/blog/optimale-ertraege-bei-rosenkohl-praxistipps-fuer-eine-reiche-ernte.html)
 
 ## Research Status
 - Researched on: 2026-09-18
 - General crop note exists: not applicable (this is the general crop note)
-- Open source conflicts: growth-duration ranges differ between sources mainly
-  because they mix early and late types together; treated as a type-driven
-  spread, not a factual conflict, and left open.
+- Open source conflicts: total season lengths differ (6-9 months) because
+  sources mix early and late types and sowing- vs. planting-based counting;
+  resolved as planning values in `Planning Value Derivations`.
 - Open mapping questions: none for identity.
-- Public-readiness: needs review (growth duration left open, yield kept as a
+- Calendar values researched on: 2026-09-21
+- Public-readiness: needs review (calendar values inferred, yield kept as a
   range; no live sync performed).

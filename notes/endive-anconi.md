@@ -5,8 +5,10 @@
   and processing; good head filling gives a comparatively high harvest
   weight. The variety is described as strongly resistant to bolting and to
   tipburn.
-- Growth duration: left open; reused general uncertainty from the crop note
-  applies (see `Comparison With General Crop Data`).
+- Growth duration: 75 days from transplanting, reused from the general crop
+  (see `Comparison With General Crop Data`).
+- Harvest window: 21 days and propagation duration 25 days, both reused from
+  the general crop.
 
 ## Sowing & Planting
 
@@ -47,16 +49,27 @@
   crop; no variety-specific figures were found for `Anconi` beyond the
   qualitative "summer and autumn cultivation" statement. No variety-specific
   source contradicts the general values.
-- Growth duration and harvest window: no variety-specific day count was
-  found; both remain open, matching the general crop's open status. A future
-  value should distinguish this broad-leaved variety from a curly-leaved
-  variety rather than reuse one figure for both.
+- Growth duration (75 days from transplanting), harvest window (21 days) and
+  propagation duration (25 days) are intentionally reused from the general
+  crop. No variety-specific day count was found: the breeder description and
+  a search for days to harvest gave none. Nothing contradicts the general
+  values; the bolting and tipburn resistance may allow a longer usable
+  period, but this is not quantified and is not converted into a value. The
+  general values were built from smooth-leaved and general endive guidance
+  ([Kiepenkerl](https://www.kiepenkerl.de/kulturanleitungen/endivien/)), which
+  matches this broad-leaved variety.
 - Yield: no variety-specific figure was found. The source only states that
   good head filling gives a comparatively high harvest weight relative to
   other endive varieties, which is a qualitative, not numeric, claim and is
   not converted into a planning value here.
 - Bolting and tipburn resistance are variety-specific traits with no general
   crop equivalent; documented here as notes only, not as structured fields.
+
+## Planning Value Derivations
+- Growth duration 75 days, harvest window 21 days, propagation duration 25
+  days: reused from `endive.md`, where they are derived from 3-4 weeks
+  pre-cultivation and 3-4 months total culture time. Not variety-specific
+  source claims. Whole integer days.
 
 ## Sources
 - [Rijk Zwaan - Anconi](https://www.rijkzwaan.de/endivie/ANCONI-11-602-prdCE10018-ctgCrops.endive)
@@ -66,12 +79,13 @@
 
 ## Research Status
 - Researched on: 2026-09-18
+- Calendar values researched on: 2026-09-21
 - General crop note exists: yes (`endive.md`)
 - Open source conflicts: none found.
 - Open mapping questions: the primary variety source could not be fetched
   directly (403); its content is used only via a search-engine snippet and
   should be re-verified with direct page access before this note is treated
-  as fully source-checked. Growth duration, harvest window, and yield are
-  all open, same as the general crop.
+  as fully source-checked. Yield is open. Calendar values are reused
+  general planning values, not variety-specific.
 - Public-readiness: needs review; variety source access is incomplete and
-  calendar/yield values are open.
+  yield is open.

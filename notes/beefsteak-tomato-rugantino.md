@@ -8,9 +8,10 @@
 - Fruit weight: about 180-220 g.
 - F1 hybrid; not seed-stable, so seed must be re-bought each season rather
   than saved.
-- Growth duration: an early beefsteak type relative to other oxheart
-  varieties, but no concrete days-to-harvest figure is published in the
-  sources reviewed; see Comparison below.
+- Growth duration: 75 days from transplanting; harvest window 70 days;
+  propagation duration 49 days. No variety-specific figure was found, so the
+  general `Fleischtomate` planning values are intentionally reused (see `Comparison
+  With General Crop Data`).
 
 ## Sowing & Planting
 
@@ -41,14 +42,23 @@
 - Sowing window (February-April) matches the general crop note's window;
   intentionally reused pattern confirmed by this variety's own source, not
   just carried over.
-- Growth duration: no concrete days-to-harvest value was found for
-  Rugantino specifically. The general crop note leaves growth duration open
-  because beefsteak varieties differ strongly; this variety note also leaves
-  it open rather than inferring a number from the vague "early-ripening"
-  description, since no source range or duration wording was given to
-  derive it from.
+- Growth duration, harvest window and propagation duration: no
+  `Rugantino`-specific day counts were found. The general `Fleischtomate` note gives
+  75 days (transplanting to first harvest), 70 days (harvest window) and 49
+  days (sowing to transplanting); these are intentionally reused, and no
+  variety-specific source contradicts them. Qualitative wording about
+  earliness or vigor in the sources was not converted into a number. This is a
+  reuse, not a `Rugantino`-specific source claim.
 - Yield: no per-plant or per-m² figure found for Rugantino; general crop
   note also has no reliable general yield value. Left open on both levels.
+
+## Planning Value Derivations
+- Growth duration 75 days, harvest window 70 days, propagation duration
+  49 days: reused from the general `Fleischtomate` note, where the source basis and
+  derivation are documented. No `Rugantino` day count was found.
+- Field/form constraint: whole integer days.
+- Uncertainty: fits a staked crop planted out in mid-May; protected
+  cultivation or an earlier variety can start about four weeks earlier.
 
 ## Sources
 - [Dürr Samen - Ochsenherz-Tomaten Rugantino RZ F1](https://shop.duerr-samen.de/ochsenherz-tomaten/ochsenherz-tomaten-rugantino-rz-f1.html)
@@ -59,7 +69,7 @@
 - Researched on: 2026-09-18
 - General crop note exists: yes (notes/beefsteak-tomato.md)
 - Open source conflicts: none found.
-- Open mapping questions: growth duration and yield are left open for this
-  variety; no source gave a concrete value to convert into a planning value
+- Open mapping questions: yield is left open for this variety; calendar values reuse the general crop; no source gave a concrete value to convert into a planning value
   without guessing.
+- Calendar values researched on: 2026-09-21
 - Public-readiness: ready

@@ -6,8 +6,9 @@
   field durability. Described by breeders/retailers as having good resistance
   to white rust (`Weißer Rost`), powdery mildew, and `Mycosphaerella` leaf
   spot.
-- Growth duration: about 155 days as a variety-specific planning value (see
-  `Planning Value Derivations`).
+- Growth duration: 155 days from transplanting (variety-specific source);
+  harvest window 42 days; propagation 49 days (see `Planning Value
+  Derivations`).
 
 ## Sowing & Planting
 
@@ -32,13 +33,13 @@
 ## Comparison With General Crop Data
 - Crop identity matches the general `Rosenkohl` / Brussels sprouts note: both
   are `Brassica oleracea var. gemmifera`.
-- Growth duration deviates from the general note on purpose: the general note
-  leaves growth duration open because it spans early and late types; `Nautic`
-  is documented with a concrete variety-specific figure of about 155 days from
-  breeder/retail sources.
-- Harvest window is documented directly (early October to mid-November, about
-  6 weeks), consistent with an early-to-mid-early type; not derived from the
-  general note.
+- Growth duration: 155 days vs. 160 days in the general note; nearly equal,
+  variety value taken from a variety-specific source.
+- Harvest window: 42 days vs. 60 days in the general note; shorter because
+  `Nautic` is an early type with an early October to mid-November harvest.
+- Propagation duration: 49 days, intentionally reused from the general note;
+  the planting period (early to late May) fits sowing from March to April and
+  no variety-specific source contradicts it.
 - Spacing: no variety-specific figure was found; the general crop's range is
   intentionally reused because no contradicting variety-specific source was
   found.
@@ -50,16 +51,22 @@
   contradicting variety-specific source.
 
 ## Planning Value Derivations
-- Growth duration: 155 days, taken directly from
+- Definitions: growth duration is counted from transplanting (as in the
+  general note).
+- Growth duration: 155 days, taken from
   [Hartmann Brockhaus](https://www.hartmann-brockhaus.de/detail/Rosenkohl-Nautic-F1)
-  ("ca. 155 Tage Entwicklungszeit"), read as sowing-to-harvest development
-  time. This is treated as a source-backed value, not an inference.
-- Harvest window: about 40-45 days, inferred from the "early October to
-  mid-November" harvest description at
+  ("ca. 155 Tage Entwicklungszeit"). It is read here as planting-to-harvest
+  (correcting the earlier sowing-based reading): planting in mid-May plus 155
+  days gives mid-October, matching the early-October harvest start, whereas a
+  sowing-based count would give a September start. The source does not state
+  the reference point explicitly, so this reading is an inference.
+- Harvest window: 42 days, inferred from the "early October to mid-November"
+  harvest description at
   [Beringmeier](https://www.beringmeier.de/kohl-saatgut/oeko-kohl/Rosenkohl-Nautic-F1-oeko.html)
-  and [Bejo](https://www.bejosamen.de/rosenkohl/nautic-f1). Documented as an
-  inferred planning value (a calendar-window reading), not a direct single-day
-  source figure.
+  and [Bejo](https://www.bejosamen.de/rosenkohl/nautic-f1) (about 6 weeks).
+  Calendar reading, not a direct single-day source figure.
+- Propagation duration: 49 days, reused from the general note.
+- Field/form constraint: whole days.
 - Yield: reused from the general crop range (0.6-0.8 kg/m²); no
   variety-specific source-backed figure was found.
 
@@ -75,7 +82,9 @@
   variety as "early type ... for home and small-scale gardening" while others
   describe it as "early to mid-early" for general cultivation - treated as
   compatible marketing emphasis, not a factual conflict.
-- Open mapping questions: none.
+- Open mapping questions: the reference point of the 155-day figure (planting
+  vs. sowing) is not stated by the source; planting-based reading used.
+- Calendar values researched on: 2026-09-21
 - Public-readiness: needs review (growth duration source-backed; harvest
   window inferred; yield reused from an open general range; no live sync
   performed).

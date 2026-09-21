@@ -13,7 +13,10 @@
   to about 10 cm long, indeterminate to about 150 cm tall, up to 5 kg fruit
   per plant) rather than the `Monterrey` cultivar specifically by name; see
   the open source-conflict note below.
-- Growth duration: no concrete days-to-harvest figure found; left open.
+- Growth duration: 70 days from transplanting; harvest window 60 days;
+  propagation duration 49 days. No variety-specific figure was found, so the
+  general `Soßentomate` planning values are intentionally reused (see `Comparison
+  With General Crop Data`).
 
 ## Sowing & Planting
 
@@ -48,11 +51,23 @@
   crop's 70-100 cm row / 35-60 cm in-row range; the professional 33 cm
   in-row figure is slightly tighter than the general range's 35 cm floor,
   documented here as a minor deviation rather than smoothed over.
-- Sowing window and growth duration/yield handling: sowing window reused
-  from the general crop as no variety-specific date was found; growth
-  duration left open on both levels for the same reason as the general note.
+- Growth duration, harvest window and propagation duration: no
+  `Monterrey`-specific day counts were found. The general `Soßentomate` note gives
+  70 days (transplanting to first harvest), 60 days (harvest window) and 49
+  days (sowing to transplanting); these are intentionally reused, and no
+  variety-specific source contradicts them. Qualitative wording about
+  earliness or vigor in the sources was not converted into a number. This is a
+  reuse, not a `Monterrey`-specific source claim.
+- Sowing window: reused from the general crop as no variety-specific date was
+  found. Yield: left open, see `Planning Value Derivations`.
 
 ## Planning Value Derivations
+- Growth duration 70 days, harvest window 60 days, propagation duration
+  49 days: reused from the general `Soßentomate` note, where the source basis and
+  derivation are documented. No `Monterrey` day count was found.
+- Field/form constraint: whole integer days.
+- Uncertainty: fits a staked crop planted out in mid-May; protected
+  cultivation or an earlier variety can start about four weeks earlier.
 - Value: yield not converted to kg/m².
 - Source basis: [Tomaten.de - San-Marzano-Tomate](https://www.tomaten.de/san-marzano-tomate/)
   gives "up to 5 kg per plant" for the San-Marzano fruit type in general,
@@ -81,8 +96,9 @@
   rather than presented as a `Monterrey`-specific source claim. If a
   `Monterrey`-specific source is found later (e.g. a seed catalog entry
   naming this exact cultivar), this note should be revised.
-- Open mapping questions: whether the two reported spacing figures reflect
+- Open mapping questions: calendar values reuse the general crop; whether the two reported spacing figures reflect
   different cultivation intensities (garden vs. professional) or a genuine
   source disagreement is unresolved.
+- Calendar values researched on: 2026-09-21
 - Public-readiness: needs review (identity of `Monterrey` as a specific
   named cultivar, as opposed to the general San-Marzano type, is unverified)

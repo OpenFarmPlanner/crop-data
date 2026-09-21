@@ -9,8 +9,10 @@
 - Fast-developing, heat-tolerant variety with intensely green foliage, marketed
   for summer cultivation
   ([Hartmann Brockhaus - Lauchzwiebel Baja Verde](https://www.hartmann-brockhaus.de/detail/Lauchzwiebel-Baja-Verde)).
-- Growth duration: not found as a variety-specific figure; the general crop
-  note also leaves this open (see `Comparison With General Crop Data`).
+- Growth duration: 60 days from direct sowing, inferred from a breeder claim
+  that the variety matures about 10 days earlier than standard bunching
+  onions (see `Planning Value Derivations`).
+- Harvest window: 30 days, reused from the general crop.
 
 ## Sowing & Planting
 
@@ -27,7 +29,7 @@
 
 ## Harvest & Use
 - Harvest once shafts and green tops reach usable size; no variety-specific
-  harvest window was found.
+  harvest window was found (the general 30-day value is reused).
 - Especially suited to Asian-style raw or lightly cooked preparations because
   of its mild flavor and intense green color
   ([Hartmann Brockhaus - Lauchzwiebel Baja Verde](https://www.hartmann-brockhaus.de/detail/Lauchzwiebel-Baja-Verde)).
@@ -62,23 +64,45 @@
   were found; these are intentionally reused from the general crop note
   because no `Baja Verde`-specific source contradicts them and no reliable
   variety-specific alternative was found.
-- Growth duration: neither the general crop note nor `Baja Verde` sources give
-  a reliable day count; both are left open. This is not a reuse of a general
-  planning value (none exists yet), but a shared open question.
+- Growth duration: general crop 70 days; `Baja Verde` 60 days. The variety
+  is described by the breeder as maturing about 10 days earlier than standard
+  bunching onions, so the general value was reduced by 10 days. Both values are
+  counted from direct sowing.
+- Harvest window: no variety-specific figure found; the general 30-day value
+  is intentionally reused. The heat tolerance and low bulbing tendency could
+  extend usable time in summer, but no source quantifies this, and no
+  contradicting variety-specific source was found.
+
+## Planning Value Derivations
+- Growth duration: 60 days from direct sowing. Source basis: the
+  [Semenata](https://semenata.com/en/certified-onion-seeds-baja-verde-f1-seminis-resilience-and-high-yield)
+  and [Bayer Vegetables](https://www.vegetables.bayer.com/gb/en-uk/products/onion/details.html/onion_baja_verde_united_kingdom_seminis_all_open_field_fresh_market_all.html)
+  product descriptions (read only via search-result summaries) state that the
+  variety matures about 10 days earlier than standard varieties and does not
+  bulb easily. Derivation: general crop value of 70 days minus 10 days. This is
+  an inferred planning value; no day count for the variety itself was found.
+- Harvest window: 30 days, reused from `spring-onion.md` (same derivation and
+  uncertainty; no variety-specific source).
+- Field/form constraint: whole integer days.
+- Propagation duration: not applicable; direct sown.
 
 ## Sources
 - [NC State University - Vegetable Cultivar Descriptions for North America, Onion A-L](https://cucurbitbreeding.wordpress.ncsu.edu/2016/06/02/onion-a-l/)
 - [Hartmann Brockhaus - Lauchzwiebel Baja Verde](https://www.hartmann-brockhaus.de/detail/Lauchzwiebel-Baja-Verde)
 - [seednet.eu.com - Baja Verde Bunching Onion](https://www.seednet.eu.com/product/1419/baja-verde.html)
+- [Semenata - Baja Verde F1 (Seminis)](https://semenata.com/en/certified-onion-seeds-baja-verde-f1-seminis-resilience-and-high-yield)
+- [Bayer Vegetables - Baja Verde](https://www.vegetables.bayer.com/gb/en-uk/products/onion/details.html/onion_baja_verde_united_kingdom_seminis_all_open_field_fresh_market_all.html)
 
 ## Research Status
 - Researched on: 2026-09-18
+- Calendar values researched on: 2026-09-21
 - General crop note exists: yes (`spring-onion.md`)
 - Open source conflicts: none found; available sources are sparse rather than
   contradictory.
 - Open mapping questions: botanical species (`Allium fistulosum` vs. `Allium
-  cepa` vs. an interspecific hybrid) is unconfirmed for this variety; growth
-  duration and harvest window have no source-backed figure at either the
-  variety or general-crop level.
-- Public-readiness: needs review; species identity and calendar values are
-  open.
+  cepa` vs. an interspecific hybrid) is unconfirmed for this variety; the
+  60-day growth duration is inferred from a relative earliness claim and the
+  30-day harvest window is a reused general planning value; neither is a
+  direct variety source figure.
+- Public-readiness: needs review; species identity is open and calendar
+  values are inferred.

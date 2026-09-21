@@ -13,10 +13,11 @@
 - Warm-season, frost-sensitive fruiting crop with a long pre-cultivation phase
   and high nutrient demand, like `Pfefferoni` and `Chili`
   ([Plantura - Paprika](https://www.plantura.garden/gemuese/paprika/paprika-pflanzenportrait)).
-- Growth duration and harvest window are left open at the general-crop level
-  (see below); sources give ranges and qualitative timing that vary by fruit
-  type (blocky vs. pointed) and cultivation form (greenhouse vs. open field),
-  which would make one precise general-crop value falsely precise.
+- Growth duration: about 70 days from transplanting to first harvest; harvest
+  window about 90 days (August to October); propagation duration about 70
+  days (sowing to transplanting). These are representative planning values;
+  fruit type (blocky vs. pointed) and cultivation form (greenhouse vs. open
+  field) shift them (see `Planning Value Derivations`).
 
 ## Sowing & Planting
 
@@ -54,8 +55,8 @@
 - Because `Paprika` spans fruit shapes from blocky to pointed, variety notes
   should document the specific fruit-shape type (blocky/bell vs. Spitzpaprika)
   as a short description note, not as a separate Kultur, and should carry
-  concrete growth duration/harvest window values rather than relying on this
-  general note's open values.
+  concrete growth duration/harvest window values where a variety source
+  allows, rather than relying on this general note's representative values.
 
 ## Planning Value Derivations
 - Yield: open field guidance gives about 5 kg/m² in open-field cultivation,
@@ -65,12 +66,34 @@
   ([Plantura - Paprika](https://www.plantura.garden/gemuese/paprika/paprika-pflanzenportrait)).
   Left open at the general-crop level; variety notes should use
   variety-specific or trial-sourced figures where available.
-- Growth duration / harvest window: sources describe timing only in relative
-  terms (sowing late February to early March, harvest August to October).
-  No day-count planning value is derived here because fruit type (blocky vs.
-  pointed) and cultivation form affect timing enough that a single number
-  would be falsely precise at the general-crop level; left open per the
-  "Model Calendar Values Deliberately" rule.
+- Growth duration (from transplanting to first harvest): 70 days. Source
+  basis: [Kiepenkerl - Paprika](https://www.kiepenkerl.de/kulturanleitungen/paprika/)
+  gives about six weeks (42 days) from planting out to the first harvest,
+  while the `Pallodio` variety source gives 9-12 weeks (63-84 days). 70 days
+  is an inferred value within that range, closest to colored (ripe) fruit
+  rather than the earliest green fruit. Not a direct source value.
+- Harvest window: 90 days, from the August-to-October harvest period in
+  [Kiepenkerl - Paprika](https://www.kiepenkerl.de/kulturanleitungen/paprika/)
+  and [Plantura - Paprika](https://www.plantura.garden/gemuese/paprika/paprika-pflanzenportrait)
+  (roughly 1 August to end of October is 92 days, rounded to 90). Fits
+  open-field or unheated-tunnel cultivation; heated greenhouse crops can be
+  harvested much longer.
+- Propagation duration: 70 days (10 weeks). Kiepenkerl gives 6-8 weeks of
+  pre-cultivation from a mid-February sowing, while a late-February sowing
+  with planting after mid-May implies about 11-12 weeks. 70 days is a
+  compromise between these, chosen inferred rather than sourced; it is
+  shorter than the live `Pfefferoni` value (84 days), which reflects earlier
+  sowing.
+- Field/form constraint: whole integer days; weeks converted to days.
+- Uncertainty: sowing date, heating, and fruit type change all three values
+  by roughly 2-3 weeks.
+- Yield: open field guidance gives about 5 kg/m² in open-field cultivation,
+  rising in unheated tunnels; a single general figure is not asserted here
+  because the source is general garden guidance rather than a controlled
+  trial, and yield depends strongly on fruit type and cultivation form
+  ([Plantura - Paprika](https://www.plantura.garden/gemuese/paprika/paprika-pflanzenportrait)).
+  Left open at the general-crop level; variety notes should use
+  variety-specific or trial-sourced figures where available.
 
 ## Sources
 - [Plantura - Paprika anbauen: Aussaat, Pflege und Erntezeit](https://www.plantura.garden/gemuese/paprika/paprika-pflanzenportrait)
@@ -88,8 +111,9 @@
   the shared official crop species (`Capsicum annuum`) that `Pfefferoni` and
   `Chili` link to, or whether each Kultur should link to its own. Not
   re-decided here; follow the recommendation already documented in
-  `notes/pepper-pfefferoni.md`. Growth duration, harvest window, and yield are
-  left open rather than mapped to a specific number.
-- Public-readiness: needs review (calendar/yield values open; identity/
+  `notes/pepper-pfefferoni.md`. Yield remains open; growth duration, harvest window and
+  propagation duration are set as representative planning values.
+- Calendar values researched on: 2026-09-21
+- Public-readiness: needs review (yield open; calendar values inferred; identity/
   crop-species link is a known open question shared with `Pfefferoni` and
   `Chili`).

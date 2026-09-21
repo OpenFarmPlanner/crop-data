@@ -10,8 +10,10 @@
 - Flavor described as fruity and sweet-aromatic with slight acidity.
 - Bred by De Ruiter Seeds (Bayer/Monsanto group); F1 hybrid, not seed-stable.
 - Plant grows relatively slowly but can still reach up to 2 m tall.
-- Growth duration: no concrete days-to-harvest figure found in the sources
-  reviewed; left open, see Comparison below.
+- Growth duration: 65 days from transplanting; harvest window 80 days;
+  propagation duration 49 days. No variety-specific figure was found, so the
+  general `Kirschtomate` planning values are intentionally reused (see `Comparison
+  With General Crop Data`).
 
 ## Sowing & Planting
 
@@ -43,13 +45,23 @@
   variety's source - no independent variety-specific deviation to report
   yet.
 - Sowing window (February-April) matches the general crop note's window.
-- Growth duration: no concrete days-to-harvest value was found for
-  Philovita. The general crop note leaves growth duration open for the same
-  reason; this variety note also leaves it open rather than inferring a
-  number from "grows relatively slowly" wording, since that phrase describes
-  plant vigor, not a harvest timeline.
+- Growth duration, harvest window and propagation duration: no
+  `Philovita`-specific day counts were found. The general `Kirschtomate` note gives
+  65 days (transplanting to first harvest), 80 days (harvest window) and 49
+  days (sowing to transplanting); these are intentionally reused, and no
+  variety-specific source contradicts them. Qualitative wording about
+  earliness or vigor in the sources was not converted into a number. This is a
+  reuse, not a `Philovita`-specific source claim.
 - Yield: no per-plant or per-m² figure found for Philovita; general crop
   note also has no reliable general yield value. Left open on both levels.
+
+## Planning Value Derivations
+- Growth duration 65 days, harvest window 80 days, propagation duration
+  49 days: reused from the general `Kirschtomate` note, where the source basis and
+  derivation are documented. No `Philovita` day count was found.
+- Field/form constraint: whole integer days.
+- Uncertainty: fits a staked crop planted out in mid-May; protected
+  cultivation or an earlier variety can start about four weeks earlier.
 
 ## Sources
 - [Tomaten.de - Tomate 'Philovita'](https://www.tomaten.de/tomate-philovita-cherrytomate/)
@@ -63,7 +75,7 @@
   row x 50 cm in-row, one gives a minimum of 80 cm row x 60 cm in-row. The
   more frequently reported figure (80 x 50 cm) is used, and the conflict is
   documented here rather than silently dropped.
-- Open mapping questions: growth duration and yield are left open for this
-  variety; no source gave a concrete value to convert into a planning value
+- Open mapping questions: yield is left open for this variety; calendar values reuse the general crop; no source gave a concrete value to convert into a planning value
   without guessing.
+- Calendar values researched on: 2026-09-21
 - Public-readiness: ready

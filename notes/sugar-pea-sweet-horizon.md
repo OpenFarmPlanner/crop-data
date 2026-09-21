@@ -10,8 +10,9 @@
   ([Bobby-Seeds](https://www.bobby-seeds.com/gemuesesamen/bohnen-erbsensamen/erbsensamen/2409/erbse-sweet-horizon-zuckererbse),
   [Kiepenkerl](https://www.kiepenkerl.de/zuckererbsensamen-sweet-horizon-1005050/),
   [Territorial Seed](https://territorialseed.com/products/pea-sweet-horizon)).
-- Growth duration: not set to a single value here; sources conflict sharply
-  (see `Comparison With General Crop Data` and `Planning Value Derivations`).
+- Growth duration: 90 days from sowing to first pods, intentionally reused
+  from the general `Zuckererbse` crop; sources for this variety conflict (see
+  `Comparison With General Crop Data`). Harvest window 30 days, also reused.
 
 ## Sowing & Planting
 
@@ -81,15 +82,12 @@
   different variety). This is documented as a genuine variety-specific
   deviation, not reused from the general value; see `Planning Value
   Derivations`.
-- Growth duration: the general crop note carries a 90-day live value (not
-  itself variety-specific). For `Sweet Horizon`, sources conflict sharply: US
-  retailer Territorial Seed states 60-70 days to maturity, while German
-  retailers' sowing (April) to harvest (July) windows imply a notably longer
-  season, roughly comparable to or longer than the general crop's 90 days.
-  Because of this unresolved conflict, no single variety-specific growth
-  duration value is asserted here; the general crop's 90-day value is neither
-  confirmed nor overridden for this variety. See `Planning Value Derivations`
-  and `Research Status`.
+- Growth duration: intentionally reused from the general crop (90 days).
+  Variety sources conflict: US retailer Territorial Seed states 60-70 days to
+  maturity, whereas German retailers' April sowing with first harvest in
+  June/July implies roughly 75-100 days. The general value of 90 days lies
+  inside the plausible spread and no variety-specific source contradicts it
+  reliably, so it is reused rather than picking one source silently.
 - Harvest window: no `Sweet Horizon`-specific day-count source was found.
   Multiple sources describe an extended, repeated-picking harvest, consistent
   with (not contradicting) the general crop's 30-day harvest window planning
@@ -103,16 +101,14 @@
 - Thousand kernel weight: 240 g, taken directly from
   [Bobby-Seeds](https://www.bobby-seeds.com/gemuesesamen/bohnen-erbsensamen/erbsensamen/2409/erbse-sweet-horizon-zuckererbse)
   ("ca. 240 Gramm"). No rounding applied; used as given.
-- Growth duration: not set. Territorial Seed's "60-70 days" and the German
-  retailers' implied ~12-16+ week season (April sowing to July/August
-  harvest) are not reconcilable without knowing whether "days to maturity"
-  is measured from direct outdoor sowing under comparable climate conditions;
-  US seed-catalog day counts and Central European retailer sowing/harvest
-  season descriptions are not always directly comparable. Rather than pick
-  one source silently, this value is left open for this note. A future sync
-  should either find a source giving a single, climate-comparable sowing
-  date and expected harvest date, or explicitly document which source was
-  chosen and why (see `Research Status`).
+- Growth duration: 90 days, reused from the general crop and measured from
+  direct sowing to first pods. Source basis: Territorial Seed's 60-70 days
+  (US catalog day count, probably for warmer-season sowings) versus the
+  implied 75-100 days from German sowing and harvest windows (April sowing,
+  harvest from June/July). Derivation: no source is silently preferred; the
+  general crop value falls within the credible spread and is used as an
+  intentional general planning value. Uncertainty: about +/- 15 days
+  depending on sowing date; an early cold-soil sowing is at the upper end.
 - Harvest window and yield: both reused directly from the general crop note
   (30 days; about 1.5 kg/m²) as intentional general planning values; no
   variety-specific source was found for either, and no variety-specific
@@ -125,11 +121,13 @@
 
 ## Research Status
 - Researched on: 2026-09-18
+- Calendar values researched on: 2026-09-21
 - General crop note exists: yes (`sugar-pea.md`)
 - Open source conflicts:
   - Growth duration/days to maturity: Territorial Seed states 60-70 days;
-    German retailers' sowing-to-harvest season implies a considerably longer
-    period. Not resolved; no value asserted in this note.
+    German retailers' sowing-to-harvest season implies a longer period. The
+    general crop value of 90 days is reused; the conflict itself is not
+    resolved.
   - Plant height: 60-80 cm (Bobby-Seeds, Kiepenkerl) versus 127-152 cm / 50-60
     in (Territorial Seed). Not resolved; height is not currently a mapped
     structured field, so this does not block a structured value, but it is
@@ -137,8 +135,7 @@
     three sources describe the same growing conditions or possibly a
     different regional strain under the same trade name.
 - Open mapping questions: none beyond the general crop note's existing open
-  items; growth duration is intentionally left unset here rather than mapped
-  to a falsely precise or unverified value.
-- Public-readiness: needs review; the growth duration and plant-height
-  conflicts should be resolved (or explicitly accepted as unresolved) before
-  any Phase 2 sync of those specific values.
+  items; calendar values are intentional reuses of the general crop.
+- Public-readiness: needs review; the plant-height conflict should be resolved
+  (or explicitly accepted) and the reused growth duration confirmed before any
+  Phase 2 sync of those values.

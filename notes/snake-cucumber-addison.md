@@ -18,8 +18,9 @@
   ([Rijk Zwaan - Addison F1](https://www.rijkzwaan.de/gurke/ADDISON-F1-24-151-prdCS10683-ctgCrops.cucumber)).
 - As an F1 hybrid, `Addison` is not seed-stable/nachbaufähig, unlike the
   open-pollinated `Tanja`.
-- Growth duration: not given as a day-count by the source; left open, matching
-  the general `Schlangengurke` crop (see `Comparison With General Crop Data`).
+- Growth duration: 50 days from planting out, harvest window 60 days and
+  propagation duration 21 days, intentionally reused from the general
+  `Schlangengurke` crop (see `Comparison With General Crop Data`).
 
 ## Sowing & Planting
 
@@ -64,11 +65,24 @@
   the source gives no variety-specific figure and `Addison`'s larger,
   heavier fruit could plausibly need different spacing than `Tanja`/`Arola`.
   This is documented as an open question rather than a silent reuse.
-- Growth duration and harvest window: no `Addison`-specific day-count found;
-  left open, consistent with the general `Schlangengurke` note's open value.
+- Growth duration (50 days), harvest window (60 days) and propagation
+  duration (21 days) are intentionally reused from the general crop; the
+  breeder source gives no day counts and nothing contradicts them. The
+  source's "early fruit set" claim may mean a somewhat earlier first harvest
+  than open-pollinated types, but it is not quantified and is not used to
+  shorten the value.
 - Yield: no kg/m² or piece-count figure found; left open.
 - Thousand seed mass: not given by the source; left open (unlike `Tanja` and
   `Arola`, which both have source-backed figures).
+
+## Planning Value Derivations
+
+- Growth duration, harvest window, propagation duration: 50 days, 60 days and
+  21 days, reused from the general crop (growth duration measured from
+  planting out). The breeder source
+  ([Rijk Zwaan](https://www.rijkzwaan.de/gurke/ADDISON-F1-24-151-prdCS10683-ctgCrops.cucumber))
+  contains no day counts. Uncertainty: about +/- 10 days; the professional
+  greenhouse context of this hybrid may differ from garden conditions.
 
 ## Sources
 - [Rijk Zwaan - Addison F1](https://www.rijkzwaan.de/gurke/ADDISON-F1-24-151-prdCS10683-ctgCrops.cucumber)
@@ -76,6 +90,7 @@
 
 ## Research Status
 - Researched on: 2026-09-18
+- Calendar values researched on: 2026-09-21
 - General crop note exists: yes (`snake-cucumber.md`)
 - Open source conflicts: none found; the caveat here is source scarcity, not
   conflicting sources.
@@ -86,10 +101,9 @@
   to the `Schlangengurke` Kultur (rather than, for example, a
   greenhouse-specific sub-type) is inferred from the "lange Gurke" (long
   cucumber) description and fruit dimensions, not confirmed against the same
-  catalog used for the other varieties. This is documented explicitly rather
-  than silently treated as equally confirmed as `Tanja`/`Arola`. Spacing,
-  growth duration, harvest window, yield, and thousand seed mass are all left
-  open due to thin source material.
+  catalog used for the other varieties. Spacing, yield, and thousand seed mass
+  are left open due to thin source material; calendar values are reused from
+  the general crop.
 - Public-readiness: blocked; identity confidence is lower than for the other
-  varieties in this crop, and most planning values are open. Needs review
-  before any live sync.
+  varieties in this crop, and spacing, yield and seed mass are open. Needs
+  review before any live sync.

@@ -14,9 +14,9 @@
   yield level among yellow blocky paprika varieties.
 - No `Sven`-specific day-count growth duration or harvest-window figure was
   found; the breeder page describes yield and fruit quality but not a
-  concrete cultivation calendar. Growth duration and harvest window are
-  reused from the general `Paprika` note's open guidance (see `Comparison
-  With General Crop Data`).
+  concrete cultivation calendar. Growth duration (70 days), harvest window (90
+  days) and propagation duration (70 days) intentionally reuse the general
+  `Paprika` planning values (see `Comparison With General Crop Data`).
 
 ## Sowing & Planting
 
@@ -50,11 +50,13 @@
   one-to-one to small-scale garden yield expectations.
 
 ## Comparison With General Crop Data
-- Growth duration and harvest window: no `Sven`-specific figures were found.
-  The general `Paprika` note intentionally leaves these open because fruit
-  type and cultivation form affect timing; `Sven` also has no source-backed
-  day count, so this variety note likewise leaves them open rather than
-  inventing a number. This is a documented gap, not a silent equivalence.
+- Growth duration, harvest window and propagation duration: no
+  `Sven`-specific figures were found. The general `Paprika` note gives 70
+  days (transplanting to first harvest), 90 days (harvest window) and 70 days
+  (sowing to transplanting); these are intentionally reused for `Sven`, and
+  no variety-specific source contradicts them. Yellow blocky types ripen
+  fully through green to yellow, which fits the general value. This is a
+  reuse, not a `Sven`-specific source claim.
 - Spacing and sowing timing: reused from the general `Paprika` note (40 x 40
   cm, late February to early March sowing, mid-May outdoor planting). No
   `Sven`-specific source contradicts these general values, and no
@@ -68,6 +70,15 @@
   crop equivalent to compare against, since the general `Paprika` note does
   not track fruit weight.
 
+## Planning Value Derivations
+- Growth duration 70 days, harvest window 90 days, propagation duration 70
+  days: reused from the general `Paprika` note (`pepper-paprika.md`), where
+  the source basis and derivation are documented. No `Sven` figure was found.
+- Field/form constraint: whole integer days.
+- Uncertainty: blocky yellow fruit may need a few weeks more than the
+  earliest green harvest; the value fits ripe yellow fruit in a tunnel or a
+  warm open-field site.
+
 ## Sources
 - [Rijk Zwaan - SVEN F1 (Paprikasamen, Blockig)](https://www.rijkzwaan.de/paprika-s%C3%BC%C3%9F/SVEN-F1-35-220-prdCA10805-ctgCrops.sweet-pepper)
 - [Plantura - Paprika anbauen: Aussaat, Pflege und Erntezeit](https://www.plantura.garden/gemuese/paprika/paprika-pflanzenportrait)
@@ -80,9 +91,10 @@
   result summaries only, so it should be re-verified against the live page if
   more detail is needed later.
 - Open mapping questions: same official OpenFarmPlanner crop-species question
-  documented in `pepper-paprika.md` and `pepper-pfefferoni.md`. Growth duration,
-  harvest window, and yield remain open for this variety; no source-backed
-  values were found to fill them.
-- Public-readiness: needs review; calendar and yield values are open, and the
+  documented in `pepper-paprika.md` and `pepper-pfefferoni.md`. Yield remains
+  open for this variety; the calendar values are intentionally reused from
+  the general crop.
+- Calendar values researched on: 2026-09-21
+- Public-readiness: needs review; yield is open, calendar values are reused from the general crop, and the
   primary source could only be read via search snippets rather than a direct
   page fetch.

@@ -5,9 +5,8 @@
 - Medium-late, high-yielding, robust variety reaching about 80-100 cm in
   height; resistant to Fusarium
   ([Bobby-Seeds](https://www.bobby-seeds.com/gemuesesamen/bohnen-erbsensamen/erbsensamen/2408/erbse-maxigolt-markerbse)).
-- Growth duration: about 12-20 weeks from sowing to harvest, inferred from the
-  sowing and harvest windows below (see `Planning Value Derivations`); no
-  direct day-count source was found.
+- Growth duration: 85 days from sowing to first pods (medium-late type;
+  inferred, see `Planning Value Derivations`); harvest window 21 days.
 
 ## Sowing & Planting
 
@@ -35,11 +34,12 @@
   general crop's stated range; kept as the more precise variety figure.
 - Sowing depth is reused from the general crop (3-5 cm); no variety-specific
   figure was found and no source contradicts the general range.
-- Growth duration is not directly reused: the general crop note leaves growth
-  duration open because early and mid-late types diverge strongly. For
-  `Maxigold`, a medium-late marrowfat type, the growth duration planning value
-  is instead inferred from this variety's own sowing/harvest windows (see
-  `Planning Value Derivations`) rather than borrowed from the general note.
+- Growth duration deviates from the general crop: the general mid-season
+  value is 73 days, while `Maxigold` is a medium-late type and uses 85 days
+  (derived from the late-type range, see `Planning Value Derivations`).
+  Both values are measured from direct sowing to first pods.
+- Harvest window: 21 days, intentionally reused from the general crop; no
+  `Maxigold`-specific source was found and nothing contradicts it.
 - Thousand kernel weight deviates clearly upward from typical garden pea
   weights: about 250 g, reflecting the "notably large seed" trait specific to
   this marrowfat variety
@@ -51,31 +51,37 @@
   `Maxigold`-specific kg/m² figure was found.
 
 ## Planning Value Derivations
-- Growth duration: inferred as roughly 12-20 weeks (about 84-140 days) from
-  sowing (April-June) to harvest (late June-September) as given by
-  [Bobby-Seeds](https://www.bobby-seeds.com/gemuesesamen/bohnen-erbsensamen/erbsensamen/2408/erbse-maxigolt-markerbse).
-  This is a wide inferred range because the source gives seasonal windows
-  rather than a single sowing-to-harvest day count for one sowing date; it is
-  not a direct source value and should be narrowed if a more precise source is
-  found. No single point value is asserted here; a future sync should pick a
-  defensible point value (e.g. the range midpoint) and document that rounding
-  decision explicitly rather than inventing false precision here.
+- Growth duration: 85 days. Source basis: [Bobby-Seeds](https://www.bobby-seeds.com/gemuesesamen/bohnen-erbsensamen/erbsensamen/2408/erbse-maxigolt-markerbse)
+  calls `Maxigold` medium-late and gives April-June sowing with harvest from
+  late June to September, but no day count; [Samen.de](https://samen.de/blog/markerbsen-im-jahresverlauf-aussaat-und-erntekalender.html) gives 80-90 days
+  for late `Markerbse` types and 65-80 days for mid-season types. Derivation:
+  a medium-late type sits between the two ranges, so the upper end of the
+  mid-season range and lower-middle of the late range (about 85 days) is
+  used. This is an inferred planning value, not a direct source value; an
+  April sowing then yields first pods in early July. Uncertainty: about
+  +/- 7 days depending on sowing date and weather. The earlier wide
+  seasonal-window inference (84-140 days) is superseded by this narrower
+  derivation.
+- Harvest window: 21 days, reused from the general crop (2-3 weeks per
+  sowing according to [Samen.de](https://samen.de/blog/markerbsen-im-jahresverlauf-aussaat-und-erntekalender.html)); inferred for this variety.
 - Thousand kernel weight: 250 g, taken directly from
   [Bobby-Seeds](https://www.bobby-seeds.com/gemuesesamen/bohnen-erbsensamen/erbsensamen/2408/erbse-maxigolt-markerbse)
   ("etwa 250 Gramm").
 
 ## Sources
 - [Bobby-Seeds - Erbse Maxigolt, Markerbse](https://www.bobby-seeds.com/gemuesesamen/bohnen-erbsensamen/erbsensamen/2408/erbse-maxigolt-markerbse)
+- [Samen.de - Markerbsen im Jahresverlauf](https://samen.de/blog/markerbsen-im-jahresverlauf-aussaat-und-erntekalender.html)
 
 ## Research Status
 - Researched on: 2026-09-18
+- Calendar values researched on: 2026-09-21
 - General crop note exists: yes (`shelling-pea.md`)
 - Open source conflicts: source spelling varies between "Maxigold" (task) and
   "Maxigolt" (Bobby-Seeds listing); treated as the same variety/spelling
   variant, but flagged since no independent source was found to confirm they
   are identical.
-- Open mapping questions: growth duration is an inferred range, not a single
-  source value; needs a documented rounding decision before live sync.
-- Public-readiness: needs review; growth duration requires a rounding
-  decision, and the "Maxigold"/"Maxigolt" spelling should be confirmed against
-  the actual seed source used.
+- Open mapping questions: none for the calendar values; the growth duration
+  of 85 days is an inferred planning value (documented above) and no
+  variety-specific day count was found.
+- Public-readiness: needs review; the "Maxigold"/"Maxigolt" spelling should
+  be confirmed against the actual seed source used.

@@ -8,9 +8,12 @@
   mid-late, and late - which differ strongly in growth duration and harvest
   timing
   ([Plantura - Frühkartoffeln](https://www.plantura.garden/gemuese/kartoffeln/fruehkartoffeln)).
-  Because of this spread, growth duration is deliberately left open at the
-  general-crop level (see `Planning Value Derivations`); variety notes should
-  state their specific maturity group and a concrete day-count value.
+  Because of this spread, the general values below are one representative
+  mid-early planning value: growth duration 120 days (seed-tuber planting to
+  harvest readiness) and harvest window 30 days (see `Planning Value
+  Derivations`); variety notes should state their specific maturity group and
+  a concrete day-count value. No propagation duration applies, since tubers
+  are planted directly.
 - Nutrient demand is generally rated as medium to high depending on maturity
   group and target yield, with loose, well-drained, nutrient-rich soil
   preferred
@@ -76,16 +79,29 @@ replaces the template's sowing framing.)*
 - Because maturity groups and harvest forms (early "new potato" vs. late
   storage potato) differ strongly, variety notes should state a concrete
   maturity group and growth-duration value rather than relying on this
-  general note's open calendar values.
+  general note's single representative values.
 
 ## Planning Value Derivations
-- Growth duration: not set at the general-crop level. Reifegruppen (maturity
-  groups) range from about 90-110 days (very early) to 120-160 days (late)
-  ([TLL Thüringen - Speisekartoffeln merkblatt, referenced via search;
-  Reifegruppen overview](https://www.tll.de/www/daten/publikationen/merkblaetter/mb_kar.pdf)).
-  A single general value would be falsely precise given this roughly
-  90-160-day spread; left open per the "Model Calendar Values Deliberately"
-  rule. Variety notes should state their specific maturity group.
+- Growth duration: 120 days, counted from planting the seed tubers to
+  harvest readiness (not from emergence). Source basis: maturity groups
+  range from about 90-110 days (very early) to 120-160 days (late) per
+  [TLL Thüringen - Speisekartoffeln Merkblatt](https://www.tll.de/www/daten/publikationen/merkblaetter/mb_kar.pdf); the variety notes give 100-110 days (early to mid-early) and
+  120-140 days (`Bambergerhörnchen`). 120 days is an inferred representative
+  value at the lower end of the mid-late range and the upper end of the
+  mid-early range; it fits the typical garden storage potato planted in
+  April-May and lifted from August-September. It is too long for very early
+  potatoes (about 90-100 days) and too short for late storage types (up to
+  160 days). Not a direct source value.
+- Harvest window: 30 days. Potatoes are commonly lifted over a few weeks once
+  the foliage dies back; new potatoes can be lifted earlier and storage
+  potatoes stay in the ground for a while, so 30 days is an inferred planning
+  value for one planting, not a source figure. Longer windows (June to
+  September) only arise when several plantings or maturity groups are
+  combined.
+- Propagation duration: not applicable (seed tubers are planted directly).
+  Pre-sprouting (a few weeks indoors) is treated as part of the planting
+  step and not as a propagation duration.
+- Field/form constraint: whole integer days.
 - Planting depth: sources give 6-10 cm and 10-15 cm; not resolved to a single
   value here. A cautious mid-range planning value of about 8-10 cm could be
   used for live sync, but the exact stored value is left to be decided at
@@ -121,12 +137,14 @@ replaces the template's sowing framing.)*
   above rather than silently resolved.
 - Open mapping questions: this crop's `Sowing & Planting` section uses seed
   tuber planting instead of the template's sowing framing, documented
-  explicitly as a template adaptation. Growth duration and yield are left
-  open at the general-crop level because maturity groups differ too strongly
-  for one precise value; how OpenFarmPlanner's `harvest_method`/yield-unit
+  explicitly as a template adaptation. Yield is left open at the general-crop
+  level because maturity groups differ too strongly for one precise value;
+  growth duration (120 days) and harvest window (30 days) are set as
+  representative planning values; how OpenFarmPlanner's `harvest_method`/yield-unit
   fields should represent potato yield (kg/m² vs. another unit) is not yet
   decided and should be revisited once variety-specific yield sources are
   found.
-- Public-readiness: needs review (calendar and yield values intentionally
-  open; two source conflicts documented; seed-tuber planting framing is a
+- Calendar values researched on: 2026-09-21
+- Public-readiness: needs review (yield intentionally open, calendar values
+  representative; two source conflicts documented; seed-tuber planting framing is a
   documented template adaptation).

@@ -6,8 +6,9 @@
 - Needs even warmer conditions than ginger; typical range 20-30 °C, night
   temperatures should not fall below about 15 °C outdoors
   ([Plantura](https://www.plantura.garden/gemuese/kurkuma/kurkuma-pflanzenportrait)).
-- Growth duration: about 9-10 months to yellowing foliage per garden sources;
-  left open as planning value.
+- Growth duration: 210 days from planting out to first harvest, propagation
+  56 days, harvest window 30 days; inferred planning values (see `Planning
+  Value Derivations`). Total about 9 months as in garden sources.
 
 ## Template Adaptation
 - Same as ginger (`ginger.md`): rhizome pieces instead of seed. The
@@ -34,9 +35,28 @@
 - Used fresh or dried and ground as a spice.
 
 ## Notes
-- Growth duration, harvest window, yield (kg/m²) and nutrient demand left
-  open: only garden-level sources, no yield figures, high dependency on
-  heated cultivation.
+- Yield (kg/m²) and nutrient demand left open: only garden-level sources, no
+  yield figures, high dependency on heated cultivation.
+
+## Planning Value Derivations
+- Definitions: propagation duration is the start of the rhizome pieces until
+  planting out; growth duration is counted from planting out to first harvest
+  (as in `ginger.md`).
+- Growth duration: 210 days. Garden sources give 7-10 months to yellowing
+  foliage in total ([Plantura](https://www.plantura.garden/gemuese/kurkuma/kurkuma-pflanzenportrait),
+  [kraut&rüben](https://www.krautundrueben.de/kurkuma-die-wunderwurzel-anbauen-und-ernten-3398)).
+  With about 56 days of pre-sprouting, 210 days of growth gives a total of
+  about 266 days (roughly 9 months), the middle of that range. Longer than
+  ginger because turmeric needs more warmth. Inferred, not a direct source
+  value.
+- Propagation duration: 56 days, from the start December-March and about
+  2-3 weeks to shoots plus hardening before planting out after mid-May;
+  inferred, no source day count.
+- Harvest window: 30 days, inferred; harvest from October when leaves yellow
+  and die back, before cold. No source gives a day count.
+- Field/form constraint: whole days.
+- Uncertainty: large; outdoors in pots the season is much shorter and may
+  not reach maturity in Central Europe.
 
 ## Sources
 - [Plantura - Kurkuma](https://www.plantura.garden/gemuese/kurkuma/kurkuma-pflanzenportrait)
@@ -45,9 +65,10 @@
 
 ## Research Status
 - Researched on: 2026-09-21
+- Calendar values researched on: 2026-09-21
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: start December/January vs. early March; Plantura
   suggests spring or summer planting.
 - Open mapping questions: rhizome planting mapped to transplant variant;
-  spacing, yield, calendar values open. No extension-level source found.
+  spacing and yield open; calendar values inferred. No extension-level source found.
 - Public-readiness: needs review.

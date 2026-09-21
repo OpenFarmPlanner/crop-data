@@ -11,11 +11,9 @@
 - Warm-season, frost-sensitive fruiting crop; needs warm soil, high water and
   nutrient supply, and shelter from wind
   ([LWG Veitshöchheim - Gurkenanbau im Freiland](https://www.lwg.bayern.de/gartenakademie/gartendokumente/infoschriften/064405/index.php)).
-- Growth duration and harvest window are left open at the general-crop level:
-  sources describe timing mainly through sowing/planting windows and give
-  fruit-count/yield figures rather than a single day-count to first harvest,
-  and this varies with greenhouse vs. open-field cultivation. See variety
-  notes for concrete values where available.
+- Growth duration: 50 days from planting out to first harvest; harvest
+  window 60 days; propagation duration 21 days. These are planning values for
+  transplanted open-field cultivation (see `Planning Value Derivations`).
 
 ## Sowing & Planting
 
@@ -76,19 +74,36 @@
   single authoritative general-crop figure is derived here; the conflict is
   documented instead of silently resolved. Variety notes use the more
   specific spacing given by their own source where available.
-- Growth duration / harvest window: left open. Sources describe cultivation
-  mainly through sowing/planting calendars rather than a day-count to first
-  harvest, and greenhouse vs. open-field timing differs meaningfully. A single
-  general-crop number would be falsely precise; see variety notes for
-  concrete values.
+- Definition: growth duration is measured from planting out (transplant) to
+  the first harvest, not from sowing. Direct-sown plants need roughly 10-14
+  days longer from sowing because of germination and early growth
+  ([Sperli](https://www.sperli.de/anbauexperte/kulturanleitung-gurken/) gives 10-14 days germination).
+- Propagation duration: 21 days. [Sperli](https://www.sperli.de/anbauexperte/kulturanleitung-gurken/) advises sowing 2-3 weeks before
+  the planting date and [grove.eco](https://www.grove.eco/pflanzen/cucumis-sativus/) gives about 25 days; 21 days is used.
+- Growth duration: 50 days. Inferred from sources that describe timing only as
+  a "culture time of 60 days" up to first harvest ([grove.eco](https://www.grove.eco/pflanzen/cucumis-sativus/)) and a
+  harvest season from July ([Sperli](https://www.sperli.de/anbauexperte/kulturanleitung-gurken/)); a planting in mid-to-late May with
+  first fruit in early to mid July gives about 45-55 days. 50 days is used
+  as a mid-season open-field planning value; greenhouse cultivation starts
+  earlier but has similar plant-age timing. Uncertainty: about +/- 10 days
+  with weather and variety.
+- Harvest window: 60 days. Inferred: sources describe continuous harvest from
+  late June/July to mid October under favorable conditions
+  ([grove.eco](https://www.grove.eco/pflanzen/cucumis-sativus/)), but a single planting of an open-field slicing cucumber
+  usually declines earlier because of mildew and cooler nights; 60 days is a
+  conservative planning value, and healthy protected crops can crop for
+  90-100 days.
 
 ## Sources
 - [LWG Veitshöchheim - Infoschrift Gurkenanbau im Freiland](https://www.lwg.bayern.de/gartenakademie/gartendokumente/infoschriften/064405/index.php)
 - [Lubera - Gurken säen: Gurkensamen ins Freiland aussäen und Vorziehen](https://www.lubera.com/de/gartenbuch/gurken-saeen-gurkensamen-ins-freiland-aussaeen-und-vorziehen-p5414)
 - [ReinSaat - Schlangengurken](https://www.reinsaat.at/shop/DE/gurken/schlangengurken/)
+- [grove.eco - Gurke](https://www.grove.eco/pflanzen/cucumis-sativus/)
+- [Sperli - Kulturanleitung Gurken](https://www.sperli.de/anbauexperte/kulturanleitung-gurken/)
 
 ## Research Status
 - Researched on: 2026-09-18
+- Calendar values researched on: 2026-09-21
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: within-row/between-row spacing differs by training
   method (trellised vs. ground) and by garden vs. commercial source; not
@@ -96,6 +111,8 @@
 - Open mapping questions: `Gurke` is used only as a generic alias in prose,
   never as a Kultur name; `Schlangengurke` and `Einlegegurke` are kept as
   separate Kulturen because their harvest logic differs (continuous slicing
-  harvest vs. once-over/multi-pick pickling harvest). Growth duration and
-  harvest window are left open rather than mapped to a specific number.
-- Public-readiness: needs review; spacing conflict and calendar values open.
+  harvest vs. once-over/multi-pick pickling harvest). Calendar values are
+  defined from planting out for the transplant variant; `Einlegegurke` is
+  direct sown and uses sowing-based values (see `pickling-cucumber.md`).
+- Public-readiness: needs review; spacing conflict open; calendar values are
+  planning values documented above.

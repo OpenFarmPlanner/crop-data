@@ -6,8 +6,9 @@
   lavender stalk; earliest of the three named Kalettes varieties
   (`Autumn Star`, `Mistletoe`, `Snowdrop`), which mature in that order through
   the season.
-- Growth duration: 110 days, a variety-specific value given directly by
-  multiple retail seed sources (see `Planning Value Derivations`).
+- Growth duration: 135 days from transplanting; harvest window 45 days;
+  propagation 45 days (see `Planning Value Derivations`). One other source
+  lists 110 days; see the source conflict there.
 
 ## Sowing & Planting
 
@@ -15,8 +16,9 @@
 - Description: pre-cultivate for transplanting, following general Brussels
   sprouts/kale-hybrid practice; no variety-specific sowing-date source was
   found, so an exact calendar window is left open here.
-- Sowing: no variety-specific sowing-date source found; left open.
-- Outdoor planting: no variety-specific source found; left open.
+- Sowing: early spring (February-April) per [Harris Seeds](https://www.harrisseeds.com/products/12769-kalette-autumn-star-f1).
+- Outdoor planting: about 45 days after sowing (derived from 180 days from
+  seed vs. 135 from transplant).
 
 - Spacing: no variety-specific spacing source found; left open (the general
   crop note also leaves spacing open, so there is no general value to reuse
@@ -33,24 +35,36 @@
 ## Comparison With General Crop Data
 - Crop identity matches the general `Flowersprout` / Kalettes note: both share
   the Brussels-sprout x kale hybrid origin bred by Tozer Seeds.
-- Growth duration deviates from the general note on purpose: the general note
-  leaves growth duration open because the three Kalettes varieties span a
-  30-day range (110-140 days); this variety note documents the concrete
-  110-day value specific to `Autumn Star`, taken directly from source.
+- Growth duration: 135 days, equal to the general note's representative value
+  (which was itself derived from this variety's source); later varieties
+  (`Mistletoe`, `Snowdrop`) need longer.
+- Harvest window: 45 days vs. 60 days in the general note; `Autumn Star` has
+  a harvest period of October to November.
+- Propagation duration: 45 days, equal to the general note.
 - Spacing and sowing/planting dates: no variety-specific source was found, and
   the general note also has no value to reuse; both left open rather than
   guessed. This should be treated as an open research gap, not an intentional
   general-value reuse.
 
 ## Planning Value Derivations
-- Growth duration: 110 days, taken directly as a source value from
+- Definitions: as in the general note (growth duration from transplanting).
+- Growth duration: 135 days, from [Harris Seeds](https://www.harrisseeds.com/products/12769-kalette-autumn-star-f1)
+  ("135 days from transplant, 180 days from seed"). Source conflict:
   [Territorial Seed](https://territorialseed.com/products/brussels-sprout-autumn-star)
-  and consistent with the "earliest, 110 days" characterization at
-  [Rural Sprout](https://www.ruralsprout.com/grow-kalettes/), which also lists
-  `Mistletoe` at 125 days and `Snowdrop` at 140 days. Treated as a direct
-  source value, not inferred.
+  and [Rural Sprout](https://www.ruralsprout.com/grow-kalettes/) give 110 days
+  (reference point not stated; Rural Sprout lists `Mistletoe` at 125 and
+  `Snowdrop` at 140). 135 is used because Harris states its reference point
+  and it fits the sowing (February-April) and harvest (October-November)
+  calendar; 110 is kept as an alternative, possibly for a warmer or
+  longer-season count.
+- Propagation duration: 45 days, the difference between 180 days from seed
+  and 135 days from transplant at Harris Seeds.
+- Harvest window: 45 days, inferred from the October-November harvest
+  described by Harris Seeds; calendar reading, not a direct day count.
+- Field/form constraint: whole days.
 
 ## Sources
+- [Harris Seeds - Kalette Autumn Star F1](https://www.harrisseeds.com/products/12769-kalette-autumn-star-f1)
 - [Territorial Seed - Autumn Star Kalettes Brussels Sprouts Seed](https://territorialseed.com/products/brussels-sprout-autumn-star)
 - [John Scheepers Kitchen Garden Seeds - Autumn Star Kalettes](https://www.kitchengardenseeds.com/kalettes-autumn-star.html)
 - [Rural Sprout - Kalettes! Grow the Tasty Cross Between a Brussel Sprout and Kale](https://www.ruralsprout.com/grow-kalettes/)
@@ -59,11 +73,14 @@
 ## Research Status
 - Researched on: 2026-09-18
 - General crop note exists: yes (`flowersprout.md`)
-- Open source conflicts: none found.
+- Open source conflicts: growth duration 110 days (Territorial Seed, Rural
+  Sprout) vs. 135 days from transplant (Harris Seeds); 135 used, see `Planning
+  Value Derivations`.
+- Calendar values researched on: 2026-09-21
 - Open mapping questions: same open crop-species mapping question as the
   general note (a named hybrid brand rather than a classical botanical
   variety); also, no sowing-date or spacing source was found specifically for
   `Autumn Star`, left open rather than guessed from generic Brussels-sprout
   timing.
-- Public-readiness: needs review (growth duration source-backed; sowing dates
+- Public-readiness: needs review (calendar values source-backed or inferred; sowing dates
   and spacing unresearched/open; no live sync performed).

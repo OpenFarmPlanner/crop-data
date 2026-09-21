@@ -62,9 +62,25 @@
 - Yield: no variety-specific yield source was found; the general crop's live
   planning value of about 4.0 kg/m² is intentionally reused. No
   variety-specific source contradicts it.
+- Propagation duration: no variety-specific figure; the general crop's 70
+  days (sowing to planting out) is intentionally reused.
 - Harvest window: the general crop describes a "long summer-to-autumn window";
   `Galine`'s sourced harvest period (July-September) fits inside that general
-  description and does not require a different value.
+  description. The general planning value of 75 days is intentionally reused
+  for `Galine`: July to September spans roughly 75-90 days, and no
+  variety-specific source gives a tighter figure.
+
+## Planning Value Derivations
+- Growth duration (75 days, from transplanting to first fruit),
+  propagation duration (70 days, sowing to transplanting) and harvest window
+  (75 days): all three are the general eggplant planning values in
+  `notes/eggplant.md`, reused intentionally. The only variety-specific
+  evidence is the qualitative "early, harvest July to September" wording from
+  the seed suppliers listed below; it does not contradict the general values.
+- Field/form constraint: whole integer days.
+- Uncertainty: real timing depends on sowing date and whether the crop is
+  grown under cover; an early variety in a warm tunnel may start earlier and
+  finish earlier than the reused values suggest.
 
 ## Sources
 - [SPERLI/Nebelung - Aubergine Galine F1](https://www.nebelung.de/Aubergine-Galine-F1/00080665-000-00)
@@ -74,8 +90,10 @@
 - Researched on: 2026-09-18
 - General crop note exists: yes (`notes/eggplant.md`)
 - Open source conflicts: none found.
-- Open mapping questions: none outstanding; growth duration, spacing, seed
+- Open mapping questions: none outstanding; growth duration, propagation
+  duration, harvest window, spacing, seed
   weight, and yield all intentionally reuse the general crop's planning
   values because no variety-specific numeric source was found (see
   `Comparison With General Crop Data`).
+- Calendar values researched on: 2026-09-21
 - Public-readiness: ready.

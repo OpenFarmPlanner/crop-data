@@ -6,6 +6,7 @@
   overall.
 - Growth duration: about 10-12 weeks from sowing to harvest as a general
   planning value; see `Planning Value Derivations`.
+- Harvest window: 60 days per sowing (inferred). No propagation; direct sown.
 
 ## Sowing & Planting
 
@@ -40,9 +41,20 @@
   dedicated general-crop day count, rounded down slightly to 80 days as a
   whole-day mid-season value. Documented as inferred, not a direct general
   crop source figure.
-- Harvest window: left open; corn salad is commonly harvested over an
-  extended period through winter, but no reliable general source gives a
-  specific day count for a general harvest window here.
+- Harvest window: 60 days, counted from the start of harvest of one sowing.
+  Sources describe harvest from September or October through March for hardy
+  varieties ([ReinSaat](https://www.reinsaat.at/shop/EN/salate/feldsalat/vit/)
+  chart: October to March; August sowings harvested September to October in
+  a search summary of [Plantura](https://www.plantura.garden/gemuese/feldsalat/feldsalat-anbauen)),
+  i.e. anything from about 4 weeks (early sowings, quality declines) to about
+  4 months (hardy variety sown in September). 60 days was inferred as a
+  compromise; the hardy variety `Vit` uses a longer value in
+  `corn-salad-vit.md`. Direct sowing, so no propagation duration.
+- Growth duration situation: the 80-day value fits an autumn sowing in
+  September; summer-to-early-autumn sowings can be ready after about 8 weeks
+  (56 days), winter sowings take up to 18 weeks (126 days) per the Plantura
+  search summary.
+- Field/form constraint: whole integer days.
 - Yield: left open; no general source reviewed here gives a reliable kg/m²
   figure.
 - Thousand kernel weight: left open at the general level; the
@@ -59,12 +71,13 @@
 
 ## Research Status
 - Researched on: 2026-09-18
+- Calendar values researched on: 2026-09-21
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: none found; sources agree corn salad is a long-day
   plant restricted to autumn/winter/early-spring cultivation.
-- Open mapping questions: harvest window, yield, and general thousand kernel
-  weight are all open. The growth-duration value is inferred from a
+- Open mapping questions: yield and general thousand kernel weight are open;
+  the harvest window is an inferred compromise. The growth-duration value is inferred from a
   variety-level source in the absence of a dedicated general-crop figure;
   this should be reconsidered if a better general source is found.
-- Public-readiness: needs review; growth duration inferred, other planning
-  values open.
+- Public-readiness: needs review; growth duration and harvest window
+  inferred, yield and seed weight open.

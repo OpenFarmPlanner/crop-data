@@ -5,8 +5,9 @@
 - Prefers heavy, neutral to slightly alkaline soil with good moisture supply
   during flowering; struggles on waterlogged ground. Legume break of 3-5 years
   is recommended before resowing the same plot.
-- Growth duration is left open: it depends strongly on the intended harvest
-  form. See the identity note below and `Planning Value Derivations`.
+- Growth duration: about 90 days from sowing to first green-shell pods
+  (garden form); harvest window about 21 days. Both are planning values for
+  the green-shell `Dicke Bohne` form, see `Planning Value Derivations`.
 
 ## Sowing & Planting
 
@@ -45,15 +46,25 @@
   flowering can reduce infestation and encourage pod set.
 
 ## Planning Value Derivations
-- Growth duration: left open. Green-pod garden harvest is reachable around
-  100 days from sowing ([nutzpflanzenvielfalt.org](https://nutzpflanzenvielfalt.org/dicke-bohne-puffbohne/)),
-  while full dry-grain maturity for field use takes about 90-120 days from
-  sowing to the black-leaf ripeness stage, with combine harvest roughly 25
-  weeks after sowing depending on region
-  ([Landberatung](https://landberatung.de/fachartikel/detailansicht/article/aussaat-ackerbohnen.html)).
-  Because the two harvest forms differ by weeks and this note does not decide
-  which one the Kultur represents, no single growth-duration planning value is
-  set; see the identity note above.
+- Growth duration: 90 days (from direct sowing to first green-shell harvest).
+  Source basis: [Gärtner Pötschke](https://www.poetschke.de/puffbohnen-anbauen-aussaat-pflege-und-ernte/) gives 10-12 weeks (70-84 days) for a
+  late-February sowing, [nutzpflanzenvielfalt.org](https://nutzpflanzenvielfalt.org/dicke-bohne-puffbohne/) gives about 100 days for
+  green pods, and other garden guides cite 12-14 weeks (84-98 days). The
+  median of these ranges, about 90 days, is used and rounded to a whole
+  integer. Full dry-grain maturity for field use takes about 90-120 days
+  ([Landberatung](https://landberatung.de/fachartikel/detailansicht/article/aussaat-ackerbohnen.html)),
+  so the start of harvest is similar, but the harvest form differs (see
+  harvest window). Uncertainty: early sowings in cool spring soil sit at the
+  upper end (about 100+ days), later sowings at the lower end.
+- Harvest window: 21 days. Inferred, not a direct source value: sources
+  describe repeated picking of tender pods over several days per pass and a
+  June-August season across sowing dates, but give no single per-sowing
+  window. Three weeks is a plausible planning value for one sowing of the
+  green-shell form. The dry-grain form has a much shorter window (about
+  3-4 days, see above) and is not what this value represents.
+- The identity question (field grain vs. garden green-shell) is still open for
+  the Kultur; the calendar values above follow the garden green-shell form
+  described in the identity note.
 - Thousand kernel weight: left open. Agricultural field varieties measure
   about 350-600 g per thousand seeds
   ([Landberatung](https://landberatung.de/fachartikel/detailansicht/article/aussaat-ackerbohnen.html)),
@@ -73,9 +84,11 @@
 - [nutzpflanzenvielfalt.org - Dicke Bohne/Puffbohne](https://nutzpflanzenvielfalt.org/dicke-bohne-puffbohne/)
 - [Landberatung - Aussaat Ackerbohnen](https://landberatung.de/fachartikel/detailansicht/article/aussaat-ackerbohnen.html)
 - [LTZ Augustenberg - Hinweise zum Pflanzenbau: Ackerbohne](https://ltz.landwirtschaft-bw.de/site/pbs-bw-new/get/documents/MLR.LEL/PB5Documents/ltz_ka/Service/Schriftenreihen/Hinweise%20zum%20Pflanzenbau/Hinweise%20zum%20Pflanzenbau_Ackerbohne.pdf?attachment=true)
+- [Gärtner Pötschke - Puffbohnen anbauen](https://www.poetschke.de/puffbohnen-anbauen-aussaat-pflege-und-ernte/)
 
 ## Research Status
 - Researched on: 2026-09-18
+- Calendar values researched on: 2026-09-21
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: field-agronomy sources (sowing depth, seed size,
   harvest timing) and garden-cultivation sources disagree because they
@@ -87,5 +100,6 @@
   documented for Siberian kale. Left open because this batch's task framing
   treats them as one Kultur; flagging for future review rather than deciding
   silently.
-- Public-readiness: needs review; growth duration, thousand kernel weight, and
-  yield are intentionally left open pending the identity question above.
+- Public-readiness: needs review; thousand kernel weight and yield remain
+  open, and the identity question above is still open. Growth duration and
+  harvest window are set for the green-shell form.

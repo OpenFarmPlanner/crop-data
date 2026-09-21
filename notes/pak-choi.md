@@ -4,9 +4,12 @@
   leaves, harvested as loose rosettes or small heads.
 - High nutrient demand (heavy feeder); needs consistently moist,
   nutrient-rich soil.
-- Growth duration: about 50-70 days to full size depending on variety and
-  harvest form, or about 4 weeks after transplanting for a baby-leaf
-  harvest; see `Planning Value Derivations`.
+- Growth duration: 50 days from transplanting to a full-size head as a
+  planning value (source range 35-70 days; baby-leaf about 28 days); see
+  `Planning Value Derivations`.
+- Harvest window: 14 days per planting.
+- Propagation duration: 21 days of pre-cultivation for transplants (direct
+  sowings need no propagation).
 
 ## Sowing & Planting
 
@@ -45,13 +48,27 @@
   bolt-resistant variety is used.
 
 ## Planning Value Derivations
-- Growth duration: left open as a single general value because sources give
-  clearly different figures for different harvest forms: about 50-60 days
-  for mini pak choi, about 70 days for larger head types, and about 28 days
-  (4 weeks) for a baby-leaf harvest. A future planning value should specify
-  which harvest form it targets rather than blending these.
-- Harvest window: left open; no reliable general source gives a specific
-  day count.
+- Definitions: growth duration counts from transplanting to harvest of a full
+  head; propagation duration from sowing to transplanting; harvest window is
+  the harvest period of one planting. All values are inferred.
+- Growth duration: 50 days. The
+  [LWG Bayern leaflet](https://www.lwg.bayern.de/mam/cms06/gartenakademie/dateien/2156_pak_choi.pdf)
+  gives a culture duration of 50-65 days (not stated whether from sowing or
+  planting); the [Hortipendium home-garden article](https://www.hortipendium.de/Pak_Choi_im_Hausgarten)
+  gives 5-7 weeks (35-49 days) after transplanting and 7-8 weeks after direct
+  sowing; [Plantura](https://www.plantura.garden/gemuese/pak-choi/pak-choi-pflanzenportrait)
+  gives 50-60 days for mini types, about 70 days for larger types and about
+  28 days for baby leaf. The two transplant-based ranges (35-49 and 50-65)
+  meet at about 50 days, which was chosen for standard small to medium heads.
+  Large heads take about 15-20 days longer; baby-leaf harvest is about 20
+  days shorter. Direct sowing counts about 8-10 days longer than
+  transplanting per Hortipendium.
+- Propagation duration: 21 days, from about 18-25 days of seedling
+  production, depending on the season (Hortipendium home-garden article).
+- Harvest window: 14 days. No source gives a figure; the plants stand until
+  the first frost, but quality drops and bolting risk rises, so 14 days is
+  an inferred planning value with high uncertainty.
+- Field/form constraint: whole integer days.
 - Yield: left open; no general source reviewed here gives a reliable kg/m²
   figure.
 - Thousand kernel weight: left open; not reviewed in this research pass.
@@ -59,20 +76,21 @@
 ## Sources
 - [Plantura - Pak Choi Pflanzenportrait](https://www.plantura.garden/gemuese/pak-choi/pak-choi-pflanzenportrait)
 - [Plantura - Pak-Choi-Anbau im Garten](https://www.plantura.garden/gemuese/pak-choi/pak-choi-anbauen)
+- [LWG Bayern - Pak Choi (Merkblatt 2156)](https://www.lwg.bayern.de/mam/cms06/gartenakademie/dateien/2156_pak_choi.pdf)
+- [Hortipendium - Pak Choi im Hausgarten](https://www.hortipendium.de/Pak_Choi_im_Hausgarten)
 - [Hortipendium - Pak Choi Erwerbsanbau](https://www.hortipendium.de/Pak_Choi_Erwerbsanbau)
 - [Gärtner Pötschke - Pak Choi anbauen](https://www.poetschke.de/pak-choi-anbauen-standort-pflege-ernte/)
 
 ## Research Status
 - Researched on: 2026-09-18
+- Calendar values researched on: 2026-09-21
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: spacing figures vary noticeably between sources
   (e.g. 25 x 25 cm vs. 30-40 x 30 cm vs. 50 x 40 cm for larger heads); the
   range is documented rather than collapsed into one number.
 - Open mapping questions: growth duration depends on harvest form
-  (mini/large head/baby leaf) and is left open pending a decision on which
-  harvest form OpenFarmPlanner should default to; yield and thousand kernel
-  weight are open. A Bavarian LfL PDF source
-  (https://www.lwg.bayern.de/mam/cms06/gartenakademie/dateien/2156_pak_choi.pdf)
-  was found but could not be read as text during this research pass and was
-  not used as a source; it may be worth re-checking manually.
-- Public-readiness: needs review; calendar and yield values are open.
+  (mini/large head/baby leaf); the 50-day value targets a standard head and
+  it is unclear whether the LWG range counts from sowing or planting. Yield
+  and thousand kernel weight are open. The LWG leaflet was read in this pass
+  and supplies the 50-65 day range.
+- Public-readiness: needs review; calendar values are inferred, yield is open.

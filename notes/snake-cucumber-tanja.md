@@ -11,9 +11,9 @@
 - Dark green, slender fruits about 25-30 cm long with a small core and firm,
   crisp flesh
   ([ReinSaat - Tanja](https://www.reinsaat.at/shop/EN/gurken/salatgurken/tanja/)).
-- Growth duration: not given as a day-count by the source; reused from the
-  general `Schlangengurke` crop, which itself leaves the value open (see
-  `Comparison With General Crop Data`).
+- Growth duration: 50 days from planting out, harvest window 60 days,
+  propagation duration 21 days; all intentionally reused from the general
+  `Schlangengurke` crop (see `Comparison With General Crop Data`).
 
 ## Sowing & Planting
 
@@ -57,16 +57,28 @@
   crop's open range.
 - Sowing depth (about 2 cm) matches the general crop's 2-3 cm guidance; no
   meaningful deviation.
-- Growth duration and harvest window: no `Tanja`-specific day-count was found.
-  These are left open, consistent with the general `Schlangengurke` note,
-  which also leaves them open rather than asserting a falsely precise value.
-  This is an intentional non-decision at both levels, not a reuse of a
-  general planning value (the general note has none to reuse).
+- Growth duration (50 days), harvest window (60 days) and propagation
+  duration (21 days) are intentionally reused from the general crop; no
+  `Tanja`-specific day count was found and nothing variety-specific
+  contradicts them. The [ReinSaat](https://www.reinsaat.at/shop/EN/gurken/salatgurken/tanja/) timeline (transplant sowing mid-April,
+  planting early May) implies about 2-3 weeks of pre-cultivation, which is
+  consistent with 21 days.
 - Yield: the source only describes `Tanja` qualitatively as "high-yielding";
   no kg/m² figure is given. The general crop note's commercial dt/ha figure is
   not converted or reused here because it mixes cultivation scales; left open.
 - Thousand seed mass (15-30 g) is variety-specific and not compared against a
   general-crop value, since the general note does not set one.
+
+## Planning Value Derivations
+
+- Growth duration, harvest window, propagation duration: 50 days, 60 days and
+  21 days, reused from the general crop and defined identically (growth
+  duration from planting out to first harvest). Source basis for the
+  propagation figure: the sowing and planting dates in
+  [ReinSaat](https://www.reinsaat.at/shop/EN/gurken/salatgurken/tanja/). No variety-specific harvest data exist; the source only
+  calls the variety high-yielding. For direct sowing (end of April to early
+  May) allow roughly 10-14 days more from sowing. Uncertainty: about +/- 10
+  days.
 
 ## Sources
 - [ReinSaat - Tanja](https://www.reinsaat.at/shop/EN/gurken/salatgurken/tanja/)
@@ -74,10 +86,10 @@
 
 ## Research Status
 - Researched on: 2026-09-18
+- Calendar values researched on: 2026-09-21
 - General crop note exists: yes (`snake-cucumber.md`)
 - Open source conflicts: none found for this variety specifically.
-- Open mapping questions: none beyond the general crop's open growth
-  duration/harvest window and the `Gurke` alias handling documented in
+- Open mapping questions: none beyond the `Gurke` alias handling documented in
   `snake-cucumber.md`.
-- Public-readiness: needs review; growth duration, harvest window, and yield
-  remain open (no source-backed figures found).
+- Public-readiness: needs review; yield remains open, and the calendar values
+  are intentional reuses of the general crop.

@@ -4,12 +4,16 @@
   green to blue-green depending on maturity group.
 - Biennial grown as an annual; moderate to high nutrient demand, benefits from
   hilling/earthing up to extend the blanched shaft.
-- Growth duration and harvest window: intentionally left open at the general
-  crop level (see `Notes` below) because early/summer and late/winter
-  maturity groups differ too strongly in growth duration, frost hardiness,
-  and harvest timing for one precise general figure to be meaningful. Concrete
-  values belong in maturity-group-specific variety notes such as
-  `leek-krypton.md` (early/summer) and `leek-pluston.md` (late/winter).
+- Growth duration: 110 days, counted from transplanting to the start of
+  harvest, as a representative planning value between the early/summer type
+  (about 100 days) and the late/winter type (about 120 days).
+- Harvest window: 90 days, a representative value between summer types (about
+  45 days) and winter types (about 180 days).
+- Propagation duration: 75 days of pre-cultivation from sowing to
+  transplanting (range about 70-84 days).
+- All three values are compromise values for a mid-season/autumn leek; the
+  maturity-group-specific values are in `leek-krypton.md` (early/summer) and
+  `leek-pluston.md` (late/winter). See `Planning Value Derivations`.
 
 ## Sowing & Planting
 
@@ -33,28 +37,57 @@
 - Used as a cooked vegetable in soups, stews, and as a standalone side.
 
 ## Notes
-- Model-calendar-values-deliberately case: leek maturity groups (early/summer
-  vs. late/winter) differ strongly enough in growth duration (roughly 90-100
-  days for early types vs. considerably longer, frost-spanning cycles for late
-  types), frost hardiness, and harvest window that a single general growth
-  duration or harvest window value would be falsely precise. This general
-  note therefore leaves those calendar fields open and documents the source
-  ranges here instead; concrete values are assigned at the variety level.
+- Leek maturity groups (early/summer vs. late/winter) differ strongly in
+  growth duration, frost hardiness, and harvest window. The user asked for a
+  general value regardless; the single general values below are therefore
+  deliberate compromises and must not be read as typical for either extreme.
+  Concrete values are assigned at the variety level.
 - Germination takes about 10-20 days at 16-20°C.
+
+## Planning Value Derivations
+- All values below are inferred planning values, not direct source figures.
+  Definitions: growth duration counts from transplanting; propagation
+  duration counts from sowing to transplanting; harvest window is the length
+  of the harvest period of one planting.
+- Growth duration: 110 days. Source basis:
+  [Kiepenkerl](https://www.kiepenkerl.de/kulturanleitungen/porree/) gives
+  transplanting late March to end of April with harvest from mid-July (summer
+  leek, roughly 95-105 days), mid-April to mid-July transplanting with harvest
+  from mid-August (autumn leek, roughly 90-120 days), and mid-June to end of
+  July transplanting with harvest from October (winter leek, roughly 100-130
+  days to first harvest). A garden source gives about 3 months from planting
+  ([meine-ernte](https://www.meine-ernte.de/gemuese-abc/porree/), read only
+  via a search summary). Derivation: about 110 days sits in the middle of the
+  90-130 day spread, rounded to the nearest 10 days. Fits an autumn-type leek;
+  summer types are about 10 days shorter, winter types about 10 days longer
+  to first harvest.
+- Harvest window: 90 days. Summer types are harvested mid-July to August
+  (about 45 days), autumn types mid-August to December (about 120 days), and
+  winter types October to April (about 180 days). 90 days is a rough middle
+  and fits an autumn crop harvested from about September to November; it is
+  falsely precise for any single type.
+- Propagation duration: 75 days. Kiepenkerl gives about 12 weeks (84 days) of
+  pre-cultivation for January sowings, and the sowing-to-planting spans of
+  the late types (April/May sowing, mid-June to July planting) are about 9-10
+  weeks (63-70 days); meine-ernte suggests 8-10 weeks. 75 days is the middle
+  of the 63-84 day range.
+- Field/form constraint: whole integer days.
 
 ## Sources
 - [Kiepenkerl - Porree Kulturanleitung](https://www.kiepenkerl.de/kulturanleitungen/porree/)
 - [Plantura - Lauch anbauen, ernten und verwenden](https://www.plantura.garden/gemuese/lauch/lauch-pflanzenportrait)
+- [meine-ernte - Porree](https://www.meine-ernte.de/gemuese-abc/porree/)
 - [Samenhaus Gartenblog - Sommer-, Herbst-, Winterlauch](https://www.samenhaus.de/gartenblog/sommer-herbst-winterlauch-so-waehlen-sie-die-richtige-sorte)
 
 ## Research Status
 - Researched on: 2026-09-18
+- Calendar values researched on: 2026-09-21
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: none found; sources agree that early and late
-  maturity groups differ substantially, which supports leaving the general
-  calendar values open rather than being a conflict to resolve.
-- Open mapping questions: none for the general note itself; maturity-group
-  scoping for `growth_duration_days` and `harvest_duration_days` is deferred
-  to variety notes as documented above.
-- Public-readiness: ready as a general note with deliberately open calendar
-  values; concrete values live in the variety notes.
+  maturity groups differ substantially, so the general calendar values are
+  documented compromises.
+- Open mapping questions: the general calendar values are compromise values
+  across maturity groups; whether OpenFarmPlanner should split leek by
+  maturity group is open.
+- Public-readiness: needs review; calendar values are inferred compromise
+  values.

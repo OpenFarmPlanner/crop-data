@@ -10,10 +10,9 @@
   variety name was given for either type in this batch that would justify a
   separate, more specific crop identity. See `Notes` for the type differences
   that are still documented explicitly.
-- Growth duration and harvest window are left open at the general-crop level
-  (see `Planning Value Derivations`): they differ meaningfully between
-  early-ripening cantaloupe types and later, longer-storing honeydew types, and
-  a single number would be falsely precise without a named variety.
+- Growth duration: 84 days from planting out to first ripe fruit; harvest
+  window 28 days; propagation duration 35 days. These are representative
+  planning values across both types (see `Planning Value Derivations`).
 
 ## Sowing & Planting
 
@@ -66,12 +65,26 @@
   circulation and crop rotation are commonly recommended.
 
 ## Planning Value Derivations
-- Growth duration and harvest window: left open at the general-crop level.
-  Cantaloupe-type melons are commonly described as earlier-ripening and more
-  aromatic, while honeydew-type melons ripen later and store longer, but no
-  single reliable day-count source covering both types under comparable
-  conditions was found. A future variety-specific note (once a concrete
-  cultivar is added) should carry the concrete values instead.
+- Propagation duration: 35 days. [Lubera](https://www.lubera.com/de/gartenbuch/melonen-pflanzen-p5150) gives about 4-5 weeks from
+  sowing until seedlings are ready to plant out (sowing mid-April for a late
+  May/June planting); [Plantura](https://www.plantura.garden/gemuese/melonen/melonen-pflanzen) places indoor sowing in April with
+  outdoor planting from end of May to June. Used: 5 weeks = 35 days.
+- Growth duration: 84 days, measured from planting out to the first ripe
+  fruit. Inferred, not a direct source value: planting from late May to early
+  June and first harvest from late August (both sources) means about 11-13
+  weeks; 12 weeks is used. Other garden guidance cites 80-100 days from
+  sowing, which would be much shorter after planting; that figure seems to
+  describe early types or protected cultivation and is not used.
+  `Cantaloup-Typ` melons ripen earlier (lower end, about 70-80 days) and
+  `Honigmelone-Typ` types later (upper end and beyond, about 90-100 days);
+  84 days is a mid-season compromise for open-field or tunnel cultivation in
+  Central Europe. Uncertainty: about +/- 14 days depending on type, summer
+  weather and variety.
+- Harvest window: 28 days. Inferred: sources give harvest from late August
+  "into autumn" and 6-8 fruits per plant that ripen one after another, but no
+  window in days. Four weeks is used as a plausible per-planting window;
+  late honeydew types and cold autumns can shorten it because harvest must
+  end before frost.
 - Spacing: sources give a wide, partly conflicting range - about 60-80 cm
   between plants
   ([einrichtungsbeispiele.de](https://www.einrichtungsbeispiele.de/teich-pflanzen/diverse-biotope/cucumis-melo-slnk.html)),
@@ -87,9 +100,11 @@
 - [ReinSaat - Sugar melons/Honey melons category](https://www.reinsaat.at/shop/EN/melone/zuckermelone_honigmelone/)
 - [Plantura - Melonen pflanzen](https://www.plantura.garden/gemuese/melonen/melonen-pflanzen)
 - [einrichtungsbeispiele.de - Cucumis melo](https://www.einrichtungsbeispiele.de/teich-pflanzen/diverse-biotope/cucumis-melo-slnk.html)
+- [Lubera - Melonen pflanzen](https://www.lubera.com/de/gartenbuch/melonen-pflanzen-p5150)
 
 ## Research Status
 - Researched on: 2026-09-18
+- Calendar values researched on: 2026-09-21
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: plant/row spacing figures vary widely (60 cm to 150
   cm class values) across general horticultural sources; no single figure was
@@ -101,5 +116,6 @@
   explicitly against this general note, and the type distinction should be
   carried into that variety's Short Description.
 - Public-readiness: identity and grouping decision documented; growth
-  duration, harvest window, and yield are intentionally left open pending a
-  named variety.
+  duration, harvest window and propagation duration are set as representative
+  planning values (types differ, see `Planning Value Derivations`); yield is
+  intentionally left open pending a named variety.

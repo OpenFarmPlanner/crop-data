@@ -5,9 +5,10 @@
 - Thick, round leaves with notably uniform plant development; relatively
   late bolting for its maturity class; good post-harvest shelf life; bred
   for resistance to powdery mildew (pathotypes Pfs 1-15+17).
-- Growth duration: no variety-specific day count was found; the general
-  crop's 50-day inferred planning value is reused (see
-  `Comparison With General Crop Data`).
+- Growth duration: 50 days from direct sowing and harvest window 21 days;
+  both are intentionally reused from the general crop because no variety-specific
+  day count was found (see `Comparison With General Crop Data`). No
+  propagation duration; direct sown.
 
 ## Sowing & Planting
 
@@ -78,6 +79,13 @@
 
 ## Research Status
 - Researched on: 2026-09-18
+- Calendar values researched on: 2026-09-21
+- Calendar research note: a further search for variety-specific days to
+  harvest (breeder and seed-shop pages, including the
+  [Bayer Vegetables Melville page](https://www.vegetables.bayer.com/es/es-es/productos/espinaca/details.html/spinach_melville_spain_seminis_all_open_field_fresh_market_all.html))
+  found no day count, so the reuse stands. Early to mid-early maturity
+  suggests it may be slightly faster than the general 50 days, but this is
+  not quantifiable.
 - General crop note exists: yes (`spinach.md`)
 - Open source conflicts: none found; only one variety-specific source was
   reviewed, and it did not contradict any general crop value.

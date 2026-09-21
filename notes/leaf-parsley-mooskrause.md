@@ -8,9 +8,10 @@
   mid-maturing, compact, and mild in aroma
   ([Sativa](https://www.sativa.bio/de/krause-petersilie-mooskrause-kraeuter-kr35),
   [naturadb](https://www.naturadb.de/pflanzen/petroselinum-crispum-mooskrause/)).
-- Growth duration: reused from the general crop's open guidance (see
-  `Comparison With General Crop Data`); sources describe it as early to
-  mid-maturing but give no concrete day count.
+- Growth duration: 97 days from direct sowing to first cut (general smooth
+  value 90 plus about 7 days for curly types); harvest window 126 days as
+  cutting period (first to fourth cut, about 6 weeks between cuts). See
+  Planning Value Derivations.
 
 ## Sowing & Planting
 
@@ -42,19 +43,38 @@
 - Sowing depth (about 1-2 cm) is at or slightly above the general crop's
   0.5-1.5 cm range; kept as the variety-specific figure since it comes from
   variety-focused sources, not treated as a meaningful deviation.
-- Growth duration, harvest window, yield: no `Mooskrause`-specific day counts
-  or yield figures were found; the general crop's open guidance is reused as
-  an intentional reuse, not a variety-specific source claim. "Early to
-  mid-maturing" is descriptive, not a source-backed day figure.
+- Growth duration: 97 days (general 90 for smooth types + about 7 days for
+  curly types per the "+DLRn+"). Deviates from the general value because of
+  the documented curly-type delta; no variety-specific source found.
+- Harvest window: 126 days as cutting period (general 105 for smooth types,
+  which have about 5 weeks between cuts; curly types about 6 weeks, so 3 x 42
+  days). Both use the same definitions as `leaf-parsley.md` (growth duration
+  from sowing; harvest window as cutting period).
+- Spacing, sowing depth, yield: general values or ranges reused where no
+  `Mooskrause`-specific figure was found (intentional reuse, not a variety
+  source claim).
 - Thousand kernel weight: left open, same as the general crop.
+
+## Planning Value Derivations
+- Growth duration: 97 days from direct sowing to first cut. Source basis: the
+  "+DLRn+" gives 80-92 days for the smooth variety `Felicia` and states that
+  curly or compact types need about 7 days more. Derivation: general value 90
+  + 7 = 97. Variety-specific delta comes from a type-level statement, not from
+  a `Mooskrause`-specific source. Uncertainty about +/- 10 days.
+- Harvest window: 126 days, inferred as the cutting period: 3 intervals x 42
+  days (about 6 weeks between cuts for curly parsley, up to 4 cuts per year,
+  same sheet). Sowings from May onward usually allow only 3 cuts (about 84
+  days). Not a direct source value.
 
 ## Sources
 - [Sativa - Krause Petersilie 'Mooskrause'](https://www.sativa.bio/de/krause-petersilie-mooskrause-kraeuter-kr35)
 - [naturadb - Garten-Petersilie 'Mooskrause'](https://www.naturadb.de/pflanzen/petroselinum-crispum-mooskrause/)
 - [Gaissmayer - Petroselinum crispum 'Mooskrause'](https://www.gaissmayer.de/web/shop/pflanzen-sortiment/bio-kraeuter/kuechenkraeuter/kuechenkraeuter-von-a-bis-z/511/petroselinum-crispum-mooskrause/11675/)
+- [DLR Rheinpfalz - Anbau- und Sortenhinweise Petersilie, Blatt 2024/2025](https://www.bbs-landwirtschaft.de/Internet/global/themen.nsf/0/1ef319fcf05534dbc125876e002d5a6f/$FILE/Petersilie,%20Blatt.pdf)
 
 ## Research Status
 - Researched on: 2026-09-18
+- Calendar values researched on: 2026-09-21
 - General crop note exists: yes (`leaf-parsley.md`)
 - Open source conflicts: none found among the cultivation figures used.
 - Open mapping questions: "Mooskrause" is used both as a named commercial
@@ -63,8 +83,9 @@
   should be re-checked if a source distinguishes "Mooskrause" from
   "Mooskrause 2" or other closely related named cultivars as agronomically
   different. No `Mooskrause`-specific growth duration, harvest window, or
-  yield source was found; confirm whether it corresponds to the "Typ kraus"
+  yield source was found (calendar values use the general value plus the
+  curly-type delta; yield stays open); confirm whether it corresponds to the "Typ kraus"
   entries in the LWG Veitshöchheim/DLR Rheinpfalz trial tables referenced in
   `leaf-parsley.md`.
-- Public-readiness: needs review; calendar and yield values rely entirely on
-  general-crop reuse; variety-identity caveat noted above.
+- Public-readiness: needs review; calendar values derived from general and
+  type-level figures; yield open; variety-identity caveat noted above.

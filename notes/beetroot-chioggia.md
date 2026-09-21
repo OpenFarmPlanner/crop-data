@@ -8,8 +8,8 @@
   exterior. Retail and cultivation sources describe the taste as sweeter and
   less earthy than standard red beetroot, and the roots bleed less red juice
   when cut. The ring pattern fades toward salmon color when cooked.
-- Growth duration: about 100 days from germination to first harvest is the
-  variety-specific value used here (see `Planning Value Derivations`).
+- Growth duration: 100 days from germination to first harvest (source-backed);
+  harvest window 30 days (see `Planning Value Derivations`).
 
 ## Sowing & Planting
 
@@ -43,6 +43,8 @@
   midpoint; this deviation is kept rather than overridden by the general
   value, since it comes from a direct source statement ("about 100 days from
   germination to first harvest").
+- Harvest window: 30 days, intentionally reused from the general note; no
+  variety-specific source and none contradicting.
 - Spacing is documented directly from a variety-specific source (30-50 x
   5-10 cm), matching the general crop's range exactly; no deviation.
 - Sowing depth: no variety-specific figure found; the general crop's 2 cm
@@ -57,18 +59,28 @@
   [Garten des Lebens](https://www.garten-des-lebens.de/gemueseportrait-rote-bete-tonda-di-chioggia/)
   ("Von der Keimung bis zur ersten Ernte vergehen rund 100 Tage"), read as a
   direct source value (germination to first harvest), not an inference.
+- Definitions: growth duration counted from sowing/germination (direct
+  sown), as in the general note. Some US catalogs list 55-65 days for
+  Chioggia (for example [Pinetree Garden Seeds](https://www.superseeds.com/products/chioggia-beet-55-days-heirloom));
+  the German 100-day value is kept for consistency with the general note's
+  European cultivation and is documented as a source conflict.
+- Harvest window: 30 days, reused from the general note.
+- Field/form constraint: whole days.
 - Spacing: 30-50 x 5-10 cm, taken directly from
   [ReinSaat](https://www.reinsaat.at/shop/EN/rote_ruebe/tonda_di_chioggia/).
 
 ## Sources
 - [ReinSaat - Tonda di Chioggia](https://www.reinsaat.at/shop/EN/rote_ruebe/tonda_di_chioggia/)
 - [Garten des Lebens - Gemüseportrait Rote Bete Tonda di Chioggia](https://www.garten-des-lebens.de/gemueseportrait-rote-bete-tonda-di-chioggia/)
+- [Pinetree Garden Seeds - Chioggia Beet](https://www.superseeds.com/products/chioggia-beet-55-days-heirloom)
 - [Distelwerk - Ringelbete 'Tonda di Chioggia'](https://www.distelwerk.de/gemuese/wurzelgemuese/ringelbete-tonda-di-chioggia-samen/)
 
 ## Research Status
 - Researched on: 2026-09-18
 - General crop note exists: yes (`beetroot.md`)
-- Open source conflicts: none found.
+- Open source conflicts: 100 days (Garten des Lebens) vs. 55-65 days (US
+  catalogs such as Pinetree); 100 used.
+- Calendar values researched on: 2026-09-21
 - Open mapping questions: none.
 - Public-readiness: needs review (growth duration and spacing source-backed;
   sowing depth and yield reused from the general crop; no live sync

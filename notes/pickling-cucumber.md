@@ -12,12 +12,9 @@
 - Warm-season, frost-sensitive fruiting crop; performs best on loam or loess
   soils with high humus content that warm easily
   ([Hortigate - Einlegegurke: Anbau- und Sortenhinweise für Rheinland-Pfalz](https://www.hortigate.de/publikation/97356/Einlegegurke-Anbau-und-Sortenhinweise-fuer-den-Anbau-in-RheinlandPfalz/)).
-- Growth duration: about 60-65 days from sowing to first harvest in
-  commercial field cultivation
-  ([Hortigate](https://www.hortigate.de/publikation/97356/Einlegegurke-Anbau-und-Sortenhinweise-fuer-den-Anbau-in-RheinlandPfalz/)).
-  Harvest window is left open at the general-crop level, since once-over
-  mechanical harvest and repeated hand-picking give very different harvest
-  durations and this is not further specified in the source used.
+- Growth duration: 63 days from sowing to first harvest in commercial field
+  cultivation ([Hortigate](https://www.hortigate.de/publikation/97356/Einlegegurke-Anbau-und-Sortenhinweise-fuer-den-Anbau-in-RheinlandPfalz/)); harvest window 45 days (inferred, see
+  `Planning Value Derivations`). No propagation: direct sown.
 
 ## Sowing & Planting
 
@@ -58,11 +55,19 @@
   separate Kulturen rather than being merged or treated as interchangeable.
 
 ## Planning Value Derivations
-- Growth duration: 60-65 days is a commercial field-cultivation figure from
-  one regional source (DLR Rheinland-Pfalz area guidance via Hortigate); no
-  second source was cross-checked. Used as the general-crop planning value
-  with this single-source caveat noted rather than presented as
-  cross-confirmed.
+- Definition: growth duration is measured from direct sowing (no
+  propagation), unlike `snake-cucumber.md`, where transplanting is the
+  reference. This follows the crop's cultivation logic.
+- Growth duration: 63 days. [Hortigate](https://www.hortigate.de/publikation/97356/Einlegegurke-Anbau-und-Sortenhinweise-fuer-den-Anbau-in-RheinlandPfalz/) gives about 60-65 days from
+  sowing to first harvest (commercial field cultivation in Rheinland-Pfalz);
+  the midpoint 62.5 is rounded up to 63. Single regional commercial
+  source; garden sowings in cooler soil may need 10-14 days longer.
+- Harvest window: 45 days. Inferred, not a direct source value: repeated
+  hand-picking of pickling cucumbers runs from about July into September for
+  one sowing ([Sperli](https://www.sperli.de/anbauexperte/kulturanleitung-gurken/) gives a July to October season for cucumbers in
+  general), while commercial once-over harvest is only a few days. 45 days is
+  used as a multi-pick planning value between the two extremes. Uncertainty:
+  about +/- 15 days.
 - Spacing: only a commercial mechanized-harvest figure (150-250 cm rows) was
   found; no garden-scale Einlegegurke-specific spacing source was found. Using
   the commercial figure directly for garden planning would likely be far too
@@ -77,18 +82,21 @@
 - [Hortigate - Einlegegurke: Anbau- und Sortenhinweise für den Anbau in Rheinland-Pfalz](https://www.hortigate.de/publikation/97356/Einlegegurke-Anbau-und-Sortenhinweise-fuer-den-Anbau-in-RheinlandPfalz/)
 - [Hortipendium - Einlegegurken Erwerbsanbau](https://www.hortipendium.de/Einlegegurken_Erwerbsanbau)
 - [ReinSaat - Gurken > Einlegegurken](https://www.reinsaat.at/shop/DE/gurken/einlegegurken/)
+- [Sperli - Kulturanleitung Gurken](https://www.sperli.de/anbauexperte/kulturanleitung-gurken/)
 
 ## Research Status
 - Researched on: 2026-09-18
+- Calendar values researched on: 2026-09-21
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: none found, but the growth-duration and spacing
   figures rely on a single regional commercial source; not cross-confirmed
-  against a second independent source.
+  against a second independent source. The harvest window is inferred.
 - Open mapping questions: garden-scale spacing is left open because only a
   commercial mechanized-harvest figure was found; applying it directly to
   smaller-scale planning would likely be too wide. `Gurke` is used only as a
   generic alias in prose, never as a Kultur name. `Einlegegurke` and
   `Schlangengurke` are kept as separate Kulturen due to differing harvest
   logic (see `Notes`).
-- Public-readiness: needs review; spacing is commercial-scale only, harvest
-  window is open.
+- Public-readiness: needs review; spacing is commercial-scale only. Growth
+  duration rests on a single regional source; harvest window is an inferred
+  planning value.

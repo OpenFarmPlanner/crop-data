@@ -16,9 +16,11 @@
   Note" below for why this note follows that structure.
 - Biennial grown as an annual for leaf harvest; moderate nutrient demand,
   even moisture, slow and somewhat unreliable germination.
-- Growth duration: strongly season-dependent; left open at the general-crop
-  level (see below) because sources give very different day counts for spring
-  vs. summer sowings and for first vs. later cuts.
+- Growth duration: 90 days from direct sowing to the first cut (smooth-leaf
+  planning value; curly types about 7 days longer). Harvest window: 105 days
+  as cutting period (first to fourth cut, smooth type). Both values are
+  planning values derived from the ranges below; see Planning Value
+  Derivations.
 
 ## Sowing & Planting
 
@@ -75,11 +77,28 @@
   from the trial sources.
 
 ## Planning Value Derivations
-- Growth duration: left open for the general crop. The 85-110 day range for a
-  first cut, and roughly 30-40 days for the following cut, varies strongly
-  with sowing season; a single general value would be falsely precise. See
-  each variety note for concrete, source- or inference-based values.
-- Harvest window: left open for the same reason.
+- Growth duration: 90 days, counted from direct sowing to the first cut (no
+  transplanting; the crop is direct sown, so no propagation duration applies).
+  Source basis: the DLR Rheinpfalz sheet (see Sources) lists 80-92 days from
+  sowing to first cut for direct sowings from March to July (92, 91, 80 and 92
+  days for 1 March, 1 April, 1 May and 1 July sowings, stated for the smooth
+  variety `Felicia`, with roughly 7 extra days for curly or compact types).
+  [Hortipendium](https://www.hortipendium.de/Petersilie_Erwerbsanbau) gives
+  about 110 days in spring and about 85 days in summer. Derivation: the mean
+  of the four DLR values is about 89 days, rounded to 90. Fits a
+  spring-to-summer field sowing of a smooth type. Differs for: curly types
+  (about 97 days), very early covered sowings from January (pot transplants,
+  about 59 days plus planting) and autumn sowings for overwintering (about
+  230-260 days until the following April). Uncertainty about +/- 10 days.
+- Harvest window: 105 days, defined as the cutting period from the first cut
+  to the last regular cut of one sowing. Source basis: the DLR sheet reports up
+  to 4 cuts per year depending on the start of the crop, with follow-up cuts
+  after about 5 weeks for smooth and about 6 weeks for curly parsley.
+  Derivation: 3 intervals x 35 days = 105 days for smooth types (4 cuts);
+  curly types 3 x 42 = 126 days. Uncertainty: sowings from May onward usually
+  allow only 3 cuts (about 70 days), and the summer figure by Hortipendium
+  (about 30-40 days between cuts) is consistent. Overwintered crops follow
+  different logic and are not covered by this value.
 - Yield: left open. No reliable leaf-yield-per-m² source was found for leaf
   parsley.
 
@@ -88,16 +107,21 @@
 - [Hortipendium - Petersilie im Hausgarten](https://www.hortipendium.de/Petersilie_im_Hausgarten)
 - [LWG Bayern - Gartenakademie Infoschriften (index)](https://www.lwg.bayern.de/gartenakademie-infoschriften)
 - [DLR Rheinpfalz - Gemüsebau](https://www.dlr.rlp.de/Gemuesebau)
+- [DLR Rheinpfalz - Anbau- und Sortenhinweise Petersilie, Blatt 2024/2025](https://www.bbs-landwirtschaft.de/Internet/global/themen.nsf/0/1ef319fcf05534dbc125876e002d5a6f/$FILE/Petersilie,%20Blatt.pdf)
 
 ## Research Status
 - Researched on: 2026-09-18
+- Calendar values researched on: 2026-09-21
 - General crop note exists: not applicable (this is the general crop note)
-- Open source conflicts: sowing depth (0.5-1.5 cm) and row spacing (15-30 cm)
+- Open source conflicts: first-cut timing differs between Hortipendium (85-110
+  days) and the DLR sheet (80-92 days); a rounded value inside both was used.
+  Sowing depth (0.5-1.5 cm) and row spacing (15-30 cm)
   vary noticeably between garden and commercial sources; no single figure was
   treated as authoritative, the observed range is documented instead.
 - Open mapping questions: the glatt/kraus Typ-vs-Kultur decision is documented
   above under "Identity And Mapping Note" and should be revisited if a future
   source treats glatt and kraus as agronomically distinct enough to warrant
   separate Kulturen. Root parsley is explicitly out of scope for this note.
-- Public-readiness: needs review; calendar values intentionally left open at
-  the general-crop level, spacing/depth ranges not narrowed to single values.
+- Public-readiness: needs review; calendar values are planning values derived
+  from one regional sheet plus Hortipendium; spacing/depth ranges not narrowed
+  to single values. Yield remains open.

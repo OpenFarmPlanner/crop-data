@@ -18,9 +18,11 @@
 - Indeterminate, staked/trellised growth habit typical for garden and
   greenhouse varieties; determinate/bush paste types also exist in the wider
   market but are not covered by the varieties in this batch.
-- Growth duration: left open here; the Roma-type and San-Marzano-type
-  varieties researched so far give sowing/planting windows but no concrete
-  days-to-harvest figures, so a general value would be falsely precise.
+- Growth duration: 70 days from transplanting to first harvest; harvest
+  window 60 days; propagation duration 49 days (sowing to transplanting).
+  These are representative planning values for a staked crop planted out
+  in mid-May; earlier, heated or later plantings shift them (see `Planning
+  Value Derivations`). Variety notes state whether they deviate.
 
 ## Sowing & Planting
 
@@ -48,6 +50,29 @@
   Roma-type and San-Marzano-type fruit.
 - Long fruit clusters (trusses of 7-12 fruits) are typical for this class.
 
+## Planning Value Derivations
+- Definition: growth duration is counted from transplanting to the first
+  harvest; harvest window is the length of the picking period; propagation
+  duration is sowing to transplanting.
+- Growth duration: 70 days. Source basis: [Garten-Querbeet - Wie lange brauchen Tomaten bis zur Ernte?](https://www.garten-querbeet.de/anbauen/wie-lange-brauchen-tomaten-bis-zur-ernte/) gives 50-90 days from
+  flowering to ripe fruit depending on fruit size, about four weeks earlier
+  harvest in a greenhouse than in the open, and first harvests from late June
+  (early types) to early-to-late July (mid-season types); [Kiepenkerl - Tomaten](https://www.kiepenkerl.de/kulturanleitungen/tomaten/) gives planting
+  from mid to late May. Derivation: about 60-80 days from a mid-May planting
+  to the first ripe fruit; medium-sized paste fruit sit in the middle of the range. Inferred, not a direct source value.
+- Harvest window: 60 days. Source basis: field tomatoes ripen from about
+  July and must be picked before the first frost in October ([Hausgarten.net - Tomatenanbau](https://www.hausgarten.net/tomatenanbau-tipps/)); paste types are picked mainly when fully ripe over a shorter peak of about eight to nine weeks, from August to September.
+  Inferred from the calendar wording, not a direct source value.
+- Propagation duration: 49 days (7 weeks), the midpoint of the 6-8 weeks
+  between sowing and outdoor planting given in the sowing section above.
+  [Kiepenkerl - Tomaten](https://www.kiepenkerl.de/kulturanleitungen/tomaten/) gives a longer calendar span (February sowing, mid-to-late May
+  planting) but that includes waiting for frost-free planting time, not plant
+  need; early sowings can be held for 10-12 weeks.
+- Field/form constraint: whole integer days; weeks converted to days.
+- Uncertainty: protected cultivation (tunnel, greenhouse) can start about four
+  weeks earlier and harvest longer; determinate or very early varieties
+  finish faster. Variety values should replace these where a source exists.
+
 ## Sources
 - [ReinSaat - Tomatoes/Paradeiser category page](https://www.reinsaat.at/shop/EN/tomaten_paradeiser/)
 - [saemereien.ch - Romatomate Bolstar Sensatica](https://www.saemereien.ch/tomatensamen-kaufen-roma-tomate-bolstar-sensatica-lycopersicon-esculentum-tomatensamen)
@@ -65,4 +90,5 @@
 - Open mapping questions: Roma-type vs. San-Marzano-type is documented as a
   type distinction inside this Kultur, not a separate Kultur, per project
   guidance (ReinSaat files both under Sauce tomatoes).
+- Calendar values researched on: 2026-09-21
 - Public-readiness: ready

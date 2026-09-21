@@ -5,9 +5,11 @@
   type note below.
 - Moderate to high nutrient demand; even moisture; sensitive to bolting under
   long, warm days early in the season.
-- Growth duration: left open as a general value; it differs strongly between
-  the curly and broad-leaved type and between summer and autumn sowings. See
-  `Planning Value Derivations`.
+- Growth duration: 75 days from transplanting to harvest (planning value;
+  differs between curly and broad-leaved type and between seasons, see
+  `Planning Value Derivations`).
+- Harvest window: 21 days per planting.
+- Propagation duration: 25 days (pre-cultivation, sowing to transplanting).
 
 ## Sowing & Planting
 
@@ -46,15 +48,26 @@
   values should be checked per type rather than assumed equal.
 
 ## Planning Value Derivations
-- Growth duration: left open as a general value. Garden sources describe
-  germination in 5-6 days at 20-22 °C and transplanting about one month after
-  sowing, but do not give a single days-to-harvest figure that holds across
-  both leaf-type groups and both summer and autumn sowings
-  ([Sperli](https://www.sperli.de/anbauexperte/kulturanleitung-endivien/),
-  [Plantura](https://www.plantura.garden/gemuese/endiviensalat/endiviensalat-pflanzenportrait)).
-  A future value should be set per type/season rather than as one general
-  figure.
-- Harvest window: left open for the same reason.
+- Definitions: growth duration counts from transplanting to harvest;
+  propagation duration from sowing to transplanting. All three values are
+  inferred planning values, not direct source figures.
+- Propagation duration: 25 days. [Sperli](https://www.sperli.de/anbauexperte/kulturanleitung-endivien/)
+  and [Kiepenkerl](https://www.kiepenkerl.de/kulturanleitungen/endivien/) both
+  give 3-4 weeks (21-28 days) of pre-cultivation; the middle is 25 days.
+- Growth duration: 75 days. Both sources give a total culture time of about
+  3-4 months (90-120 days) including pre-cultivation, and harvest from about
+  late June for early sowings and September to November for later ones. Minus
+  the 25-day pre-cultivation this gives about 65-95 days from planting;
+  75 days was chosen in the lower-middle part because the summer to early
+  autumn main season is the typical case. Summer plantings and curly types are
+  faster; late autumn plantings are slower. The wider spread means the value
+  is uncertain by about 20 days.
+- Harvest window: 21 days. No source gives a per-planting figure. Kiepenkerl
+  recommends succession sowing every few weeks for curly types because they
+  store poorly and tolerate little frost, while smooth-leaved types stand in
+  the bed into November to December. 21 days is a compromise between the
+  short window of curly types and the longer one of smooth types.
+- Field/form constraint: whole integer days.
 - Yield: left open; no general source reviewed here gives a reliable kg/m²
   figure.
 - Thousand kernel weight: left open; not reviewed in this research pass.
@@ -66,12 +79,14 @@
 
 ## Research Status
 - Researched on: 2026-09-18
+- Calendar values researched on: 2026-09-21
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: none found; sources agree on the two leaf-type
   groups and the two seasonal sowing windows.
-- Open mapping questions: growth duration, harvest window, yield, and
-  thousand kernel weight are all left open pending type-specific research;
+- Open mapping questions: growth duration, harvest window and propagation
+  duration are inferred compromise values across types; yield and thousand
+  kernel weight are left open;
   whether OpenFarmPlanner should model curly and broad-leaved endive as
   separate Kultur entries is an open question if a curly-type variety is
   added later.
-- Public-readiness: needs review; calendar and yield values are open.
+- Public-readiness: needs review; calendar values are inferred, yield is open.

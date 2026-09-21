@@ -14,8 +14,11 @@
   resolved).
 - Hardy, frost-tolerant annual/short-lived perennial; low to moderate nutrient
   demand; needs even moisture, especially while shafts are filling out.
-- Growth duration: source ranges conflict (see `Research Status`); left open
-  at the general-crop level rather than stated as one falsely precise figure.
+- Growth duration: 70 days from direct sowing to a usable harvest as a general
+  planning value; the source range is about 50-90 days (see `Planning Value
+  Derivations`).
+- Harvest window: 30 days of pulling/cutting per sowing (inferred).
+- Propagation duration: not applicable; direct sown.
 
 ## Sowing & Planting
 
@@ -45,21 +48,44 @@
   species where possible rather than inheriting this general note's
   `fistulosum` framing by default.
 
+## Planning Value Derivations
+- Growth duration: 70 days, counted from direct sowing to the first usable
+  harvest. Source basis: [Plantura](https://www.plantura.garden/gemuese/fruehlingszwiebeln/fruehlingszwiebeln-pflanzen)
+  and the [Samen.de](https://samen.de/blog/der-richtige-zeitpunkt-fuer-die-aussaat-von-lauchzwiebeln.html)
+  overview give about 8-12 weeks (56-84 days) or two to three months (60-90
+  days); one source range in the same search result set names 50-80 days, and
+  leaf cutting is possible at about 5-6 weeks. Derivation: the middle of the
+  overlapping 56-84 day range, rounded to 70 days (10 weeks). This is an
+  inferred planning value, not a direct single source figure.
+- Harvest window: 30 days. No source gives a per-sowing figure. Shafts can be
+  pulled from about pencil thickness onward and stay usable for several weeks
+  before they lignify or bolt; 30 days was inferred as a succession-sowing
+  planning value. Long overwintering harvests (autumn sowing, harvest through
+  winter) are far longer and are not covered by this value.
+- Situation fit: spring to summer direct sowings. Autumn sowings of
+  hardy types overwinter and take much longer in calendar terms; cool early
+  sowings sit at the long end (about 12 weeks), warm summer sowings at the
+  short end (about 8 weeks).
+- Field/form constraint: whole integer days.
+- Propagation duration: left empty; spring onion is direct sown.
+
 ## Sources
 - [Plantura - Frühlingszwiebeln pflanzen](https://www.plantura.garden/gemuese/fruehlingszwiebeln/fruehlingszwiebeln-pflanzen)
 - [derkleinegarten.de - Frühlingszwiebel Anbau](https://www.derkleinegarten.de/nutzgarten-kleingarten/gemuesegarten-anlegen/wurzelgemuese-und-zwiebelgemuese/fruehlingszwiebel.html)
 - [Coras Garten - Zwiebeln Kulturdaten](http://coras-garten.de/kulturanleitung-samenbauer/kulturdaten/zwiebeln/)
+- [Samen.de - Aussaat von Lauchzwiebeln](https://samen.de/blog/der-richtige-zeitpunkt-fuer-die-aussaat-von-lauchzwiebeln.html)
 
 ## Research Status
 - Researched on: 2026-09-18
+- Calendar values researched on: 2026-09-21
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: growth duration from sowing to harvest is given
   inconsistently across sources (about 6-8 weeks by one source, 8-12 weeks by
-  another, "two to three months after germination" by a third); no single
-  reliable figure was found, so growth duration is left open at the general
-  level rather than forced into one number.
+  another, "two to three months after germination" by a third); the planning
+  value of 70 days is a documented inferred midpoint, not a resolution.
 - Open mapping questions: whether the general "Lauchzwiebel"/spring-onion
   crop record should represent `Allium fistulosum` only, or needs a documented
   split for `Allium cepa`-type bunching onions, is unresolved; flagged here so
   it is not silently decided at variety level.
-- Public-readiness: needs review; growth duration and species scope are open.
+- Public-readiness: needs review; species scope is open; the harvest window
+  is an inferred planning value.

@@ -15,8 +15,10 @@
 - Disease resistance reported against mosaic virus, wilt diseases, and
   nematodes; good shelf life.
 - F1 hybrid; not seed-stable.
-- Growth duration: no concrete days-to-harvest figure found in the sources
-  reviewed; left open, see Comparison below.
+- Growth duration: 70 days from transplanting; harvest window 70 days;
+  propagation duration 49 days. No variety-specific figure was found, so the
+  general `Salattomate` planning values are intentionally reused (see `Comparison
+  With General Crop Data`).
 
 ## Sowing & Planting
 
@@ -55,10 +57,24 @@
   here, though it is not a dedicated classification source like ReinSaat's
   category page (ReinSaat's own tomato category listing was not confirmed to
   include this specific `Sacher` line by name in this research pass).
-- Spacing and growth duration/yield: no Sacher-specific spacing was found
-  beyond the general sowing/planting timing; the general `Salattomate`
-  spacing range is intentionally reused. Growth duration and yield are left
-  open on both levels, consistent with the general crop note.
+- Growth duration, harvest window and propagation duration: no
+  `Sacher Braun`-specific day counts were found. The general `Salattomate` note gives
+  70 days (transplanting to first harvest), 70 days (harvest window) and 49
+  days (sowing to transplanting); these are intentionally reused, and no
+  variety-specific source contradicts them. Qualitative wording about
+  earliness or vigor in the sources was not converted into a number. This is a
+  reuse, not a `Sacher Braun`-specific source claim.
+- Spacing: no Sacher-specific spacing was found; the general `Salattomate`
+  spacing range is intentionally reused. Yield: left open on both levels,
+  consistent with the general crop note.
+
+## Planning Value Derivations
+- Growth duration 70 days, harvest window 70 days, propagation duration
+  49 days: reused from the general `Salattomate` note, where the source basis and
+  derivation are documented. No `Sacher Braun` day count was found.
+- Field/form constraint: whole integer days.
+- Uncertainty: fits a staked crop planted out in mid-May; protected
+  cultivation or an earlier variety can start about four weeks earlier.
 
 ## Sources
 - [Kiepenkerl - Salat-Tomate Sacher, F1](https://www.kiepenkerl.de/salat-tomatensamen-sacher-f1-2842/)
@@ -79,5 +95,6 @@
   unresolved. The Kultur determination (`Salattomate`, high confidence) does
   not depend on resolving this, since fruit size/shape data is consistent
   across all sources found for "Sacher F1".
+- Calendar values researched on: 2026-09-21
 - Public-readiness: needs review (variety-name match between "Sacher Braun"
   and retail "Sacher F1" is inferred, not confirmed verbatim)

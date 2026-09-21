@@ -44,8 +44,11 @@
 
 ## Research Status
 - Researched on: 2026-09-21
+- Calendar values researched on: 2026-09-21
 - General crop note exists: yes (`florence-fennel.md`)
 - Open source conflicts: none found.
-- Open mapping questions: no variety yield or TKG; breeder datasheet not
+- Open mapping questions: no variety yield or TKG; no variety-specific
+  harvest window (general 14 days reused, from transplanting-based logic as
+  in `florence-fennel.md`); breeder datasheet not
   read; the sowing-vs-planting label of the windows is unclear.
 - Public-readiness: needs review.

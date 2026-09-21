@@ -11,7 +11,10 @@
 - Perennial, stays homogeneous over several cuts; reaches about 20-30 cm
   ([GemüseProfi](https://gemueseprofi.de/schnittlauch)).
 - Growth duration: about 6-8 weeks from sowing to first cut
-  ([GemüseProfi](https://gemueseprofi.de/schnittlauch)).
+  ([GemüseProfi](https://gemueseprofi.de/schnittlauch)); planning value 49
+  days.
+- Harvest window: 180 days, the cutting period per season (May to October).
+- Propagation duration: not applicable; direct sown.
 
 ## Sowing & Planting
 
@@ -54,10 +57,11 @@
   row as an approximate figure; `Polyvert`'s 20 x 20 cm matches directly.
 - Sowing depth: general note gives about 0.5-1 cm; `Polyvert`'s 0.5 cm sits at
   the shallow end of that range, kept as the variety-specific value.
-- Harvest window and yield: left open, same as the general crop. No
-  `Polyvert`-specific figures beyond the May-October cutting season were
-  found; this season length is descriptive, not a harvest-window planning
-  value, so it is not used to set `harvest_duration_days`.
+- Harvest window: general 180 days, `Polyvert` 180 days. The source gives May
+  to October cutting (about 184 days), which matches the general value; the
+  match is documented as an intentional agreement of the general planning
+  value with the variety source, not as independent confirmation.
+- Yield: left open, same as the general crop.
 - Thousand kernel weight: left open. No `Polyvert`-specific seed-weight source
   was found.
 
@@ -67,9 +71,14 @@
   [GemüseProfi](https://gemueseprofi.de/schnittlauch)). This is a variety-level
   refinement of the general crop's inferred 63-day value; documented as
   inferred, not a direct single-figure source value.
-- Harvest window: left open, same reasoning as the general crop note; the
-  May-October cutting season is a descriptive season length, not a per-sowing
-  harvest-window figure.
+- Harvest window: 180 days, defined as the cutting period of one season (as
+  in `chives.md`, not a single harvest). Source basis:
+  [GemüseProfi](https://gemueseprofi.de/schnittlauch) states harvest May to
+  October, about 184 days; rounded to 180 days. Fits an established stand;
+  in the sowing year the first cut comes after about 49 days and usually only
+  one cut is taken, so the value overstates year one. Inferred planning value.
+- Propagation duration: left empty; direct sown.
+- Field/form constraint: whole integer days.
 
 ## Sources
 - [Quedlinburger Saatgut - Schnittlauch Polyvert](https://www.quedlinburger-saatgut.de/saatgut/artikel/schnittlauch-polyvert-291051.html)
@@ -79,6 +88,7 @@
 
 ## Research Status
 - Researched on: 2026-09-18
+- Calendar values researched on: 2026-09-21
 - General crop note exists: yes (`chives.md`)
 - Open source conflicts: the seed producer (Quedlinburger Saatgut) and its
   resellers (Austrosaat, Beringmeier, and others) consistently describe

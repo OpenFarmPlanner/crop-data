@@ -4,9 +4,11 @@
   batavia) that share cultivation logic but differ in growth speed.
 - Moderate nutrient demand; needs a sunny site and well-drained, humus-rich
   soil to head up reliably.
-- Growth duration: left open as a general value; it varies strongly with
-  season (spring vs. summer vs. autumn sowing) and head type. See
-  `Planning Value Derivations`.
+- Growth duration: 50 days from transplanting to harvest as a general
+  planning value; it varies strongly with season and head type (about 36-60
+  days). See `Planning Value Derivations`.
+- Harvest window: 10 days per planting.
+- Propagation duration: 28 days of pre-cultivation.
 
 ## Sowing & Planting
 
@@ -37,15 +39,27 @@
   at 10-16 °C soil temperature.
 
 ## Planning Value Derivations
-- Growth duration: left open as a general value. Sources give a wide spread:
-  roughly 8 weeks (56 days) under favourable self-sown conditions up to
-  considerably longer for early-spring or autumn batches at low
-  temperatures. Because the crop-note request covers head lettuce as a
-  single Kultur across head types and sowing seasons, a single day count
-  would be falsely precise; a future value should be set per
-  sowing-season batch (spring/summer/autumn) rather than as one general
-  figure.
-- Harvest window: left open for the same reason.
+- Definitions: growth duration counts from transplanting to harvest;
+  propagation duration from sowing to transplanting. All values are inferred
+  planning values.
+- Growth duration: 50 days. [Hortipendium](https://www.hortipendium.de/Kopfsalat_Erwerbsanbau)
+  gives culture durations for about 400 g heads of about 60 days in spring,
+  36 days in summer and 58 days in autumn. The mean of these three is about 51
+  days, rounded to 50. It fits a typical spring or early-autumn planting;
+  summer plantings are about 15 days shorter, spring and autumn about 10 days
+  longer. A garden-source range of 4-10 weeks is consistent. Head type
+  (butterhead, iceberg, batavia) shifts the value further and is not resolved.
+- Propagation duration: 28 days. Hortipendium gives about 21 days for summer
+  seedlings and about 70 days for the first sowings under cold conditions;
+  a commercial source gives about 30 days. 28 days (four weeks) was chosen as
+  a value for the main season.
+- Harvest window: 10 days. No source gives a figure. Heads must be cut soon
+  after they are firm, otherwise the plants bolt
+  ([IVA](https://www.iva.de/iva-magazin/schule-wissen/kopfsalat-rechtzeitig-ernten-sonst-schiesst-er),
+  read only via a search summary), and the window is shorter in summer heat.
+  10 days is an inferred planning value with high uncertainty (about 5-14
+  days).
+- Field/form constraint: whole integer days.
 - Yield: left open; no general source reviewed here gives a reliable kg/m²
   or piece-count figure.
 - Thousand kernel weight: left open; not reviewed in this research pass.
@@ -53,17 +67,21 @@
 ## Sources
 - [Das Grüne Archiv - Kopfsalat](https://www.gruenes-archiv.de/kopfsalat-aussaat-pflege-sorten/)
 - [Plantura - Kopfsalat pflanzen & ernten](https://www.plantura.garden/gemuese/salat/kopfsalat)
+- [Hortipendium - Kopfsalat Erwerbsanbau](https://www.hortipendium.de/Kopfsalat_Erwerbsanbau)
+- [IVA - Kopfsalat: rechtzeitig ernten, sonst schießt er](https://www.iva.de/iva-magazin/schule-wissen/kopfsalat-rechtzeitig-ernten-sonst-schiesst-er)
 - [Der kleine Garten - Kopfsalat anbauen](https://www.derkleinegarten.de/nutzgarten-kleingarten/gemuesegarten-anlegen/blattgemuese/salatanbau-kopfsalat-1.html)
 
 ## Research Status
 - Researched on: 2026-09-18
+- Calendar values researched on: 2026-09-21
 - General crop note exists: not applicable (this is the general crop note)
-- Open source conflicts: sources give differing single-figure growth
-  durations (e.g. "about 8 weeks") without specifying season or head type;
-  treated as insufficient for a single general planning value rather than
-  silently picked.
-- Open mapping questions: growth duration, harvest window, yield, and
-  thousand kernel weight are all left open. Whether OpenFarmPlanner should
+- Open source conflicts: sources give differing growth durations by season
+  and head type (36-60 days from planting in the Hortipendium table, "about
+  8 weeks" elsewhere); the 50-day value is a documented average, not a
+  resolution.
+- Open mapping questions: yield and thousand kernel weight are left open;
+  growth duration, harvest window and propagation duration are inferred
+  seasonal averages. Whether OpenFarmPlanner should
   eventually split head lettuce by head type (butterhead/iceberg/batavia) as
   separate Kultur entries is an open question, not decided here.
-- Public-readiness: needs review; calendar and yield values are open.
+- Public-readiness: needs review; calendar values are inferred, yield is open.

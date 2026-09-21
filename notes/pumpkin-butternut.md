@@ -15,8 +15,9 @@
   The source notes high sensitivity to moisture and cold, and general garden
   guidance notes `Butternut` needs a longer warm period than `Hokkaido`
   ([samen.de - Butternut-Kürbis-Sorten](https://samen.de/blog/butternut-kuerbis-sorten-ein-umfassender-vergleich-fuer-ihren-garten.html)).
-- Growth duration: not given as a day-count by the source; left open, matching
-  the general `Kürbis` crop (see `Comparison With General Crop Data`).
+- Growth duration: 110 days from planting out to first harvest; harvest
+  window 28 days; propagation duration 28 days (see `Planning Value
+  Derivations`).
 
 ## Sowing & Planting
 
@@ -63,34 +64,54 @@
 - Sowing depth (2-3 cm) matches the general crop note exactly; no deviation.
 - Fruit weight (up to 3.5 kg) is notably larger than `Hokkaido` (2-3 kg, see
   `pumpkin-hokkaido.md`), consistent with the general crop note's observation
-  that fruit size differs enough between these two varieties to keep yield
-  and calendar values open at the general level. This also matches the
+  that fruit size differs enough between these two varieties to keep the general yield open and to make the calendar values compromises. This also matches the
   species difference (`C. moschata` vs. `C. maxima`) documented in the
   general note.
 - Cold/moisture sensitivity is documented as notably higher for `Butternut`
   than implied for `Hokkaido` by general garden sources; this is a
   variety-level nuance not captured in the general crop note's shared
   cultivation description, and is flagged here rather than silently ignored.
-- Growth duration and harvest window: no `Butternut`-specific day-count
-  found; left open, consistent with the general `Kürbis` note's open value.
-  This is an intentional non-decision, not a reuse of a general planning
-  value (the general note has none to reuse).
+- Growth duration deviates slightly from the general crop: 110 days versus
+  105 days, because `Butternut` needs a longer warm period than `Hokkaido`
+  and is the later-maturing type.
+- Propagation duration (28 days) and harvest window (28 days) are
+  intentionally reused from the general crop; no variety-specific source
+  contradicts them.
 - Yield: no kg/m² figure specific to `Butternut` was found; the general
   crop's wide 5-15 kg/m² commercial range is not narrowed here for lack of a
   variety-specific source; left open.
+
+## Planning Value Derivations
+
+- Propagation duration: 28 days. [Samen.de](https://samen.de/blog/anbauanleitung-fuer-butternut-kuerbis-von-der-aussaat-bis-zur-ernte.html) advises sowing about 4 weeks
+  before planting out; ReinSaat sowing (late April to mid-May) and planting
+  (from mid-May) dates are consistent.
+- Growth duration: 110 days, measured from planting out to first harvest.
+  [Samen.de](https://samen.de/blog/anbauanleitung-fuer-butternut-kuerbis-von-der-aussaat-bis-zur-ernte.html) gives 110-120 days from sowing to harvest, and about 90 days
+  from pollination to ripeness for an early type; minus 28 days of
+  pre-cultivation that is 82-92 days, whereas a mid-May planting with the
+  main harvest in September to October (ReinSaat, [Plantura](https://www.plantura.garden/gemuese/kuerbis/butternut-kuerbis)) points to
+  about 120-140 days. The value 110 days is a compromise leaning to the
+  calendar, and stays 10 days above the `Hokkaido` value. Inferred, not a
+  direct source value. Uncertainty: about +/- 15 days; fruit must be fully
+  ripe and harvested before the first frost.
+- Harvest window: 28 days, reused from the general crop (September to
+  October, one or two harvest passes before frost).
 
 ## Sources
 - [ReinSaat - Butternut Waltham](https://www.reinsaat.at/shop/DE/kuerbis/speisekuerbis/butternut_waltham/)
 - [ReinSaat - Edible Pumpkins/Squash (category)](https://www.reinsaat.at/shop/EN/kuerbis/speisekuerbis/)
 - [samen.de - Butternut-Kürbis-Sorten: Ein umfassender Vergleich](https://samen.de/blog/butternut-kuerbis-sorten-ein-umfassender-vergleich-fuer-ihren-garten.html)
+- [Samen.de - Anbauanleitung Butternut-Kürbis](https://samen.de/blog/anbauanleitung-fuer-butternut-kuerbis-von-der-aussaat-bis-zur-ernte.html)
+- [Plantura - Butternut-Kürbis](https://www.plantura.garden/gemuese/kuerbis/butternut-kuerbis)
 
 ## Research Status
 - Researched on: 2026-09-18
+- Calendar values researched on: 2026-09-21
 - General crop note exists: yes (`pumpkin.md`)
 - Open source conflicts: none found for this variety specifically.
 - Open mapping questions: species difference from `Hokkaido` (`C. moschata`
   vs. `C. maxima`) despite shared shop category - see general `Kürbis` note.
-  Growth duration, harvest window, and yield remain open (no source-backed
-  figures found).
-- Public-readiness: needs review; growth duration, harvest window, and yield
-  open.
+  Yield remains open (no source-backed figure found).
+- Public-readiness: needs review; yield open; calendar values are documented
+  planning values.

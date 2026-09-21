@@ -19,6 +19,8 @@
   once-over/multi-pick pickling fruit implied by `Einlegegurke`). This note
   does **not** silently assume `Deltastat` = `Deltastar`; the possible
   connection is documented here as an open question rather than decided.
+- Calendar values: growth duration 63 days (from sowing) and harvest window
+  45 days, both reused from the general crop; no propagation (direct sown).
 - Because no confirmed variety-specific source was found, all cultivation
   guidance below is inherited from the general `Einlegegurke` crop note
   (`pickling-cucumber.md`) rather than stated as `Deltastat`-specific; see
@@ -56,12 +58,22 @@
   intentional reuse of the general `Einlegegurke` crop note's values, because
   no variety-specific source contradicts them and no reliable
   variety-specific value exists.
-- Growth duration: reused from the general crop's 60-65 days figure; not
-  confirmed for `Deltastat`.
+- Growth duration (63 days from sowing) and harvest window (45 days) are
+  intentionally reused from the general crop; not confirmed for `Deltastat`.
+  If `Deltastat` turns out to be the greenhouse hybrid `Deltastar F1`, these
+  values (a field pickling crop) would not apply.
 - This is explicitly not the same situation as `Tanja`/`Arola`, where
   variety-specific ReinSaat sources gave concrete spacing and flowering-type
   detail; here the reuse is total, not partial, because the variety itself
   could not be confirmed.
+
+## Planning Value Derivations
+
+- Growth duration and harvest window: 63 days and 45 days, reused unchanged
+  from `pickling-cucumber.md` and defined identically (growth duration from
+  direct sowing). No variety-specific source exists, so nothing can contradict
+  the general values. Uncertainty: identity unresolved (see `Research
+  Status`).
 
 ## Sources
 - [ReinSaat - Gurken > Einlegegurken (category checked, Deltastat not listed)](https://www.reinsaat.at/shop/DE/gurken/einlegegurken/)
@@ -70,6 +82,7 @@
 
 ## Research Status
 - Researched on: 2026-09-18
+- Calendar values researched on: 2026-09-21
 - General crop note exists: yes (`pickling-cucumber.md`)
 - Open source conflicts: none in the strict sense, but see the identity
   question below.

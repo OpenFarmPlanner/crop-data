@@ -7,9 +7,10 @@
   mildew
   ([sämereien.ch](https://www.saemereien.ch/petersilie-glatt-felicia-petroselinum-crispum-biosamen),
   [Sativa](https://www.sativa.bio/en/parsley-plain-amsterdamse-snij-felicia-herbs-kr38)).
-- Growth duration: reused from the general crop's open guidance (see
-  `Comparison With General Crop Data`); no `Felicia`-specific day count to
-  first cut was found among the sources checked.
+- Growth duration: 90 days from direct sowing to the first cut; harvest
+  window 105 days as cutting period (first to fourth cut). Both come from
+  the "+DLRn+" that states its durations for `Felicia`; see Planning Value
+  Derivations.
 
 ## Sowing & Planting
 
@@ -33,28 +34,46 @@
 ## Comparison With General Crop Data
 - Typ: glatt (flat-leaf), documented explicitly as required for this crop's
   Typ-within-Kultur structure.
-- Growth duration, harvest window, spacing, sowing depth: no `Felicia`-specific
-  figures were found; the general crop's open guidance and ranges are reused
-  as-is. This is an intentional reuse, not a claim that a `Felicia`-specific
-  source was found.
+- Growth duration: 90 days from sowing, same as the general crop (general
+  value 90 is based on the same `Felicia` reference figures of the "+DLRn+").
+  Harvest window: 105 days, same as the general crop (smooth type, follow-up
+  cuts about every 5 weeks). Both are definitions from sowing / as cutting
+  period, consistent with `leaf-parsley.md`. The match is intentional, since
+  the general smooth-type planning value was itself derived from `Felicia`
+  figures; no contradicting source was found.
+- Spacing, sowing depth: no `Felicia`-specific figures were found; the general
+  crop's ranges are reused as-is (intentional reuse, not a variety source
+  claim).
 - Yield and thousand kernel weight: left open, same as the general crop; no
   variety-specific source found.
 - No deviation from the general crop's agronomic guidance was found for this
   variety.
 
+## Planning Value Derivations
+- Growth duration: 90 days. Source basis: the DLR sheet gives 92, 91, 80 and
+  92 days for direct sowings on 1 March, 1 April, 1 May and 1 July (mean about
+  89), stated for `Felicia`. Rounded to a whole day count of 90. Fits a
+  spring-to-summer field sowing; overwintered and pot-transplant crops
+  differ. Uncertainty about +/- 10 days.
+- Harvest window: 105 days, inferred: 3 intervals x 35 days (about 5 weeks
+  between cuts for smooth parsley, up to 4 cuts per year per the same sheet).
+  May and later sowings usually allow only 3 cuts (about 70 days). Not a
+  direct source value.
+
 ## Sources
 - [sämereien.ch - Petersilie, glatt 'Felicia'](https://www.saemereien.ch/petersilie-glatt-felicia-petroselinum-crispum-biosamen)
 - [Sativa - Glatte Petersilie 'Amsterdamse Snij / Felicia'](https://www.sativa.bio/en/parsley-plain-amsterdamse-snij-felicia-herbs-kr38)
+- [DLR Rheinpfalz - Anbau- und Sortenhinweise Petersilie, Blatt 2024/2025](https://www.bbs-landwirtschaft.de/Internet/global/themen.nsf/0/1ef319fcf05534dbc125876e002d5a6f/$FILE/Petersilie,%20Blatt.pdf)
 
 ## Research Status
 - Researched on: 2026-09-18
+- Calendar values researched on: 2026-09-21
 - General crop note exists: yes (`leaf-parsley.md`)
 - Open source conflicts: none found.
-- Open mapping questions: no `Felicia`-specific growth duration, harvest
-  window, or yield source was found; all such values are open or reused from
-  the general crop. Confirm whether `Felicia` corresponds to the "Typ glatt,
+- Open mapping questions: no `Felicia`-specific yield source was found
+  (yield stays open, as in the general crop). Confirm whether `Felicia` corresponds to the "Typ glatt,
   early" entries in the LWG Veitshöchheim/DLR Rheinpfalz trial tables
   referenced in `leaf-parsley.md` — this note relies on commercial seed
   descriptions rather than direct access to those trial publications.
-- Public-readiness: needs review; calendar and yield values rely entirely on
-  general-crop reuse.
+- Public-readiness: needs review; calendar values are derived planning values
+  from one regional sheet; yield open.

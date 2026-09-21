@@ -6,10 +6,12 @@
   (8/10) and plant type (8/10), with a moderate shaft-length score (6/10) and
   leaf color score (7/10) relative to other leek varieties in the same
   catalog ([Nunhems - Porree Sortiment](https://www.yumpu.com/de/document/view/18962169/porree-sortiment-nunhems)).
-- Growth duration: sources agree this is an early/summer type harvested from
-  July, but no fully verifiable exact day count was found; see `Research
-  Status`. A commercial planting-window listing places transplanting around
-  calendar weeks 21-27 (late May to early July)
+- Growth duration: 100 days from transplanting to the start of harvest
+  (inferred; see `Planning Value Derivations`).
+- Harvest window: 45 days (mid-July to end of August).
+- Propagation duration: 84 days (12 weeks) of pre-cultivation.
+- A commercial planting-window listing places transplanting around calendar
+  weeks 21-27 (late May to early July)
   ([Meijers Planten - Krypton](https://www.meijersplanten.nl/de/porreepflanzen/krypton/76)).
 
 ## Sowing & Planting
@@ -54,23 +56,50 @@
 - Spacing: no variety-specific source found; intentionally reused from the
   general crop note (15 cm within row, 50 cm between rows) because no
   `Krypton`-specific value was found and no contradiction is known.
-- Growth duration and yield: left open for this variety rather than adopting
-  the unverified 95-day/378 dt/ha figures noted above; this is a documented
-  gap, not a silent reuse of the general crop's (also open) calendar value.
+- Growth duration: general crop 110 days, `Krypton` 100 days. The variety is
+  a summer type, so the shorter value follows the general note's statement
+  that summer types are about 10 days shorter than the autumn-type
+  compromise. Both count from transplanting.
+- Harvest window: general 90 days, `Krypton` 45 days, because early/summer
+  types are harvested mid-July through August only.
+- Propagation duration: general 75 days, `Krypton` 84 days, because January
+  sowings for early planting need about 12 weeks.
+- Yield: left open; the unverified 378 dt/ha figure is not adopted.
+
+## Planning Value Derivations
+- Definitions: growth duration counts from transplanting; propagation duration
+  from sowing to transplanting; harvest window is the harvest period of one
+  planting. All three are inferred, not direct variety figures.
+- Growth duration: 100 days. Source basis:
+  [Kiepenkerl](https://www.kiepenkerl.de/kulturanleitungen/porree/) gives
+  transplanting from late March to end of April and harvest from mid-July for
+  summer leek (roughly 95-105 days); the unverified trial lead of about 95
+  days (see `Notes`) is consistent. Derivation: rounded to 100 days. Trials
+  with later planting (weeks 21-27) would give a shorter calendar time under
+  warmer conditions.
+- Harvest window: 45 days, from the Kiepenkerl statement that summer leek is
+  harvested from mid-July to August (about 6-7 weeks), rounded down to 45.
+- Propagation duration: 84 days, from Kiepenkerl's roughly 12 weeks to
+  pencil-thick seedlings for a January sowing. Later succession plantings
+  would need fewer days.
+- Field/form constraint: whole integer days.
 
 ## Sources
 - [VOLTZ Maraîchage - Porree/Lauch Krypton F1 (Bio-Saatgut)](https://de.de-shop.voltz-maraichage.com/bio-saatgut/porree-lauch-krypton-f1)
 - [Nunhems - Porree Sortiment](https://www.yumpu.com/de/document/view/18962169/porree-sortiment-nunhems)
 - [Meijers Planten - Krypton](https://www.meijersplanten.nl/de/porreepflanzen/krypton/76)
+- [Kiepenkerl - Porree Kulturanleitung](https://www.kiepenkerl.de/kulturanleitungen/porree/)
 
 ## Research Status
 - Researched on: 2026-09-18
+- Calendar values researched on: 2026-09-21
 - General crop note exists: yes (`leek.md`)
 - Open source conflicts: a commercial planting-window listing (weeks 21-27)
   is later than the general early-type transplanting window (late March-April);
   documented as a possible later succession slot rather than resolved as a
   contradiction, since the source does not clarify.
-- Open mapping questions: growth duration in days and expected yield are
-  unresolved; a candidate figure (95 days, 378 dt/ha) was found only via an
-  unreadable PDF and is explicitly not used as a source-backed value.
-- Public-readiness: needs review; growth duration and yield are open.
+- Open mapping questions: expected yield is unresolved; the 378 dt/ha figure
+  was found only via an unreadable PDF and is not used. Calendar values are
+  maturity-group-level inferences, not `Krypton`-specific measurements.
+- Public-readiness: needs review; yield is open and calendar values are
+  inferred.

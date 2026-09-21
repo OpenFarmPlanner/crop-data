@@ -5,9 +5,8 @@
   standard multi-germ beet seed), combined with fast, very early maturity.
   Retail sources describe round, smooth roots with a fine taproot, well suited
   to bunching and to pickling whole when harvested young.
-- Growth duration: not given as a single day count by the sources found; the
-  variety is described only as "very early"/"fast growing," so a concrete
-  value is left open rather than guessed (see `Planning Value Derivations`).
+- Growth duration: 50 days from sowing (catalog value for a very early type);
+  harvest window 30 days (see `Planning Value Derivations`).
 
 ## Sowing & Planting
 
@@ -40,12 +39,11 @@
   stand-establishment and for the earliest harvest slot. Documented explicitly
   because it changes both the seed-requirement logic and the harvest-window
   positioning, even though no numeric growth-duration source was found.
-- Growth duration: left open. No source found gives a day count; only
-  qualitative "very early"/"fastest growing" wording. The general crop's
-  130-day midpoint is not reused here, because it explicitly does not fit an
-  early-bunching type - reusing it would misrepresent this variety as a
-  standard-season type. This is documented as an open research question
-  rather than a silent choice.
+- Growth duration: 50 days vs. 130 days in the general note; deliberate
+  deviation because the general value fits storage-size roots and this is the
+  fastest type in the source trials.
+- Harvest window: 30 days, reused from the general note; the source harvest
+  span (June/July to October/November) covers successive sowings.
 - Spacing and sowing depth: no variety-specific figures were found; the
   general crop's values are intentionally reused, since no contradicting
   variety-specific source was found.
@@ -55,16 +53,21 @@
   developed root (not separately quantified here).
 
 ## Planning Value Derivations
-- Growth duration: intentionally left open rather than inferred. The sowing
-  window (April-June) and the harvest window (July-November) both come from
-  [VOLTZ Maraîchage](https://de.de-shop.voltz-maraichage.com/bio-saatgut/gemuserube-alvro-mono?fc=204),
-  but because the harvest window is a five-month continuous pull period for
-  successive sowings rather than a fixed number of days after a single sowing,
-  no reliable single growth-duration figure could be derived without
-  guessing. Marked as an open mapping/research question.
+- Definitions: growth duration counted from sowing (direct sown), as in the
+  general note.
+- Growth duration: 50 days, from [Runåbergs fröer](https://en.runabergsfroer.se/?p=824)
+  ("50 days", described as the fastest in their trials), for early bunching
+  or baby-size roots. The [VOLTZ Maraîchage](https://de.de-shop.voltz-maraichage.com/bio-saatgut/gemuserube-alvro-mono?fc=204)
+  sowing (April-June) and harvest (July-November) windows are consistent
+  with successive sowings. Other retail listings (for example [Kings Seeds](https://www.kingsseeds.com/products/organic-vegetable-seeds/beet/beetroot-alvro-mono-organic-seed))
+  are reported to give 55-65 days but could not be opened during this pass, so
+  they are not used. Full-size roots need longer.
+- Harvest window: 30 days, reused from the general note.
+- Field/form constraint: whole days.
 
 ## Sources
 - [VOLTZ Maraîchage - Rote Bete Alvro Mono](https://de.de-shop.voltz-maraichage.com/bio-saatgut/gemuserube-alvro-mono?fc=204)
+- [Runåbergs fröer - Alvro Mono](https://en.runabergsfroer.se/?p=824)
 - [Tamar Organics - Organic Beetroot Alvro Mono](https://tamarorganics.co.uk/product/beetroot-alvro-mono)
 - [Beringmeier - Rote Rübe Alvro Mono Bio](https://www.beringmeier.de/wurzelgemuese-knollengemuese-saatgut/oeko-wurzel-knolle/Rrote-ruebe-alvro-mono-oeko.html)
 
@@ -72,9 +75,7 @@
 - Researched on: 2026-09-18
 - General crop note exists: yes (`beetroot.md`)
 - Open source conflicts: none found.
-- Open mapping questions: no source gives a sowing-to-harvest day count for
-  this variety; growth duration is left open rather than reusing the general
-  crop's mid-season value, which would misrepresent an early-bunching type.
-  Needs a variety-trial or breeder source with a concrete day count.
-- Public-readiness: blocked for growth duration (no plausible value found);
-  other fields need review; no live sync performed.
+- Open mapping questions: none for calendar values; the 50-day value comes
+  from one retail catalog (another listing reportedly gives 55-65 days,
+  unverified). Calendar values researched on: 2026-09-21
+- Public-readiness: needs review (growth duration from one source); no live sync performed.

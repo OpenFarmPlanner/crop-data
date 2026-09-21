@@ -6,8 +6,11 @@
 - Stems appear in green, red, white, pink, and yellow within one seed batch;
   leaves range from dark green to reddish-brown. Colours are reported to
   hold up during cooking. Plants reach about 80 cm in height.
-- Growth duration: harvest is given as about 60-90 days after sowing by one
-  retailer source; see `Planning Value Derivations`.
+- Growth duration: 75 days from direct sowing to the first cut, inferred from
+  a 60-90 day retailer range; see `Planning Value Derivations`.
+- Harvest window: 120 days (cutting period until frost), reused from the
+  general crop.
+- Propagation duration: not applicable; direct sown.
 
 ## Sowing & Planting
 
@@ -58,14 +61,18 @@
   is narrower within the row than the general figure; documented as a
   variety-specific deviation from one retailer source rather than assumed
   equal.
-- Growth duration (60-90 days from this source) is a variety/retailer-level
-  figure; the general crop leaves growth duration open, so this is not a
-  reuse of a general value but the only concrete figure found for this
-  crop in this research pass. It is not necessarily representative of the
-  stalk-harvest style, since 60-90 days is closer to a leaf-harvest timing.
+- Growth duration: general 63 days, `Bright Lights` 75 days. The variety
+  value comes from the retailer range of 60-90 days after sowing (middle 75),
+  the general value from the leaf-chard range of 8-10 weeks. The variety is
+  dual-purpose and its stalk use needs longer, so it is set deliberately
+  above the general cut-leaf value. Both count from direct sowing to the first
+  cut.
+- Harvest window: general 120 days, `Bright Lights` 120 days, intentionally
+  reused. Sowing runs April to July, the source describes repeated cutting,
+  and no variety-specific harvest-window source was found or contradicts the
+  general value. Counted as the cutting period, as in `swiss-chard.md`.
 - Yield and thousand kernel weight: no variety-specific figures were found;
-  both remain open, matching the general crop's open status. No general
-  planning value exists yet to reuse either.
+  both remain open, matching the general crop's open status.
 
 ## Planning Value Derivations
 - Growth duration: 75 days as a rounded whole-day mid-value inferred from
@@ -73,6 +80,11 @@
   ([Samen Fetzer - Mangold Bio Bright Lights](https://samen-fetzer.de/mangold-bio-bright-lights/91509)).
   Documented as inferred, and flagged as uncertain for the stalk-harvest use
   case, which likely needs longer than a leaf-harvest-oriented mid-value.
+- Harvest window: 120 days, reused from `swiss-chard.md` (cutting period from
+  first cut to first frost, about mid-June to mid-October); no
+  variety-specific source. Sowing in July would shorten it.
+- Field/form constraint: whole integer days. Propagation duration is left
+  empty (direct sown).
 - Spacing: 25 x 30 cm, a direct source value from the same retailer source;
   not converted or derived further.
 
@@ -81,6 +93,7 @@
 
 ## Research Status
 - Researched on: 2026-09-18
+- Calendar values researched on: 2026-09-21
 - General crop note exists: yes (`swiss-chard.md`)
 - Open source conflicts: only one variety-specific source was reviewed;
   no cross-check against a second independent source was possible in this

@@ -23,8 +23,10 @@
   [Rougella](salad-tomato-rougella.md) in the general `Salattomate` crop
   note - both are yellow-vs-red counterparts of the same round, ~100-135 g,
   truss-harvested slicing-tomato class.
-- Growth duration: no concrete days-to-harvest figure found in the sources
-  reviewed; left open, see Comparison below.
+- Growth duration: 70 days from transplanting; harvest window 70 days;
+  propagation duration 49 days. No variety-specific figure was found, so the
+  general `Salattomate` planning values are intentionally reused (see `Comparison
+  With General Crop Data`).
 
 ## Sowing & Planting
 
@@ -64,10 +66,24 @@
   explicitly as "Salattomate" the way Rougella and Sacher were - the
   classification here is inferred from fruit size/shape/growth-habit
   similarity, not a direct retailer label.
-- Spacing and growth duration/yield: no Lorenzo-specific values found beyond
-  fruit weight; general `Salattomate` spacing is intentionally reused, and
-  growth duration/yield are left open on both levels, consistent with the
-  general crop note.
+- Growth duration, harvest window and propagation duration: no
+  `Lorenzo`-specific day counts were found. The general `Salattomate` note gives
+  70 days (transplanting to first harvest), 70 days (harvest window) and 49
+  days (sowing to transplanting); these are intentionally reused, and no
+  variety-specific source contradicts them. Qualitative wording about
+  earliness or vigor in the sources was not converted into a number. This is a
+  reuse, not a `Lorenzo`-specific source claim.
+- Spacing: no Lorenzo-specific value found beyond fruit weight; the general
+  `Salattomate` spacing is intentionally reused. Yield: left open on both
+  levels, consistent with the general crop note.
+
+## Planning Value Derivations
+- Growth duration 70 days, harvest window 70 days, propagation duration
+  49 days: reused from the general `Salattomate` note, where the source basis and
+  derivation are documented. No `Lorenzo` day count was found.
+- Field/form constraint: whole integer days.
+- Uncertainty: fits a staked crop planted out in mid-May; protected
+  cultivation or an earlier variety can start about four weeks earlier.
 
 ## Sources
 - [Paramount Seeds - Lorenzo F1 Truss Tomato](https://paramountseeds.com/products/lorenzo-truss-tomato)
@@ -88,8 +104,9 @@
   medium-high-confidence inference from fruit size and truss growth habit,
   not a direct source classification; flagged for review if a source
   explicitly classifying `Lorenzo` (e.g. a ReinSaat-style category page) is
-  found later. Growth duration and yield remain open pending a
-  variety-specific or reliable general-crop source.
+  found later. Yield remains open pending a variety-specific or
+  reliable general-crop source; calendar values reuse the general crop.
+- Calendar values researched on: 2026-09-21
 - Public-readiness: needs review (Kultur assignment is inferred, and the
   duplicate "Lorenzo" naming across unrelated varieties should be checked
   against whatever seed source the OpenFarmPlanner project actually used)

@@ -14,9 +14,9 @@
   professional growers, market gardeners, and home gardeners. Seeds are
   sensitive to excess moisture and cold
   ([ReinSaat - Hokkaido Orange](https://www.reinsaat.at/shop/EN/kuerbis/speisekuerbis/hokkaido_orange/)).
-- Growth duration: not given as a day-count by the source; left open,
-  matching the general `Kürbis` crop (see `Comparison With General Crop
-  Data`).
+- Growth duration: 100 days from planting out to first harvest; harvest
+  window 28 days; propagation duration 21 days (see `Planning Value
+  Derivations`).
 
 ## Sowing & Planting
 
@@ -71,29 +71,49 @@
 - Fruit weight (2-3 kg) is notably smaller than `Butternut` (up to 3.5 kg,
   see `pumpkin-butternut.md`), consistent with the general crop note's
   observation that fruit size differs enough between these two varieties to
-  keep yield and calendar values open at the general level.
-- Growth duration and harvest window: no `Hokkaido`-specific day-count found;
-  left open, consistent with the general `Kürbis` note's open value. This is
-  an intentional non-decision, not a reuse of a general planning value (the
-  general note has none to reuse).
+  keep the general yield open and make the calendar values compromises.
+- Growth duration deviates slightly from the general crop: 100 days versus
+  105 days (general compromise between the two types); `Hokkaido` is the
+  earlier-maturing type.
+- Propagation duration deviates: 21 days versus 28 days, based on
+  [Plantura](https://www.plantura.garden/gemuese/kuerbis/hokkaido-kuerbis) (seedlings planted out about 3 weeks after sowing).
+- Harvest window: 28 days, intentionally reused from the general crop; no
+  variety-specific source contradicts it.
 - Yield: no kg/m² figure specific to `Hokkaido` was found; the general crop's
   wide 5-15 kg/m² commercial range is not narrowed here for lack of a
   variety-specific source; left open.
+
+## Planning Value Derivations
+
+- Propagation duration: 21 days, from [Plantura](https://www.plantura.garden/gemuese/kuerbis/hokkaido-kuerbis) (planting out about
+  3 weeks after sowing). Used as given.
+- Growth duration: 100 days, measured from planting out to first harvest.
+  [Plantura](https://www.plantura.garden/gemuese/kuerbis/hokkaido-kuerbis) states about 95-120 days from sowing to harvest, which minus
+  the 21 days of pre-cultivation is 74-99 days after planting; the calendar
+  (planting from mid-May, harvest from about late September when the skin is
+  hardened and the stem corked, ReinSaat) points to longer. The upper end of
+  the sowing-based range, rounded to 100 days, is used. Inferred, not a
+  direct source value. Uncertainty: about +/- 15 days with summer warmth; a
+  cool year delays ripeness.
+- Harvest window: 28 days, reused from the general crop (September to
+  October or November per [Plantura](https://www.plantura.garden/gemuese/kuerbis/hokkaido-kuerbis), one or two harvest passes before
+  frost).
 
 ## Sources
 - [ReinSaat - Hokkaido Orange](https://www.reinsaat.at/shop/EN/kuerbis/speisekuerbis/hokkaido_orange/)
 - [ReinSaat - Edible Pumpkins/Squash (category)](https://www.reinsaat.at/shop/EN/kuerbis/speisekuerbis/)
 - [samen.de - Hokkaido-Kürbis: Anbau von der Aussaat bis zur Ernte](https://samen.de/blog/hokkaido-kuerbis-anbau-von-der-aussaat-bis-zur-ernte.html)
+- [Plantura - Hokkaido-Kürbis](https://www.plantura.garden/gemuese/kuerbis/hokkaido-kuerbis)
 
 ## Research Status
 - Researched on: 2026-09-18
+- Calendar values researched on: 2026-09-21
 - General crop note exists: yes (`pumpkin.md`)
 - Open source conflicts: spacing given as 2 m x 1 m (ReinSaat, primary source
   used) vs. about 1 m x 1 m in a general garden-guidance source; not silently
   resolved, primary variety source preferred.
 - Open mapping questions: species difference from `Butternut` (`C. maxima` vs.
   `C. moschata`) despite shared shop category - see general `Kürbis` note.
-  Growth duration, harvest window, and yield remain open (no source-backed
-  figures found).
-- Public-readiness: needs review; growth duration, harvest window, and yield
-  open.
+  Yield remains open (no source-backed figure found).
+- Public-readiness: needs review; yield open; calendar values are documented
+  planning values.

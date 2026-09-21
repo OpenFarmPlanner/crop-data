@@ -18,8 +18,9 @@
   (a gourd mix is not species-resolved), so the Kultur is defined by use, not
   species. Whether it should be one Kultur or split (carving pumpkins vs.
   small ornamental gourds) is an open mapping question.
-- Growth duration and harvest window: left open at general level; ornamental
-  types differ, and no source gives day counts.
+- Growth duration: 100 days from planting out to first harvest; harvest
+  window 28 days; propagation duration 28 days. Planning values for the
+  carving/`Cucurbita pepo` type (see `Planning Value Derivations`).
 
 ## Sowing & Planting
 
@@ -50,16 +51,41 @@
 - Sowing depth not sourced; `pumpkin.md` gives 2-3 cm for edible pumpkins and
   is not silently reused.
 
+## Planning Value Derivations
+
+- Definition: growth duration is measured from planting out, consistent with
+  `pumpkin.md`.
+- Propagation duration: 28 days. [Samen.de](https://samen.de/blog/zierkuerbisse-anbauen-von-der-aussaat-zur-ernte.html) advises starting seeds
+  indoors 3-4 weeks before planting out (mid-April start, planting from mid
+  to late May); the [ReinSaat](https://www.reinsaat.at/shop/EN/kuerbis/zierkuerbis/jack_o_lantern/)
+  calendar has pot sowing from end of April to May for planting from mid-May.
+  Midpoint of 3-4 weeks used.
+- Growth duration: 100 days. Inferred, not a direct source value:
+  [Samen.de](https://samen.de/blog/zierkuerbisse-anbauen-von-der-aussaat-zur-ernte.html) says ornamental pumpkins need at least about 120
+  frost-free days for the whole cycle, which minus 28 days of pre-cultivation
+  is about 92 days after planting; the ReinSaat calendar (planting from
+  mid-May, harvest September to October) points to a slightly longer span.
+  100 days is used. This is 5 days below the edible `Kürbis` general value,
+  reflecting the earlier-ripening `C. pepo` type; other ornamental gourds
+  (mixed species) may differ. Uncertainty: about +/- 15 days.
+- Harvest window: 28 days. Inferred: harvest runs from late summer through
+  autumn until before the first frost, with fruits fully hardened and cured
+  ([Samen.de](https://samen.de/blog/zierkuerbisse-anbauen-von-der-aussaat-zur-ernte.html)); no window in days is given. Reuses the general edible
+  pumpkin planning value of 28 days.
+
 ## Sources
 - [ReinSaat - Ornamental pumpkins](https://www.reinsaat.at/shop/EN/kuerbis/zierkuerbis/)
 - [ReinSaat - Jack o'Lantern](https://www.reinsaat.at/shop/EN/kuerbis/zierkuerbis/jack_o_lantern/)
 - [kraut&rüben - Essbare Zierkürbisse](https://www.krautundrueben.de/kuerbissorten-essbare-zierkuerbisse-fuer-herbstdeko-und-halloween-2515)
+- [Samen.de - Zierkürbisse anbauen](https://samen.de/blog/zierkuerbisse-anbauen-von-der-aussaat-zur-ernte.html)
 
 ## Research Status
 - Researched on: 2026-09-21
+- Calendar values researched on: 2026-09-21
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: `Jack o'Lantern` listed as both ornamental and
   edible by the same shop; pre-cultivation start (March vs. late April).
 - Open mapping questions: one Kultur vs. split; species overlap with
-  `pumpkin.md`; calendar, yield and sowing depth open.
-- Public-readiness: needs review.
+  `pumpkin.md`; yield and sowing depth open. Calendar values follow the
+  carving `C. pepo` type and may not fit all ornamental gourds.
+- Public-readiness: needs review; yield and sowing depth open.

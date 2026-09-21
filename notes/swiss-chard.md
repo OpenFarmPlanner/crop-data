@@ -7,9 +7,12 @@
   split into separate Kultur entries here.
 - Moderate to high nutrient demand; needs a sheltered, sunny to partially
   shaded site with humus- and nutrient-rich soil, pH about 6.4-7.2.
-- Growth duration: left open as a general value because it differs strongly
-  between the cut-leaf and stalk forms and their harvest logic. See
-  `Planning Value Derivations`.
+- Growth duration: 63 days from direct sowing to the first cut as a general
+  planning value (leaf chard about 8-10 weeks, stalk chard about 10-12 weeks
+  in the sources); see `Planning Value Derivations`.
+- Harvest window: 120 days, the cutting period of one planting (repeated
+  cuts until frost).
+- Propagation duration: not applicable; direct sown.
 
 ## Sowing & Planting
 
@@ -43,13 +46,28 @@
   falsely precise.
 
 ## Planning Value Derivations
-- Growth duration: left open as a single general value; leaf/cut chard is
-  harvested repeatedly over an extended period starting relatively early,
-  while stalk chard needs a longer, single-harvest-oriented season. No
-  general source reviewed here separates these into distinct day counts.
-- Harvest window: left open for the same reason; leaf/cut chard has a long,
-  repeated harvest window in principle, while stalk chard's harvest window
-  is comparatively short and concentrated.
+- Definitions: growth duration counts from direct sowing to the first cut;
+  harvest window is the cutting period (repeated cuts), not a single harvest.
+  Both are inferred planning values.
+- Growth duration: 63 days (9 weeks). A search summary of garden sources
+  ([Plantura](https://www.plantura.garden/gemuese/mangold/mangold-ernten),
+  [Kiepenkerl](https://www.kiepenkerl.de/kulturanleitungen/mangold/),
+  [meine-ernte](https://www.meine-ernte.de/pflanzen-a-z/gemuese/mangold/))
+  gives 8-10 weeks (56-70 days) for leaf chard (some give 30-40 days for
+  early small leaves) and 10-12 weeks (70-84 days) for stalk chard, with
+  stalk harvest starting 50-60 days after sowing when stalks reach 20-25 cm.
+  63 days is the middle of the leaf-chard range and is chosen because the
+  general crop is used mainly as a cut crop. Stalk chard fits about 10-20 days
+  later.
+- Harvest window: 120 days. The chard season runs from mid-June until the
+  first autumn frost, about mid-June to mid-October (about 120 days), and
+  both forms regrow after cutting. Stalk chard is often harvested over a
+  shorter period, and sowings in late June give a shorter window. Inferred
+  from the season length; no source gives a per-planting day count.
+- Propagation duration: left empty; chard is direct sown here. Pre-cultivation
+  from mid-February (planting from mid-April) is possible but was not used as
+  the general case.
+- Field/form constraint: whole integer days.
 - Yield: left open; no general source reviewed here gives a reliable kg/m²
   figure.
 - Thousand kernel weight: left open; not reviewed in this research pass.
@@ -61,12 +79,14 @@
 
 ## Research Status
 - Researched on: 2026-09-18
+- Calendar values researched on: 2026-09-21
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: none found on the type split itself; sources agree
   leaf/cut and stalk chard differ in sowing timing and spacing.
 - Open mapping questions: whether OpenFarmPlanner should model leaf/cut
   chard and stalk chard as separate Kultur entries is an open question,
-  documented explicitly rather than silently decided; sowing depth, growth
-  duration, harvest window, yield, and thousand kernel weight are all open.
-- Public-readiness: needs review; type-split question and calendar/yield
-  values are open.
+  documented explicitly rather than silently decided; sowing depth, yield and
+  thousand kernel weight are open; sowing depth is open. Growth duration and
+  harvest window are inferred values across both types.
+- Public-readiness: needs review; type-split question is open, calendar
+  values are inferred, yield is open.

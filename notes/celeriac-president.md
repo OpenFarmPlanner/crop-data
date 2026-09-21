@@ -6,8 +6,9 @@
   easy to harvest and well suited to storage, according to
   [Wunderlich Bio-Jungpflanzen](https://www.bio-jungpflanzen.com/Bio-Selleriepflanze-President-im-3-8-cm-Erdballen/41956-3-8).
   The same source recommends planting from mid-May and 25-30 cm spacing.
-- Growth duration: no variety-specific day count found; general crop value
-  reused (see below).
+- Growth duration: 135 days from planting, general value reused (no
+  variety-specific day count found); harvest window 28 days and propagation
+  duration 63 days, also reused (see below).
 
 ## Sowing & Planting
 
@@ -29,7 +30,12 @@
 ## Comparison With General Crop Data
 - Growth duration: general 135 days reused; no variety-specific source found,
   no contradiction found.
-- Harvest window: left open, same as general crop.
+- Harvest window: general 28 days reused; no variety-specific source found
+  and none contradicts it.
+- Propagation duration: general 63 days reused; the supplier's mid-May planting
+  recommendation fits sowing in mid-March with 9 weeks pre-culture, so no
+  contradiction. Durations are counted from transplanting, as in the general
+  note.
 - Yield: general 3.5 kg/m² intentionally reused; no reliable variety-specific
   yield source found, no contradicting source.
 - Spacing: supplier gives 25-30 cm; general planning value 40 x 40 cm kept
@@ -50,8 +56,10 @@
 
 ## Research Status
 - Researched on: 2026-09-21
+- Calendar values researched on: 2026-09-21
 - General crop note exists: yes (`celeriac.md`)
 - Open source conflicts: spacing 25-30 cm (supplier) vs 40-50 cm (general).
-- Open mapping questions: no variety-specific growth duration, yield, or
-  breeder data found; a breeder/seed-company datasheet would improve this.
+- Open mapping questions: no variety-specific growth duration, harvest
+  window, yield, or breeder data found (a further search for `President`
+  day counts found none); a breeder/seed-company datasheet would improve this.
 - Public-readiness: needs review; values rely on general-crop reuse.

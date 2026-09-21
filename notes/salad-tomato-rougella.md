@@ -13,8 +13,10 @@
   intensely red, firm fruit described as having "gardener resistance" - i.e.
   fruit holds well on the plant if picking is delayed.
 - F1 hybrid; commonly sold as grafted ("veredelt") young plants.
-- Growth duration: no concrete days-to-harvest figure found in the sources
-  reviewed; left open, see Comparison below.
+- Growth duration: 70 days from transplanting; harvest window 70 days;
+  propagation duration 49 days. No variety-specific figure was found, so the
+  general `Salattomate` planning values are intentionally reused (see `Comparison
+  With General Crop Data`).
 
 ## Sowing & Planting
 
@@ -51,8 +53,23 @@
 - Spacing and sowing window: no Rougella-specific values were found, so the
   general `Salattomate` values are intentionally reused; no contradicting
   variety-specific source was found.
-- Growth duration and yield: no concrete values found for Rougella; general
-  crop note also leaves these open. Left open on both levels.
+- Growth duration, harvest window and propagation duration: no
+  `Rougella`-specific day counts were found. The general `Salattomate` note gives
+  70 days (transplanting to first harvest), 70 days (harvest window) and 49
+  days (sowing to transplanting); these are intentionally reused, and no
+  variety-specific source contradicts them. Qualitative wording about
+  earliness or vigor in the sources was not converted into a number. This is a
+  reuse, not a `Rougella`-specific source claim.
+- Yield: no concrete value found for Rougella; the general crop note also has no
+  yield value. Left open on both levels.
+
+## Planning Value Derivations
+- Growth duration 70 days, harvest window 70 days, propagation duration
+  49 days: reused from the general `Salattomate` note, where the source basis and
+  derivation are documented. No `Rougella` day count was found.
+- Field/form constraint: whole integer days.
+- Uncertainty: fits a staked crop planted out in mid-May; protected
+  cultivation or an earlier variety can start about four weeks earlier.
 
 ## Sources
 - [Rijk Zwaan - Tomate ROUGELLA F1](https://www.rijkzwaan.de/tomate/ROUGELLA-F1-prdSL11023-ctgCrops.tomato)
@@ -68,4 +85,5 @@
   confidence is medium, documented explicitly rather than presented as
   settled. Row/in-row spacing values are reused from the general crop note
   pending a Rougella-specific source.
+- Calendar values researched on: 2026-09-21
 - Public-readiness: needs review (Kultur confidence is medium, not high)

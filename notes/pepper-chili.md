@@ -16,11 +16,12 @@
 - Warm-season, frost-sensitive fruiting crop with a long pre-cultivation phase
   and high nutrient demand, like `Paprika` and `Pfefferoni`
   ([bloomify.de - Cayenne-Chilis](https://wissen.bloomify.de/wissen/pflanzen/chili)).
-- Growth duration and harvest window are left open at the general-crop level
-  (see below); sources give only qualitative timing, and pod size/shape vary
-  strongly between chili types (short cayenne pods vs. small thin pods vs.
-  bushier ornamental-leaning types), which would make a single precise value
-  falsely precise.
+- Growth duration: about 80 days from transplanting to first ripe pods; the
+  harvest window is about 100 days and the propagation duration about 84
+  days (sowing to transplanting). These are representative planning values
+  for a mid-season garden chili, not exact source values; pod size/shape and
+  earliness vary strongly between chili types (see `Planning Value
+  Derivations`).
 
 ## Sowing & Planting
 
@@ -58,7 +59,7 @@
 - Because "Chili" spans multiple fruit shapes and heat levels within
   `C. annuum`, variety notes should document the specific type (e.g.
   cayenne-style) and its concrete growth duration/harvest window rather than
-  relying on this general note's open values.
+  relying on this general note's single representative values.
 
 ## Planning Value Derivations
 - Spacing: sources give 30-40 cm and 40-50 cm between plants for chili in
@@ -67,12 +68,28 @@
   used for live sync, but this note leaves the exact stored value to be
   decided at sync time rather than asserting a false precision; the conflict
   is documented explicitly instead of silently resolved.
-- Growth duration / harvest window: sources describe timing only in relative
-  terms ("summer to late autumn" harvest, sowing "mid-January to March").
-  No day-count planning value is derived here because chili types within
-  `C. annuum` vary enough (pod size, plant vigor) that a single number would
-  be falsely precise at the general-crop level; this is intentionally left
-  open per the "Model Calendar Values Deliberately" rule.
+- Growth duration (from transplanting to first harvest): 80 days.
+  Source basis: [Kiepenkerl - Paprika](https://www.kiepenkerl.de/kulturanleitungen/paprika/)
+  gives about six weeks from planting out to first harvest for pepper in
+  general; the general `Paprika` and `Pfefferoni` values are 70 and 75 days.
+  Chili pods usually need to reach full color and are slower than sweet
+  pepper, so 80 days was chosen as an inferred value slightly above the
+  `Pfefferoni` figure. Not a direct source value.
+- Harvest window: 100 days. Sources describe harvest from summer into late
+  autumn ("summer to late autumn"); roughly mid-July to end of October is
+  about 100 days. Inferred from that calendar wording; fits plants in a
+  tunnel or warm site, shorter outdoors in cool years.
+- Propagation duration: 84 days (12 weeks). Chili is sown earliest of the
+  pepper crops (mid-January to March per the sources above) and needs a long
+  warm pre-cultivation; [Kiepenkerl - Paprika](https://www.kiepenkerl.de/kulturanleitungen/paprika/)
+  quotes 6-8 weeks for pepper from a mid-February sowing, and a mid-January
+  to mid-May calendar implies up to about 17 weeks. 84 days matches the live
+  `Pfefferoni` value and sits between these bounds.
+- Field/form constraint: whole integer days. Rounding: none needed beyond
+  converting weeks to days.
+- Uncertainty: types such as small-podded or very early chilies can be
+  harvested 2-3 weeks earlier; variety notes should override these values
+  with variety-specific figures where available.
 
 ## Sources
 - [SRF Kassensturz - Peperoni, Paprika, Peperoncini und Chili](https://www.srf.ch/sendungen/kassensturz-espresso/services/espresso-aha/schlauer-i-d-wuche-peperoni-paprika-peperoncini-und-chili-was-ist-was)
@@ -90,8 +107,9 @@
   as documented in the Pfefferoni general crop note - whether `Chili` should
   link to a shared `Paprika` (`Capsicum annuum`) crop species or its own.
   Not re-decided here; follow the recommendation already documented in
-  `notes/pepper-pfefferoni.md`. Growth duration and harvest window are left
-  open rather than mapped to a specific number.
-- Public-readiness: needs review (spacing conflict and calendar values open;
+  `notes/pepper-pfefferoni.md`. Growth duration, harvest window and propagation
+  duration are set as representative planning values (see above).
+- Calendar values researched on: 2026-09-21
+- Public-readiness: needs review (spacing conflict open; calendar values inferred;
   identity/crop-species link is a known open question shared with
   `Pfefferoni`).

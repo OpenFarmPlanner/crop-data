@@ -15,8 +15,10 @@
   high-yielding, with clusters of up to 12 fruits and good disease
   resistance; well suited to organic protected cultivation (tunnels, lightly
   heated greenhouses).
-- Growth duration: no concrete days-to-harvest figure found in the sources
-  reviewed; left open, see Comparison below.
+- Growth duration: 70 days from transplanting; harvest window 60 days;
+  propagation duration 49 days. No variety-specific figure was found, so the
+  general `Soßentomate` planning values are intentionally reused (see `Comparison
+  With General Crop Data`).
 
 ## Sowing & Planting
 
@@ -56,9 +58,24 @@
 - Sowing window: no Bolstar-specific date found; the general crop's
   February-to-March sowing window is intentionally reused because no
   contradicting variety-specific source was found.
-- Growth duration and yield: no concrete values found for Bolstar; general
-  crop note also leaves these open. Left open on both levels rather than
-  inferring numbers from "high-yielding" wording alone.
+- Growth duration, harvest window and propagation duration: no
+  `Bolstar`-specific day counts were found. The general `Soßentomate` note gives
+  70 days (transplanting to first harvest), 60 days (harvest window) and 49
+  days (sowing to transplanting); these are intentionally reused, and no
+  variety-specific source contradicts them. Qualitative wording about
+  earliness or vigor in the sources was not converted into a number. This is a
+  reuse, not a `Bolstar`-specific source claim.
+- Yield: no concrete value found for Bolstar; the general crop note also has
+  no yield value. Left open on both levels rather than inferred from
+  "high-yielding" wording.
+
+## Planning Value Derivations
+- Growth duration 70 days, harvest window 60 days, propagation duration
+  49 days: reused from the general `Soßentomate` note, where the source basis and
+  derivation are documented. No `Bolstar` day count was found.
+- Field/form constraint: whole integer days.
+- Uncertainty: fits a staked crop planted out in mid-May; protected
+  cultivation or an earlier variety can start about four weeks earlier.
 
 ## Sources
 - [saemereien.ch - Romatomate 'Bolstar Sensatica F1'](https://www.saemereien.ch/tomatensamen-kaufen-roma-tomate-bolstar-sensatica-lycopersicon-esculentum-tomatensamen)
@@ -75,6 +92,7 @@
   than silently resolved; the Kultur choice here follows the majority of
   sources and the ReinSaat Roma-type-under-Sauce-tomatoes rule given in the
   task.
-- Open mapping questions: row spacing and growth duration/yield are reused
-  or left open as documented above, pending a more specific source.
+- Open mapping questions: row spacing and calendar values are reused, yield
+  is left open, as documented above, pending a more specific source.
+- Calendar values researched on: 2026-09-21
 - Public-readiness: ready

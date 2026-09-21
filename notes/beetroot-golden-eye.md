@@ -6,8 +6,8 @@
   sweeter than red beets, with an earthy but less intense aroma. A practical
   advantage repeatedly mentioned is that it does not "bleed" red color, making
   it useful for salads.
-- Growth duration: about 100-120 days for full-size roots is the
-  variety-specific value used here (see `Planning Value Derivations`).
+- Growth duration: 75 days from sowing (catalog development time); harvest
+  window 30 days (see `Planning Value Derivations`).
 
 ## Sowing & Planting
 
@@ -36,10 +36,13 @@
   yellow-orange instead of red. This is documented explicitly rather than
   silently treated as equivalent to standard beetroot, since color affects
   culinary use (non-staining) even though cultivation needs are similar.
-- Growth duration and sowing/harvest windows are documented directly from a
-  variety-specific source and are close to, but not identical to, the general
-  crop's inferred 130-day midpoint; the variety source gives "3-4 months"
-  which is consistent with the general range, so no deviation is claimed here.
+- Growth duration: 75 days vs. 130 days in the general note; the variety
+  value comes from a variety-specific catalog figure and reflects earlier
+  harvest at moderate root size, while the general value fits storage-size
+  roots. Retail pages also mention 3-4 months for full-size roots, which is
+  consistent with the general note.
+- Harvest window: 30 days, intentionally reused from the general note; no
+  variety-specific source and none contradicting.
 - Spacing: no variety-specific figure was found; the general crop's range is
   intentionally reused because no contradicting variety-specific source was
   found.
@@ -48,13 +51,19 @@
   source was found.
 
 ## Planning Value Derivations
-- Growth duration: 110 days used as an inferred midpoint of the "3-4 months
-  after sowing" full-size harvest window given by
-  [Impecta](https://www.impecta.de/samen/gemuse/gelbe-bete-golden-eye) /
-  [bobby-seeds](https://www.bobby-seeds.com/gemuesesamen/rote-bete-samen/2374/bete-golden-eye-gelbe-bete).
-  Documented as inferred, not a direct source day count; baby-beet harvest
-  (5-6 weeks, about 35-42 days) deviates strongly below this and is kept
-  separate in `Harvest & Use`.
+- Definitions: growth duration counted from sowing (direct sown), as in the
+  general note.
+- Growth duration: 75 days, taken from [Impecta](https://www.impecta.de/samen/gemuse/gelbe-bete-golden-eye)
+  ("Entwicklungszeit 75 Tage", sowing in June, harvest August-October). This
+  replaces the earlier inferred 110 days (midpoint of the "3-4 months" retail
+  wording at [bobby-seeds](https://www.bobby-seeds.com/gemuesesamen/rote-bete-samen/2374/bete-golden-eye-gelbe-bete)).
+  The two sources differ: 75 days is a catalog development time, 3-4 months
+  is the retail description for full-size roots. 75 days is used because it
+  is a direct variety-specific number; later sowings or larger roots need
+  longer. Baby-beet harvest (about 35-42 days) is kept in `Harvest & Use`.
+- Harvest window: 30 days, reused from the general note. The Impecta harvest
+  span of August to October covers staggered sowings.
+- Field/form constraint: whole days.
 
 ## Sources
 - [Impecta - Gelbe Bete 'Golden Eye'](https://www.impecta.de/samen/gemuse/gelbe-bete-golden-eye)
@@ -64,7 +73,9 @@
 ## Research Status
 - Researched on: 2026-09-18
 - General crop note exists: yes (`beetroot.md`)
-- Open source conflicts: none found.
+- Open source conflicts: 75 days (Impecta catalog) vs. 3-4 months (retail
+  wording for full-size roots); 75 used, see `Planning Value Derivations`.
+- Calendar values researched on: 2026-09-21
 - Open mapping questions: none.
-- Public-readiness: needs review (growth duration inferred, spacing and yield
+- Public-readiness: needs review (calendar values derived, spacing and yield
   reused from the general crop; no live sync performed).

@@ -14,8 +14,8 @@
 - Distinguishing traits: round, uniform roots with purple-red "shoulders"
   (the part above soil level) and pale yellow to light-orange flesh described
   as sweet.
-- Growth duration: about 90-100 days from sowing/transplanting to harvest is
-  the variety-specific value used here (see `Planning Value Derivations`).
+- Growth duration: 95 days from sowing (variety-specific sources); harvest
+  window 60 days (see `Planning Value Derivations`).
 
 ## Sowing & Planting
 
@@ -49,6 +49,9 @@
 - Growth duration (90-100 days, taken as 95 days) is documented directly from
   a variety-specific source and matches the general crop's inferred midpoint
   closely; no meaningful deviation.
+- Harvest window: 60 days, intentionally reused from the general note; the
+  variety sources only say to harvest after at least two good frosts, so no
+  variety-specific day count exists and none contradicts the general value.
 - Spacing deviates from the general crop's guidance: the general note gives
   40-50 x 30-40 cm from German garden sources, while this variety's US
   breeder source gives a wider 45-60 x 15 cm (converted from inches). Both are
@@ -70,6 +73,9 @@
   ("100 Days"). 95 is used as a whole-day midpoint between two directly
   source-stated values; documented as a small inferred adjustment, not a pure
   single-source copy.
+- Harvest window: 60 days, reused from the general note (see Comparison).
+  Growth duration is counted from direct sowing, as in the general note.
+- Field/form constraint: whole days.
 - Spacing: sowing depth (3/8 in -> about 1 cm), row spacing (18-24 in -> about
   45-60 cm), and in-row spacing (6 in -> 15 cm) are unit conversions from
   [Johnny's Selected Seeds](https://www.johnnyseeds.com/vegetables/rutabagas/helenor-rutabaga-seed-197.html)
@@ -85,6 +91,7 @@
 
 ## Research Status
 - Researched on: 2026-09-18
+- Calendar values researched on: 2026-09-21
 - General crop note exists: yes (`rutabaga.md`)
 - Open source conflicts: growth duration given as "90 days" by one source and
   "100 days" by another; resolved as an inferred 95-day midpoint, documented

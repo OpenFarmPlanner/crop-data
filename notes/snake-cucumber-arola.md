@@ -11,8 +11,9 @@
   Fruits form mainly on the side shoots, so side shoots should be cut only
   after fruiting rather than removed early
   ([ReinSaat - Arola](https://www.reinsaat.at/shop/DE/gurken/salatgurken/arola/)).
-- Growth duration: not given as a day-count; reused (left open) from the
-  general `Schlangengurke` crop (see `Comparison With General Crop Data`).
+- Growth duration: 50 days from planting out (reused from the general crop);
+  harvest window 75 days and propagation duration 30 days are variety-specific
+  inferences (see `Planning Value Derivations`).
 
 ## Sowing & Planting
 
@@ -57,10 +58,13 @@
   variety-sourced spacing almost exactly and sits within the general crop's
   disputed range; kept as the more specific variety-sourced value.
 - Sowing depth (about 2 cm) matches the general crop's 2-3 cm guidance.
-- Growth duration and harvest window: no `Arola`-specific day-count was
-  found. Left open, consistent with the general `Schlangengurke` note, which
-  also leaves them open. This is an intentional non-decision at both levels,
-  not a reuse of a general planning value.
+- Growth duration (50 days) is intentionally reused from the general crop; no
+  `Arola`-specific day count was found and nothing contradicts it.
+- Harvest window deviates: 75 days versus 60 days in the general crop, based
+  on the source's statement that the robust variety can be harvested into
+  autumn (inferred, see `Planning Value Derivations`).
+- Propagation duration deviates: 30 days versus 21 days, from the ReinSaat
+  sowing and planting dates (see `Planning Value Derivations`).
 - Yield: no kg/m² or piece-count figure given by the source beyond the
   qualitative "harvestable into autumn" claim; left open, same handling as
   `Tanja`.
@@ -74,16 +78,31 @@
   respective sources, so this is noted as a variety nuance, not a Kultur-level
   distinction.
 
+## Planning Value Derivations
+
+- Propagation duration: 30 days. [ReinSaat](https://www.reinsaat.at/shop/DE/gurken/salatgurken/arola/) gives field
+  pre-cultivation from mid-April with planting in mid-May (about 4 weeks) and
+  greenhouse pre-cultivation from early March with planting in mid-April
+  (about 6 weeks). The field variant is used and rounded to 30 days; the
+  greenhouse variant with cooler early-season conditions takes about 40 days.
+- Growth duration: 50 days, reused from the general crop (planting out to
+  first harvest).
+- Harvest window: 75 days. Inferred, not a direct source value: the source
+  says the robust, disease-resistant variety can be harvested into autumn,
+  later than many other varieties. Mid-July first harvest plus harvest until
+  about the end of September gives about 75 days; the general crop uses 60
+  days. Uncertainty: depends on frost date and disease pressure.
+
 ## Sources
 - [ReinSaat - Arola](https://www.reinsaat.at/shop/DE/gurken/salatgurken/arola/)
 - [ReinSaat - Gurken > Schlangengurken (category listing)](https://www.reinsaat.at/shop/DE/gurken/schlangengurken/)
 
 ## Research Status
 - Researched on: 2026-09-18
+- Calendar values researched on: 2026-09-21
 - General crop note exists: yes (`snake-cucumber.md`)
 - Open source conflicts: none found for this variety specifically.
-- Open mapping questions: none beyond the general crop's open growth
-  duration/harvest window and the `Gurke` alias handling documented in
+- Open mapping questions: none beyond the `Gurke` alias handling documented in
   `snake-cucumber.md`.
-- Public-readiness: needs review; growth duration, harvest window, and yield
-  remain open (no source-backed figures found).
+- Public-readiness: needs review; yield remains open; harvest window and
+  propagation duration are documented inferences.

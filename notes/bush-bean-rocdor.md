@@ -5,9 +5,9 @@
   long and 8-9 mm in diameter; black seed. Bred with resistance to bean common
   mosaic virus (BCMV) and to common bacterial/leaf-spot blight
   ([Hartmann-Brockhaus](https://www.hartmann-brockhaus.de/detail/Buschbohne-Rocdor-gelb---Wachsbohne)).
-- Growth duration: reused from the general `Buschbohne` crop (see
-  `Comparison With General Crop Data`); no `Rocdor`-specific day count was
-  found.
+- Growth duration: 49 days from sowing to first pods, intentionally reused
+  from the general `Buschbohne` crop (see `Comparison With General Crop
+  Data`); no `Rocdor`-specific day count was found.
 
 ## Sowing & Planting
 
@@ -52,19 +52,35 @@
   the same `Buschbohne` Kultur; this does not change any structured planning
   field but is noted for clarity.
 
+## Planning Value Derivations
+
+- Growth duration and harvest window: 49 days and 21 days, intentionally
+  reused from the general `Buschbohne` crop; both are measured from direct
+  sowing (no propagation, bush beans are direct sown). No `Rocdor`-specific
+  day count exists in the sources checked, and nothing variety-specific
+  contradicts the general values. General garden guidance is in the same
+  neighborhood: about eight weeks from sowing to first harvest
+  ([Gärtner Pötschke](https://www.poetschke.de/buschbohnen-anbauen-aussaat-pflege-und-ernte/)).
+  Uncertainty: seed catalogs for other bush beans give 70-75 days (see
+  `bush-bean-maxi.md`), so 49 days sits at the early end; the general note
+  is not edited here and this is flagged as an open question.
+
 ## Sources
 - [Hartmann-Brockhaus - Buschbohne Rocdor (gelb, Wachsbohne)](https://www.hartmann-brockhaus.de/detail/Buschbohne-Rocdor-gelb---Wachsbohne)
 - [Gartencenter Nordharz - Buschbohne 'Rocdor'](https://www.gartencenter-nordharz.de/pflanzen/saatgut/gemuesesamen/bohnensamen/buschbohne-rocdor)
 - [Oldenburger Wohngarten - Buschbohne 'Rocdor'](https://www.oldenburger-wohngarten.de/shop/pflanzen/saatgut/gemuesesamen/bohnensamen/buschbohne-rocdor)
+- [Gärtner Pötschke - Buschbohnen anbauen](https://www.poetschke.de/buschbohnen-anbauen-aussaat-pflege-und-ernte/)
 
 ## Research Status
 - Researched on: 2026-09-18
+- Calendar values researched on: 2026-09-21
 - General crop note exists: yes (`bush-bean.md`)
 - Open source conflicts: none found; commercial listings for `Rocdor` mostly
   give pod dimensions and disease resistance, not calendar or yield figures.
-- Open mapping questions: whether the general crop's 160 g thousand-kernel
+- Open mapping questions: the general crop growth duration of 49 days is
+  short compared with seed-catalog figures (70-75 days) and should be
+  reviewed at general-crop level; whether the general crop's 160 g thousand-kernel
   weight applies to `Rocdor` specifically is unresolved; no variety-specific
   seed-weight source was found to confirm or contradict it.
-- Public-readiness: needs review; several structured values rely on
-  intentional reuse from the general crop rather than variety-specific
-  sources.
+- Public-readiness: needs review; calendar values rely on intentional reuse
+  from the general crop rather than variety-specific sources.
