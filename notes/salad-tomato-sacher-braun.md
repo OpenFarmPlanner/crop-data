@@ -1,0 +1,83 @@
+## Short Description
+- `Sacher Braun` is researched here as the `Sacher` F1 tomato: a
+  reddish-brown ("chocolate"), slightly flat-round fruit of about 100 g,
+  marketed by at least one retailer explicitly as "Salat-Tomate Sacher, F1"
+  ([Kiepenkerl](https://www.kiepenkerl.de/salat-tomatensamen-sacher-f1-2842/))
+  and by others as a "Schokoladentomate"/chocolate tomato
+  ([Saat & Gut](https://www.saat-und-gut.de/schokoladen-tomaten-sacher-f1.html)).
+  This supports `Salattomate` as this variety's Kultur with high confidence
+  (see Research Status) - a round, medium-large fruit explicitly labeled
+  "Salat-Tomate" by a retailer, fitting the general `Salattomate` fruit-size
+  class rather than beefsteak, sauce, or cherry.
+- Flesh is deep red internally despite the brown skin, with high lycopene
+  content reported; flavor is described as fruity, sweetly aromatic, and low
+  in acidity.
+- Disease resistance reported against mosaic virus, wilt diseases, and
+  nematodes; good shelf life.
+- F1 hybrid; not seed-stable.
+- Growth duration: no concrete days-to-harvest figure found in the sources
+  reviewed; left open, see Comparison below.
+
+## Sowing & Planting
+
+### Transplants
+- Description: Sow in trays indoors, cover seed only lightly (about 0.2 cm
+  deep). Germinates from about 18 °C in 8-10 days, optimal 20-22 °C.
+- Sowing: 02-01 to 04-01
+- Outdoor planting: from mid-May, staked/trellised
+
+- Spacing: no Sacher-specific figure found; general `Salattomate` range of
+  60-90 cm rows x 45-70 cm in-row reused
+- Site: full sun, warm and sheltered; deep, humus-rich, evenly moist soil
+
+## Harvest & Use
+- Harvest when the fruit reaches its full reddish-brown color and slightly
+  flattened round shape.
+- Versatile fresh use: salads, soups, sauces, juices, per the source; the
+  flat-round, ~100 g fruit size is consistent with general slicing/salad use
+  rather than a dedicated sauce fruit shape.
+
+## Notes
+- The brown/"chocolate" skin color is a cosmetic trait; internal flesh is
+  described as deep red.
+- Good disease resistance package reduces the need for fungicide
+  intervention relative to less-resistant heirloom brown tomatoes.
+
+## Comparison With General Crop Data
+- Kultur determination (project task): the task asked for this variety's
+  fruit-size/use class to be actively researched rather than assumed. Result:
+  `Salattomate`, with high confidence, because (a) fruit weight (~100 g) and
+  shape (slightly flat-round) match the general `Salattomate` size class
+  rather than the >150-200 g `Fleischtomate` class or the elongated
+  `Soßentomate` shape or the <30 g `Kirschtomate` size, and (b) at least one
+  retailer (Kiepenkerl) explicitly labels the same F1 line "Salat-Tomate
+  Sacher, F1". This is treated as sufficient support to assign the Kultur
+  here, though it is not a dedicated classification source like ReinSaat's
+  category page (ReinSaat's own tomato category listing was not confirmed to
+  include this specific `Sacher` line by name in this research pass).
+- Spacing and growth duration/yield: no Sacher-specific spacing was found
+  beyond the general sowing/planting timing; the general `Salattomate`
+  spacing range is intentionally reused. Growth duration and yield are left
+  open on both levels, consistent with the general crop note.
+
+## Sources
+- [Kiepenkerl - Salat-Tomate Sacher, F1](https://www.kiepenkerl.de/salat-tomatensamen-sacher-f1-2842/)
+- [Saat & Gut - Schokoladen-Tomaten Sacher F1](https://www.saat-und-gut.de/schokoladen-tomaten-sacher-f1.html)
+- [Dürr Samen - Tomaten Sacher F1](https://www.samenhaus.de/tomaten-sacher-f1-von-duerr-samen/a-532336)
+
+## Research Status
+- Researched on: 2026-09-18
+- General crop note exists: yes (notes/salad-tomato.md)
+- Open source conflicts: none found regarding fruit data; the task's label
+  "Sacher Braun" was not found verbatim in any source reviewed, only
+  "Sacher F1" / "Schokoladen-Tomate Sacher F1" - these are treated as the
+  same variety (the "Braun"/brown qualifier matching the described
+  reddish-brown skin color), documented explicitly as an identity
+  assumption rather than a confirmed exact-name match.
+- Open mapping questions: whether "Sacher Braun" as used in the project is
+  exactly the retail "Sacher F1" line, or a distinct variant/local name, is
+  unresolved. The Kultur determination (`Salattomate`, high confidence) does
+  not depend on resolving this, since fruit size/shape data is consistent
+  across all sources found for "Sacher F1".
+- Public-readiness: needs review (variety-name match between "Sacher Braun"
+  and retail "Sacher F1" is inferred, not confirmed verbatim)
