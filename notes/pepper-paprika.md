@@ -84,6 +84,20 @@
   compromise between these, chosen inferred rather than sourced; it is
   shorter than the live `Pfefferoni` value (84 days), which reflects earlier
   sowing.
+  Re-verified 2026-09-21: [LWG Bayern](https://www.lwg.bayern.de/gartenakademie/gartendokumente/gemueseblog/371108/index.php)
+  and the [Landratsamt Lindau garden tip](https://www.lkr-lif.de/landratsamt/presse-und-oeffentlichkeitsarbeit/subdir5/8158.Gartentipp-03-2020-Anzucht-von-Paprika-und-Co.html)
+  describe a February sowing with planting out in mid-May, roughly 3 months
+  (about 85-90 days); [kraut&rüben](https://www.krautundrueben.de/paprika-vorziehen-pflegen-und-ueberwintern-3235)
+  and other garden guides give 8-10 (up to 12) weeks, i.e. 56-84 days.
+  Source conflict: the institutional February-to-May reading (about 3
+  months) is longer than the 6-10 week guidance. The 70 days value is kept
+  because sweet pepper and Spitzpaprika are sown late February to early
+  March, not January, and the calendar span February-to-May includes
+  waiting time for the last frost rather than pure plant-development time. No
+  source treats sweet pepper and `Pfefferoni` differently; the 14-day
+  difference to `Pfefferoni`/`Chili` (84 days) is only the sowing-date
+  assumption and is an intentional, documented difference, not a botanical
+  one. Users sowing in mid-February can use 84 days.
 - Field/form constraint: whole integer days; weeks converted to days.
 - Uncertainty: sowing date, heating, and fruit type change all three values
   by roughly 2-3 weeks.
@@ -114,6 +128,7 @@
   `notes/pepper-pfefferoni.md`. Yield remains open; growth duration, harvest window and
   propagation duration are set as representative planning values.
 - Calendar values researched on: 2026-09-21
+- Calendar values re-verified on: 2026-09-21
 - Public-readiness: needs review (yield open; calendar values inferred; identity/
   crop-species link is a known open question shared with `Pfefferoni` and
   `Chili`).

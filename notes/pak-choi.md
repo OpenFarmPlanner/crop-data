@@ -7,7 +7,7 @@
 - Growth duration: 50 days from transplanting to a full-size head as a
   planning value (source range 35-70 days; baby-leaf about 28 days); see
   `Planning Value Derivations`.
-- Harvest window: 14 days per planting.
+- Harvest window: 10 days per planting.
 - Propagation duration: 21 days of pre-cultivation for transplants (direct
   sowings need no propagation).
 
@@ -65,9 +65,20 @@
   transplanting per Hortipendium.
 - Propagation duration: 21 days, from about 18-25 days of seedling
   production, depending on the season (Hortipendium home-garden article).
-- Harvest window: 14 days. No source gives a figure; the plants stand until
-  the first frost, but quality drops and bolting risk rises, so 14 days is
-  an inferred planning value with high uncertainty.
+- Harvest window: 10 days (was 14). No source gives a day count for a single
+  planting. Evidence: [Hortipendium](https://www.hortipendium.de/Pak_Choi_Erwerbsanbau)
+  (read directly) and the [LWG Bayern leaflet](https://www.lwg.bayern.de/mam/cms06/gartenakademie/dateien/2156_pak_choi.pdf)
+  (not readable as text) give no window; the LWG summary only stresses high
+  bolting risk and recommends bolt-resistant varieties, with temperatures
+  above 25 °C causing stress and bolting. Home-garden sources (search
+  summaries only) recommend successive sowings every 2-3 weeks and say that
+  heat above about 27 °C can trigger bolting within days. Derivation: heads
+  can be cut from baby size (about 4-5 weeks) up to full size (7-10 weeks),
+  which widens the window compared with head lettuce (7 days), but the
+  standard full-head harvest targeted by the 50-day growth duration
+  should be completed within about 10 days, inside the 14-21 day succession
+  interval. Inferred planning value; plausible range 7-14 days, shorter in
+  summer heat.
 - Field/form constraint: whole integer days.
 - Yield: left open; no general source reviewed here gives a reliable kg/m²
   figure.
@@ -84,6 +95,7 @@
 ## Research Status
 - Researched on: 2026-09-18
 - Calendar values researched on: 2026-09-21
+- Calendar values re-verified on: 2026-09-21 (harvest window changed from 14 to 10 days; still an inferred value, no direct source day count)
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: spacing figures vary noticeably between sources
   (e.g. 25 x 25 cm vs. 30-40 x 30 cm vs. 50 x 40 cm for larger heads); the

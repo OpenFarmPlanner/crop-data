@@ -84,7 +84,11 @@
   warm pre-cultivation; [Kiepenkerl - Paprika](https://www.kiepenkerl.de/kulturanleitungen/paprika/)
   quotes 6-8 weeks for pepper from a mid-February sowing, and a mid-January
   to mid-May calendar implies up to about 17 weeks. 84 days matches the live
-  `Pfefferoni` value and sits between these bounds.
+  `Pfefferoni` value and sits between these bounds. Re-verified 2026-09-21:
+  [LWG Bayern](https://www.lwg.bayern.de/gartenakademie/gartendokumente/gemueseblog/371108/index.php)
+  gives about 3 months from a February sowing to May planting (about 85-90
+  days), consistent with 84 days; the sweet-pepper value of 70 days
+  (`pepper-paprika.md`) differs only because sweet pepper is sown later.
 - Field/form constraint: whole integer days. Rounding: none needed beyond
   converting weeks to days.
 - Uncertainty: types such as small-podded or very early chilies can be
@@ -110,6 +114,7 @@
   `notes/pepper-pfefferoni.md`. Growth duration, harvest window and propagation
   duration are set as representative planning values (see above).
 - Calendar values researched on: 2026-09-21
+- Calendar values re-verified on: 2026-09-21
 - Public-readiness: needs review (spacing conflict open; calendar values inferred;
   identity/crop-species link is a known open question shared with
   `Pfefferoni`).

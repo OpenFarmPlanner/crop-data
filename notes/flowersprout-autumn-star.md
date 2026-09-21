@@ -56,7 +56,22 @@
   `Snowdrop` at 140). 135 is used because Harris states its reference point
   and it fits the sowing (February-April) and harvest (October-November)
   calendar; 110 is kept as an alternative, possibly for a warmer or
-  longer-season count.
+  longer-season count. Re-check on 2026-09-21 (pages fetched directly):
+  Harris gives 135 days from transplant and 180 from seed; the breeder page
+  at [Tozer Seeds](https://www.tozerseeds.com/product/autumn-star-f1/) gives
+  about 180 days to maturity with harvest beginning in October (no
+  transplant figure); Territorial Seed counts 110 days from transplant
+  based on a June 15 transplant; John Scheepers and William Dam list 110
+  days without stating the reference point in the fetched text; [West Coast Seeds](https://www.westcoastseeds.com/products/kalettes-autumn-star)
+  gives 110 days from transplant; [Johnny's](https://www.johnnyseeds.com/vegetables/kalettes/autumn-star-f1-kalettes-seed-3139.html)
+  says 110 days from seeding date, which contradicts the retailers that
+  count from transplant. The retailer figures therefore mix references. The
+  breeder's 180 days is a from-seed figure, and 180 minus a 45-day seedling
+  stage gives the Harris 135 days from transplant; 110 from transplant would
+  imply only about 155 days from seed with the same seedling stage.
+  135 days from transplant is kept as the value best tied to the breeder's
+  figure and to the October-November harvest; 110 may fit a warm-season
+  June transplant with fast growth.
 - Propagation duration: 45 days, the difference between 180 days from seed
   and 135 days from transplant at Harris Seeds.
 - Harvest window: 45 days, inferred from the October-November harvest
@@ -68,6 +83,9 @@
 - [Territorial Seed - Autumn Star Kalettes Brussels Sprouts Seed](https://territorialseed.com/products/brussels-sprout-autumn-star)
 - [John Scheepers Kitchen Garden Seeds - Autumn Star Kalettes](https://www.kitchengardenseeds.com/kalettes-autumn-star.html)
 - [Rural Sprout - Kalettes! Grow the Tasty Cross Between a Brussel Sprout and Kale](https://www.ruralsprout.com/grow-kalettes/)
+- [Tozer Seeds - Autumn Star F1](https://www.tozerseeds.com/product/autumn-star-f1/)
+- [West Coast Seeds - Autumn Star F1 Kalettes](https://www.westcoastseeds.com/products/kalettes-autumn-star)
+- [Johnny's Selected Seeds - Autumn Star Kalettes](https://www.johnnyseeds.com/vegetables/kalettes/autumn-star-f1-kalettes-seed-3139.html)
 - [William Dam Seeds - Kalette, Autumn Star](https://www.damseeds.com/products/kalette-autumn-star)
 
 ## Research Status
@@ -77,6 +95,7 @@
   Sprout) vs. 135 days from transplant (Harris Seeds); 135 used, see `Planning
   Value Derivations`.
 - Calendar values researched on: 2026-09-21
+- Calendar values re-verified on: 2026-09-21 (135 days kept; breeder 180 days from seed supports it, 110-day catalogs mix references)
 - Open mapping questions: same open crop-species mapping question as the
   general note (a named hybrid brand rather than a classical botanical
   variety); also, no sowing-date or spacing source was found specifically for

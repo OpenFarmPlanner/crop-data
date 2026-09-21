@@ -6,8 +6,8 @@
 - Mid-early, robust, upright-growing, high-yielding variety with long, round,
   completely string-free pods about 17-20 cm long; light brown seed. Tolerant
   to bean mosaic virus.
-- Growth duration: about 73 days from sowing to first pods (variety-specific
-  seed-catalog figure of 70-75 days, see `Planning Value Derivations`).
+- Growth duration: about 63 days from sowing to first pods (conflicting seed-catalog
+  figures of 42-56 and 70-75 days, see `Planning Value Derivations`).
 
 ## Sowing & Planting
 
@@ -40,12 +40,11 @@
   crop's "about 40 cm between rows" guidance; the 8-10 cm in-row figure is
   more specific than the general note's "every few cm" and is kept as the
   variety-specific value.
-- Growth duration deviates from the general crop: `Maxi` uses 73 days
-  (variety-specific, [Sperli](https://www.sperli.de/buschbohnensamen-maxi-80091/)
-  states about 70-75 days), whereas the general note
-  (`bush-bean.md`) carries 49 days. The general value looks short next to
-  seed-catalog figures and is flagged as an open question (the general note
-  is not edited here).
+- Growth duration deviates from the general crop: `Maxi` uses 63 days,
+  whereas the general note (`bush-bean.md`) carries 49 days. The deviation is
+  intentional and explicit: no source found supports 49 days for a green
+  bush bean (see `Planning Value Derivations`). The general note is not edited
+  here; correcting it to about 56 days is recommended.
 - Harvest window and yield are reused from the general crop note (21 days
   harvest window, about 1.3 kg/m²). No `Maxi`-specific figures for these were
   found; this is an intentional reuse of the general planning values, not a
@@ -60,11 +59,20 @@
 
 ## Planning Value Derivations
 
-- Growth duration: 73 days, measured from direct sowing to first pods (no
-  propagation). [Sperli](https://www.sperli.de/buschbohnensamen-maxi-80091/)
-  states first pods after about 70-75 days; the midpoint 72.5 was rounded up
-  to 73. Uncertainty: cool or late sowings take longer; the source range
-  itself is 5 days wide.
+- Growth duration: 63 days, measured from direct sowing to first pods (no
+  propagation). Source conflict, documented explicitly:
+  [Sperli](https://www.sperli.de/buschbohnensamen-maxi-80091/) states about
+  70-75 days, while [ReinSaat](https://www.reinsaat.at/shop/EN/bohnen/buschbohnen/gruenhuelsige_buschbohnen/maxi/)
+  states about 6-8 weeks (42-56 days). General guidance sits in between:
+  [Gärtner Pötschke](https://www.poetschke.de/buschbohnen-anbauen-aussaat-pflege-und-ernte/)
+  gives about eight weeks (56 days), and a general guide summary gives 50-60
+  days under good conditions; the early bush bean `Saxa` is quoted at 60-66
+  days ([raimund Biogartenbedarf](https://www.biogartenbedarf.de/bio-saatgut/bohnen-saatgut/buschbohne-saxa/)),
+  and `Maxi` is described as mid-early, so it should not be faster than `Saxa`.
+  63 days is the gap midpoint between the ReinSaat upper bound (56) and the
+  Sperli lower bound (70); it is an inferred planning value, not a direct
+  source value. Uncertainty: about plus/minus 7 days depending on sowing date
+  and soil warmth.
 - Harvest window: 21 days, reused from the general crop (see above);
   inferred, not a variety-specific source value.
 
@@ -76,10 +84,12 @@
 ## Research Status
 - Researched on: 2026-09-18
 - Calendar values researched on: 2026-09-21
+- Calendar values re-verified on: 2026-09-21
 - General crop note exists: yes (`bush-bean.md`)
-- Open source conflicts: general crop growth duration (49 days) versus the
-  `Maxi` seed-catalog figure (70-75 days); documented above, not resolved at
-  general-crop level.
+- Open source conflicts: `Maxi` seed suppliers disagree (Sperli 70-75 days,
+  ReinSaat 42-56 days); 63 days chosen as an inferred compromise. General crop
+  growth duration (49 days) is below every source found; documented above, not
+  resolved at general-crop level.
 - Open mapping questions: whether the general crop's 160 g thousand-kernel
   weight applies to `Maxi` specifically is unresolved; no variety-specific
   seed-weight source was found to confirm or contradict it.

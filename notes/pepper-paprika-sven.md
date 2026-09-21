@@ -95,6 +95,9 @@
   open for this variety; the calendar values are intentionally reused from
   the general crop.
 - Calendar values researched on: 2026-09-21
+- Calendar values re-verified on: 2026-09-21
+- Propagation duration (70 days) re-checked against LWG and other sources on 2026-09-21; the general
+  `Paprika` rationale (see `pepper-paprika.md`) still applies and no variety-specific source contradicts it.
 - Public-readiness: needs review; yield is open, calendar values are reused from the general crop, and the
   primary source could only be read via search snippets rather than a direct
   page fetch.

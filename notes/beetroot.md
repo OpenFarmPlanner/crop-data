@@ -48,6 +48,13 @@
   Documented as an inferred midpoint, not a direct single-source value; it
   fits a storage-size crop. Early bunching types and baby-beet harvest
   (about 35-60 days) deviate strongly below this, see the variety notes.
+- Cross-check 2026-09-21: [ReinSaat](https://www.reinsaat.at/shop/EN/rote_ruebe/tonda_di_chioggia/)
+  (fetched directly) gives 120-150 days from sowing for full-size roots and
+  a minimum of 70 days for baby beets, confirming the 130-day midpoint for a
+  storage-size crop. Variety values (75 days for `Golden Eye`, 100 days for
+  `Chioggia`) describe earlier first harvests of medium roots and are
+  documented in the variety notes; US catalog figures of 55-65 days count to
+  small harvest size and were not used.
 - Harvest window: 30 days, inferred. Roots can be pulled from baby size to
   full size over several weeks and left in the ground into autumn, but
   quality declines with size, so about one month per sowing is used; no
@@ -67,6 +74,7 @@
 - Researched on: 2026-09-18
 - General crop note exists: not applicable (this is the general crop note)
 - Calendar values researched on: 2026-09-21
+- Calendar values re-verified on: 2026-09-21 (130 days kept; ReinSaat 120-150 days supports it)
 - Open source conflicts: none significant; growth duration and yield are given
   as ranges by design because they depend heavily on harvest size (baby vs.
   storage beet).

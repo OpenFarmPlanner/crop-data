@@ -78,6 +78,7 @@
 ## Research Status
 - Researched on: 2026-09-18
 - Calendar values researched on: 2026-09-21
+- Calendar values re-verified on: 2026-09-21 (70 days unchanged; the Baja Verde variety check found no better evidence to alter the general value)
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: growth duration from sowing to harvest is given
   inconsistently across sources (about 6-8 weeks by one source, 8-12 weeks by

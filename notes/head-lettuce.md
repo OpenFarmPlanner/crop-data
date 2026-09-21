@@ -7,7 +7,7 @@
 - Growth duration: 50 days from transplanting to harvest as a general
   planning value; it varies strongly with season and head type (about 36-60
   days). See `Planning Value Derivations`.
-- Harvest window: 10 days per planting.
+- Harvest window: 7 days per planting.
 - Propagation duration: 28 days of pre-cultivation.
 
 ## Sowing & Planting
@@ -53,12 +53,22 @@
   seedlings and about 70 days for the first sowings under cold conditions;
   a commercial source gives about 30 days. 28 days (four weeks) was chosen as
   a value for the main season.
-- Harvest window: 10 days. No source gives a figure. Heads must be cut soon
-  after they are firm, otherwise the plants bolt
+- Harvest window: 7 days (was 10). Source basis: [Land schafft Leben](https://www.landschafftleben.at/lebensmittel/salat/herstellung/ernte-und-verkauf)
+  (page read directly) states that lettuce has a harvest window of only three
+  to four days in commercial production, which is why plantings are made
+  weekly. Home-garden sources recommend successive plantings every 2-3 weeks
+  (see [Lubera](https://www.lubera.com/de/gartenbuch/salat-saeen-p5339) and
+  [Compo](https://www.compo.de/ratgeber/pflanzen/kraeuter-obst-gemuese/kopfsalat),
+  read via search summaries) and say that uncut heads bolt under long days
   ([IVA](https://www.iva.de/iva-magazin/schule-wissen/kopfsalat-rechtzeitig-ernten-sonst-schiesst-er),
-  read only via a search summary), and the window is shorter in summer heat.
-  10 days is an inferred planning value with high uncertainty (about 5-14
-  days).
+  read via a search summary). [Hortipendium](https://www.hortipendium.de/Kopfsalat_Erwerbsanbau)
+  (read directly) gives no harvest-window figure. Derivation: the commercial
+  3-4 days is a single-cut, uniform-stand figure; a mixed-head-type or garden
+  planting ripens less evenly and can be picked over about a week, so 7 days
+  was chosen as a compromise. It is still an inferred planning value: no
+  LfL, LWG, DLR, Bio Austria or extension source with a day count was found
+  (the LWG pak choi leaflet and the LKO Tirol lettuce guide could not be
+  read as text). Plausible range 3-14 days; summer heat shortens it.
 - Field/form constraint: whole integer days.
 - Yield: left open; no general source reviewed here gives a reliable kg/m²
   or piece-count figure.
@@ -68,12 +78,16 @@
 - [Das Grüne Archiv - Kopfsalat](https://www.gruenes-archiv.de/kopfsalat-aussaat-pflege-sorten/)
 - [Plantura - Kopfsalat pflanzen & ernten](https://www.plantura.garden/gemuese/salat/kopfsalat)
 - [Hortipendium - Kopfsalat Erwerbsanbau](https://www.hortipendium.de/Kopfsalat_Erwerbsanbau)
+- [Land schafft Leben - Salat: Ernte und Verkauf](https://www.landschafftleben.at/lebensmittel/salat/herstellung/ernte-und-verkauf)
+- [Lubera - Salat säen](https://www.lubera.com/de/gartenbuch/salat-saeen-p5339)
+- [Compo - Kopfsalat](https://www.compo.de/ratgeber/pflanzen/kraeuter-obst-gemuese/kopfsalat)
 - [IVA - Kopfsalat: rechtzeitig ernten, sonst schießt er](https://www.iva.de/iva-magazin/schule-wissen/kopfsalat-rechtzeitig-ernten-sonst-schiesst-er)
 - [Der kleine Garten - Kopfsalat anbauen](https://www.derkleinegarten.de/nutzgarten-kleingarten/gemuesegarten-anlegen/blattgemuese/salatanbau-kopfsalat-1.html)
 
 ## Research Status
 - Researched on: 2026-09-18
 - Calendar values researched on: 2026-09-21
+- Calendar values re-verified on: 2026-09-21 (harvest window changed from 10 to 7 days; no direct institutional source, only a 3-4 day commercial figure)
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: sources give differing growth durations by season
   and head type (36-60 days from planting in the Hortipendium table, "about

@@ -63,7 +63,19 @@
   sown), as in the general note. Some US catalogs list 55-65 days for
   Chioggia (for example [Pinetree Garden Seeds](https://www.superseeds.com/products/chioggia-beet-55-days-heirloom));
   the German 100-day value is kept for consistency with the general note's
-  European cultivation and is documented as a source conflict.
+  European cultivation and is documented as a source conflict. Re-check on
+  2026-09-21: the [ReinSaat](https://www.reinsaat.at/shop/EN/rote_ruebe/tonda_di_chioggia/)
+  page (fetched directly) gives 120-150 days from sowing to harvest, with a
+  minimum of 70 days for baby beets. US catalogs count days to a small
+  harvest size, so 55-65 days fits the baby end of ReinSaat's range and is
+  not a contradiction of the European figures. The three figures thus
+  describe different sizes: about 55-70 days baby, about 100 days first
+  harvest of medium roots (Garten des Lebens), 120-150 days full size. 100
+  days is kept as the value between them; it counts from sowing/germination
+  and targets first harvest of medium roots, and the 30-day harvest window
+  spans up to about 130 days, reaching the lower end of full size. The
+  general note's 130 days (full-size midpoint) matches ReinSaat's 120-150
+  range.
 - Harvest window: 30 days, reused from the general note.
 - Field/form constraint: whole days.
 - Spacing: 30-50 x 5-10 cm, taken directly from
@@ -79,8 +91,10 @@
 - Researched on: 2026-09-18
 - General crop note exists: yes (`beetroot.md`)
 - Open source conflicts: 100 days (Garten des Lebens) vs. 55-65 days (US
-  catalogs such as Pinetree); 100 used.
+  catalogs such as Pinetree) vs. 120-150 days (ReinSaat, full size; 70 days
+  minimum for baby beets); differences are mainly harvest size; 100 used.
 - Calendar values researched on: 2026-09-21
+- Calendar values re-verified on: 2026-09-21 (100 days kept; conflict explained by root size)
 - Open mapping questions: none.
 - Public-readiness: needs review (growth duration and spacing source-backed;
   sowing depth and yield reused from the general crop; no live sync

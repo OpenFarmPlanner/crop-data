@@ -104,5 +104,8 @@
   range); harvest window and propagation duration reuse the general crop. Yield remains open; no source-backed value
   was found.
 - Calendar values researched on: 2026-09-21
+- Calendar values re-verified on: 2026-09-21
+- Propagation duration (70 days) re-checked against LWG and other sources on 2026-09-21; the general
+  `Paprika` rationale (see `pepper-paprika.md`) still applies and no variety-specific source contradicts it.
 - Public-readiness: needs review; growth duration is inferred (range midpoint), yield is open, and the variety-name spelling conflict is
   unresolved.
