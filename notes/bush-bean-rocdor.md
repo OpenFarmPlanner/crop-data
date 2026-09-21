@@ -5,10 +5,9 @@
   long and 8-9 mm in diameter; black seed. Bred with resistance to bean common
   mosaic virus (BCMV) and to common bacterial/leaf-spot blight
   ([Hartmann-Brockhaus](https://www.hartmann-brockhaus.de/detail/Buschbohne-Rocdor-gelb---Wachsbohne)).
-- Growth duration: 60 days from sowing to first pods, an inferred planning
-  value from general bush-bean guidance (no `Rocdor`-specific day count was
-  found); deviates from the general 49 days (see `Comparison With General
-  Crop Data`).
+- Growth duration: 56 days from sowing to first pods, intentionally reused
+  from the general crop (no `Rocdor`-specific day count was found; see
+  `Comparison With General Crop Data`).
 
 ## Sowing & Planting
 
@@ -32,13 +31,12 @@
   canning/freezing.
 
 ## Comparison With General Crop Data
-- Growth duration deviates from the general `Buschbohne` crop note
-  (`bush-bean.md`, 49 days): `Rocdor` uses 60 days. The deviation is explicit
-  and intentional, but it is not a `Rocdor`-specific source claim; it comes
-  from general bush-bean guidance because no `Rocdor` day count exists (see
-  `Planning Value Derivations`). No source found supports 49 days.
+- Growth duration is reused from the general `Buschbohne` crop note
+  (`bush-bean.md`, 56 days, corrected from an earlier 49 days on 2026-09-21).
+  No `Rocdor`-specific day count exists, and wax beans are not documented as
+  faster or slower than green types (see `Planning Value Derivations`).
 - Harvest window and yield are likewise reused from the general crop note
-  (harvest window 21 days, yield about 1.3 kg/m²). No `Rocdor`-specific
+  (harvest window 11 days, yield about 1.3 kg/m²). No `Rocdor`-specific
   figures were found and no source contradicts the general values.
 - Spacing and sowing depth are reused from the general crop; the product
   listings found for `Rocdor` did not give variety-specific spacing or depth
@@ -56,22 +54,17 @@
 
 ## Planning Value Derivations
 
-- Growth duration: 60 days from direct sowing to first pods. No
-  `Rocdor`-specific day count was found. General guidance:
+- Growth duration: 56 days from direct sowing to first pods, reused from the
+  general crop. No `Rocdor`-specific day count was found. General guidance:
   [Gärtner Pötschke](https://www.poetschke.de/buschbohnen-anbauen-aussaat-pflege-und-ernte/)
-  gives about eight weeks (56 days); a general guide summary gives 50-60 days
-  under good conditions; the early green bush bean `Saxa` is quoted at 60-66
-  days ([raimund Biogartenbedarf](https://www.biogartenbedarf.de/bio-saatgut/bohnen-saatgut/buschbohne-saxa/));
-  seed suppliers quote 70-75 days for `Maxi` (see `bush-bean-maxi.md`, with
-  a conflicting 42-56 day figure). 60 days is the top of the general 50-60
-  range and the low end of the `Saxa` range, chosen as an inferred value for
-  a vigorous wax bean; wax beans are not documented as faster or slower than
-  green types. Uncertainty: about plus/minus 7 days.
-- Harvest window: 21 days, reused from the general crop; both values are
+  gives about eight weeks (56 days); a general guide summary gives 50-60 days;
+  the early green bush bean `Saxa` is quoted at 60-66 days
+  ([raimund Biogartenbedarf](https://www.biogartenbedarf.de/bio-saatgut/bohnen-saatgut/buschbohne-saxa/)).
+  Inferred, not a variety source value; uncertainty about plus/minus 7 days.
+- Harvest window: 11 days, reused from the general crop; both values are
   measured from direct sowing (no propagation). [LWG Veitshöchheim](https://www.lwg.bayern.de/gartenakademie/gartendokumente/infoschriften/064339/index.php)
-  gives an average harvest period per sowing of about 8-14 days, so 21 days
-  is at the generous side; kept because no `Rocdor`-specific figure exists
-  and successive pickings can extend it. Inferred, not a source value.
+  gives an average harvest period per sowing of about 8-14 days. Inferred,
+  not a `Rocdor` source value.
 
 ## Sources
 - [Hartmann-Brockhaus - Buschbohne Rocdor (gelb, Wachsbohne)](https://www.hartmann-brockhaus.de/detail/Buschbohne-Rocdor-gelb---Wachsbohne)
@@ -85,9 +78,9 @@
 - Researched on: 2026-09-18
 - Calendar values researched on: 2026-09-21
 - General crop note exists: yes (`bush-bean.md`)
-- Open source conflicts: none for `Rocdor` itself. The general crop 49 days is
-  below all general sources found (50-60 days, about 56 days, Saxa 60-66);
-  documented above and flagged for general-crop review. Whether the general
+- Open source conflicts: none for `Rocdor` itself. The general crop was
+  corrected from 49 to 56 days on 2026-09-21 (sources 50-60 days, about 56
+  days, Saxa 60-66). Whether the general
   crop's 160 g thousand-kernel weight applies to `Rocdor` is unresolved; no
   variety-specific seed-weight source was found.
 - Open mapping questions: none beyond the thousand-kernel weight above.

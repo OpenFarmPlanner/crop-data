@@ -41,15 +41,15 @@
   more specific than the general note's "every few cm" and is kept as the
   variety-specific value.
 - Growth duration deviates from the general crop: `Maxi` uses 63 days,
-  whereas the general note (`bush-bean.md`) carries 49 days. The deviation is
-  intentional and explicit: no source found supports 49 days for a green
-  bush bean (see `Planning Value Derivations`). The general note is not edited
-  here; correcting it to about 56 days is recommended.
-- Harvest window and yield are reused from the general crop note (21 days
+  whereas the general note (`bush-bean.md`) now carries 56 days (corrected
+  from an earlier 49 days on 2026-09-21). The 7-day deviation follows the
+  supplier figures for this mid-early variety (see `Planning Value
+  Derivations`).
+- Harvest window and yield are reused from the general crop note (11 days
   harvest window, about 1.3 kg/m²). No `Maxi`-specific figures for these were
   found; this is an intentional reuse of the general planning values, not a
   variety-specific source claim. The source describes repeated picking from
-  July to October across successive sowings, which does not contradict 21
+  July to October across successive sowings, which does not contradict 11
   days for a single sowing.
 - Thousand kernel weight: left open for this variety. The general crop uses
   160 g; `Maxi`'s seed is described as light brown and of ordinary bush-bean
@@ -73,7 +73,8 @@
   Sperli lower bound (70); it is an inferred planning value, not a direct
   source value. Uncertainty: about plus/minus 7 days depending on sowing date
   and soil warmth.
-- Harvest window: 21 days, reused from the general crop (see above);
+- Harvest window: 11 days, reused from the general crop (LWG Veitshöchheim
+  gives 8-14 days per sowing; see above);
   inferred, not a variety-specific source value.
 
 ## Sources
@@ -87,9 +88,8 @@
 - Calendar values re-verified on: 2026-09-21
 - General crop note exists: yes (`bush-bean.md`)
 - Open source conflicts: `Maxi` seed suppliers disagree (Sperli 70-75 days,
-  ReinSaat 42-56 days); 63 days chosen as an inferred compromise. General crop
-  growth duration (49 days) is below every source found; documented above, not
-  resolved at general-crop level.
+  ReinSaat 42-56 days); 63 days chosen as an inferred compromise. The general crop
+  growth duration was corrected from 49 to 56 days on 2026-09-21.
 - Open mapping questions: whether the general crop's 160 g thousand-kernel
   weight applies to `Maxi` specifically is unresolved; no variety-specific
   seed-weight source was found to confirm or contradict it.
