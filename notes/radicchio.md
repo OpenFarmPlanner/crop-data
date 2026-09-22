@@ -76,6 +76,9 @@
   `growth_duration_days` set to 85 and `harvest_duration_days` set to 30 (both
   were empty; growth duration blocked publishing).
   `thousand_kernel_weight_g` set to 1.4.
+- Synced 2026-09-22: `expected_yield` set to 3.5 and `harvest_method` set to
+  `per_sqm` (both were empty). Nutrient demand already matched (`medium`) and
+  was left unchanged.
 - Open mapping questions: no crop-species link or display language is set.
   Yield (3.5 kg/m²) is a derived value from density and target head weight,
   not a direct source figure.

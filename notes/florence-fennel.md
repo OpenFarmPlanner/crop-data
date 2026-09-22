@@ -82,6 +82,9 @@
 - Open mapping questions: none remaining for thousand kernel weight; it is
   now a cross-variety planning value rather than an individually-sourced
   general figure (documented above).
+- Synced 2026-09-22 to the live `Zwiebelzopf` project on `openfarmplanner.org`:
+  `thousand_kernel_weight_g` set to 4.4 (was empty). All other fields already
+  matched and were left unchanged.
 - Yield and spacing values researched on: 2026-09-22 (yield 3.0 kg/m²,
   spacing 0.40 x 0.30 m and nutrient demand `medium` re-checked; no better
   source found to change them; thousand kernel weight added, see above; no

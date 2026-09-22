@@ -71,8 +71,10 @@
   overwrite.
 - Synced 2026-09-04 to the live `Zwiebelzopf` project on `openfarmplanner.org`:
   `thousand_kernel_weight_g` set to 165 (was empty). Other fields were already
-  present. The yield correction and the new within-row distance still need to
-  be applied in a private sync.
+  present.
+- Synced 2026-09-22: `expected_yield` corrected to 1.0 (was 1.5) and
+  `distance_within_row_m` set to 0.04 (was 0.05), per the corrected planning
+  values above.
 - Open mapping questions: none outstanding for the structured fields.
 - Public-readiness: yield corrected and within-row distance added; needs
   review before the next private sync.

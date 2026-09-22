@@ -106,6 +106,10 @@
 - Synced 2026-09-04 to the live `Zwiebelzopf` project on `openfarmplanner.org`:
   `thousand_kernel_weight_g` set to 160 (was empty). Other fields were already
   present.
+- Synced 2026-09-22: `growth_duration_days` set to 56 (was 49) and
+  `harvest_duration_days` set to 11 (was 21), per the re-verified planning
+  values above. Yield, within-row distance and thousand kernel weight already
+  matched and were left unchanged.
 - Open mapping questions: none outstanding for the structured fields.
 - Public-readiness: seed weight added; the rest of the record was already
   complete.
