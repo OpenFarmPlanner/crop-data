@@ -46,9 +46,16 @@
 - Spacing: no variety-specific figure was found; the general crop's range is
   intentionally reused because no contradicting variety-specific source was
   found.
-- Yield: no variety-specific figure was found; the general crop's 4-6 kg/m²
-  range is intentionally reused, since no contradicting variety-specific
-  source was found.
+- Yield: no `Golden Eye`-specific figure was found; the general crop's now
+  source-backed planning value (2.7 kg/m², 2016 NRW variety-trial average) is
+  intentionally reused. Context, not a `Golden Eye`-specific claim: the same
+  trial tested a different yellow beet variety, `Boldor`, which yielded only
+  about 150 dt/ha (1.5 kg/m²), well below the trial average; this is noted as
+  a caveat that yellow-fleshed varieties performed unevenly in that trial,
+  but it is not applied to `Golden Eye` itself since it is a different
+  variety and no source measured it directly.
+- Thousand kernel weight: 17.5 g, intentionally reused from the general note
+  (standard multi-germ beet seed); no variety-specific figure found.
 
 ## Planning Value Derivations
 - Definitions: growth duration counted from sowing (direct sown), as in the
@@ -76,6 +83,8 @@
 - Harvest window: 30 days, reused from the general note. The Impecta harvest
   span of August to October covers staggered sowings.
 - Field/form constraint: whole days.
+- Yield and thousand kernel weight: reused from the general note (see
+  `Comparison With General Crop Data`).
 
 ## Sources
 - [Impecta - Gelbe Bete 'Golden Eye'](https://www.impecta.de/samen/gemuse/gelbe-bete-golden-eye)
@@ -92,5 +101,7 @@
 - Calendar values researched on: 2026-09-21
 - Calendar values re-verified on: 2026-09-21 (75 days kept; confirmed as from sowing, medium-root size)
 - Open mapping questions: none.
-- Public-readiness: needs review (calendar values derived, spacing and yield
-  reused from the general crop; no live sync performed).
+- Yield and spacing values researched on: 2026-09-22
+- Public-readiness: needs review (calendar values derived, spacing, yield and
+  thousand kernel weight reused from the general crop; no live sync
+  performed).

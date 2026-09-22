@@ -3,8 +3,8 @@
   grown mainly for summer and autumn harvest. Two leaf-type groups exist:
   curly-leaved (`frisée`) and broad-leaved (`Eskariol`/escarole); see the
   type note below.
-- Moderate to high nutrient demand; even moisture; sensitive to bolting under
-  long, warm days early in the season.
+- Medium nutrient demand (Mittelzehrer); even moisture; sensitive to bolting
+  under long, warm days early in the season.
 - Growth duration: 75 days from transplanting to harvest (planning value;
   differs between curly and broad-leaved type and between seasons, see
   `Planning Value Derivations`).
@@ -68,25 +68,47 @@
   the bed into November to December. 21 days is a compromise between the
   short window of curly types and the longer one of smooth types.
 - Field/form constraint: whole integer days.
-- Yield: left open; no general source reviewed here gives a reliable kg/m²
-  figure.
-- Thousand kernel weight: left open; not reviewed in this research pass.
+- Yield: left open after active research, not skipped. [Hortipendium -
+  Endivien Erwerbsanbau](https://www.hortipendium.de/Endivien_Erwerbsanbau)
+  (the main German commercial-cultivation reference for this crop) gives
+  spacing and plant-density figures (38 x 30 cm = 8.9 plants/net m²; 33 x 33
+  cm = 8.0 plants/net m²) but no marketable head weight or yield figure.
+  Kiepenkerl, Sperli, and Plantura give cultivation guidance only, no yield.
+  A KTBL commercial vegetable-production dataset likely contains a figure but
+  is a paid publication and was not accessible. No reliable head-weight
+  figure was found either (unlike the related `Radicchio`, where Hortipendium
+  gives an explicit head-weight target), so no density-based kg/m² estimate
+  could be derived without guessing a head weight. Genuinely left open; a
+  head-weight figure would resolve this if found later.
+- Nutrient demand: medium (Mittelzehrer). Source basis: [BUND Region Hannover
+  - Stark-, Mittel- und Schwachzehrer im Gemüse- und Kräutergarten](https://bund-region-hannover.de/fileadmin/hannover/BUND_aktiv/Universum_Kleingarten/Publikationen_zum_Download/Handreichung_Stark-_Mittel-_und_Schwachzehrer.pdf)
+  explicitly lists "Endivie" as a Mittelzehrer alongside Radicchio, Mangold,
+  Spinat, and Petersilie. This revises the previous "moderate to high"
+  wording to a decided "medium" classification; documented as a deliberate
+  change, not a silent one.
+- Thousand kernel weight: left open; not found in this research pass.
 
 ## Sources
 - [Sperli - Endivien Kulturanleitung](https://www.sperli.de/anbauexperte/kulturanleitung-endivien/)
 - [Plantura - Endiviensalat Pflanzenportrait](https://www.plantura.garden/gemuese/endiviensalat/endiviensalat-pflanzenportrait)
 - [Kiepenkerl - Endivien Kulturanleitung](https://www.kiepenkerl.de/kulturanleitungen/endivien/)
+- [Hortipendium - Endivien Erwerbsanbau](https://www.hortipendium.de/Endivien_Erwerbsanbau)
+- [BUND Region Hannover - Stark-, Mittel- und Schwachzehrer im Gemüse- und Kräutergarten](https://bund-region-hannover.de/fileadmin/hannover/BUND_aktiv/Universum_Kleingarten/Publikationen_zum_Download/Handreichung_Stark-_Mittel-_und_Schwachzehrer.pdf)
 
 ## Research Status
 - Researched on: 2026-09-18
 - Calendar values researched on: 2026-09-21
+- Yield and spacing values researched on: 2026-09-22
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: none found; sources agree on the two leaf-type
   groups and the two seasonal sowing windows.
 - Open mapping questions: growth duration, harvest window and propagation
   duration are inferred compromise values across types; yield and thousand
-  kernel weight are left open;
+  kernel weight remain open despite an active search across Hortipendium,
+  Kiepenkerl, Sperli, and Plantura;
   whether OpenFarmPlanner should model curly and broad-leaved endive as
   separate Kultur entries is an open question if a curly-type variety is
   added later.
-- Public-readiness: needs review; calendar values are inferred, yield is open.
+- Public-readiness: needs review; calendar values are inferred, yield is
+  open. Nutrient demand was decided as medium based on the BUND Region
+  Hannover classification.

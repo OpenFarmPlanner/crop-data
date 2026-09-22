@@ -33,7 +33,16 @@
 - Harvest window: 21 days as a planning value; a spinach stand is usable for
   only a short period before bolting or quality loss. The live variety record
   `Matador` also stores 21 days.
-- Yield: about 2.5 kg/m² is the stored general value; not re-derived here.
+- Yield: about 2.5 kg/m² is the stored general value; corroborated, not
+  re-derived, on 2026-09-22 by independent trial figures: a mid-early spinach
+  variety trial reports `Disko` and `Timor` at about 2.5 kg/m² each, and a
+  [LVG Baden-Württemberg organic trial](https://lvg.landwirtschaft-bw.de/site/pbs-bw-mlr-root/get/documents_E-680384267/MLR.LEL/PB5Documents/lvg/pdf/2/2012%20%C3%96ko%20Versuchsbericht%20Spinat%20Satz%201.pdf?attachment=true)
+  reports `Ranchero` and `Racoon` at about 2.5 kg/m² each. 2.5 kg/m² is
+  therefore kept as a source-consistent, if still garden/trial-summary-level,
+  general value.
+- Nutrient demand: moderate (medium), confirmed by [BUND Region Hannover -
+  Stark-, Mittel- und Schwachzehrer im Gemüse- und Kräutergarten](https://bund-region-hannover.de/fileadmin/hannover/BUND_aktiv/Universum_Kleingarten/Publikationen_zum_Download/Handreichung_Stark-_Mittel-_und_Schwachzehrer.pdf),
+  which lists "Spinat" as a Mittelzehrer.
 - Thousand kernel weight: 12 g as a planning value. Spinach seed is commonly
   about 50-80 seeds per gram, i.e. roughly 12-20 g per thousand
   ([Osborne Seed - Seed Count Chart](https://www.osborneseed.com/pages/seed-count-chart)).
@@ -44,9 +53,12 @@
 - [meine-ernte - Spinat](https://www.meine-ernte.de/pflanzen-a-z/gemuese/spinat/)
 - [Plantura - Spinat anbauen](https://www.plantura.garden/gemuese/spinat/spinat-anbauen)
 - [Kiepenkerl - Spinat Kulturanleitung](https://www.kiepenkerl.de/kulturanleitungen/spinat/)
+- [LVG Baden-Württemberg - Öko-Versuchsbericht Spinat Satz 1 (2012)](https://lvg.landwirtschaft-bw.de/site/pbs-bw-mlr-root/get/documents_E-680384267/MLR.LEL/PB5Documents/lvg/pdf/2/2012%20%C3%96ko%20Versuchsbericht%20Spinat%20Satz%201.pdf?attachment=true)
+- [BUND Region Hannover - Stark-, Mittel- und Schwachzehrer im Gemüse- und Kräutergarten](https://bund-region-hannover.de/fileadmin/hannover/BUND_aktiv/Universum_Kleingarten/Publikationen_zum_Download/Handreichung_Stark-_Mittel-_und_Schwachzehrer.pdf)
 
 ## Research Status
 - Researched on: 2026-09-04
+- Yield and spacing values researched on: 2026-09-22
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: "full plant" vs "leaf harvest" timing differ; the
   planning value is set for leaf harvest.

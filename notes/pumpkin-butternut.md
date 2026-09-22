@@ -77,9 +77,13 @@
 - Propagation duration (28 days) and harvest window (28 days) are
   intentionally reused from the general crop; no variety-specific source
   contradicts them.
-- Yield: no kg/m² figure specific to `Butternut` was found; the general
-  crop's wide 5-15 kg/m² commercial range is not narrowed here for lack of a
-  variety-specific source; left open.
+- Yield: no reliable kg/m² figure specific to `Butternut` was found. Several
+  gardening-blog sources give per-plant fruit counts and weights (e.g. "3-5
+  fruits x 0.5-1 kg" or "up to 15 kg per plant"), but they conflict heavily
+  with each other and are not clearly specific to the `Waltham` type sold by
+  ReinSaat, so they are not used. The general crop's planning value of
+  7 kg/m² (set 2026-09-22, see `pumpkin.md`) is intentionally reused instead;
+  no reliable variety-specific source contradicts it.
 
 ## Planning Value Derivations
 
@@ -97,6 +101,9 @@
   ripe and harvested before the first frost.
 - Harvest window: 28 days, reused from the general crop (September to
   October, one or two harvest passes before frost).
+- Yield: 7 kg/m², reused unchanged from the general crop's 2026-09-22 planning
+  value (see `pumpkin.md`); conflicting, unreliable per-plant blog figures
+  were found but not used (see `Comparison With General Crop Data`).
 
 ## Sources
 - [ReinSaat - Butternut Waltham](https://www.reinsaat.at/shop/DE/kuerbis/speisekuerbis/butternut_waltham/)
@@ -108,10 +115,16 @@
 ## Research Status
 - Researched on: 2026-09-18
 - Calendar values researched on: 2026-09-21
+- Yield and spacing values researched on: 2026-09-22
 - General crop note exists: yes (`pumpkin.md`)
-- Open source conflicts: none found for this variety specifically.
+- Open source conflicts: gardening-blog sources give conflicting per-plant
+  yield figures for Butternut-type squash generally; none was reliable or
+  clearly `Waltham`-specific enough to use, so the general crop's 7 kg/m²
+  planning value is reused instead.
 - Open mapping questions: species difference from `Hokkaido` (`C. moschata`
   vs. `C. maxima`) despite shared shop category - see general `Kürbis` note.
-  Yield remains open (no source-backed figure found).
-- Public-readiness: needs review; yield open; calendar values are documented
+  Thousand kernel weight remains open (no source-backed figure found for this
+  variety).
+- Public-readiness: needs review; yield is an intentional reuse of the general
+  crop; thousand kernel weight remains open; calendar values are documented
   planning values.

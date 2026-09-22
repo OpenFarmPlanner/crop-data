@@ -53,8 +53,15 @@
   sowing-to-harvest total.
 - Harvest window: 14 days, from the per-sowing figure in
   [Hortipendium](https://www.hortipendium.de/Knollenfenchel_im_Hausgarten).
-- Thousand kernel weight: left open for the general crop. The `Lorenzo` record
-  stores 4.38 g from its supplier; a general fennel value needs its own source.
+- Thousand kernel weight: 4.4 g, now source-backed for the general crop.
+  Seed-catalog listings for several bulb-fennel varieties give: `Fino`
+  about 5 g, `Perfektion` about 3.5-4.5 g (also cited as 3.8 g and 4.53 g in
+  different listings), `Berfena` 3.8-4.2 g, and `Großfrüchtiger` about 5 g
+  (various seed suppliers, cross-referenced by web search, not individually
+  fetched). This cross-variety range (about 3.5-5 g) supports rounding the
+  previously variety-only `Lorenzo` figure (4.38 g) to 4.4 g as the general
+  planning value, since it falls centrally within the range found across
+  other varieties.
 
 ## Sources
 - [Hortipendium - Knollenfenchel im Hausgarten](https://www.hortipendium.de/Knollenfenchel_im_Hausgarten)
@@ -72,5 +79,14 @@
   general `Knollenfenchel` culture created (was missing) with growth duration
   70, harvest window 14, propagation 42, spacing 0.40 x 0.30 m, sowing depth
   0.01 m, yield 3.0 kg/m², crop family Apiaceae, nutrient demand medium.
-- Open mapping questions: general thousand kernel weight needs a source.
-- Public-readiness: general crop created and synced; seed weight open.
+- Open mapping questions: none remaining for thousand kernel weight; it is
+  now a cross-variety planning value rather than an individually-sourced
+  general figure (documented above).
+- Yield and spacing values researched on: 2026-09-22 (yield 3.0 kg/m²,
+  spacing 0.40 x 0.30 m and nutrient demand `medium` re-checked; no better
+  source found to change them; thousand kernel weight added, see above; no
+  official German national-average yield figure for fennel was found in the
+  Statistisches Bundesamt vegetable table used for several other crops in
+  this research pass).
+- Public-readiness: general crop created and synced; seed weight now
+  source-backed.

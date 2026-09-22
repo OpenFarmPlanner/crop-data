@@ -29,6 +29,8 @@
 - Outdoor / tunnel planting: after the "Ice Saints" (mid-May), once frost
   risk has passed (reused from the general `Paprika` note).
 
+- Sowing depth: about 1 cm (reused from the general `Paprika` note; no
+  `Sven`-specific depth figure was found).
 - Spacing: about 40 x 40 cm between plants (reused from the general `Paprika`
   note; no `Sven`-specific spacing figure was found).
 - Site: full sun, warm, sheltered; nutrient-rich, well-drained soil, matching
@@ -61,11 +63,17 @@
   cm, late February to early March sowing, mid-May outdoor planting). No
   `Sven`-specific source contradicts these general values, and no
   `Sven`-specific source gives its own figures either.
-- Yield: the general `Paprika` note leaves yield open at the general-crop
-  level. `Sven` is described qualitatively as "high yielding" and "high
-  overall yields" in the breeder source and the Weihenstephan-Triesdorf trial,
-  but no kg/m² or kg/plant figure was found for `Sven` specifically, so no
-  yield value is set here either.
+- Yield: the general `Paprika` note now sets 5.5 kg/m² (open field to
+  unheated tunnel; see `pepper-paprika.md`). `Sven` is described qualitatively
+  as "high yielding" and "high overall yields" in the breeder source and the
+  Weihenstephan-Triesdorf trial, but no kg/m² or kg/plant figure was found for
+  `Sven` specifically, so the general value is intentionally reused here; no
+  variety-specific source contradicts it, and the qualitative "high-yielding"
+  wording is consistent with reusing (rather than lowering) the general
+  figure. This is a reuse, not a `Sven`-specific source claim.
+- Nutrient demand: the general `Paprika` note sets "high" (Starkzehrer,
+  [Plantura](https://www.plantura.garden/gemuese/gemuese-anbauen/starkzehrer-mittelzehrer-und-schwachzehrer)).
+  No `Sven`-specific source contradicts this; reused.
 - Fruit weight (180-200 g) is `Sven`-specific and does not have a general
   crop equivalent to compare against, since the general `Paprika` note does
   not track fruit weight.
@@ -74,6 +82,10 @@
 - Growth duration 70 days, harvest window 90 days, propagation duration 70
   days: reused from the general `Paprika` note (`pepper-paprika.md`), where
   the source basis and derivation are documented. No `Sven` figure was found.
+- Yield: 5.5 kg/m², reused from the general `Paprika` note; no `Sven`-specific
+  kg/m² or kg/plant figure was found.
+- Sowing depth: 1 cm, reused from the general `Paprika` note; no
+  `Sven`-specific figure was found.
 - Field/form constraint: whole integer days.
 - Uncertainty: blocky yellow fruit may need a few weeks more than the
   earliest green harvest; the value fits ripe yellow fruit in a tunnel or a
@@ -91,13 +103,16 @@
   result summaries only, so it should be re-verified against the live page if
   more detail is needed later.
 - Open mapping questions: same official OpenFarmPlanner crop-species question
-  documented in `pepper-paprika.md` and `pepper-pfefferoni.md`. Yield remains
-  open for this variety; the calendar values are intentionally reused from
-  the general crop.
+  documented in `pepper-paprika.md` and `pepper-pfefferoni.md`. Yield,
+  nutrient demand, sowing depth and the calendar values are all intentionally
+  reused from the general crop; no `Sven`-specific figures were found for
+  any of them.
 - Calendar values researched on: 2026-09-21
 - Calendar values re-verified on: 2026-09-21
 - Propagation duration (70 days) re-checked against LWG and other sources on 2026-09-21; the general
   `Paprika` rationale (see `pepper-paprika.md`) still applies and no variety-specific source contradicts it.
-- Public-readiness: needs review; yield is open, calendar values are reused from the general crop, and the
-  primary source could only be read via search snippets rather than a direct
+- Yield and spacing values researched on: 2026-09-22
+- Public-readiness: needs review; yield, nutrient demand and sowing depth are
+  reused from the general crop rather than `Sven`-specific, and the primary
+  breeder source could only be read via search snippets rather than a direct
   page fetch.

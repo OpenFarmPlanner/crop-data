@@ -19,6 +19,9 @@
   propagation duration 49 days. No variety-specific figure was found, so the
   general `Soßentomate` planning values are intentionally reused (see `Comparison
   With General Crop Data`).
+- Yield: 10.2 kg/m², directly source-backed for this variety - notably higher
+  than the general `Soßentomate` value (see `Comparison With General Crop
+  Data` and `Planning Value Derivations`).
 
 ## Sowing & Planting
 
@@ -27,6 +30,8 @@
   preferably into a tunnel or lightly heated greenhouse.
 - Sowing: 02-15 to 03-31 (reused from the general `Soßentomate` window; no
   Bolstar-specific sowing date was published in the sources reviewed)
+- Sowing depth: about 0.5 cm, reused from the general `Soßentomate` note; no
+  `Bolstar`-specific figure was found.
 - Outdoor planting: from mid-May
 
 - Spacing: 50-60 cm within the row
@@ -65,9 +70,20 @@
   variety-specific source contradicts them. Qualitative wording about
   earliness or vigor in the sources was not converted into a number. This is a
   reuse, not a `Bolstar`-specific source claim.
-- Yield: no concrete value found for Bolstar; the general crop note also has
-  no yield value. Left open on both levels rather than inferred from
-  "high-yielding" wording.
+- Yield: 10.2 kg/m², directly source-backed for `Bolstar` from a 2017
+  comparative variety trial by LWK Nordrhein-Westfalen's organic horticulture
+  division ("Sortenprüfung von Tomaten im Frühsommer"), which reports this
+  exact figure for `Bolstar Sensatica F1`
+  ([hortigate - Sortenprüfung von Tomaten im Frühsommer](https://www.hortigate.de/publikation/75714/Sortenpruefung-von-Tomaten-im-Fruehsommer/)).
+  This is notably higher than the general `Soßentomate` note's inferred
+  6.0 kg/m² planning value (derived from home-garden per-plant estimates).
+  Documented as a real, source-backed variety-specific deviation rather than
+  a reuse: the trial is an early-summer organic comparison, and the
+  cultivation structure (tunnel/greenhouse vs. open field) is not stated
+  explicitly in the accessible summary, so the higher figure may partly
+  reflect protected/organic-trial conditions rather than typical open-field
+  home-garden cultivation; this uncertainty is noted rather than
+  silently smoothed into the general value.
 
 ## Planning Value Derivations
 - Growth duration 70 days, harvest window 60 days, propagation duration
@@ -76,11 +92,15 @@
 - Field/form constraint: whole integer days.
 - Uncertainty: fits a staked crop planted out in mid-May; protected
   cultivation or an earlier variety can start about four weeks earlier.
+- Nutrient demand: high, reused from the general `Soßentomate` note; no
+  `Bolstar`-specific source contradicts it.
+- Sowing depth: 0.5 cm, reused from the general `Soßentomate` note.
 
 ## Sources
 - [saemereien.ch - Romatomate 'Bolstar Sensatica F1'](https://www.saemereien.ch/tomatensamen-kaufen-roma-tomate-bolstar-sensatica-lycopersicon-esculentum-tomatensamen)
 - [Kiepenkerl - BIO Salat-Tomate Bolstar Sensatica, F1](https://www.kiepenkerl.de/salat-tomatensamen-bolstar-sensatica-f1-2789/)
 - [Beringmeier - Roma-Tomate Bolstar Sensatica F1, Bio](https://www.beringmeier.de/tomaten-saatgut/bio-tomaten/Roma-Tomate-Sensatica-F1--oeko.html)
+- [hortigate - Sortenprüfung von Tomaten im Frühsommer](https://www.hortigate.de/publikation/75714/Sortenpruefung-von-Tomaten-im-Fruehsommer/)
 
 ## Research Status
 - Researched on: 2026-09-18
@@ -92,7 +112,10 @@
   than silently resolved; the Kultur choice here follows the majority of
   sources and the ReinSaat Roma-type-under-Sauce-tomatoes rule given in the
   task.
-- Open mapping questions: row spacing and calendar values are reused, yield
-  is left open, as documented above, pending a more specific source.
+- Open mapping questions: row spacing and calendar values are reused. Yield
+  (10.2 kg/m²) is now directly source-backed, but the exact cultivation
+  structure of the underlying trial (open field vs. protected) is not fully
+  documented in the accessible summary; flagged as an open uncertainty.
 - Calendar values researched on: 2026-09-21
+- Yield and spacing values researched on: 2026-09-22
 - Public-readiness: ready

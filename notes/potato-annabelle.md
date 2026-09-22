@@ -70,9 +70,15 @@
 - Spacing and planting depth: no `Annabelle`-specific source was found, so
   the general `Kartoffel` note's values are intentionally reused. No
   variety-specific source contradicts them.
-- Yield: the general `Kartoffel` note leaves yield open. No `Annabelle`-
-  specific kg/m² or kg/plant figure was found, so no yield value is set here
-  either; this is an intentional reuse of the general note's open state.
+- Yield: the general `Kartoffel` note now sets 3.5 kg/m² (garden planning
+  value; see `potato.md`). No `Annabelle`-specific kg/m² or kg/plant figure
+  was found, so the general value is intentionally reused; no
+  variety-specific source contradicts it, though as a very-early variety it
+  likely sits at the lower end of the general range rather than above it
+  (see `Planning Value Derivations`).
+- Nutrient demand: no `Annabelle`-specific source was found; the general
+  `Kartoffel` note's "high" (Starkzehrer) value is intentionally reused. No
+  variety-specific source contradicts it.
 
 ## Planning Value Derivations
 - Growth duration: 100 days (planting of seed tubers to harvest readiness).
@@ -83,6 +89,14 @@
   pre-sprouted tubers planted in April for a mid-June to early-July harvest.
 - Harvest window: 30 days, reused from the general crop; inferred, not a
   source value.
+- Yield: 3.5 kg/m², reused from the general `Kartoffel` note; no
+  `Annabelle`-specific kg/m² figure was found. Uncertainty: very-early
+  varieties typically yield somewhat less per plant than mid-late storage
+  varieties in institutional trials, so the true figure for `Annabelle` may
+  sit below this reused general value; no source quantifies this for
+  `Annabelle` specifically, so no lower value is asserted.
+- Planting depth: 10 cm, reused from the general `Kartoffel` note; no
+  `Annabelle`-specific figure was found.
 - Field/form constraint: whole integer days; no rounding needed.
 - Uncertainty: unsprouted tubers or cool springs push readiness toward 110
   days; very warm years toward 90.
@@ -98,8 +112,12 @@
   source and about 80-90 days in another; documented above rather than
   silently resolved.
 - Open mapping questions: growth duration is set to 100 days (midpoint of the
-  90-110 day source, the 80-90 day figure kept as documented alternative); yield has no quantitative source and is
-  intentionally left open, reusing the general crop's open state.
+  90-110 day source, the 80-90 day figure kept as documented alternative);
+  yield, nutrient demand and planting depth are intentionally reused from the
+  general crop, with the very-early maturity group flagged as a reason the
+  reused yield figure may be an overestimate.
 - Calendar values researched on: 2026-09-21
-- Public-readiness: needs review; the growth duration source conflict and missing
-  quantitative yield figure should be resolved before structured sync.
+- Yield and spacing values researched on: 2026-09-22
+- Public-readiness: needs review; the growth duration source conflict should
+  be resolved before structured sync, and the reused yield value carries the
+  very-early-variety uncertainty noted above.

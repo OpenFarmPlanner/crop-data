@@ -71,8 +71,16 @@
   reused. Sowing runs April to July, the source describes repeated cutting,
   and no variety-specific harvest-window source was found or contradicts the
   general value. Counted as the cutting period, as in `swiss-chard.md`.
-- Yield and thousand kernel weight: no variety-specific figures were found;
-  both remain open, matching the general crop's open status.
+- Yield: no variety-specific figure was found; the general crop's 4.0 kg/m²
+  is intentionally reused. No reliable variety-specific yield source found;
+  the general crop planning value was intentionally reused, understanding
+  that it targets the cut/leaf-chard case and this variety is dual-purpose.
+- Sowing depth: no variety-specific figure was found; the general crop's
+  2.5 cm value is intentionally reused.
+- Nutrient demand: medium, reused from `swiss-chard.md`; no variety-specific
+  source found.
+- Thousand kernel weight: no variety-specific figure was found; remains open,
+  matching the general crop's open status.
 
 ## Planning Value Derivations
 - Growth duration: 75 days as a rounded whole-day mid-value inferred from
@@ -87,6 +95,10 @@
   empty (direct sown).
 - Spacing: 25 x 30 cm, a direct source value from the same retailer source;
   not converted or derived further.
+- Yield: 4.0 kg/m², reused from `swiss-chard.md`; no variety-specific figure
+  found.
+- Sowing depth: 2.5 cm, reused from `swiss-chard.md`; no variety-specific
+  figure found.
 
 ## Sources
 - [Samen Fetzer - Mangold (Bio) Bright Lights](https://samen-fetzer.de/mangold-bio-bright-lights/91509)
@@ -94,13 +106,15 @@
 ## Research Status
 - Researched on: 2026-09-18
 - Calendar values researched on: 2026-09-21
+- Yield, sowing depth and nutrient demand researched on: 2026-09-22
 - General crop note exists: yes (`swiss-chard.md`)
 - Open source conflicts: only one variety-specific source was reviewed;
   no cross-check against a second independent source was possible in this
   pass, and this is flagged rather than presented as fully confirmed.
 - Open mapping questions: naming discrepancy "Bright Light" vs. "Bright
   Lights" (see `Notes`); whether the 60-90 day growth duration applies to
-  leaf-harvest, stalk-harvest, or both is unclear and left open; sowing
-  depth, yield, and thousand kernel weight are open.
+  leaf-harvest, stalk-harvest, or both is unclear and left open; thousand
+  kernel weight remains open; yield and sowing depth are reused general
+  values, not variety-specific.
 - Public-readiness: needs review; naming discrepancy and single-source
   status should be resolved before wider use.

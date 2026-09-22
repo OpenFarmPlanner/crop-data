@@ -43,10 +43,15 @@
 - Spacing: no variety-specific figure was found; the general crop's range is
   intentionally reused because no contradicting variety-specific source was
   found.
-- Yield: no variety-specific figure was found; the general crop's range
-  (0.6-0.8 kg/m²) is intentionally reused as a planning approximation, since no
-  contradicting variety-specific source was found and `Nautic` is described as
-  "very productive" without a concrete figure.
+- Yield: no variety-specific figure was found; the general crop's now
+  source-backed value (1.9 kg/m², national statistical average) is
+  intentionally reused as a planning approximation, since no contradicting
+  variety-specific source was found and `Nautic` is described as "very
+  productive" without a concrete figure.
+- Thousand kernel weight: 4.0 g, intentionally reused from the general note;
+  no variety-specific figure found.
+- Sowing depth: 1.2 cm, intentionally reused from the general note; no
+  variety-specific figure found.
 - Nutrient demand: reused as `high`, consistent with the general crop; no
   contradicting variety-specific source.
 
@@ -67,13 +72,15 @@
   Calendar reading, not a direct single-day source figure.
 - Propagation duration: 49 days, reused from the general note.
 - Field/form constraint: whole days.
-- Yield: reused from the general crop range (0.6-0.8 kg/m²); no
-  variety-specific source-backed figure was found.
+- Yield, thousand kernel weight and sowing depth: reused from the general
+  crop; no variety-specific source-backed figures were found.
 
 ## Sources
 - [Hartmann Brockhaus - Rosenkohl Nautic F1](https://www.hartmann-brockhaus.de/detail/Rosenkohl-Nautic-F1)
 - [Beringmeier - Rosenkohl Nautic F1 Bio](https://www.beringmeier.de/kohl-saatgut/oeko-kohl/Rosenkohl-Nautic-F1-oeko.html)
 - [Bejo Samen - Nautic F1](https://www.bejosamen.de/rosenkohl/nautic-f1)
+- General crop note `brussels-sprouts.md` (yield, thousand kernel weight and
+  sowing depth reuse)
 
 ## Research Status
 - Researched on: 2026-09-18
@@ -85,6 +92,7 @@
 - Open mapping questions: the reference point of the 155-day figure (planting
   vs. sowing) is not stated by the source; planting-based reading used.
 - Calendar values researched on: 2026-09-21
+- Yield and spacing values researched on: 2026-09-22
 - Public-readiness: needs review (growth duration source-backed; harvest
-  window inferred; yield reused from an open general range; no live sync
-  performed).
+  window inferred; yield, thousand kernel weight and sowing depth reused from
+  the general crop; no live sync performed).

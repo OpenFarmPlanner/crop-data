@@ -94,8 +94,12 @@
   value; that general value is intentionally reused here because no reliable
   variety-specific figure was found and nothing contradicts it.
 - Yield: no `Sweet Horizon`-specific kg/m² figure was found. The general
-  crop's planning value of about 1.5 kg/m² is intentionally reused; no
-  variety-specific source contradicts it.
+  crop's planning value, corrected on 2026-09-22 from 1.5 kg/m² to 1.0 kg/m²
+  (see `sugar-pea.md`), is intentionally reused; no variety-specific source
+  contradicts it.
+- Within-row distance: the general crop's newly documented 4 cm value matches
+  this variety's own sourced range (4-5 cm, Bobby-Seeds) almost exactly; kept
+  as the variety-sourced figure.
 
 ## Planning Value Derivations
 - Thousand kernel weight: 240 g, taken directly from
@@ -110,9 +114,9 @@
   intentional general planning value. Uncertainty: about +/- 15 days
   depending on sowing date; an early cold-soil sowing is at the upper end.
 - Harvest window and yield: both reused directly from the general crop note
-  (30 days; about 1.5 kg/m²) as intentional general planning values; no
-  variety-specific source was found for either, and no variety-specific
-  source contradicts the general values.
+  (30 days; 1.0 kg/m², corrected from 1.5 kg/m² on 2026-09-22) as intentional
+  general planning values; no variety-specific source was found for either,
+  and no variety-specific source contradicts the general values.
 
 ## Sources
 - [Bobby-Seeds - Erbse Sweet Horizon, Zuckererbse](https://www.bobby-seeds.com/gemuesesamen/bohnen-erbsensamen/erbsensamen/2409/erbse-sweet-horizon-zuckererbse)
@@ -122,6 +126,7 @@
 ## Research Status
 - Researched on: 2026-09-18
 - Calendar values researched on: 2026-09-21
+- Yield and spacing values researched on: 2026-09-22
 - General crop note exists: yes (`sugar-pea.md`)
 - Open source conflicts:
   - Growth duration/days to maturity: Territorial Seed states 60-70 days;

@@ -64,8 +64,9 @@
   planting early May) implies about 2-3 weeks of pre-cultivation, which is
   consistent with 21 days.
 - Yield: the source only describes `Tanja` qualitatively as "high-yielding";
-  no kg/m² figure is given. The general crop note's commercial dt/ha figure is
-  not converted or reused here because it mixes cultivation scales; left open.
+  no kg/m² figure is given. The general crop's garden planning value of
+  2.0 kg/m² (set 2026-09-22, see `snake-cucumber.md`) is intentionally
+  reused; the "high-yielding" description does not contradict it.
 - Thousand seed mass (15-30 g) is variety-specific and not compared against a
   general-crop value, since the general note does not set one.
 
@@ -87,9 +88,11 @@
 ## Research Status
 - Researched on: 2026-09-18
 - Calendar values researched on: 2026-09-21
+- Yield and spacing values researched on: 2026-09-22
 - General crop note exists: yes (`snake-cucumber.md`)
 - Open source conflicts: none found for this variety specifically.
 - Open mapping questions: none beyond the `Gurke` alias handling documented in
   `snake-cucumber.md`.
-- Public-readiness: needs review; yield remains open, and the calendar values
-  are intentional reuses of the general crop.
+- Public-readiness: needs review; yield is now an intentional reuse of the
+  general crop's 2.0 kg/m² planning value, and the calendar values are
+  intentional reuses of the general crop.

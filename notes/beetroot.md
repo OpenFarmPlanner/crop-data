@@ -61,14 +61,36 @@
   source gives a day count. Storage types lifted once before frost need a
   shorter window.
 - Field/form constraint: whole days.
-- Yield: 4-6 kg/m² is the commonly cited general range; kept as a range because
-  no single authoritative commercial figure was found, and because yield
-  depends strongly on final root size (bunching vs. storage harvest).
+- Yield: 2.7 kg/m² (`per_sqm`) is used as the planning value, taken from a
+  2016 variety trial by the North Rhine-Westphalia Chamber of Agriculture
+  ([Hortigate - Rote Bete Sortenversuch](https://www.hortigate.de/publikation/71367/Rote-Bete-Sortenversuch/)),
+  which measured a 266 dt/ha average across nine varieties (2.66 kg/m²,
+  rounded to 2.7). Source conflict, documented explicitly: this is
+  considerably below the 4-6 kg/m² general garden range previously used here
+  (Ackerhelden, erntefibel) and below the 500 dt/ha (5.0 kg/m²) figure that
+  [Hortipendium's commercial cultivation page](https://www.hortipendium.de/Speise_Bete_Erwerbsanbau)
+  uses as the basis for its standard fertilizer calculation. The trial value
+  is preferred because it is a directly measured multi-variety field average
+  rather than a garden estimate or a fertilizer-planning assumption (which
+  Hortipendium itself notes can reach up to 1000 dt/ha "under optimal
+  conditions", i.e. a ceiling rather than a typical yield). Yield depends
+  strongly on final root size (bunching vs. storage harvest); this value fits
+  the storage-size (130-day) planning case.
+- Thousand kernel weight: 17.5 g for standard multi-germ beet seed, the
+  midpoint of Hortipendium's 15-20 g seed-cluster (`Knäuel`) weight; beet
+  "seed" is a cluster of 1-5 true seeds, and Hortipendium separately gives
+  10-11 g for an individual true seed. The cluster figure is used as the
+  general planning value because most beetroot varieties (including
+  `Golden Eye` and `Chioggia`) are sold as multi-germ seed; the monogerm
+  variety `Alvro Mono` uses the individual-seed figure instead (see
+  `notes/beetroot-alvro-mono.md`).
 
 ## Sources
 - [Ackerhelden - Rote Bete: Anbau, Pflege, Ernte](https://ackerhelden.de/blogs/bio-garten-blog/rote-bete-anbau-pflege-ernte)
 - [erntefibel - Aussaat Rote Beete](https://www.erntefibel.de/gem%C3%BCse-a-z/rote-beete-1/aussaat-rote-beete/)
 - [ReinSaat - Tonda di Chioggia](https://www.reinsaat.at/shop/EN/rote_ruebe/tonda_di_chioggia/)
+- [Hortigate - Rote Bete Sortenversuch](https://www.hortigate.de/publikation/71367/Rote-Bete-Sortenversuch/)
+- [Hortipendium - Speise Bete Erwerbsanbau](https://www.hortipendium.de/Speise_Bete_Erwerbsanbau)
 
 ## Research Status
 - Researched on: 2026-09-18
@@ -79,4 +101,10 @@
   as ranges by design because they depend heavily on harvest size (baby vs.
   storage beet).
 - Open mapping questions: none for identity.
-- Public-readiness: needs review (calendar values inferred, yield kept as a range; no live sync performed).
+- Yield and spacing values researched on: 2026-09-22 (yield conflict between
+  trial average, garden range and fertilizer-planning ceiling documented
+  above and resolved in favor of the trial average; thousand kernel weight
+  now source-backed)
+- Public-readiness: needs review (calendar values inferred, yield now a
+  single documented planning value with a noted source conflict; no live
+  sync performed).

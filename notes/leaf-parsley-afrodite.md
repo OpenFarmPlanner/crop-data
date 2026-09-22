@@ -51,8 +51,14 @@
   `Afrodite`-specific figure was found (intentional reuse, not a variety
   source claim).
 
-- Yield and thousand kernel weight: left open, same as the general crop; no
-  variety-specific source found.
+- Yield: no `Afrodite`-specific figure was found; the general crop's
+  2.4 kg/m² (first-cut) value is intentionally reused. No reliable
+  variety-specific yield source found; the general crop planning value was
+  intentionally reused.
+- Thousand kernel weight: no `Afrodite`-specific figure was found; the
+  general crop's 1.5 g value is intentionally reused.
+- Nutrient demand: medium, reused from `leaf-parsley.md`; no variety-specific
+  source found.
 
 ## Planning Value Derivations
 - Growth duration: 97 days from direct sowing to first cut. Source basis: the
@@ -73,13 +79,15 @@
 ## Research Status
 - Researched on: 2026-09-18
 - Calendar values researched on: 2026-09-21
+- Yield, TKW and nutrient demand researched on: 2026-09-22
 - General crop note exists: yes (`leaf-parsley.md`)
 - Open source conflicts: spelling variant "Afrodite" vs. "Aphrodite" across
   retailers, documented above; treated as the same variety.
 - Open mapping questions: no `Afrodite`-specific growth duration, harvest
   window, or yield source was found; calendar values use the general value
-  plus the curly-type delta, yield stays open. Confirm whether `Afrodite` corresponds to the "Typ kraus,
-  early" entries in the LWG Veitshöchheim/DLR Rheinpfalz trial tables
-  referenced in `leaf-parsley.md`.
+  plus the curly-type delta, and yield/TKW are reused general values. Confirm
+  whether `Afrodite` corresponds to the "Typ kraus, early" entries in the LWG
+  Veitshöchheim/DLR Rheinpfalz trial tables referenced in `leaf-parsley.md`.
 - Public-readiness: needs review; calendar values are derived from
-  general-crop and type-level figures; yield open; spelling variant should be confirmed.
+  general-crop and type-level figures; yield/TKW are reused; spelling variant
+  should be confirmed.

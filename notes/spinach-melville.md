@@ -61,7 +61,13 @@
 - Thousand kernel weight (12 g) is intentionally reused from the general
   crop; no variety-specific seed-weight figure was found for `Melville F1`.
 - Yield (2.5 kg/m², the general crop's stored value) is intentionally
-  reused; no variety-specific yield figure was found.
+  reused; no variety-specific yield figure was found. The general value was
+  further corroborated on 2026-09-22 against independent trial data (see
+  `spinach.md`), strengthening confidence in the reused figure without
+  making it `Melville F1`-specific.
+- Nutrient demand (medium/moderate) is intentionally reused from the general
+  crop, which is confirmed by the BUND Region Hannover Mittelzehrer
+  classification; no variety-specific source found.
 - No value in this note deviates from the general crop; every planning
   value is a documented reuse rather than a variety-specific source claim.
 
@@ -80,6 +86,7 @@
 ## Research Status
 - Researched on: 2026-09-18
 - Calendar values researched on: 2026-09-21
+- Yield and spacing values researched on: 2026-09-22
 - Calendar research note: a further search for variety-specific days to
   harvest (breeder and seed-shop pages, including the
   [Bayer Vegetables Melville page](https://www.vegetables.bayer.com/es/es-es/productos/espinaca/details.html/spinach_melville_spain_seminis_all_open_field_fresh_market_all.html))

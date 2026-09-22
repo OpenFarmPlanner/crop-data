@@ -14,9 +14,13 @@
   Derivations`); variety notes should state their specific maturity group and
   a concrete day-count value. No propagation duration applies, since tubers
   are planted directly.
-- Nutrient demand is generally rated as medium to high depending on maturity
-  group and target yield, with loose, well-drained, nutrient-rich soil
-  preferred
+- Nutrient demand: high (Starkzehrer). [Plantura - Starkzehrer, Mittelzehrer und Schwachzehrer](https://www.plantura.garden/gemuese/gemuese-anbauen/starkzehrer-mittelzehrer-und-schwachzehrer)
+  lists potato explicitly among high-demand (Starkzehrer) vegetables, and
+  other Starkzehrer overview pages group potato with tomato, pepper and
+  eggplant as heavy-feeding Solanaceae. This resolves the earlier "medium to
+  high" wording; see `Planning Value Derivations` for a documented
+  variety-level conflict (the `Laura` source states a medium nitrogen need).
+  Loose, well-drained, nutrient-rich soil is preferred
   ([Plantura - Kartoffeln pflanzen](https://www.plantura.garden/gemuese/kartoffeln/kartoffeln-pflanzen)).
 
 ## Sowing & Planting
@@ -102,24 +106,39 @@ replaces the template's sowing framing.)*
   Pre-sprouting (a few weeks indoors) is treated as part of the planting
   step and not as a propagation duration.
 - Field/form constraint: whole integer days.
-- Planting depth: sources give 6-10 cm and 10-15 cm; not resolved to a single
-  value here. A cautious mid-range planning value of about 8-10 cm could be
-  used for live sync, but the exact stored value is left to be decided at
-  sync time rather than asserting false precision.
+- Planting depth: 10 cm (sowing depth planning value). Sources give 6-10 cm
+  and 10-15 cm; not resolved to a single source-agreed value, but 10 cm sits
+  at the boundary shared by both ranges, so it is used as the stored
+  planning value while the conflict itself stays documented rather than
+  hidden
+  ([Plantura - Kartoffeln pflanzen](https://www.plantura.garden/gemuese/kartoffeln/kartoffeln-pflanzen),
+  [Hausgarten.net - Kartoffeln legen](https://www.hausgarten.net/kartoffeln-legen-abstand-tiefe/)).
 - Spacing: given the overlapping ranges above, a planning value of about
   35 cm in-row and 70 cm between rows would sit within all cited ranges, but
   no single source gives exactly this combination; documented as a derived
   midpoint rather than a direct source value.
-- Yield: general garden guidance gives roughly 20-30 kg/m² for potato in
-  general, and a per-plant figure of about 700 g to over 1 kg per plant
-  appears in one source. These are not converted into a single general-crop
-  kg/m² planning value here because yield differs substantially by maturity
-  group (early varieties typically yield less per plant than late varieties)
-  and because the per-plant figure is old general garden guidance rather than
-  a variety-specific measurement; left open at the general-crop level per the
-  "Keep Yield Units Consistent Per Crop" and "Model Calendar Values
-  Deliberately" rules. Variety notes should use variety-specific yield data
-  where available and document any conversion.
+- Yield: 3.5 kg/m² (garden-scale planning value; see the yield-unit rule
+  in `docs/culture-field-mapping.md`, 1 t/ha = 0.1 kg/m²). Source basis and
+  correction: an earlier version of this note cited "roughly 20-30 kg/m²",
+  attributed to unspecified "general garden guidance"; that figure could not
+  be re-verified against any source checked in this research pass and is
+  about 7-10x higher than every home-garden and institutional source found,
+  so it is treated as a prior sourcing error and corrected here rather than
+  silently kept. [garten-querbeet.de - Wie viel kg Kartoffeln pro qm](https://www.garten-querbeet.de/anbauen/wie-viel-kg-kartoffeln-pro-qm/)
+  gives 3-3.5 kg/m² as typical, up to 5 kg/m² with good care, matching soil
+  and variety; institutional trial data gives lower figures in a poor 2025
+  season - [AELF Ansbach - Sortenempfehlungen Kartoffeln 2026](https://www.aelf-an.bayern.de/landwirtschaft/pflanzenbau/234700/index.php)
+  reports organic tuber yields of 192 dt/ha (very early/early) and 275 dt/ha
+  (mid-early to late), i.e. about 1.9-2.75 kg/m², explicitly noted in the
+  source as a weather-depressed year. Derivation: 3.5 kg/m² is the midpoint
+  of the garden source's typical 3-3.5 kg/m² range, used as one
+  representative mid-early planning value; it is above the poor-year
+  institutional figures and below the garden source's own "up to 5 kg/m²
+  with good care" ceiling. This differs strongly by maturity group (see
+  below) and cultivation intensity, so it should be read as a garden-scale
+  average, not a precise commercial-yield claim. Variety notes should use
+  variety-specific yield data where available and document any deviation or
+  reuse.
 
 ## Sources
 - [Plantura - Kartoffeln pflanzen: Richtig vorkeimen & setzen](https://www.plantura.garden/gemuese/kartoffeln/kartoffeln-pflanzen)
@@ -127,24 +146,30 @@ replaces the template's sowing framing.)*
 - [Hausgarten.net - Kartoffeln legen: idealer Abstand und Tiefe](https://www.hausgarten.net/kartoffeln-legen-abstand-tiefe/)
 - [Landtreff.de - Kartoffelanbau: wieviel Saatgut pro Hektar?](https://www.landtreff.de/kartoffelanbau-wieviel-saatgut-pro-hektar-t7636.html)
 - [pflanzen-deutschland.de - Solanum tuberosum](https://www.pflanzen-deutschland.de/Solanum_tuberosum.html)
+- [Plantura - Starkzehrer, Mittelzehrer und Schwachzehrer](https://www.plantura.garden/gemuese/gemuese-anbauen/starkzehrer-mittelzehrer-und-schwachzehrer)
+- [garten-querbeet.de - Wie viel kg Kartoffeln pro qm](https://www.garten-querbeet.de/anbauen/wie-viel-kg-kartoffeln-pro-qm/)
+- [AELF Ansbach - Sortenempfehlungen Kartoffeln 2026](https://www.aelf-an.bayern.de/landwirtschaft/pflanzenbau/234700/index.php)
 
 ## Research Status
 - Researched on: 2026-09-18
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: planting depth given as 6-10 cm in one source and
-  10-15 cm in another; spacing figures vary somewhat between hobby-garden and
-  yield-optimized commercial guidance but overlap closely. Both documented
-  above rather than silently resolved.
+  10-15 cm in another (10 cm chosen as the shared-boundary planning value);
+  spacing figures vary somewhat between hobby-garden and yield-optimized
+  commercial guidance but overlap closely. An earlier yield figure of
+  "20-30 kg/m²" could not be re-verified and was corrected to 3.5 kg/m² (see
+  `Planning Value Derivations`). Both documented above rather than silently
+  resolved.
 - Open mapping questions: this crop's `Sowing & Planting` section uses seed
   tuber planting instead of the template's sowing framing, documented
-  explicitly as a template adaptation. Yield is left open at the general-crop
-  level because maturity groups differ too strongly for one precise value;
-  growth duration (120 days) and harvest window (30 days) are set as
-  representative planning values; how OpenFarmPlanner's `harvest_method`/yield-unit
-  fields should represent potato yield (kg/m² vs. another unit) is not yet
-  decided and should be revisited once variety-specific yield sources are
-  found.
+  explicitly as a template adaptation. Yield (3.5 kg/m²), growth duration
+  (120 days) and harvest window (30 days) are representative garden-scale
+  planning values because maturity groups differ too strongly for one
+  precise figure; `harvest_method` is set to `per_sqm` for consistency with
+  the other crops in this repository.
 - Calendar values researched on: 2026-09-21
-- Public-readiness: needs review (yield intentionally open, calendar values
-  representative; two source conflicts documented; seed-tuber planting framing is a
-  documented template adaptation).
+- Yield and spacing values researched on: 2026-09-22
+- Public-readiness: needs review (yield and calendar values are
+  representative planning values for a mid-early garden crop; two source
+  conflicts documented; seed-tuber planting framing is a documented template
+  adaptation).

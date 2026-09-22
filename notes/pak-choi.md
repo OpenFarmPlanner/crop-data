@@ -10,6 +10,9 @@
 - Harvest window: 10 days per planting.
 - Propagation duration: 21 days of pre-cultivation for transplants (direct
   sowings need no propagation).
+- Expected yield: 3.0 kg/m² for a normal/standard head as a general planning
+  value (source range about 2.4-4.7 kg/m² across variety trials); see
+  `Planning Value Derivations`.
 
 ## Sowing & Planting
 
@@ -87,9 +90,27 @@
   is much longer than 10 days; it was not adopted because it refers to
   garden use of a single stand, not planned harvest logistics.
 - Field/form constraint: whole integer days.
-- Yield: left open; no general source reviewed here gives a reliable kg/m²
-  figure.
-- Thousand kernel weight: left open; not reviewed in this research pass.
+- Yield: 3.0 kg/m² for the "normal head" case documented elsewhere in this
+  note (harvest form matters, per the general rule to pick the representative
+  case for the Kultur). Source basis: search-engine summaries of German
+  variety trials give a range of about 2.4-4.7 kg/m². An unheated plastic
+  greenhouse organic trial at [LVG Heidelberg (autumn 2010)](https://www.hortigate.de/publikation/50419/Pak-Choi-Sortenversuch-im-Herbstanbau/)
+  reports the top varieties ('PC 5518' Joi Choi type, 'Joi Choi' F1, 'Tanku')
+  at 4.6-4.7 kg/m²; a more recent trial reports 'Mei Qing Choi F1' at about
+  2.66 kg/m² (227 g per plant) and 'Yang Qing Choi F1' at about 2.45 kg/m²
+  marketable yield. Derivation: 3.0 kg/m² was chosen near the lower-middle of
+  this range as a cautious general planning value for a standard-size head,
+  cross-checked against the general crop's own spacing (about 30 x 30 cm,
+  roughly 11 plants/m²) times a plausible 250-300 g head, which gives about
+  2.75-3.3 kg/m², consistent. Large-head or baby-leaf harvest forms would
+  differ; not resolved separately here. The original trial reports themselves
+  were not read directly (only search-engine summaries of them), so this
+  remains an uncertain planning value.
+- Nutrient demand: high, confirmed as a heavy feeder; brassica leaf crops of
+  this type are consistently classed as heavy nitrogen users in general
+  fertilization literature, consistent with the existing note text. No
+  contradicting source found.
+- Thousand kernel weight: left open; not found in this research pass.
 
 ## Sources
 - [Plantura - Pak Choi Pflanzenportrait](https://www.plantura.garden/gemuese/pak-choi/pak-choi-pflanzenportrait)
@@ -98,17 +119,24 @@
 - [Hortipendium - Pak Choi im Hausgarten](https://www.hortipendium.de/Pak_Choi_im_Hausgarten)
 - [Hortipendium - Pak Choi Erwerbsanbau](https://www.hortipendium.de/Pak_Choi_Erwerbsanbau)
 - [Gärtner Pötschke - Pak Choi anbauen](https://www.poetschke.de/pak-choi-anbauen-standort-pflege-ernte/)
+- [Hortigate - Pak Choi-Sortenversuch im Herbstanbau](https://www.hortigate.de/publikation/50419/Pak-Choi-Sortenversuch-im-Herbstanbau/)
+  (search-summary only; original trial report not reached)
 
 ## Research Status
 - Researched on: 2026-09-18
 - Calendar values researched on: 2026-09-21
 - Calendar values re-verified on: 2026-09-21 (harvest window 10 days kept; LWG leaflet now read as text, supports only bolting risk and a field hold until first frost, no day count)
+- Yield researched on: 2026-09-22
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: spacing figures vary noticeably between sources
   (e.g. 25 x 25 cm vs. 30-40 x 30 cm vs. 50 x 40 cm for larger heads); the
   range is documented rather than collapsed into one number.
 - Open mapping questions: growth duration depends on harvest form
   (mini/large head/baby leaf); the 50-day value targets a standard head and
-  it is unclear whether the LWG range counts from sowing or planting. Yield
-  and thousand kernel weight are open. The LWG leaflet was read as text and supplies the 50-65 day range.
-- Public-readiness: needs review; calendar values are inferred, yield is open.
+  it is unclear whether the LWG range counts from sowing or planting.
+  Thousand kernel weight is open. The LWG leaflet was read as text and
+  supplies the 50-65 day range. Yield (3.0 kg/m²) is a derived, uncertain
+  general planning value from search-summarized variety trials, not a
+  directly read primary source.
+- Public-readiness: needs review; calendar values are inferred; yield is an
+  uncertain derived value.

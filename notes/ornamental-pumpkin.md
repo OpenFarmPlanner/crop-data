@@ -36,8 +36,13 @@
 - Sowing: mid-May onward.
 
 - Spacing: about 2 m between rows and 1 m within the row for the carving
-  type (ReinSaat); other ornamental types not sourced.
-- Site: warm, sunny, well-fertilized, cold- and moisture-sensitive.
+  type (ReinSaat); other ornamental types not sourced. Re-checked 2026-09-22:
+  a separate source on ornamental-pumpkin spacing confirms a similar range
+  (about 2 m x 2 m for larger ornamental pumpkins), supporting this figure as
+  plausible rather than an outlier.
+- Site: warm, sunny, well-fertilized, cold- and moisture-sensitive; high
+  nutrient demand (`Starkzehrer`, see `Notes`).
+- Sowing depth: 2-3 cm (see `Notes`).
 
 ## Harvest & Use
 - Harvest September to October when fully ripe.
@@ -45,11 +50,21 @@
   ornamental-gourd flesh may be bitter; not verified here.
 
 ## Notes
-- Yield: no kg/m² source; fruit weight (about 3 kg) is per fruit. A per-plant
-  count is not sourced, so no conversion was made. Left open.
+- Nutrient demand: `high`. Re-checked 2026-09-22: multiple garden sources
+  consulted describe ornamental pumpkins/gourds as `Starkzehrer` (heavy
+  feeders), consistent with the edible `Kürbis` general note; compost or
+  well-rotted manure worked in before sowing/planting is commonly recommended.
+- Sowing depth: 2-3 cm. Re-checked 2026-09-22: generic pumpkin/gourd sowing
+  guidance consistently gives 2-3 cm; this matches the edible `Kürbis`
+  general note's figure exactly and is used here as a directly sourced value
+  for the carving/`C. pepo` type rather than a silent cross-crop reuse.
+- Yield: left open. No kg/m² source was found even after a repeat search on
+  2026-09-22; fruit weight (about 3 kg) is per fruit only, and no per-plant
+  fruit count or garden-scale conversion source was found. Ornamental pumpkins
+  are grown for decoration rather than tracked for harvest weight in the
+  sources checked, which likely explains the lack of published yield figures.
+- Thousand kernel weight: left open; no source found.
 - Rotation: as for other Cucurbitaceae, see `pumpkin.md`.
-- Sowing depth not sourced; `pumpkin.md` gives 2-3 cm for edible pumpkins and
-  is not silently reused.
 
 ## Planning Value Derivations
 
@@ -78,14 +93,18 @@
 - [ReinSaat - Jack o'Lantern](https://www.reinsaat.at/shop/EN/kuerbis/zierkuerbis/jack_o_lantern/)
 - [kraut&rüben - Essbare Zierkürbisse](https://www.krautundrueben.de/kuerbissorten-essbare-zierkuerbisse-fuer-herbstdeko-und-halloween-2515)
 - [Samen.de - Zierkürbisse anbauen](https://samen.de/blog/zierkuerbisse-anbauen-von-der-aussaat-zur-ernte.html)
+- [biogartenversand.de - Zierkürbis Kronenkürbis](https://biogartenversand.de/biosaatgut/kuerbisse/zierkuerbis-kronenkuerbis)
 
 ## Research Status
 - Researched on: 2026-09-21
 - Calendar values researched on: 2026-09-21
+- Yield and spacing values researched on: 2026-09-22
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: `Jack o'Lantern` listed as both ornamental and
   edible by the same shop; pre-cultivation start (March vs. late April).
 - Open mapping questions: one Kultur vs. split; species overlap with
-  `pumpkin.md`; yield and sowing depth open. Calendar values follow the
-  carving `C. pepo` type and may not fit all ornamental gourds.
-- Public-readiness: needs review; yield and sowing depth open.
+  `pumpkin.md`. Yield and thousand kernel weight remain open after a repeat
+  search; nutrient demand and sowing depth are now sourced. Calendar values
+  follow the carving `C. pepo` type and may not fit all ornamental gourds.
+- Public-readiness: needs review; yield and thousand kernel weight open;
+  nutrient demand and sowing depth are now documented.

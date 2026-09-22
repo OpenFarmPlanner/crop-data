@@ -26,6 +26,8 @@
   outdoor planting after the last frost.
 - Sowing: 02-01 to 04-15 (reused from the general `Salattomate` window; no
   Rougella-specific sowing date was published in the sources reviewed)
+- Sowing depth: about 0.5 cm, reused from the general `Salattomate` note; no
+  `Rougella`-specific figure was found.
 - Outdoor planting: from mid-May outdoors; from March under protection
 
 - Spacing: no Rougella-specific figure found; general `Salattomate` range of
@@ -60,8 +62,12 @@
   variety-specific source contradicts them. Qualitative wording about
   earliness or vigor in the sources was not converted into a number. This is a
   reuse, not a `Rougella`-specific source claim.
-- Yield: no concrete value found for Rougella; the general crop note also has no
-  yield value. Left open on both levels.
+- Yield: the general `Salattomate` note now sets 5.5 kg/m² (see
+  `salad-tomato.md`). No concrete `Rougella`-specific value was found, so
+  the general value is intentionally reused; no variety-specific source
+  contradicts it.
+- Nutrient demand: reused from the general `Salattomate` note (high); no
+  `Rougella`-specific source was found.
 
 ## Planning Value Derivations
 - Growth duration 70 days, harvest window 70 days, propagation duration
@@ -70,6 +76,8 @@
 - Field/form constraint: whole integer days.
 - Uncertainty: fits a staked crop planted out in mid-May; protected
   cultivation or an earlier variety can start about four weeks earlier.
+- Yield: 5.5 kg/m², reused from the general `Salattomate` note.
+- Sowing depth: 0.5 cm, reused from the general `Salattomate` note.
 
 ## Sources
 - [Rijk Zwaan - Tomate ROUGELLA F1](https://www.rijkzwaan.de/tomate/ROUGELLA-F1-prdSL11023-ctgCrops.tomato)
@@ -83,7 +91,9 @@
 - Open mapping questions: the `Salattomate` Kultur choice for Rougella rests
   on one retailer's product naming, not a dedicated variety-class source;
   confidence is medium, documented explicitly rather than presented as
-  settled. Row/in-row spacing values are reused from the general crop note
-  pending a Rougella-specific source.
+  settled. Row/in-row spacing, yield, nutrient demand and sowing depth
+  values are reused from the general crop note pending a Rougella-specific
+  source.
 - Calendar values researched on: 2026-09-21
+- Yield and spacing values researched on: 2026-09-22
 - Public-readiness: needs review (Kultur confidence is medium, not high)

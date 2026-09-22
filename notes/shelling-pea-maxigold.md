@@ -47,8 +47,12 @@
   The general crop note leaves thousand kernel weight open precisely because
   of this kind of variety-to-variety spread, so this is documented as a
   variety-specific value, not a deviation from a set general figure.
-- Yield: left open, matching the general crop note's open yield value; no
-  `Maxigold`-specific kg/m² figure was found.
+- Yield: no `Maxigold`-specific kg/m² figure was found. The general crop's
+  planning value of 0.8 kg/m² (set 2026-09-22, see `shelling-pea.md`) is
+  intentionally reused; the source describes `Maxigold` qualitatively as
+  "high-yielding", which does not contradict the general value and, if
+  anything, suggests it may sit at or above it. No variety-specific source
+  gives a number precise enough to justify a deviation.
 
 ## Planning Value Derivations
 - Growth duration: 85 days. Source basis: [Bobby-Seeds](https://www.bobby-seeds.com/gemuesesamen/bohnen-erbsensamen/erbsensamen/2408/erbse-maxigolt-markerbse)
@@ -75,6 +79,7 @@
 ## Research Status
 - Researched on: 2026-09-18
 - Calendar values researched on: 2026-09-21
+- Yield and spacing values researched on: 2026-09-22
 - General crop note exists: yes (`shelling-pea.md`)
 - Open source conflicts: source spelling varies between "Maxigold" (task) and
   "Maxigolt" (Bobby-Seeds listing); treated as the same variety/spelling

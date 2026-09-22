@@ -33,9 +33,12 @@
   Brussels sprouts (about 6-8 weeks after sowing) but not confirmed for this
   crop specifically.
 
-- Spacing: no general-crop spacing source found; left open.
+- Spacing: about 50-60 cm between rows and 45-60 cm within the row (see
+  `Planning Value Derivations`).
+- Sowing depth: about 2 cm.
 - Site: full sun; nutrient-rich, well-drained soil with steady moisture,
-  similar requirements to Brussels sprouts and kale (both parent crops).
+  similar requirements to Brussels sprouts and kale (both parent crops); high
+  nutrient demand (see `Planning Value Derivations`).
 
 ## Harvest & Use
 - Harvest the small frilly floret-like sprouts from the stalk, similar in
@@ -79,6 +82,36 @@
   seed and 135 days from transplant at Harris Seeds; consistent with the 4-6
   weeks of indoor sowing before planting at Rural Sprout.
 - Field/form constraint: whole days.
+- Spacing: 50-60 cm between rows and 45-60 cm within the row. Two UK retail
+  sources give slightly different figures: [Seeds to Sow](https://www.seedstosow.co.uk/products/kalettes)
+  gives 60 cm final spacing in both directions, while [Rural Sprout](https://www.ruralsprout.com/grow-kalettes/)
+  gives 18 in (45 cm) within the row and 24 in (60 cm) between rows. The
+  range covers both; 0.6 m between rows and 0.5 m within the row (midpoint of
+  45 and 60 cm) is used as the single planning value. No German/Austrian
+  source with locally-calibrated spacing was found; flagged as a source
+  transfer from UK garden guidance.
+- Sowing depth: 2 cm, a direct figure from [Seeds to Sow](https://www.seedstosow.co.uk/products/kalettes)
+  ("2cm (3/4 in) deep"); no second source found.
+- Nutrient demand: `high`. [Johnny's Selected Seeds](https://www.johnnyseeds.com/growers-library/vegetables/kalettes/kalettes-key-growing-information.html)
+  states Kalettes need about 75% of the nitrogen Brussels sprouts need, which
+  is itself classified `high` in this repository (see `brussels-sprouts.md`).
+  A 25% reduction does not clearly cross into the `medium` category used
+  elsewhere in this repository for lighter-feeding crops, and other sources
+  describe Kalettes as needing fertile soil and regular feeding through the
+  season, consistent with a heavy-feeding brassica. This is a judgment call
+  on a three-tier classification without a numeric threshold in this
+  repository; `medium` would also be defensible and is noted as an
+  alternative reading.
+- Thousand kernel weight: 4.1 g, derived from [Johnny's Selected Seeds](https://www.johnnyseeds.com/growers-library/vegetables/kalettes/kalettes-key-growing-information.html)
+  ("Seeds/lb.: Avg. 111,800"): 453.6 g per lb / 111,800 seeds x 1000 =
+  about 4.06 g per 1000 seeds, rounded to 4.1 g. Derived from a seed-count
+  figure, not a directly stated TKW.
+- Yield: left open. No source with a verifiable page gave a per-plant or
+  per-area yield figure for Kalettes/flower sprouts; one AI-generated search
+  summary suggested "1/4-1/2 lb of florets per plant" but the underlying page
+  could not be opened (dead redirect) and the figure is not used here because
+  it could not be confirmed against its original source page, per this
+  repository's read-the-source rule.
 
 ## Sources
 - [Wikipedia - Kalette](https://en.wikipedia.org/wiki/Kalette)
@@ -86,6 +119,8 @@
 - [Harris Seeds - Kalette Autumn Star F1](https://www.harrisseeds.com/products/12769-kalette-autumn-star-f1)
 - [Rural Sprout - Kalettes](https://www.ruralsprout.com/grow-kalettes/)
 - [Tozer Seeds - Kalette Seeds](https://www.tozerseeds.com/product-category/brassicas/kalettes/)
+- [Seeds to Sow - Kalettes (Flower Sprouts)](https://www.seedstosow.co.uk/products/kalettes)
+- [Johnny's Selected Seeds - Kalettes Key Growing Information](https://www.johnnyseeds.com/growers-library/vegetables/kalettes/kalettes-key-growing-information.html)
 
 ## Research Status
 - Researched on: 2026-09-18
@@ -100,5 +135,9 @@
   unclear; `Kalette`/`Flowersprout` may need to be entered as its own crop
   species distinct from both `Rosenkohl` and `Grünkohl` species entries. Not
   resolved here; flagged for the publish/crop-species step.
-- Public-readiness: needs review (sowing/spacing largely unresearched at the
-  general level; no live sync performed).
+- Yield and spacing values researched on: 2026-09-22
+- Public-readiness: needs review (spacing, sowing depth, nutrient demand and
+  thousand kernel weight now source-backed; yield left open because no
+  verifiable source gave a figure; nutrient-demand classification is a
+  documented judgment call between `high` and `medium`; no live sync
+  performed).

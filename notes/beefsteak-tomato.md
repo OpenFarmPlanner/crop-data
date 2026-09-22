@@ -29,6 +29,7 @@
   frost once nights stay reliably above about 10 °C. Staking or a trellis is
   required for the indeterminate growth habit.
 - Sowing: 02-01 to 04-15
+- Sowing depth: about 0.5 cm (see `Planning Value Derivations`).
 - Outdoor planting: 6-8 weeks after sowing, from mid-May
 
 - Spacing: 70-90 cm between rows; 45-60 cm within the row (general range for
@@ -72,12 +73,29 @@
 - Uncertainty: protected cultivation (tunnel, greenhouse) can start about four
   weeks earlier and harvest longer; determinate or very early varieties
   finish faster. Variety values should replace these where a source exists.
+- Yield: 5.0 kg/m² (staked, single-stem, open-field to unheated-tunnel
+  cultivation). Source basis: [Lubera - Selbstversorgung mit Tomaten](https://www.lubera.com/at/gartenbuch/selbstversorgung-mit-tomaten-p5729)
+  gives 1.5-3 kg per plant as realistic for large-fruited beefsteak/oxheart
+  varieties in hobby cultivation. Derivation: this note's own spacing range
+  (70-90 cm rows x 45-60 cm in-row) gives a midpoint density of about
+  2.4 plants/m² (80 x 52.5 cm); 1.5-3 kg/plant x 2.4 plants/m² = 3.6-7.2
+  kg/m², midpoint about 5.4 kg/m², rounded down to 5.0 kg/m² as a cautious
+  planning value. Inferred from a per-plant source, not a direct area-based
+  figure; greenhouse cultivation or a lower-density planting can shift this
+  substantially.
+- Sowing depth: 0.5 cm. Source basis: [bioseeds.bplaced.net - Aussaathinweise für Paprika und Tomaten](http://bioseeds.bplaced.net/Shop/anzuchttipps.html)
+  gives about 5 mm of soil cover for tomato seed. Used as the general
+  planning value for all four tomato Kulturen in this batch unless a
+  variety-specific figure is found.
 
 ## Sources
 - [Dürr Samen - Ochsenherz-Tomaten Rugantino RZ F1](https://shop.duerr-samen.de/ochsenherz-tomaten/ochsenherz-tomaten-rugantino-rz-f1.html)
 - [Saat & Gut - Ochsenherz-Tomaten Rugantino RZ F1](https://www.saat-und-gut.de/ochsenherz-tomaten-rugantino-rz-f1.html)
 - [Tomaten.de - Ochsenherztomate](https://www.tomaten.de/ochsenherztomate/)
 - [gartenjournal.net - Optimaler Pflanzabstand bei Tomaten](https://www.gartenjournal.net/pflanzabstand-tomaten)
+- [Lubera - Selbstversorgung mit Tomaten](https://www.lubera.com/at/gartenbuch/selbstversorgung-mit-tomaten-p5729)
+- [bioseeds.bplaced.net - Aussaathinweise für Paprika und Tomaten](http://bioseeds.bplaced.net/Shop/anzuchttipps.html)
+- [Plantura - Starkzehrer, Mittelzehrer und Schwachzehrer](https://www.plantura.garden/gemuese/gemuese-anbauen/starkzehrer-mittelzehrer-und-schwachzehrer)
 
 ## Research Status
 - Researched on: 2026-09-18
@@ -87,6 +105,13 @@
   keeps the wider illustrative range and lets variety notes narrow it with
   source-specific values.
 - Open mapping questions: none beyond the general "Tomate as generic alias"
-  split documented in this note's Short Description.
+  split documented in this note's Short Description. Yield (5.0 kg/m²) is an
+  inferred planning value derived from a per-plant source and this note's own
+  spacing range, not a direct area-based source figure.
 - Calendar values researched on: 2026-09-21
+- Yield and spacing values researched on: 2026-09-22
+- Nutrient demand: high (Starkzehrer). [Plantura - Starkzehrer, Mittelzehrer und Schwachzehrer](https://www.plantura.garden/gemuese/gemuese-anbauen/starkzehrer-mittelzehrer-und-schwachzehrer)
+  lists tomato explicitly among high-demand vegetables, consistent with
+  other Starkzehrer overview sources grouping tomato with potato, pepper and
+  eggplant.
 - Public-readiness: ready

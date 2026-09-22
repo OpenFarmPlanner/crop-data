@@ -2,8 +2,8 @@
 - Leek (`Porree`/`Lauch`, `Allium ampeloprasum var. porrum`) is grown for its
   elongated, blanched white-to-light-green shaft; foliage ranges from light
   green to blue-green depending on maturity group.
-- Biennial grown as an annual; moderate to high nutrient demand, benefits from
-  hilling/earthing up to extend the blanched shaft.
+- Biennial grown as an annual; high nutrient demand (Starkzehrer), benefits
+  from hilling/earthing up to extend the blanched shaft.
 - Growth duration: 110 days, counted from transplanting to the start of
   harvest, as a representative planning value between the early/summer type
   (about 100 days) and the late/winter type (about 120 days).
@@ -14,6 +14,8 @@
 - All three values are compromise values for a mid-season/autumn leek; the
   maturity-group-specific values are in `leek-krypton.md` (early/summer) and
   `leek-pluston.md` (late/winter). See `Planning Value Derivations`.
+- Expected yield: 3.5 kg/m² as a general planning value (see `Planning Value
+  Derivations`).
 
 ## Sowing & Planting
 
@@ -72,22 +74,47 @@
   weeks (63-70 days); meine-ernte suggests 8-10 weeks. 75 days is the middle
   of the 63-84 day range.
 - Field/form constraint: whole integer days.
+- Yield: 3.5 kg/m². Source basis: a search-engine synthesis of garden-scale
+  cultivation sources states that "three to four kilograms of leek per square
+  meter are commonly achieved", equivalent to about 300-400 dt/ha; this was
+  not traced to a single named, fetchable commercial-trial source, so it is
+  treated as a garden-scale planning value rather than an authoritative
+  figure. Derivation: 3.5 kg/m² is the middle of the 3-4 kg/m² range. A
+  separate, unrelated LfL Bayern fertilization planning document
+  ([LfL - Nmin und Kalkulationsdaten](https://www.lfl.bayern.de/mam/cms07/iab/dateien/blw_heft_10_nmin_kartoffel_2020.pdf))
+  uses a 500 dt/ha (5.0 kg/m²) yield expectation only as a basis for
+  calculating fertilizer nitrogen requirements; this is a higher planning
+  target for intensive commercial fertilization, not adopted here as the
+  general harvest yield, and is documented explicitly as a higher outlier
+  rather than silently reconciled with the 3.5 kg/m² value. Commercial
+  cultivation figures from [Hortipendium - Porree Erwerbsanbau](https://www.hortipendium.de/Porree_Erwerbsanbau)
+  (20 plants/m² at normal spacing) are consistent with 3.5 kg/m² if the
+  average marketable shaft weighs about 150-200 g, which is plausible but not
+  independently confirmed.
 
 ## Sources
 - [Kiepenkerl - Porree Kulturanleitung](https://www.kiepenkerl.de/kulturanleitungen/porree/)
 - [Plantura - Lauch anbauen, ernten und verwenden](https://www.plantura.garden/gemuese/lauch/lauch-pflanzenportrait)
 - [meine-ernte - Porree](https://www.meine-ernte.de/gemuese-abc/porree/)
 - [Samenhaus Gartenblog - Sommer-, Herbst-, Winterlauch](https://www.samenhaus.de/gartenblog/sommer-herbst-winterlauch-so-waehlen-sie-die-richtige-sorte)
+- [Hortipendium - Porree Erwerbsanbau](https://www.hortipendium.de/Porree_Erwerbsanbau)
+- [LfL Bayern - Nmin und Kalkulationsdaten Kartoffel/Gemüse](https://www.lfl.bayern.de/mam/cms07/iab/dateien/blw_heft_10_nmin_kartoffel_2020.pdf)
+- [BUND Region Hannover - Stark-, Mittel- und Schwachzehrer im Gemüse- und Kräutergarten](https://bund-region-hannover.de/fileadmin/hannover/BUND_aktiv/Universum_Kleingarten/Publikationen_zum_Download/Handreichung_Stark-_Mittel-_und_Schwachzehrer.pdf)
 
 ## Research Status
 - Researched on: 2026-09-18
 - Calendar values researched on: 2026-09-21
+- Yield and spacing values researched on: 2026-09-22
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: none found; sources agree that early and late
   maturity groups differ substantially, so the general calendar values are
-  documented compromises.
+  documented compromises. The 500 dt/ha LfL fertilization-planning yield
+  figure is higher than the 300-400 dt/ha garden-scale harvest figure used
+  here; documented as an open difference between a fertilization target and
+  a harvest planning value, not resolved.
 - Open mapping questions: the general calendar values are compromise values
   across maturity groups; whether OpenFarmPlanner should split leek by
-  maturity group is open.
+  maturity group is open. Yield (3.5 kg/m²) is a garden-scale planning value,
+  not a verified commercial-trial figure.
 - Public-readiness: needs review; calendar values are inferred compromise
-  values.
+  values; yield is not from a fully verified authoritative source.

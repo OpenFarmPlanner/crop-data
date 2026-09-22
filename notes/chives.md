@@ -12,7 +12,8 @@
   cuts and can be cut 3-5 times per season from the second year on
   ([LWG Bayern](https://www.lwg.bayern.de/gartenakademie/gartendokumente/infoschriften/157754/index.php)).
 - Planning values: growth duration 63 days (sowing to first cut), harvest
-  window 180 days (cutting period per season), no propagation (direct sown).
+  window 180 days (cutting period per season), no propagation (direct sown),
+  expected yield 3.0 kg/m² per cut (see `Planning Value Derivations`).
 
 ## Sowing & Planting
 
@@ -56,23 +57,41 @@
   value, not a direct source figure.
 - Propagation duration: left empty; chives are direct sown here.
 - Field/form constraint: whole integer days.
-- Yield: left open. No reliable leaf-yield-per-m² source was found; commercial
-  chive yield depends heavily on cutting frequency, stand age, and season.
+- Yield: 3.0 kg/m² for a single cut. Source basis:
+  [DLR Rheinpfalz - Anbau- und Sortenhinweise Schnittlauch 2024/2025](https://www.wetter.rlp.de/Internet/global/themen.nsf/0/1ef319fcf05534dbc125876e002d5a6f/$FILE/Schnittlauch.pdf)
+  gives a fertilization-planning "Ertrag=Feldabfuhr" (marketable yield removed
+  from the field) of 300 dt FM/ha up to the first cut, 200 dt FM/ha for
+  regrowth after the first cut, and 280 dt FM/ha for a forced (Treiberei)
+  crop. Derivation: 300 dt/ha = 3.0 kg/m² (divide dt/ha by 10). This is a
+  direct source figure for the first cut of a field-grown stand, not an
+  inferred value; it is documented per cut, not as a cumulative seasonal
+  total, consistent with how the harvest window above is defined as a cutting
+  period rather than one harvest. Later cuts in the same season are lower,
+  about 2.0 kg/m² per the same source.
+- Thousand kernel weight: 1.25 g, the middle of the 1.0-1.5 g range given by
+  the same DLR Rheinpfalz source (1 g = 650-1000 seeds).
 
 ## Sources
 - [LWG Bayern - Kräuter zum Frischverzehr aus dem eigenen Garten](https://www.lwg.bayern.de/gartenakademie/gartendokumente/infoschriften/157754/index.php)
 - [Hortipendium - Schnittlauch Erwerbsanbau](https://www.hortipendium.de/Schnittlauch_Erwerbsanbau)
 - [LKO - Schnittlauch Kulturanleitung](https://www.lko.at/media.php?filename=download%3D/2018.07.04/1530702112082987.pdf&rn=Schnittlauch_Kulturanleitung_W_02_2018.pdf)
+- [DLR Rheinpfalz - Anbau- und Sortenhinweise Schnittlauch 2024/2025](https://www.wetter.rlp.de/Internet/global/themen.nsf/0/1ef319fcf05534dbc125876e002d5a6f/$FILE/Schnittlauch.pdf)
+- [BUND Region Hannover - Stark-, Mittel- und Schwachzehrer im Gemüse- und Kräutergarten](https://bund-region-hannover.de/fileadmin/hannover/BUND_aktiv/Universum_Kleingarten/Publikationen_zum_Download/Handreichung_Stark-_Mittel-_und_Schwachzehrer.pdf)
 
 ## Research Status
 - Researched on: 2026-09-18
 - Calendar values researched on: 2026-09-21
+- Yield and spacing values researched on: 2026-09-22
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: none of substance for the general crop; leaf/tube
   thickness is documented as a variety trait, not a crop-identity conflict.
 - Open mapping questions: growth duration for the first cut is inferred from
   commercial descriptions rather than a dedicated trial source; the 180-day
   harvest window is an inferred cutting-season length that depends on stand
-  age (see above). Yield is unresolved.
-- Public-readiness: needs review; growth duration and harvest window inferred,
-  yield open.
+  age (see above). Nutrient demand (medium) matches the BUND Region Hannover
+  Mittelzehrer classification; the DLR Rheinpfalz N-Bedarfswert of about
+  210 kg N/ha up to the first cut is higher than many other "medium" crops,
+  documented here as context rather than reclassified to high, since no task
+  instruction asked to reconsider chives specifically.
+- Public-readiness: needs review; growth duration and harvest window
+  inferred; yield is now a direct DLR Rheinpfalz source figure per cut.

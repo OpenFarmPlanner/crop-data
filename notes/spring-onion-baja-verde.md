@@ -13,6 +13,8 @@
   A supplier page claims about 10 days earlier maturity than "standard
   varieties", but without a defined baseline; see `Planning Value Derivations`.
 - Harvest window: 30 days, reused from the general crop.
+- Expected yield: 3.5 kg/m², reused from the general crop; no variety-specific
+  yield figure was found.
 
 ## Sowing & Planting
 
@@ -24,7 +26,7 @@
   (about 1-2 cm).
 
 - Spacing: no variety-specific figure found; see general crop note (about
-  30-40 cm between rows, about 2.5 cm within the row after thinning).
+  30-40 cm between rows, about 3-4 cm within the row after thinning).
 - Site: no variety-specific soil/site guidance found; see general crop note.
 
 ## Harvest & Use
@@ -76,6 +78,14 @@
   is intentionally reused. The heat tolerance and low bulbing tendency could
   extend usable time in summer, but no source quantifies this, and no
   contradicting variety-specific source was found.
+- Yield: no variety-specific figure was found; the general crop's 3.5 kg/m²
+  is intentionally reused because no `Baja Verde`-specific source
+  contradicts it. No reliable variety-specific yield source found; the
+  general crop planning value was intentionally reused.
+- Nutrient demand: no variety-specific figure was found; the general crop's
+  medium value is intentionally reused.
+- Distance within the row: reused from the general crop's revised value of
+  3.5 cm (see `spring-onion.md`); no variety-specific spacing source exists.
 
 ## Planning Value Derivations
 - Growth duration: 70 days from direct sowing, reused from `spring-onion.md`
@@ -96,6 +106,11 @@
   uncertainty; no variety-specific source).
 - Field/form constraint: whole integer days.
 - Propagation duration: not applicable; direct sown.
+- Yield: 3.5 kg/m², reused from `spring-onion.md`; no variety-specific figure
+  was found for `Baja Verde` in any of the sources checked (NC State, Hartmann
+  Brockhaus, Semenata, Bayer Vegetables).
+- Distance within the row: 3.5 cm, reused from the general crop's revised,
+  density-derived value; no variety-specific spacing source exists.
 
 ## Sources
 - [NC State University - Vegetable Cultivar Descriptions for North America, Onion A-L](https://cucurbitbreeding.wordpress.ncsu.edu/2016/06/02/onion-a-l/)
@@ -108,6 +123,7 @@
 - Researched on: 2026-09-18
 - Calendar values researched on: 2026-09-21
 - Calendar values re-verified on: 2026-09-21 (growth duration changed from 60 to 70 days, the general value; the earliness claim could not be tied to a baseline)
+- Yield and spacing values researched on: 2026-09-22
 - General crop note exists: yes (`spring-onion.md`)
 - Open source conflicts: none found; available sources are sparse rather than
   contradictory.

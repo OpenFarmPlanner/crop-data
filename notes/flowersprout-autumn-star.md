@@ -20,11 +20,13 @@
 - Outdoor planting: about 45 days after sowing (derived from 180 days from
   seed vs. 135 from transplant).
 
-- Spacing: no variety-specific spacing source found; left open (the general
-  crop note also leaves spacing open, so there is no general value to reuse
-  either).
+- Spacing: no variety-specific spacing source found; the general crop's
+  planning value (0.6 m between rows, 0.5 m within the row) is now
+  intentionally reused (see `Comparison With General Crop Data`).
+- Sowing depth: 2 cm, intentionally reused from the general note.
 - Site: full sun; nutrient-rich, well-drained soil with steady moisture,
-  consistent with the general crop note.
+  consistent with the general crop note. High nutrient demand, reused from
+  the general note.
 
 ## Harvest & Use
 - Grown as a fall and winter crop; being the earliest Kalettes variety, it
@@ -41,10 +43,18 @@
 - Harvest window: 45 days vs. 60 days in the general note; `Autumn Star` has
   a harvest period of October to November.
 - Propagation duration: 45 days, equal to the general note.
-- Spacing and sowing/planting dates: no variety-specific source was found, and
-  the general note also has no value to reuse; both left open rather than
-  guessed. This should be treated as an open research gap, not an intentional
-  general-value reuse.
+- Spacing and sowing depth: no variety-specific source was found; the general
+  note now has source-backed planning values (0.6 x 0.5 m spacing, 2 cm
+  sowing depth), which are intentionally reused here. Exact sowing/planting
+  calendar dates remain open, since only the February-April sowing window is
+  documented for this variety.
+- Nutrient demand: `high`, intentionally reused from the general note (a
+  documented judgment call there; see `flowersprout.md`).
+- Thousand kernel weight: 4.1 g, intentionally reused from the general note
+  (derived from Johnny's Selected Seeds' seed-count figure).
+- Yield: no variety-specific figure was found; the general note also leaves
+  yield open because no verifiable source was found at any level. Left open
+  here as well.
 
 ## Planning Value Derivations
 - Definitions: as in the general note (growth duration from transplanting).
@@ -98,8 +108,10 @@
 - Calendar values re-verified on: 2026-09-21 (135 days kept; breeder 180 days from seed supports it, 110-day catalogs mix references)
 - Open mapping questions: same open crop-species mapping question as the
   general note (a named hybrid brand rather than a classical botanical
-  variety); also, no sowing-date or spacing source was found specifically for
-  `Autumn Star`, left open rather than guessed from generic Brussels-sprout
-  timing.
-- Public-readiness: needs review (calendar values source-backed or inferred; sowing dates
-  and spacing unresearched/open; no live sync performed).
+  variety); no sowing-date source was found specifically for `Autumn Star`
+  beyond the February-April window, left open rather than guessed.
+- Yield and spacing values researched on: 2026-09-22
+- Public-readiness: needs review (calendar values source-backed or inferred;
+  spacing, sowing depth, nutrient demand and thousand kernel weight now
+  reused from the general crop; yield left open at both levels; exact
+  planting date unresearched; no live sync performed).

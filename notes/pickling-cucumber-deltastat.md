@@ -34,10 +34,10 @@
 - Sowing: mid-to-late April onward, reused from the general crop note.
 - Sowing depth: about 2-3 cm, reused from the general crop note.
 
-- Spacing: no `Deltastat`-specific figure found; reused from the general crop
-  note's commercial spacing (150-250 cm rows, cluster sowing ~33 cm within
-  row), which is itself flagged there as a commercial-scale figure that may
-  be too wide for garden-scale planning.
+- Spacing: no `Deltastat`-specific figure found; reused from the general
+  crop's garden planning value (100 cm rows, 35 cm within the row, updated
+  2026-09-22), not the wider commercial-scale figure.
+- Nutrient demand: reused from the general crop (`high`, updated 2026-09-22).
 - Site: full sun, warm, wind-sheltered, matching the general crop note.
 
 ## Harvest & Use
@@ -62,6 +62,10 @@
   intentionally reused from the general crop; not confirmed for `Deltastat`.
   If `Deltastat` turns out to be the greenhouse hybrid `Deltastar F1`, these
   values (a field pickling crop) would not apply.
+- Yield (1.5 kg/m²), nutrient demand (`high`) and thousand kernel weight
+  (about 25 g, itself an inferred cross-variety planning value) are all
+  reused unchanged from the general crop, updated there on 2026-09-22; no
+  `Deltastat`-specific source was found for any of them.
 - This is explicitly not the same situation as `Tanja`/`Arola`, where
   variety-specific ReinSaat sources gave concrete spacing and flowering-type
   detail; here the reuse is total, not partial, because the variety itself
@@ -74,6 +78,10 @@
   direct sowing). No variety-specific source exists, so nothing can contradict
   the general values. Uncertainty: identity unresolved (see `Research
   Status`).
+- Yield, nutrient demand, spacing and thousand kernel weight: 1.5 kg/m²,
+  `high`, 100 x 35 cm and about 25 g respectively, all reused unchanged from
+  `pickling-cucumber.md` (updated there 2026-09-22). No variety-specific
+  source exists for any of them.
 
 ## Sources
 - [ReinSaat - Gurken > Einlegegurken (category checked, Deltastat not listed)](https://www.reinsaat.at/shop/DE/gurken/einlegegurken/)
@@ -83,6 +91,7 @@
 ## Research Status
 - Researched on: 2026-09-18
 - Calendar values researched on: 2026-09-21
+- Yield and spacing values researched on: 2026-09-22
 - General crop note exists: yes (`pickling-cucumber.md`)
 - Open source conflicts: none in the strict sense, but see the identity
   question below.

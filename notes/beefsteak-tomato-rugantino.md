@@ -19,6 +19,9 @@
 - Description: Sow in trays indoors, cover seed only lightly. Germinates
   from about 18 °C in 8-10 days, optimal 20-22 °C.
 - Sowing: 02-01 to 04-01
+- Sowing depth: about 0.5 cm (reused from the general `Fleischtomate` note;
+  the source describes covering the seed only lightly, consistent with this
+  figure).
 - Outdoor planting: from mid-May, staked/trellised
 
 - Spacing: 80 cm between rows; 50 cm within the row
@@ -49,8 +52,13 @@
   variety-specific source contradicts them. Qualitative wording about
   earliness or vigor in the sources was not converted into a number. This is a
   reuse, not a `Rugantino`-specific source claim.
-- Yield: no per-plant or per-m² figure found for Rugantino; general crop
-  note also has no reliable general yield value. Left open on both levels.
+- Yield: no per-plant or per-m² figure found for `Rugantino` by name; the
+  general `Fleischtomate` note now sets 5.0 kg/m² (see `beefsteak-tomato.md`),
+  derived from general beefsteak/oxheart per-plant yield data. That general
+  value is intentionally reused here; no variety-specific source contradicts
+  it.
+- Nutrient demand: no `Rugantino`-specific source; the general
+  `Fleischtomate` note's "high" (Starkzehrer) value is intentionally reused.
 
 ## Planning Value Derivations
 - Growth duration 75 days, harvest window 70 days, propagation duration
@@ -59,6 +67,8 @@
 - Field/form constraint: whole integer days.
 - Uncertainty: fits a staked crop planted out in mid-May; protected
   cultivation or an earlier variety can start about four weeks earlier.
+- Yield: 5.0 kg/m², reused from the general `Fleischtomate` note.
+- Sowing depth: 0.5 cm, reused from the general `Fleischtomate` note.
 
 ## Sources
 - [Dürr Samen - Ochsenherz-Tomaten Rugantino RZ F1](https://shop.duerr-samen.de/ochsenherz-tomaten/ochsenherz-tomaten-rugantino-rz-f1.html)
@@ -69,7 +79,10 @@
 - Researched on: 2026-09-18
 - General crop note exists: yes (notes/beefsteak-tomato.md)
 - Open source conflicts: none found.
-- Open mapping questions: yield is left open for this variety; calendar values reuse the general crop; no source gave a concrete value to convert into a planning value
-  without guessing.
+- Open mapping questions: yield, nutrient demand and sowing depth are
+  intentionally reused from the general crop; calendar values also reuse the
+  general crop; no source gave a `Rugantino`-specific concrete value to
+  convert into a planning value without guessing.
 - Calendar values researched on: 2026-09-21
+- Yield and spacing values researched on: 2026-09-22
 - Public-readiness: ready

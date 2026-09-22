@@ -21,6 +21,8 @@
 - Description: Sow in trays indoors. Plant outdoors after mid-May with a
   support structure/stake.
 - Sowing: 02-01 to 04-30
+- Sowing depth: about 0.5 cm, reused from the general `Kirschtomate` note; no
+  `Philovita`-specific figure was found.
 - Outdoor planting: from mid-May
 
 - Spacing: 80 cm between rows; 50 cm within the row (the more frequently
@@ -52,8 +54,12 @@
   variety-specific source contradicts them. Qualitative wording about
   earliness or vigor in the sources was not converted into a number. This is a
   reuse, not a `Philovita`-specific source claim.
-- Yield: no per-plant or per-m² figure found for Philovita; general crop
-  note also has no reliable general yield value. Left open on both levels.
+- Yield: the general `Kirschtomate` note now sets 5.0 kg/m² (see
+  `cherry-tomato.md`). No `Philovita`-specific per-plant or per-m² figure was
+  found, only qualitative "high yield" wording, so the general value is
+  intentionally reused; no variety-specific source contradicts it.
+- Nutrient demand: reused from the general `Kirschtomate` note (high); no
+  `Philovita`-specific source was found.
 
 ## Planning Value Derivations
 - Growth duration 65 days, harvest window 80 days, propagation duration
@@ -62,6 +68,8 @@
 - Field/form constraint: whole integer days.
 - Uncertainty: fits a staked crop planted out in mid-May; protected
   cultivation or an earlier variety can start about four weeks earlier.
+- Yield: 5.0 kg/m², reused from the general `Kirschtomate` note.
+- Sowing depth: 0.5 cm, reused from the general `Kirschtomate` note.
 
 ## Sources
 - [Tomaten.de - Tomate 'Philovita'](https://www.tomaten.de/tomate-philovita-cherrytomate/)
@@ -75,7 +83,10 @@
   row x 50 cm in-row, one gives a minimum of 80 cm row x 60 cm in-row. The
   more frequently reported figure (80 x 50 cm) is used, and the conflict is
   documented here rather than silently dropped.
-- Open mapping questions: yield is left open for this variety; calendar values reuse the general crop; no source gave a concrete value to convert into a planning value
-  without guessing.
+- Open mapping questions: yield, nutrient demand and sowing depth are
+  intentionally reused from the general crop; calendar values also reuse the
+  general crop; no source gave a `Philovita`-specific concrete value to
+  convert into a planning value without guessing.
 - Calendar values researched on: 2026-09-21
+- Yield and spacing values researched on: 2026-09-22
 - Public-readiness: ready

@@ -44,8 +44,17 @@
 - Spacing, sowing depth: no `Felicia`-specific figures were found; the general
   crop's ranges are reused as-is (intentional reuse, not a variety source
   claim).
-- Yield and thousand kernel weight: left open, same as the general crop; no
-  variety-specific source found.
+- Yield: no `Felicia`-specific figure was found; the general crop's
+  2.4 kg/m² (first-cut) value is intentionally reused. `Felicia` is itself
+  the reference variety for the general crop's DLR-sourced duration figures,
+  but the DLR yield figures are not variety-specific (they apply to the
+  "Frischmarkt/Industrie" cultivation type generally), so no independent
+  `Felicia` yield exists. No reliable variety-specific yield source found;
+  the general crop planning value was intentionally reused.
+- Thousand kernel weight: no `Felicia`-specific figure was found; the general
+  crop's 1.5 g value is intentionally reused.
+- Nutrient demand: medium, reused from `leaf-parsley.md`; no variety-specific
+  source found.
 - No deviation from the general crop's agronomic guidance was found for this
   variety.
 
@@ -68,12 +77,14 @@
 ## Research Status
 - Researched on: 2026-09-18
 - Calendar values researched on: 2026-09-21
+- Yield, TKW and nutrient demand researched on: 2026-09-22
 - General crop note exists: yes (`leaf-parsley.md`)
 - Open source conflicts: none found.
-- Open mapping questions: no `Felicia`-specific yield source was found
-  (yield stays open, as in the general crop). Confirm whether `Felicia` corresponds to the "Typ glatt,
-  early" entries in the LWG Veitshöchheim/DLR Rheinpfalz trial tables
-  referenced in `leaf-parsley.md` — this note relies on commercial seed
-  descriptions rather than direct access to those trial publications.
+- Open mapping questions: no `Felicia`-specific yield source was found (the
+  general crop's yield is reused instead). Confirm whether `Felicia`
+  corresponds to the "Typ glatt, early" entries in the LWG Veitshöchheim/DLR
+  Rheinpfalz trial tables referenced in `leaf-parsley.md` — this note relies
+  on commercial seed descriptions rather than direct access to those trial
+  publications.
 - Public-readiness: needs review; calendar values are derived planning values
-  from one regional sheet; yield open.
+  from one regional sheet; yield and TKW are reused general values.

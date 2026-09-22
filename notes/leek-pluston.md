@@ -65,8 +65,14 @@
   winter-group range, not a variety claim).
 - Propagation duration: general 75 days, `Pluston` 70 days (April to mid-May
   sowing, mid-June to July planting).
-- Yield: no variety-specific source; "very high yield" is qualitative only
-  and stays open.
+- Yield: no variety-specific numeric source; "very high yield" is qualitative
+  only ([Plantura - Lauchsorten](https://plantura.garden/leserfragen-2/gemuese/lauchsorten-neue-alte-und-robuste-porree-sorten)).
+  The general crop's 3.5 kg/m² is intentionally reused, understanding that the
+  qualitative claim could put the real figure higher; no reliable
+  variety-specific yield source found, the general crop planning value was
+  intentionally reused.
+- Nutrient demand: no variety-specific source; the general crop's high value
+  (Starkzehrer) is intentionally reused.
 - Versus `Krypton F1`: later sowing (April-May vs. January), later planting
   (mid-June-July vs. late March-April), harvest October onward vs. July-August.
 
@@ -89,6 +95,8 @@
   8-10 weeks in [meine-ernte](https://www.meine-ernte.de/gemuese-abc/porree/)
   (read via a search summary).
 - Field/form constraint: whole integer days.
+- Yield: 3.5 kg/m², reused from `leek.md`; no variety-specific yield figure
+  found beyond the qualitative "high yield" claim.
 
 ## Sources
 - [Plantura - Lauchsorten: neue, alte und robuste Porree-Sorten](https://plantura.garden/leserfragen-2/gemuese/lauchsorten-neue-alte-und-robuste-porree-sorten)
@@ -100,11 +108,12 @@
 ## Research Status
 - Researched on: 2026-09-21
 - Calendar values researched on: 2026-09-21
+- Yield and spacing values researched on: 2026-09-22
 - General crop note exists: yes (`leek.md`)
 - Open source conflicts: autumn vs. winter classification; spacing 30-40 x
   8-15 cm vs. 50 x 15 cm in the general note. Breeder identity not verified
   (a search summary suggested Nunhems; not confirmed).
-- Open mapping questions: yield (kg/m²) is open; growth duration, harvest
-  window and propagation duration are winter-group inferences, not
-  variety-specific.
+- Open mapping questions: yield (kg/m²) is a reused general-crop value, not
+  variety-specific; growth duration, harvest window and propagation duration
+  are winter-group inferences, not variety-specific.
 - Public-readiness: needs review; variety-specific source data is thin.

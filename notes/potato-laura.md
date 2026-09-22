@@ -18,6 +18,13 @@
   `Planning Value Derivations`; see `Comparison With General Crop Data`.
 - Yield: described qualitatively as medium to high, among the higher-yielding
   potato varieties; no kg/m² figure was found.
+- Nutrient demand: sources conflict at the variety level. The breeder's own
+  variety page gives an explicit medium nitrogen requirement
+  (100-120 kg N/ha) alongside a medium damage-susceptibility rating
+  ([EUROPLANT - LAURA Pflanzkartoffel](https://www.europlant.biz/sortiment/laura/)),
+  while the general `Kartoffel` note (following Plantura's Starkzehrer
+  classification) rates potato in general as high. See `Comparison With
+  General Crop Data`.
 
 ## Sowing & Planting
 
@@ -65,11 +72,18 @@
 - Spacing and planting depth: no `Laura`-specific source was found, so the
   general `Kartoffel` note's values are intentionally reused. No
   variety-specific source contradicts them.
-- Yield: the general `Kartoffel` note leaves yield open. `Laura` is described
-  only qualitatively ("medium to high", "one of the highest-yielding
-  varieties") without a kg/m² or kg/plant figure, so no yield value is set
-  here either; this is an intentional reuse of the general note's open state,
-  not a variety-specific numeric claim.
+- Yield: the general `Kartoffel` note now sets 3.5 kg/m² (garden planning
+  value; see `potato.md`). `Laura` is described only qualitatively ("medium
+  to high", "one of the highest-yielding varieties") without a kg/m² or
+  kg/plant figure, so the general value is intentionally reused here; no
+  variety-specific source contradicts it, and the qualitative
+  "higher-yielding" wording does not warrant a numeric deviation without a
+  source-backed figure. This is a reuse, not a `Laura`-specific source claim.
+- Nutrient demand: a real, source-backed variety-specific deviation. The
+  general `Kartoffel` note rates potato as high (Starkzehrer); `Laura`'s own
+  breeder page instead states a medium nitrogen requirement
+  (100-120 kg N/ha). Both figures are kept, documented as an explicit source
+  conflict rather than silently resolved (see `Planning Value Derivations`).
 
 ## Planning Value Derivations
 - Growth duration: 110 days (seed-tuber planting to harvest readiness).
@@ -79,6 +93,10 @@
   14 days emergence time (about 104 days), which is inside the range. The
   emergence allowance is an assumption, not a source value.
 - Harvest window: 30 days, reused from the general crop; inferred.
+- Yield: 3.5 kg/m², reused from the general `Kartoffel` note; no
+  `Laura`-specific kg/m² figure was found.
+- Planting depth: 10 cm, reused from the general `Kartoffel` note; no
+  `Laura`-specific figure was found.
 - Field/form constraint: whole integer days.
 - Uncertainty: planting date and soil temperature can move readiness by two
   weeks either way.
@@ -86,17 +104,22 @@
 ## Sources
 - [Kartoffel-Müller - Kartoffel Laura, vorw. festkochend](https://www.kartoffel-mueller.de/Laura/3018.1)
 - [Floragard - Kartoffel 'Laura' Pflanze, Pflege & Tipps](https://www.floragard.de/de-de/pflanzeninfothek/pflanze/gemuese/kartoffel-laura)
+- [EUROPLANT - LAURA Pflanzkartoffel](https://www.europlant.biz/sortiment/laura/)
 
 ## Research Status
 - Researched on: 2026-09-18
 - General crop note exists: yes (`potato.md`)
 - Open source conflicts: growth duration given as about 100-120 days in one
   source and about 90 days (emergence to technical maturity) in another; the
-  bases differ and were reconciled as documented above.
+  bases differ and were reconciled as documented above. Nutrient demand:
+  breeder page states medium (100-120 kg N/ha) while the general crop note
+  rates potato as high; kept as an explicit, unresolved conflict rather than
+  silently picking one.
 - Open mapping questions: growth duration is set to 110 days after
-  reconciling the two source bases; yield has no quantitative
-  source and is intentionally left open, reusing the general crop's open
-  state.
+  reconciling the two source bases; yield, planting depth and spacing are
+  intentionally reused from the general crop.
 - Calendar values researched on: 2026-09-21
-- Public-readiness: needs review; growth duration is a reconciled inferred value and
-  quantitative yield figure should be resolved before structured sync.
+- Yield and spacing values researched on: 2026-09-22
+- Public-readiness: needs review; growth duration is a reconciled inferred
+  value and the nutrient-demand conflict with the general crop should be
+  reviewed before structured sync.

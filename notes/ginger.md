@@ -62,7 +62,14 @@
 - Yield: about 3 kg/m² fresh rhizome for protected cultivation, see
   `Planning Value Derivations`.
 - Crop family Zingiberaceae; the guide cites about 250 kg N, 55 kg P and
-  100 kg K per ha for ginger in general; nutrient demand class not mapped.
+  100 kg K per ha for ginger in general. Nutrient demand: `high`, mapped from
+  this figure; 250 kg N/ha is well above the range typically associated with
+  `medium`-demand vegetable crops in this repository and is comparable to
+  other `high`-demand crops such as Brussels sprouts and kale.
+- Thousand kernel weight: not applicable. Ginger is propagated vegetatively
+  from rhizome pieces, not from true seed, so no thousand kernel weight
+  exists for this crop; left unmapped rather than filled with an invented
+  value.
 
 ## Planning Value Derivations
 - Definitions: propagation duration is the start of the rhizome pieces
@@ -124,7 +131,10 @@
 - Open source conflicts: planting depth and start date resolved as documented
   above (5 cm; March unheated, January-February heated).
 - Open mapping questions: rhizome planting mapped to the transplant variant;
-  nutrient demand class not mapped.
+  thousand kernel weight is not applicable for a vegetatively propagated
+  rhizome crop, left unmapped.
+- Yield and spacing values researched on: 2026-09-22 (nutrient demand mapped
+  to `high` from the already-documented 250 kg N/ha figure)
 - Remaining source limits: the FiBL guide is a compilation of trials (Bamberg,
   Wies, New Hampshire, Delaware) and gives no explicit planting depth for
   young plants; the depth comes from tropical extension guidance and garden

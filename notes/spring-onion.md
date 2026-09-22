@@ -12,13 +12,15 @@
   assumed from the market name alone; it must be verified per variety (see
   `spring-onion-baja-verde.md` for a case where this could not be fully
   resolved).
-- Hardy, frost-tolerant annual/short-lived perennial; low to moderate nutrient
-  demand; needs even moisture, especially while shafts are filling out.
+- Hardy, frost-tolerant annual/short-lived perennial; medium nutrient demand;
+  needs even moisture, especially while shafts are filling out.
 - Growth duration: 70 days from direct sowing to a usable harvest as a general
   planning value; the source range is about 50-90 days (see `Planning Value
   Derivations`).
 - Harvest window: 30 days of pulling/cutting per sowing (inferred).
 - Propagation duration: not applicable; direct sown.
+- Expected yield: 3.5 kg/m² as a general planning value for a bunching/pulled
+  harvest (see `Planning Value Derivations`).
 
 ## Sowing & Planting
 
@@ -30,8 +32,9 @@
   a frost-hardy type is used.
 - Sowing depth: about 1-2 cm.
 
-- Spacing: about 30-40 cm between rows; thin to roughly 2.5 cm within the row
-  for slender shafts (wider spacing gives thicker shafts).
+- Spacing: about 30-40 cm between rows; thin to about 3-4 cm within the row
+  (wider spacing gives thicker shafts); see `Planning Value Derivations` for
+  how the within-row figure was refined.
 - Site: full sun, loose, well-drained, humus-rich soil; heavy clay or very
   sandy soils are unsuitable.
 
@@ -68,17 +71,51 @@
   short end (about 8 weeks).
 - Field/form constraint: whole integer days.
 - Propagation duration: left empty; spring onion is direct sown.
+- Yield: 3.5 kg/m². Source basis: a search-engine synthesis attributed to
+  [derkleinegarten.de](https://www.derkleinegarten.de/nutzgarten-kleingarten/gemuesegarten-anlegen/wurzelgemuese-und-zwiebelgemuese/fruehlingszwiebel.html)-style
+  garden sources gives about 3-5 kg/m² for a pulled/bunching harvest, a
+  cut-and-regrow (leaves only) harvest of about 2-3 kg/m², and a dense
+  intensive planting (about 27 plants/m²) of about 4.5-6.5 kg/m²; these are
+  garden-scale figures, not a verified commercial-trial source. 3.5 kg/m² is
+  the middle of the 3-5 kg/m² whole-plant bunching range, which matches the
+  harvest form assumed elsewhere in this note (pulled/cut shafts). Given the
+  crop's own row/within-row spacing here (about 114 plants/m²), a per-plant
+  weight of about 30 g would already reach this yield, which is plausible for
+  a pencil-thick shaft; this cross-check is a plausibility note, not an
+  independent source. Treated as an uncertain general planning value; no
+  authoritative commercial-cultivation (Hortipendium/LfL/KTBL) yield figure
+  was found despite checking [Hortipendium - Bundzwiebeln Erwerbsanbau](https://www.hortipendium.de/Bundzwiebeln_Erwerbsanbau),
+  which gives spacing and seed data but no yield.
+- Distance within the row: 3.5 cm, revised from an earlier 2.5 cm. Source
+  basis: [Hortipendium - Bundzwiebeln Erwerbsanbau](https://www.hortipendium.de/Bundzwiebeln_Erwerbsanbau)
+  gives a commercial planting density of 80-100 plants/m² at a 33 cm row
+  spacing. Derivation: within-row spacing = 1 / (plant density x row
+  spacing), giving about 3.0-3.8 cm; 3.5 cm is the rounded middle. This
+  replaces the previous value, which was only a qualitative guess ("wider
+  spacing gives thicker shafts") with no numeric source; documented here as a
+  correction, not a silent change.
+- Nutrient demand: medium. Source basis: [BUND Region Hannover - Stark-,
+  Mittel- und Schwachzehrer im Gemüse- und Kräutergarten](https://bund-region-hannover.de/fileadmin/hannover/BUND_aktiv/Universum_Kleingarten/Publikationen_zum_Download/Handreichung_Stark-_Mittel-_und_Schwachzehrer.pdf)
+  does not list spring onion/Lauchzwiebel by name; it lists ordinary bulb
+  onions as a "sensitive Mittelzehrer" (medium, compost-sensitive) and sets/
+  overwintering onions as Schwachzehrer (low). Because spring onion sits
+  between these two related crops and no dedicated source was found, medium
+  is kept as a documented, source-adjacent estimate rather than a directly
+  confirmed value; this is an open mapping question, not a resolved fact.
 
 ## Sources
 - [Plantura - Frühlingszwiebeln pflanzen](https://www.plantura.garden/gemuese/fruehlingszwiebeln/fruehlingszwiebeln-pflanzen)
 - [derkleinegarten.de - Frühlingszwiebel Anbau](https://www.derkleinegarten.de/nutzgarten-kleingarten/gemuesegarten-anlegen/wurzelgemuese-und-zwiebelgemuese/fruehlingszwiebel.html)
 - [Coras Garten - Zwiebeln Kulturdaten](http://coras-garten.de/kulturanleitung-samenbauer/kulturdaten/zwiebeln/)
 - [Samen.de - Aussaat von Lauchzwiebeln](https://samen.de/blog/der-richtige-zeitpunkt-fuer-die-aussaat-von-lauchzwiebeln.html)
+- [Hortipendium - Bundzwiebeln Erwerbsanbau](https://www.hortipendium.de/Bundzwiebeln_Erwerbsanbau)
+- [BUND Region Hannover - Stark-, Mittel- und Schwachzehrer im Gemüse- und Kräutergarten](https://bund-region-hannover.de/fileadmin/hannover/BUND_aktiv/Universum_Kleingarten/Publikationen_zum_Download/Handreichung_Stark-_Mittel-_und_Schwachzehrer.pdf)
 
 ## Research Status
 - Researched on: 2026-09-18
 - Calendar values researched on: 2026-09-21
 - Calendar values re-verified on: 2026-09-21 (70 days unchanged; the Baja Verde variety check found no better evidence to alter the general value)
+- Yield and spacing values researched on: 2026-09-22
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: growth duration from sowing to harvest is given
   inconsistently across sources (about 6-8 weeks by one source, 8-12 weeks by
@@ -89,4 +126,7 @@
   split for `Allium cepa`-type bunching onions, is unresolved; flagged here so
   it is not silently decided at variety level.
 - Public-readiness: needs review; species scope is open; the harvest window
-  is an inferred planning value.
+  is an inferred planning value; yield (3.5 kg/m²) is a garden-source
+  planning value without a verified commercial-trial figure; nutrient demand
+  (medium) is a source-adjacent estimate, not directly confirmed for this
+  exact crop.

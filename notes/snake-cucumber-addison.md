@@ -71,9 +71,20 @@
   source's "early fruit set" claim may mean a somewhat earlier first harvest
   than open-pollinated types, but it is not quantified and is not used to
   shorten the value.
-- Yield: no kg/m² or piece-count figure found; left open.
+- Yield: no kg/m² or piece-count figure found in the breeder source. The
+  general crop's garden planning value of 2.0 kg/m² (set 2026-09-22, see
+  `snake-cucumber.md`) is intentionally reused; the source's "high total
+  yield" description (professional/commercial context) does not contradict
+  it, though it may understate a commercial greenhouse hybrid's true
+  potential.
 - Thousand seed mass: not given by the source; left open (unlike `Tanja` and
-  `Arola`, which both have source-backed figures).
+  `Arola`, which both have source-backed figures). The general crop's inferred
+  ~25 g planning value (itself derived from `Tanja`/`Arola`) is not reused
+  here because `Addison` is a different, larger-fruited hybrid type and no
+  evidence supports assuming the same seed size.
+- Spacing: re-searched on 2026-09-22 (Rijk Zwaan's own product page and
+  distributor listings); still no plant-density or row-spacing figure was
+  found for `Addison F1` in the sources checked. Left open, as before.
 
 ## Planning Value Derivations
 
@@ -91,6 +102,7 @@
 ## Research Status
 - Researched on: 2026-09-18
 - Calendar values researched on: 2026-09-21
+- Yield and spacing values researched on: 2026-09-22
 - General crop note exists: yes (`snake-cucumber.md`)
 - Open source conflicts: none found; the caveat here is source scarcity, not
   conflicting sources.
@@ -101,9 +113,9 @@
   to the `Schlangengurke` Kultur (rather than, for example, a
   greenhouse-specific sub-type) is inferred from the "lange Gurke" (long
   cucumber) description and fruit dimensions, not confirmed against the same
-  catalog used for the other varieties. Spacing, yield, and thousand seed mass
-  are left open due to thin source material; calendar values are reused from
-  the general crop.
+  catalog used for the other varieties. Spacing and thousand seed mass remain
+  open after a repeat search; yield is now an intentional reuse of the general
+  crop's 2.0 kg/m² planning value.
 - Public-readiness: blocked; identity confidence is lower than for the other
-  varieties in this crop, and spacing, yield and seed mass are open. Needs
-  review before any live sync.
+  varieties in this crop, and spacing and seed mass are open. Needs review
+  before any live sync.

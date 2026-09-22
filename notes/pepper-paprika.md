@@ -27,6 +27,7 @@
   ([Plantura - Paprika](https://www.plantura.garden/gemuese/paprika/paprika-pflanzenportrait)).
 - Sowing: late February to early March
   ([Plantura - Paprika](https://www.plantura.garden/gemuese/paprika/paprika-pflanzenportrait)).
+- Sowing depth: about 1 cm (see `Planning Value Derivations`).
 - Outdoor planting: after the "Ice Saints" (mid-May) once frost risk has
   passed, planted as deep as practical to encourage additional rooting along
   the stem
@@ -59,13 +60,26 @@
   allows, rather than relying on this general note's representative values.
 
 ## Planning Value Derivations
-- Yield: open field guidance gives about 5 kg/m² in open-field cultivation,
-  rising in unheated tunnels; a single general figure is not asserted here
-  because the source is general garden guidance rather than a controlled
-  trial, and yield depends strongly on fruit type and cultivation form
-  ([Plantura - Paprika](https://www.plantura.garden/gemuese/paprika/paprika-pflanzenportrait)).
-  Left open at the general-crop level; variety notes should use
-  variety-specific or trial-sourced figures where available.
+- Yield: 5.5 kg/m² (open field to unheated tunnel). Source basis: general
+  garden guidance gives about 5 kg/m² in open-field cultivation
+  ([Plantura - Paprika](https://www.plantura.garden/gemuese/paprika/paprika-pflanzenportrait));
+  a 1997 open-field variety trial at LVG Heidelberg with paprika "special
+  forms" (elongated, tomato-shaped, and one hot-spice entry) reports yields
+  of 6 kg/m² making open-field cultivation of these forms attractive
+  ([hortigate - Erträge von 6 kg je m²](https://www.hortigate.de/publikation/47661/Ertr%C3%A4ge-von-6-kg-je-m%C2%B2-machen-den-Anbau-von-Paprikasonderformen-im-Freiland-attraktiv/)).
+  A 2023 unheated-tunnel Spitzpaprika variety trial at LWG Bamberg gives
+  per-plant marketable yields of 0.77-1.7 kg/plant (5 pointed varieties,
+  planted 30 cm apart on a French trellis)
+  ([LWG Bamberg - Spitzpaprika-Sortenvergleich 2023](https://www.lwg.bayern.de/mam/cms06/gartenbau/dateien/spitzpaprika_sortenvergleich_im_ungeheizten_tunnel_2023.pdf)),
+  which is consistent in order of magnitude with the two area-based figures
+  but is not converted to kg/m² here because the trial's row width (and
+  therefore plants/m²) is not stated, only "3.3 plants per running meter of
+  row". Derivation: midpoint of the two directly area-based figures (5 and 6
+  kg/m²), rounded to 5.5 kg/m². Fits open-field or unheated-tunnel
+  cultivation; heated greenhouse or fruit-type-specific yields can differ
+  substantially, and no source gives a single figure for one exact fruit
+  type. Reuse: variety notes (`Sven`, `Pallodio`) reuse this general value,
+  since no variety-specific kg/m² source was found for either.
 - Growth duration (from transplanting to first harvest): 70 days. Source
   basis: [Kiepenkerl - Paprika](https://www.kiepenkerl.de/kulturanleitungen/paprika/)
   gives about six weeks (42 days) from planting out to the first harvest,
@@ -100,35 +114,48 @@
   one. Users sowing in mid-February can use 84 days.
 - Field/form constraint: whole integer days; weeks converted to days.
 - Uncertainty: sowing date, heating, and fruit type change all three values
-  by roughly 2-3 weeks.
-- Yield: open field guidance gives about 5 kg/m² in open-field cultivation,
-  rising in unheated tunnels; a single general figure is not asserted here
-  because the source is general garden guidance rather than a controlled
-  trial, and yield depends strongly on fruit type and cultivation form
-  ([Plantura - Paprika](https://www.plantura.garden/gemuese/paprika/paprika-pflanzenportrait)).
-  Left open at the general-crop level; variety notes should use
-  variety-specific or trial-sourced figures where available.
+  by roughly 2-3 weeks; yield varies with fruit type and cultivation form,
+  see the yield derivation above.
+- Sowing depth: 1 cm. Sources describe pepper/chili seed as sown 0.5-1 cm
+  deep, or 1-2 cm for larger seed in a dark-germinating reading
+  ([garteln.info - Chili](https://garteln.info/stammdaten.php?pflanze=Chili),
+  [chili-balkon.de - Aussaat](https://www.chili-balkon.de/anzucht/aussaat.htm)).
+  1 cm sits within both ranges and matches typical medium-sized `Paprika`
+  seed; no `Paprika`-specific depth source was found, so this uses the same
+  chili/pepper-seed guidance as the sibling `Chili` note.
+- Nutrient demand: high (Starkzehrer). Source basis: [Plantura - Starkzehrer, Mittelzehrer und Schwachzehrer](https://www.plantura.garden/gemuese/gemuese-anbauen/starkzehrer-mittelzehrer-und-schwachzehrer)
+  lists "Paprika und Chili" explicitly among high-demand (Starkzehrer)
+  vegetables, consistent with this note's existing nutrient-rich soil
+  guidance.
 
 ## Sources
 - [Plantura - Paprika anbauen: Aussaat, Pflege und Erntezeit](https://www.plantura.garden/gemuese/paprika/paprika-pflanzenportrait)
 - [kraut&rüben - Paprika im Freiland anbauen](https://www.krautundrueben.de/paprika-im-freiland-anbauen)
 - [SRF Kassensturz - Peperoni, Paprika, Peperoncini und Chili](https://www.srf.ch/sendungen/kassensturz-espresso/services/espresso-aha/schlauer-i-d-wuche-peperoni-paprika-peperoncini-und-chili-was-ist-was)
+- [hortigate - Erträge von 6 kg je m² machen den Anbau von Paprikasonderformen im Freiland attraktiv](https://www.hortigate.de/publikation/47661/Ertr%C3%A4ge-von-6-kg-je-m%C2%B2-machen-den-Anbau-von-Paprikasonderformen-im-Freiland-attraktiv/)
+- [LWG Bamberg - Sortenvergleich bei Spitzpaprika, ungeheizter Folientunnel 2023](https://www.lwg.bayern.de/mam/cms06/gartenbau/dateien/spitzpaprika_sortenvergleich_im_ungeheizten_tunnel_2023.pdf)
+- [Plantura - Starkzehrer, Mittelzehrer und Schwachzehrer](https://www.plantura.garden/gemuese/gemuese-anbauen/starkzehrer-mittelzehrer-und-schwachzehrer)
+- [garteln.info - Chili Stammdaten](https://garteln.info/stammdaten.php?pflanze=Chili)
+- [chili-balkon.de - Aussaat von Chili und Paprika](https://www.chili-balkon.de/anzucht/aussaat.htm)
 
 ## Research Status
 - Researched on: 2026-09-18
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: plant spacing given as 40 x 40 cm in one source and
   40-50 cm in another; treated as close enough not to be a meaningful
-  conflict, but noted here explicitly.
+  conflict, but noted here explicitly. Sowing depth given as 0.5-1 cm in one
+  source and 1-2 cm (for larger seed) in another; 1 cm was chosen as it sits
+  in both ranges.
 - Open mapping questions: same official OpenFarmPlanner crop-species question
   documented in the Pfefferoni general crop note - whether `Paprika` should be
   the shared official crop species (`Capsicum annuum`) that `Pfefferoni` and
   `Chili` link to, or whether each Kultur should link to its own. Not
   re-decided here; follow the recommendation already documented in
-  `notes/pepper-pfefferoni.md`. Yield remains open; growth duration, harvest window and
-  propagation duration are set as representative planning values.
+  `notes/pepper-pfefferoni.md`. Growth duration, harvest window, propagation
+  duration and yield are set as representative planning values.
 - Calendar values researched on: 2026-09-21
 - Calendar values re-verified on: 2026-09-21
-- Public-readiness: needs review (yield open; calendar values inferred; identity/
+- Yield and spacing values researched on: 2026-09-22
+- Public-readiness: needs review (calendar values inferred; identity/
   crop-species link is a known open question shared with `Pfefferoni` and
   `Chili`).

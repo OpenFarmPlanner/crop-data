@@ -29,6 +29,8 @@
 - Description: Sow indoors in trays, plant out after the last frost with a
   support structure/stake.
 - Sowing: 02-01 to 04-15
+- Sowing depth: about 0.5 cm (reused from the general `Fleischtomate` note's
+  tomato-seed source).
 - Outdoor planting: from mid-May, staked/trellised
 
 - Spacing: 60-90 cm between rows; 45-70 cm within the row (general range
@@ -70,10 +72,22 @@
 - Uncertainty: protected cultivation (tunnel, greenhouse) can start about four
   weeks earlier and harvest longer; determinate or very early varieties
   finish faster. Variety values should replace these where a source exists.
+- Yield: 5.5 kg/m² (staked, single-stem, open-field to unheated-tunnel
+  cultivation). Source basis: [Lubera - Selbstversorgung mit Tomaten](https://www.lubera.com/at/gartenbuch/selbstversorgung-mit-tomaten-p5729)
+  gives 2-3 kg per plant as typical for round salad tomatoes in hobby
+  cultivation. Derivation: this note's own spacing range (60-90 cm rows x
+  45-70 cm in-row) gives a midpoint density of about 2.3 plants/m² (75 x
+  57.5 cm); 2-3 kg/plant x 2.3 plants/m² = 4.6-6.9 kg/m², midpoint rounded to
+  5.5 kg/m². Inferred from a per-plant source, not a direct area-based
+  figure.
+- Sowing depth: 0.5 cm, reused from the general `Fleischtomate` note's
+  tomato-seed source.
 
 ## Sources
 - [ReinSaat - Tomatoes/Paradeiser category page](https://www.reinsaat.at/shop/EN/tomaten_paradeiser/)
 - [Rijk Zwaan - Tomate ROUGELLA F1](https://www.rijkzwaan.de/tomate/ROUGELLA-F1-prdSL11023-ctgCrops.tomato)
+- [Lubera - Selbstversorgung mit Tomaten](https://www.lubera.com/at/gartenbuch/selbstversorgung-mit-tomaten-p5729)
+- [Plantura - Starkzehrer, Mittelzehrer und Schwachzehrer](https://www.plantura.garden/gemuese/gemuese-anbauen/starkzehrer-mittelzehrer-und-schwachzehrer)
 
 ## Research Status
 - Researched on: 2026-09-18
@@ -82,6 +96,10 @@
 - Open mapping questions: whether `Salattomate` is the right long-term home
   for every round medium-large tomato not otherwise classed, or whether a
   future `Cocktailtomate` Kultur should be split out, is left open. Document
-  new variety-level findings here if this becomes clearer.
+  new variety-level findings here if this becomes clearer. Yield (5.5 kg/m²)
+  is an inferred planning value from a per-plant source and this note's own
+  spacing range.
 - Calendar values researched on: 2026-09-21
+- Yield and spacing values researched on: 2026-09-22
+- Nutrient demand: high (Starkzehrer), per [Plantura - Starkzehrer, Mittelzehrer und Schwachzehrer](https://www.plantura.garden/gemuese/gemuese-anbauen/starkzehrer-mittelzehrer-und-schwachzehrer).
 - Public-readiness: ready

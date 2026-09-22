@@ -19,6 +19,8 @@
 - Sowing: April to July.
 - Sowing depth: no variety-specific depth source found; the general crop's
   2 cm value is reused.
+- Yield: 3.5 kg/m² (`per_sqm`), a direct variety-specific figure (see
+  `Planning Value Derivations`).
 
 - Spacing: 30-50 cm between rows, 5-10 cm within the row, taken directly from
   [ReinSaat](https://www.reinsaat.at/shop/EN/rote_ruebe/tonda_di_chioggia/).
@@ -50,9 +52,14 @@
 - Sowing depth: no variety-specific figure found; the general crop's 2 cm
   value is intentionally reused, since no contradicting variety-specific
   source was found.
-- Yield: no variety-specific figure was found; the general crop's 4-6 kg/m²
-  range is intentionally reused, since no contradicting variety-specific
-  source was found.
+- Yield: 3.5 kg/m², documented directly for this variety by a 2016
+  North Rhine-Westphalia Chamber of Agriculture trial (350 dt/ha), above the
+  trial's own 266 dt/ha average across nine varieties and close to the
+  general note's chosen planning value (2.7 kg/m², same trial's average).
+  Kept as the variety-specific figure rather than the general average, since
+  it is a direct source measurement for this named variety.
+- Thousand kernel weight: 17.5 g, intentionally reused from the general note
+  (standard multi-germ beet seed); no variety-specific figure found.
 
 ## Planning Value Derivations
 - Growth duration: 100 days, taken from
@@ -80,12 +87,16 @@
 - Field/form constraint: whole days.
 - Spacing: 30-50 x 5-10 cm, taken directly from
   [ReinSaat](https://www.reinsaat.at/shop/EN/rote_ruebe/tonda_di_chioggia/).
+- Yield: 3.5 kg/m² (350 dt/ha), taken directly from
+  [Hortigate - Rote Bete Sortenversuch](https://www.hortigate.de/publikation/71367/Rote-Bete-Sortenversuch/),
+  a 2016 trial by the North Rhine-Westphalia Chamber of Agriculture.
 
 ## Sources
 - [ReinSaat - Tonda di Chioggia](https://www.reinsaat.at/shop/EN/rote_ruebe/tonda_di_chioggia/)
 - [Garten des Lebens - Gemüseportrait Rote Bete Tonda di Chioggia](https://www.garten-des-lebens.de/gemueseportrait-rote-bete-tonda-di-chioggia/)
 - [Pinetree Garden Seeds - Chioggia Beet](https://www.superseeds.com/products/chioggia-beet-55-days-heirloom)
 - [Distelwerk - Ringelbete 'Tonda di Chioggia'](https://www.distelwerk.de/gemuese/wurzelgemuese/ringelbete-tonda-di-chioggia-samen/)
+- [Hortigate - Rote Bete Sortenversuch](https://www.hortigate.de/publikation/71367/Rote-Bete-Sortenversuch/)
 
 ## Research Status
 - Researched on: 2026-09-18
@@ -96,6 +107,7 @@
 - Calendar values researched on: 2026-09-21
 - Calendar values re-verified on: 2026-09-21 (100 days kept; conflict explained by root size)
 - Open mapping questions: none.
-- Public-readiness: needs review (growth duration and spacing source-backed;
-  sowing depth and yield reused from the general crop; no live sync
-  performed).
+- Yield and spacing values researched on: 2026-09-22
+- Public-readiness: needs review (growth duration, spacing and yield
+  source-backed; sowing depth and thousand kernel weight reused from the
+  general crop; no live sync performed).

@@ -64,8 +64,15 @@
   [Plantura](https://www.plantura.garden/gemuese/kohlrabi/kohlrabi-pflanzen));
   shorter (3-4 weeks) in summer, longer in winter.
 - Field/form constraint: whole days.
-- Yield: no reliable general commercial-yield figure was found during this
-  research pass; left open.
+- Yield: 3.1 kg/m² (`per_sqm`), taken from the
+  [Statistisches Bundesamt vegetable table](https://www.destatis.de/DE/Themen/Branchen-Unternehmen/Landwirtschaft-Forstwirtschaft-Fischerei/Obst-Gemuese-Gartenbau/Tabellen/betriebe-anbau-erntemenge-gemuese.html)
+  (2025 national average 311.4 dt/ha). This replaces the earlier open range;
+  it is a national commercial average across early and late types, so
+  individual crops (especially giant/late storage types) can deviate.
+- Thousand kernel weight: 4.5 g, the midpoint of the 3-6 g range given by
+  [Hortipendium's commercial cultivation data](https://www.hortipendium.de/Kohlrabi_Erwerbsanbau)
+  (grain size 1.5-2.25 mm). Not a single-source direct value. The same source
+  confirms the general sowing depth of 1-2 cm already used in this note.
 
 ## Sources
 - [Lubera - Kohlrabi pflanzen](https://www.lubera.com/de/gartenbuch/kohlrabi-anbauen-pflanzen-p2589)
@@ -74,6 +81,8 @@
 - [Beringmeier - Kohlrabi Eder F1 Bio](https://www.beringmeier.de/kohl-saatgut/oeko-kohl/kohlrabi-eder-rz-f1-oeko.html)
 - [Bingenheimer Saatgut - Kohlrabi](https://blog.bingenheimersaatgut.de/kohlrabi-standard-kultur-im-gemuesegarten)
 - [ReinSaat - Superschmelz](https://www.reinsaat.at/shop/EN/kohlgewaechse/kohlrabi/superschmelz/)
+- [Hortipendium - Kohlrabi Erwerbsanbau](https://www.hortipendium.de/Kohlrabi_Erwerbsanbau)
+- [Statistisches Bundesamt - Anbau und Erntemenge von Gemüse](https://www.destatis.de/DE/Themen/Branchen-Unternehmen/Landwirtschaft-Forstwirtschaft-Fischerei/Obst-Gemuese-Gartenbau/Tabellen/betriebe-anbau-erntemenge-gemuese.html)
 
 ## Research Status
 - Researched on: 2026-09-18
@@ -83,5 +92,6 @@
   values in `Planning Value Derivations`.
 - Open mapping questions: none for identity.
 - Calendar values researched on: 2026-09-21
-- Public-readiness: needs review (calendar values inferred; yield left open;
-  no live sync performed).
+- Yield and spacing values researched on: 2026-09-22
+- Public-readiness: needs review (calendar values inferred; yield and
+  thousand kernel weight now source-backed; no live sync performed).

@@ -19,6 +19,8 @@
 - Description: pre-cultivate (light germinator, about 8 weeks from sowing to
   planting per garden sources); plant out only after frost risk has passed.
 - Sowing: about February to mid-May.
+- Sowing depth: about 0.5 cm; stalk celery is a light germinator like
+  celeriac (see `Planning Value Derivations`).
 - Outdoor planting: about 8 weeks after sowing; planting from about April to
   early/mid-July (Hortipendium: mid-March to mid-July depending on region).
 
@@ -65,10 +67,23 @@
 - Total culture from sowing: about 56 + 80 = 136 days by these values; late
   types are cited at 150-170 days, so the general value is on the short side
   for late types.
-- Yield: left open; no reliable kg/m² source was found.
+- Yield: 3.7 kg/m² (`per_sqm`), taken from the
+  [Statistisches Bundesamt vegetable table](https://www.destatis.de/DE/Themen/Branchen-Unternehmen/Landwirtschaft-Forstwirtschaft-Fischerei/Obst-Gemuese-Gartenbau/Tabellen/betriebe-anbau-erntemenge-gemuese.html)
+  (2025 national average for Stauden-/Stangensellerie, 369.1 dt/ha). This
+  replaces the earlier open value; it is broadly consistent with an
+  independent 2021 average of 30.8 t/ha (3.08 kg/m²) found in an unrelated
+  search summary but not adopted directly since its original source page
+  could not be confirmed.
 - Spacing: 0.40 x 0.40 m is documented as a garden value only.
-- Thousand kernel weight: left open; a variety supplier gives about 370 seeds
-  per 0.1 g, i.e. roughly 0.27 g, which is variety/lot specific.
+- Sowing depth: 0.5 cm (5 mm), taken directly from
+  [Hortipendium's commercial cultivation page](https://www.hortipendium.de/Stangensellerie_Erwerbsanbau).
+- Thousand kernel weight: 0.4 g, taken from the same Hortipendium page
+  (general range 0.4-0.6 g for this species, same source as `celeriac.md`,
+  since celery and celeriac are the same species). A variety supplier for
+  `Tango` separately gives about 370 seeds per 0.1 g (about 0.27 g), which is
+  below this general range; kept as a variety/lot-specific figure in
+  `celery-tango.md` rather than overriding the general value, and the
+  conflict is documented there.
 
 ## Sources
 - [Hortipendium - Stangensellerie](https://www.hortipendium.de/Stangensellerie)
@@ -76,6 +91,7 @@
 - [Hortipendium - Stangensellerie im Hausgarten](https://www.hortipendium.de/Stangensellerie_im_Hausgarten)
 - [Plantura - Staudensellerie](https://www.plantura.garden/gemuese/sellerie/staudensellerie)
 - [Arenenberg - Kulturblatt Sellerie](https://arenenberg.tg.ch/public/upload/assets/9009/2015_Kulturblatt_Sellerie.pdf) (listed only; not readable)
+- [Statistisches Bundesamt - Anbau und Erntemenge von Gemüse](https://www.destatis.de/DE/Themen/Branchen-Unternehmen/Landwirtschaft-Forstwirtschaft-Fischerei/Obst-Gemuese-Gartenbau/Tabellen/betriebe-anbau-erntemenge-gemuese.html)
 
 ## Research Status
 - Researched on: 2026-09-21
@@ -83,7 +99,10 @@
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: planting windows differ between regions and sources
   (mid-March to mid-July vs April to early July).
-- Open mapping questions: yield and thousand kernel weight left open with
-  reasons above; harvest window is inferred; Arenenberg sheet needs
-  manual check for yield data.
-- Public-readiness: needs review; calendar values are planning values; yield open.
+- Open mapping questions: harvest window is inferred; Arenenberg sheet needs
+  manual check for yield data. Nutrient demand (`high`, "Starkzehrer") is
+  confirmed qualitatively by Hortipendium but no kg/ha figure was found.
+- Yield and spacing values researched on: 2026-09-22 (yield, sowing depth and
+  thousand kernel weight now source-backed, documented above)
+- Public-readiness: needs review; calendar values are planning values; yield,
+  sowing depth and thousand kernel weight now source-backed.

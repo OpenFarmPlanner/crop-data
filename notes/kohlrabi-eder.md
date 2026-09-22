@@ -52,8 +52,15 @@
   standard-type spacing (25 x 25 cm) was intentionally reused because `Eder`
   is a standard-size (not giant) type and no contradicting variety-specific
   source was found.
-- Yield: no variety-specific or reliable general value exists; left open at
-  both levels.
+- Sowing depth: no variety-specific figure was found; the general crop's
+  1-2 cm value is intentionally reused, since no contradicting
+  variety-specific source was found.
+- Yield: no variety-specific figure was found; the general crop now has a
+  source-backed planning value (3.1 kg/m², national statistical average),
+  which is intentionally reused here since no contradicting variety-specific
+  source was found.
+- Thousand kernel weight: 4.5 g, intentionally reused from the general note
+  (Hortipendium commercial range 3-6 g); no variety-specific figure found.
 - Nutrient demand: reused as the general crop assumption (`medium`, typical for
   kohlrabi); no variety-specific source found or contradicted.
 
@@ -71,13 +78,16 @@
 - Harvest window: 14 days, reused from the general note (see Comparison). The
   one-month harvest span in the breeder calendar covers staggered plantings
   and is not a single-planting window.
-- Yield: no reliable value; left open.
+- Yield and thousand kernel weight: reused from the general note (see
+  `Comparison With General Crop Data`); no variety-specific source found.
 - Field/form constraint: whole days.
 
 ## Sources
 - [Rijk Zwaan - Kohlrabi EDER F1](https://www.rijkzwaan.de/kohlrabi/EDER-F1-prdBO10031-ctgCrops.kohlrabi)
 - [Beringmeier - Kohlrabi Eder F1 Bio](https://www.beringmeier.de/kohl-saatgut/oeko-kohl/kohlrabi-eder-rz-f1-oeko.html)
 - [Der kleine Garten - Treibgemüse im Frühbeet](https://www.derkleinegarten.de/nutzgarten-kleingarten/treibhaus/treibgemuese.html)
+- General crop note `kohlrabi.md` (yield, thousand kernel weight and sowing
+  depth reuse)
 
 ## Research Status
 - Researched on: 2026-09-18
@@ -86,5 +96,7 @@
 - Open mapping questions: none for calendar values; they are inferred from a
   breeder calendar (no stated day counts). Yield open.
 - Calendar values researched on: 2026-09-21
-- Public-readiness: needs review (calendar values inferred; yield open; no
-  live sync performed).
+- Yield and spacing values researched on: 2026-09-22
+- Public-readiness: needs review (calendar values inferred; yield, sowing
+  depth and thousand kernel weight reused from the general crop; no live
+  sync performed).

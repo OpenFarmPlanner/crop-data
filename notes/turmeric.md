@@ -54,7 +54,19 @@
 
 ## Notes
 - Yield: about 1 kg/m² as a cautious tunnel planning value, see
-  `Planning Value Derivations`. Nutrient demand left open.
+  `Planning Value Derivations`.
+- Nutrient demand: `high`. Multiple garden sources describe turmeric as a
+  heavy feeder needing rich substrate and regular feeding through its long
+  growth cycle ([Plantura](https://www.plantura.garden/gemuese/kurkuma/kurkuma-pflanzenportrait),
+  [kraut&rüben](https://www.krautundrueben.de/kurkuma-die-wunderwurzel-anbauen-und-ernten-3398)).
+  This is a qualitative classification, not backed by a Central European or
+  tropical kg/ha figure as ginger's is (see `ginger.md`); weaker evidence
+  than the ginger figure, but consistent with it and with turmeric's status
+  as a related, similarly long-season Zingiberaceae rhizome crop.
+- Thousand kernel weight: not applicable. Turmeric is propagated
+  vegetatively from rhizome pieces, not from true seed, so no thousand
+  kernel weight exists for this crop; left unmapped rather than filled with
+  an invented value.
 
 ## Planning Value Derivations
 - Definitions: propagation duration is the start of the rhizome pieces until
@@ -140,7 +152,12 @@
   December/January (documented above); Plantura suggests spring or summer
   planting, not followed.
 - Open mapping questions: rhizome planting mapped to transplant variant;
-  yield and spacing are transferred from a US tunnel trial (flagged).
+  yield and spacing are transferred from a US tunnel trial (flagged);
+  thousand kernel weight is not applicable for a vegetatively propagated
+  rhizome crop, left unmapped.
+- Yield and spacing values researched on: 2026-09-22 (nutrient demand mapped
+  to `high` from qualitative "heavy feeder" sources, weaker evidence than
+  ginger's kg/ha figure, documented above)
 - Remaining source limits: no Central European (FiBL, LfL, BOKU, Geisenheim)
   turmeric trial report was found or readable; the FiBL ginger guide barely
   covers turmeric and the Bio Austria webinar page has no values. Not

@@ -15,6 +15,7 @@
   long-season crop.
 - Sowing: from about March under protection, or outdoors on a nursery bed from
   the second week of April to early May.
+- Sowing depth: about 1-2 cm (see `Planning Value Derivations`).
 - Outdoor planting: about 6-8 weeks after sowing (typically around the second
   week of June).
 
@@ -54,15 +55,32 @@
 - Propagation duration: 49 days, the midpoint of the 6-8 weeks after sowing
   given in `Transplants` (42-56 days, rounded to 7 weeks).
 - Field/form constraint: whole days.
-- Yield: about 0.6-0.8 kg/m² (60-80 kg per 100 m²) is given by general garden
-  sources as a home-garden planning range; kept as a range rather than a
-  single value pending a more authoritative source.
+- Yield: 1.9 kg/m² (`per_sqm`), taken from the
+  [Statistisches Bundesamt vegetable table](https://www.destatis.de/DE/Themen/Branchen-Unternehmen/Landwirtschaft-Forstwirtschaft-Fischerei/Obst-Gemuese-Gartenbau/Tabellen/betriebe-anbau-erntemenge-gemuese.html)
+  (2025 national average 192.0 dt/ha). Source conflict: this replaces an
+  earlier home-garden planning range of 0.6-0.8 kg/m²; a secondary
+  garden-forum compilation citing Gustav Allinger's "Der Deutsche Garten"
+  (1950) gives 0.4-1.0 kg/m², and a per-plant estimate of about 1 kg/plant at
+  50 x 50 cm spacing (Anna Pavord, "Der neue Küchengarten", cited via a
+  gardening forum) would imply roughly 4 kg/m², far above all other figures
+  and not used because it is a rough per-plant anecdote rather than a
+  measured area yield. The national statistical average is preferred as the
+  single planning value because it is sourced from official production
+  statistics rather than older garden literature.
+- Thousand kernel weight: 4.0 g, the midpoint of the 3-5 g range given by
+  [Hortipendium's commercial cultivation data](https://www.hortipendium.de/Rosenkohl_Erwerbsanbau);
+  a separate seed listing for the `Groninger` variety states 3.98 g, close to
+  this midpoint and used as a cross-check, not as the general value itself.
+- Sowing depth: 1.2 cm, the midpoint of Hortipendium's 5-20 mm sowing-depth
+  range for Brussels sprouts; not previously stated in this note.
 
 ## Sources
 - [Wurzelwerk - Rosenkohl pflanzen](https://www.wurzelwerk.net/gemuesegarten/gemueseportraits/rosenkohl/)
 - [Land-Wissen - Rosenkohl](https://www.landservice.de/regionale-lebensmittel/gemuese/rosenkohl)
 - [Der kleine Garten - Rosenkohl selbst anbauen](https://www.derkleinegarten.de/nutzgarten-kleingarten/gemuesegarten-anlegen/kohlgemuese/rosenkohl-selbst-anbauen.html)
 - [Samen.de - Ertragsoptimierung bei Rosenkohl](https://samen.de/blog/optimale-ertraege-bei-rosenkohl-praxistipps-fuer-eine-reiche-ernte.html)
+- [Hortipendium - Rosenkohl Erwerbsanbau](https://www.hortipendium.de/Rosenkohl_Erwerbsanbau)
+- [Statistisches Bundesamt - Anbau und Erntemenge von Gemüse](https://www.destatis.de/DE/Themen/Branchen-Unternehmen/Landwirtschaft-Forstwirtschaft-Fischerei/Obst-Gemuese-Gartenbau/Tabellen/betriebe-anbau-erntemenge-gemuese.html)
 
 ## Research Status
 - Researched on: 2026-09-18
@@ -72,5 +90,7 @@
   resolved as planning values in `Planning Value Derivations`.
 - Open mapping questions: none for identity.
 - Calendar values researched on: 2026-09-21
-- Public-readiness: needs review (calendar values inferred, yield kept as a
-  range; no live sync performed).
+- Yield and spacing values researched on: 2026-09-22
+- Public-readiness: needs review (calendar values inferred; yield, thousand
+  kernel weight and sowing depth now source-backed, with the yield conflict
+  documented above; no live sync performed).

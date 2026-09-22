@@ -78,13 +78,18 @@
 - Spacing: 30-35 cm in-row / 60 cm between rows is close to, but at the lower
   end of, the general crop's 30-40 cm / 60-80 cm range; treated as consistent
   rather than a meaningful deviation.
-- Yield: clearly below the general crop's already-open 20-30 kg/m² garden
-  guidance (only 20-30% of a typical harvest, i.e. roughly 4-9 kg/m² if that
-  general range is used as the baseline - not stated directly by any source
-  as a kg/m² figure, so no yield value is set here; this rough conversion is
-  shown only to illustrate the scale of the deviation, not as a planning
-  value). Documented as a real variety-specific deviation (lower yield) from
-  the general crop, not a reuse.
+- Yield: clearly below the general crop's now-corrected 3.5 kg/m² garden
+  planning value (see `potato.md`, `Planning Value Derivations`). `Utopia`
+  states the variety yields only about 20-30% of a typical potato harvest,
+  due to disease/pest susceptibility and a low-yielding heritage habit
+  ([Utopia - Bamberger Hörnchen](https://utopia.de/ratgeber/bamberger-hoernchen-anbau-ernte-und-wissenswertes-zur-kartoffelsorte_162984/)).
+  Applying that stated percentage to the general 3.5 kg/m² baseline gives
+  0.7-1.05 kg/m²; see `Planning Value Derivations` for the resulting planning
+  value. Documented as a real, source-backed variety-specific deviation
+  (lower yield) from the general crop, not a reuse.
+- Nutrient demand: no `Bambergerhörnchen`-specific source was found; the
+  general `Kartoffel` note's "high" (Starkzehrer) value is intentionally
+  reused. No variety-specific source contradicts it.
 
 ## Planning Value Derivations
 - Growth duration: 130 days (seed-tuber planting to harvest readiness).
@@ -95,9 +100,20 @@
   is not an explicit day count and was not used numerically. Derivation:
   midpoint of 120-140 days.
 - Harvest window: 30 days, reused from the general crop; inferred.
+- Yield: 0.9 kg/m² (midpoint of 0.7-1.05 kg/m²). Source basis: general crop
+  value 3.5 kg/m² (`potato.md`) x 20-30% ([Utopia](https://utopia.de/ratgeber/bamberger-hoernchen-anbau-ernte-und-wissenswertes-zur-kartoffelsorte_162984/)).
+  Derivation: 3.5 x 0.20 = 0.70 kg/m², 3.5 x 0.30 = 1.05 kg/m², midpoint
+  rounded to 0.9 kg/m². This is a documented percentage-based conversion of
+  the general planning value, not a direct kg/m² source figure; treat as
+  approximate given the wide 20-30% source range.
+- Planting depth: 12 cm (midpoint of the 10-15 cm variety-specific range; see
+  `Comparison With General Crop Data`).
 - Field/form constraint: whole integer days.
 - Uncertainty: if the late-variety reading is right, the true value could
   be 150 days or more; re-check if the plants stay green well into October.
+  The yield conversion above assumes the general crop's 3.5 kg/m² baseline is
+  a fair comparison point for this variety's growing conditions, which is
+  not confirmed by a source.
 
 ## Sources
 - [Utopia - Bamberger Hörnchen: Anbau, Ernte und Wissenswertes zur Kartoffelsorte](https://utopia.de/ratgeber/bamberger-hoernchen-anbau-ernte-und-wissenswertes-zur-kartoffelsorte_162984/)
@@ -113,8 +129,12 @@
   resolved.
 - Open mapping questions: growth duration is set to 130 days using the
   explicit 120-140 day source; the "late" reading remains a documented
-  uncertainty. Yield has no
-  direct kg/m² source figure, only a qualitative "20-30% of average" claim.
+  uncertainty. Yield has no direct kg/m² source figure, only a qualitative
+  "20-30% of average" claim, converted here to 0.9 kg/m² using the corrected
+  general crop value (see `Planning Value Derivations`); the conversion
+  itself is an inferred planning value, not a direct source figure.
 - Calendar values researched on: 2026-09-21
-- Public-readiness: needs review; maturity group uncertainty and missing
-  quantitative yield figure should be resolved before structured sync.
+- Yield and spacing values researched on: 2026-09-22
+- Public-readiness: needs review; maturity group uncertainty remains, and the
+  yield figure is a percentage-based conversion rather than a direct
+  measurement.

@@ -58,13 +58,31 @@
 - The same sources give a vegetation period of 90-120 days from sowing, which
   is consistent with the 95-day planning value at its lower end.
 - Field/form constraint: whole days.
-- Yield: no reliable general commercial-yield figure in kg/m² was found. A
-  large-scale field figure of roughly 500 dt/ha (about 5 kg/m²) appears in one
-  source discussing game-feed cultivation
+- Yield: 4.0 kg/m² (`per_sqm`), derived rather than a direct single-source
+  figure. [Plantura](https://www.plantura.garden/gemuese/steckruebe/steckruebe-pflanzenportrait)
+  gives per-plant root weights of 500-1000 g for the variety `Best of All`
+  and up to 1.5 kg for `Gelbe aus Friesland`; using a conservative 700 g
+  per-plant weight and this note's own spacing (40-50 x 30-40 cm, about
+  6.3 plants/m² at the midpoint 45 x 35 cm) gives about 4.4 kg/m², rounded
+  down to 4.0 kg/m² to account for variability below the cited per-plant
+  range. A large-scale field figure of roughly 500 dt/ha (about 5 kg/m²)
+  appears in one source discussing game-feed cultivation
   ([nutzpflanzenvielfalt.de](https://www.nutzpflanzenvielfalt.de/steckr%C3%BCbe)-style
-  guidance), but this reflects a different cultivation purpose (deer forage
-  plots) rather than garden/market cultivation, so it is not adopted as the
-  general planning value; left open instead.
+  guidance); this is a different cultivation purpose (deer forage plots) and
+  is not used directly, though it is broadly consistent with the 4.0 kg/m²
+  derived value as an upper reference point.
+- Nutrient demand: `medium`. [Plantura](https://www.plantura.garden/gemuese/steckruebe/steckruebe-pflanzenportrait)
+  explicitly states "Steckrüben sind Mittelzehrer" (rutabagas are medium
+  feeders). Source conflict: [Hortipendium's commercial cultivation page](https://www.hortipendium.de/Kohlr%C3%BCbe)
+  instead describes rutabaga as having a "high nutrient requirement" and
+  warns against nitrogen oversupply (which harms storage quality), without
+  giving a kg/ha figure. `medium` is used because Plantura gives an explicit
+  categorical classification while Hortipendium's wording is qualitative and
+  focused on avoiding excess N rather than stating a high total demand;
+  documented as an open conflict rather than a silent choice.
+- Thousand kernel weight: 3.0 g, the midpoint of the 2.5-3.5 g range given by
+  [Hortipendium's commercial cultivation page](https://www.hortipendium.de/Kohlr%C3%BCbe)
+  (350-400 seeds per gram, cross-checking to about 2.5-2.9 g).
 
 ## Sources
 - [Bio-Gärtner - Steckrübe](https://www.bio-gaertner.de/Pflanzen/Steckruebe)
@@ -73,6 +91,7 @@
 - [Gartenjournal - Steckrüben-Anbau](https://www.gartenjournal.net/steckrueben-anbau)
 - [samen.de - Kohlrüben ernten](https://samen.de/blog/kohlrueben-ernten-richtiger-zeitpunkt-und-beste-qualitaet.html)
 - [kraut&rüben - Die Steckrübe: Das Comeback eines vergessenen Wintergemüses](https://www.krautundrueben.de/altes-gemuese-neu-entdeckt-anbautipps-und-rezepte-rund-um-die-steckruebe-3240)
+- [Hortipendium - Kohlrübe (Erwerbsanbau)](https://www.hortipendium.de/Kohlr%C3%BCbe)
 
 ## Research Status
 - Researched on: 2026-09-18
@@ -84,5 +103,9 @@
 - Open mapping questions: this crop (`Brassica napus`) must not be silently
   merged with turnip (`Brassica rapa`) if a `Mairübe`/`Herbstrübe` variety is
   added later; that would need its own general crop note.
-- Public-readiness: needs review (calendar values inferred, yield left open;
-  no live sync performed).
+- Yield and spacing values researched on: 2026-09-22 (yield derived from
+  per-plant weight x spacing, documented above; nutrient-demand source
+  conflict between Plantura and Hortipendium documented above)
+- Public-readiness: needs review (calendar values inferred; yield derived,
+  not directly source-stated; nutrient demand has a documented source
+  conflict; no live sync performed).

@@ -46,9 +46,15 @@
   contradict the general value; "raschwüchsig" (fast-growing) in supplier text
   is descriptive and not converted into a shorter duration.
 - Spacing, sowing depth: general ranges reused as-is.
-- Yield and thousand kernel weight: left open, same as the general crop; no
-  variety-specific source found. The variety is described as high-yielding
-  but no per-m² figure was found.
+- Yield: no `Gigante d'Italia`-specific figure was found. The general crop's
+  2.4 kg/m² (first-cut) value is intentionally reused. The variety is
+  described as high-yielding but no per-m² figure was found; no reliable
+  variety-specific yield source found, the general crop planning value was
+  intentionally reused.
+- Thousand kernel weight: no `Gigante d'Italia`-specific figure was found;
+  the general crop's 1.5 g value is intentionally reused.
+- Nutrient demand: medium, reused from `leaf-parsley.md`; no variety-specific
+  source found.
 
 ## Planning Value Derivations
 - Growth duration 90 days and harvest window 105 days: reused from
@@ -67,13 +73,14 @@
 ## Research Status
 - Researched on: 2026-09-18
 - Calendar values researched on: 2026-09-21
+- Yield, TKW and nutrient demand researched on: 2026-09-22
 - General crop note exists: yes (`leaf-parsley.md`)
 - Open source conflicts: none found.
 - Open mapping questions: no `Gigante d'Italia`-specific growth duration,
-  harvest window, or yield source was found; calendar values are reused from
-  the general crop and yield stays open. Confirm whether this variety corresponds to
-  the "Typ glatt" entries in the LWG Veitshöchheim/DLR Rheinpfalz trial tables
-  referenced in `leaf-parsley.md` (this note does not classify it as
+  harvest window, or yield source was found; calendar values and yield/TKW
+  are reused from the general crop. Confirm whether this variety corresponds
+  to the "Typ glatt" entries in the LWG Veitshöchheim/DLR Rheinpfalz trial
+  tables referenced in `leaf-parsley.md` (this note does not classify it as
   specifically "early", unlike `Felicia`).
 - Public-readiness: needs review; calendar values rely on general-crop reuse;
-  yield open.
+  yield and TKW are reused.

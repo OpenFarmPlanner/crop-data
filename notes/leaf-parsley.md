@@ -21,6 +21,8 @@
   as cutting period (first to fourth cut, smooth type). Both values are
   planning values derived from the ranges below; see Planning Value
   Derivations.
+- Expected yield: 2.4 kg/m² for the first cut, as a direct source planning
+  value (see `Planning Value Derivations`).
 
 ## Sowing & Planting
 
@@ -99,8 +101,26 @@
   allow only 3 cuts (about 70 days), and the summer figure by Hortipendium
   (about 30-40 days between cuts) is consistent. Overwintered crops follow
   different logic and are not covered by this value.
-- Yield: left open. No reliable leaf-yield-per-m² source was found for leaf
-  parsley.
+- Yield: 2.4 kg/m² for the first cut. Source basis: the DLR Rheinpfalz sheet's
+  fertilization-planning table gives a marketable yield ("Ertrag=Feldabfuhr",
+  the DüV fertilization-regulation basis) of 240 dt FM/ha up to the first cut,
+  160 dt FM/ha for regrowth after the first cut, and a cumulative 500 dt FM/ha
+  across all cuts for processing-industry use. Derivation: 240 dt/ha = 2.4
+  kg/m² (divide dt/ha by 10). This is a direct source figure for the first
+  cut, documented per cut (not cumulative), consistent with how the harvest
+  window above is defined as a cutting period. Later cuts are lower (about
+  1.6 kg/m² each); the cumulative processing total across up to 4 cuts is
+  about 5.0 kg/m², not used as the single planning value here.
+- Thousand kernel weight: 1.5 g, the middle of the 1.2-1.8 g range given by
+  the same DLR Rheinpfalz sheet (1 g = 600-900 seeds).
+- Nutrient demand: medium, confirmed. [BUND Region Hannover - Stark-, Mittel-
+  und Schwachzehrer im Gemüse- und Kräutergarten](https://bund-region-hannover.de/fileadmin/hannover/BUND_aktiv/Universum_Kleingarten/Publikationen_zum_Download/Handreichung_Stark-_Mittel-_und_Schwachzehrer.pdf)
+  lists "Petersilie" as a Mittelzehrer, matching the value already used here.
+  The DLR sheet's own N-Bedarfswert (about 160 kg N/ha up to the first cut,
+  rising to about 285 kg N/ha cumulative across all cuts) is documented here
+  as context; it is on the higher side for a "medium" crop but is kept as
+  medium per the BUND classification, consistent with how other crops in this
+  batch were decided.
 
 ## Sources
 - [Hortipendium - Petersilie Erwerbsanbau](https://www.hortipendium.de/Petersilie_Erwerbsanbau)
@@ -108,10 +128,12 @@
 - [LWG Bayern - Gartenakademie Infoschriften (index)](https://www.lwg.bayern.de/gartenakademie-infoschriften)
 - [DLR Rheinpfalz - Gemüsebau](https://www.dlr.rlp.de/Gemuesebau)
 - [DLR Rheinpfalz - Anbau- und Sortenhinweise Petersilie, Blatt 2024/2025](https://www.bbs-landwirtschaft.de/Internet/global/themen.nsf/0/1ef319fcf05534dbc125876e002d5a6f/$FILE/Petersilie,%20Blatt.pdf)
+- [BUND Region Hannover - Stark-, Mittel- und Schwachzehrer im Gemüse- und Kräutergarten](https://bund-region-hannover.de/fileadmin/hannover/BUND_aktiv/Universum_Kleingarten/Publikationen_zum_Download/Handreichung_Stark-_Mittel-_und_Schwachzehrer.pdf)
 
 ## Research Status
 - Researched on: 2026-09-18
 - Calendar values researched on: 2026-09-21
+- Yield, thousand kernel weight and nutrient demand researched on: 2026-09-22
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: first-cut timing differs between Hortipendium (85-110
   days) and the DLR sheet (80-92 days); a rounded value inside both was used.
@@ -124,4 +146,5 @@
   separate Kulturen. Root parsley is explicitly out of scope for this note.
 - Public-readiness: needs review; calendar values are planning values derived
   from one regional sheet plus Hortipendium; spacing/depth ranges not narrowed
-  to single values. Yield remains open.
+  to single values. Yield and thousand kernel weight are now direct DLR
+  Rheinpfalz source figures.

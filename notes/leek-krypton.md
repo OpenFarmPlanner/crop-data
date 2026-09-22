@@ -64,7 +64,18 @@
   types are harvested mid-July through August only.
 - Propagation duration: general 75 days, `Krypton` 84 days, because January
   sowings for early planting need about 12 weeks.
-- Yield: left open; the unverified 378 dt/ha figure is not adopted.
+- Yield: no confirmed variety-specific figure; the general crop's 3.5 kg/m²
+  is intentionally reused. A second, independent search pass (2026-09-22)
+  again surfaced the claim that a 2020 Bamberg (LWG Bayern) fall-leek variety
+  trial with 16 varieties reported `Krypton` F1 at the highest market yield,
+  378 dt/ha (about 3.8 kg/m²), ahead of `Oslo` F1 at 323 dt/ha; this was
+  reported via [Hortigate summary pages](https://www.hortigate.de/publikation/86411/Porreesorte-Oslo-F1-verbindet-hohen-Ertrag-mit-guter-%C3%A4u%C3%9Ferer-Qualit%C3%A4t/)
+  and an unreachable mirror, not the original LWG trial report itself, so it
+  remains unverified against its primary source (paywalled/unreachable) and
+  is not adopted as the planning value. It is documented here as a
+  corroborating, still-unverified lead: the figure (about 3.8 kg/m²) is close
+  to, and slightly above, the reused general-crop value of 3.5 kg/m², which
+  is plausible for an early, high-yielding variety but not proof.
 
 ## Planning Value Derivations
 - Definitions: growth duration counts from transplanting; propagation duration
@@ -83,23 +94,33 @@
   pencil-thick seedlings for a January sowing. Later succession plantings
   would need fewer days.
 - Field/form constraint: whole integer days.
+- Yield: 3.5 kg/m², reused from `leek.md`; see `Notes` and `Comparison With
+  General Crop Data` for the unverified 378 dt/ha trial lead that was not
+  adopted as an independent value.
+- Nutrient demand: high, reused from `leek.md` (Starkzehrer); no
+  variety-specific source found.
 
 ## Sources
 - [VOLTZ Maraîchage - Porree/Lauch Krypton F1 (Bio-Saatgut)](https://de.de-shop.voltz-maraichage.com/bio-saatgut/porree-lauch-krypton-f1)
 - [Nunhems - Porree Sortiment](https://www.yumpu.com/de/document/view/18962169/porree-sortiment-nunhems)
 - [Meijers Planten - Krypton](https://www.meijersplanten.nl/de/porreepflanzen/krypton/76)
 - [Kiepenkerl - Porree Kulturanleitung](https://www.kiepenkerl.de/kulturanleitungen/porree/)
+- [Hortigate - Porreesorte 'Oslo' F1 verbindet hohen Ertrag mit guter äußerer Qualität](https://www.hortigate.de/publikation/86411/Porreesorte-Oslo-F1-verbindet-hohen-Ertrag-mit-guter-%C3%A4u%C3%9Ferer-Qualit%C3%A4t/)
+  (search-summary only; original trial report not reached)
 
 ## Research Status
 - Researched on: 2026-09-18
 - Calendar values researched on: 2026-09-21
+- Yield and spacing values researched on: 2026-09-22
 - General crop note exists: yes (`leek.md`)
 - Open source conflicts: a commercial planting-window listing (weeks 21-27)
   is later than the general early-type transplanting window (late March-April);
   documented as a possible later succession slot rather than resolved as a
   contradiction, since the source does not clarify.
-- Open mapping questions: expected yield is unresolved; the 378 dt/ha figure
-  was found only via an unreadable PDF and is not used. Calendar values are
-  maturity-group-level inferences, not `Krypton`-specific measurements.
-- Public-readiness: needs review; yield is open and calendar values are
-  inferred.
+- Open mapping questions: expected yield is reused from the general crop; the
+  378 dt/ha trial figure remains unverified against a primary source despite
+  a second search pass and is not used as an independent value. Calendar
+  values are maturity-group-level inferences, not `Krypton`-specific
+  measurements.
+- Public-readiness: needs review; yield is a reused general value with an
+  unverified corroborating lead, and calendar values are inferred.

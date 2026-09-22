@@ -46,6 +46,19 @@
   flowering can reduce infestation and encourage pod set.
 
 ## Planning Value Derivations
+- Yield: 1.2 kg/m² (`per_sqm`), used as a garden planning value for the
+  green-shell `Dicke Bohne` form. Source basis: a garden-yield reference table
+  circulated on [forum.garten-pur.de](https://forum.garten-pur.de/index.php?topic=28046.0)
+  gives "Puffbohnen 1,0-1,4" kg/m² for shelled fresh green beans; this is a
+  forum-hosted aggregation of published reference figures rather than a
+  primary institutional source, so it is used cautiously and cross-checked: a
+  separate estimate on the same page (about 10 kg fresh kernels from 10 m² of
+  well-grown plants, i.e. about 1 kg/m²) sits at the lower edge of the same
+  range. The midpoint of 1.0-1.4 kg/m² (1.2 kg/m²) is used as the planning
+  value. No official-institute (LfL/LWG/KTBL) garden-scale figure was found
+  despite searching; this remains the best available sourced estimate.
+  Uncertainty: depends strongly on multi-stemmed growth and continuous water
+  supply through mid-June.
 - Growth duration: 90 days (from direct sowing to first green-shell harvest).
   Source basis: [Gärtner Pötschke](https://www.poetschke.de/puffbohnen-anbauen-aussaat-pflege-und-ernte/) gives 10-12 weeks (70-84 days) for a
   late-February sowing, [nutzpflanzenvielfalt.org](https://nutzpflanzenvielfalt.org/dicke-bohne-puffbohne/) gives about 100 days for
@@ -70,25 +83,38 @@
   ([Landberatung](https://landberatung.de/fachartikel/detailansicht/article/aussaat-ackerbohnen.html)),
   while large-seeded garden `Dicke Bohne` types are known to run higher; no
   single source-backed figure covering both forms was found, so this is left
-  as an open research question rather than an invented average.
+  as an open research question rather than an invented average. Re-checked
+  2026-09-22: seed-conservation supplier
+  [Dreschflegel](https://dreschflegel-saatgut.de/pflanzenportraits/huelsenfruechte/dicke-bohne.php)
+  states fine-grained garden `Dicke Bohne` varieties run about 800 g per
+  thousand seeds, and large-kernel varieties can exceed 1900 g per thousand -
+  even wider than the field range above. This confirms rather than resolves
+  the open question: the spread (350 g field type to 1900+ g large garden
+  type) is too wide for one general-crop planning value, so it stays open.
 - Seed requirement (field context only, for reference): about 40-50
   germinable seeds/m² is the commonly cited compromise density, with reduced
   rates around 30 seeds/m² for precision single-seed sowing
   ([Landberatung](https://landberatung.de/fachartikel/detailansicht/article/aussaat-ackerbohnen.html)).
   Garden-scale seed requirement in g/m² was not found and is left open.
-- Yield: left open; no reliable kg/m² garden-scale figure was found. Field
-  yield sources report per-hectare figures (dt/ha) that do not translate
-  directly to a small-plot planning value without an unsupported conversion.
+- Yield: 1.2 kg/m² (`per_sqm`) as a garden planning value; see the dedicated
+  bullet above for the source basis (forum-hosted reference table, used
+  cautiously since no official-institute figure was found). Field yield
+  sources report per-hectare figures (dt/ha) that do not translate directly to
+  a small-plot planning value without an unsupported conversion, so those are
+  not used here.
 
 ## Sources
 - [nutzpflanzenvielfalt.org - Dicke Bohne/Puffbohne](https://nutzpflanzenvielfalt.org/dicke-bohne-puffbohne/)
 - [Landberatung - Aussaat Ackerbohnen](https://landberatung.de/fachartikel/detailansicht/article/aussaat-ackerbohnen.html)
 - [LTZ Augustenberg - Hinweise zum Pflanzenbau: Ackerbohne](https://ltz.landwirtschaft-bw.de/site/pbs-bw-new/get/documents/MLR.LEL/PB5Documents/ltz_ka/Service/Schriftenreihen/Hinweise%20zum%20Pflanzenbau/Hinweise%20zum%20Pflanzenbau_Ackerbohne.pdf?attachment=true)
 - [Gärtner Pötschke - Puffbohnen anbauen](https://www.poetschke.de/puffbohnen-anbauen-aussaat-pflege-und-ernte/)
+- [forum.garten-pur.de - übliche Ertragsmengen im Hausgarten/Kleingarten](https://forum.garten-pur.de/index.php?topic=28046.0)
+- [Dreschflegel - Puffbohnen (Dicke Bohnen)](https://dreschflegel-saatgut.de/pflanzenportraits/huelsenfruechte/dicke-bohne.php)
 
 ## Research Status
 - Researched on: 2026-09-18
 - Calendar values researched on: 2026-09-21
+- Yield and spacing values researched on: 2026-09-22
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: field-agronomy sources (sowing depth, seed size,
   harvest timing) and garden-cultivation sources disagree because they
@@ -99,7 +125,9 @@
   garden green-shell identity, similar to the `Grünkohl/Schnittkohl` split
   documented for Siberian kale. Left open because this batch's task framing
   treats them as one Kultur; flagging for future review rather than deciding
-  silently.
-- Public-readiness: needs review; thousand kernel weight and yield remain
-  open, and the identity question above is still open. Growth duration and
-  harvest window are set for the green-shell form.
+  silently. Thousand kernel weight remains open because the sourced range
+  (350 g field type to 1900+ g large garden type) is too wide for one
+  planning value.
+- Public-readiness: needs review; thousand kernel weight remains open, and the
+  identity question above is still open. Growth duration, harvest window and
+  yield are set as planning values for the green-shell form.

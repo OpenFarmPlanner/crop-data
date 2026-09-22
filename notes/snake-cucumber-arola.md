@@ -66,8 +66,11 @@
 - Propagation duration deviates: 30 days versus 21 days, from the ReinSaat
   sowing and planting dates (see `Planning Value Derivations`).
 - Yield: no kg/m² or piece-count figure given by the source beyond the
-  qualitative "harvestable into autumn" claim; left open, same handling as
-  `Tanja`.
+  qualitative "harvestable into autumn" claim. The general crop's garden
+  planning value of 2.0 kg/m² (set 2026-09-22, see `snake-cucumber.md`) is
+  intentionally reused, same handling as `Tanja`; the longer harvest season
+  claimed for `Arola` does not directly translate into a higher kg/m² figure
+  without a source, so the general value is not scaled up.
 - Thousand seed mass (27.55 g) is close to `Tanja`'s stated 15-30 g range but
   is documented separately since it comes from a distinct source figure, not
   a general-crop value.
@@ -100,9 +103,11 @@
 ## Research Status
 - Researched on: 2026-09-18
 - Calendar values researched on: 2026-09-21
+- Yield and spacing values researched on: 2026-09-22
 - General crop note exists: yes (`snake-cucumber.md`)
 - Open source conflicts: none found for this variety specifically.
 - Open mapping questions: none beyond the `Gurke` alias handling documented in
   `snake-cucumber.md`.
-- Public-readiness: needs review; yield remains open; harvest window and
-  propagation duration are documented inferences.
+- Public-readiness: needs review; yield is now an intentional reuse of the
+  general crop's 2.0 kg/m² planning value; harvest window and propagation
+  duration are documented inferences.

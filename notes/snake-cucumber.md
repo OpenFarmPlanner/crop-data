@@ -44,7 +44,11 @@
   ([LWG Veitshöchheim](https://www.lwg.bayern.de/gartenakademie/gartendokumente/infoschriften/064405/index.php),
   [Lubera](https://www.lubera.com/de/gartenbuch/gurken-saeen-gurkensamen-ins-freiland-aussaeen-und-vorziehen-p5414)).
   This is documented as an open source conflict rather than a single silently
-  chosen figure; see `Planning Value Derivations`.
+  chosen figure; see `Planning Value Derivations`. As a general planning
+  value (needed for the structured record), 100 cm between rows and 35 cm
+  within the row is used, based on two independent variety-level ReinSaat
+  sources (`Tanja` and `Arola`) that both converge on 100 x 30-40 cm outdoors;
+  see `Planning Value Derivations`.
 - Site: full sun, warm, wind-sheltered; nutrient-rich, well-drained,
   consistently moist soil; cucumbers do not tolerate peat moss or chlorinated
   water in the irrigation.
@@ -56,9 +60,10 @@
   cultivation (fleece, drip irrigation) can exceed 1,000 dt/ha, with about
   450 dt/ha considered a secured yield under irrigation
   ([LWG Veitshöchheim](https://www.lwg.bayern.de/gartenakademie/gartendokumente/infoschriften/064405/index.php)).
-  This hectare-scale figure is not converted to a per-m² planning value here
-  because it mixes commercial trellised and ground cultivation; see variety
-  notes for garden-scale yield handling.
+  This hectare-scale figure (4.5-10+ kg/m²) reflects intensive trellised
+  commercial cultivation and is not used directly as the garden planning
+  value; see `Planning Value Derivations` for the garden-scale figure used
+  instead.
 
 ## Notes
 - Crop rotation: avoid growing cucumbers after other Cucurbitaceae (pumpkin,
@@ -71,9 +76,36 @@
 - Spacing: sources disagree by training method and growing scale - garden
   guidance gives 40-130 cm depending on trellised vs. ground cultivation;
   commercial guidance gives about 30-40 cm within the row on 1.40 m rows. No
-  single authoritative general-crop figure is derived here; the conflict is
-  documented instead of silently resolved. Variety notes use the more
-  specific spacing given by their own source where available.
+  single authoritative general-crop figure is derived from the general garden
+  sources alone; the conflict is documented instead of silently resolved.
+  Re-checked 2026-09-22: since a structured general-crop value is needed and
+  two independent variety-specific ReinSaat sources
+  ([Tanja](https://www.reinsaat.at/shop/EN/gurken/salatgurken/tanja/),
+  [Arola](https://www.reinsaat.at/shop/DE/gurken/salatgurken/arola/)) both
+  give 100 x 30-40 cm for outdoor cultivation, this convergence (not an
+  invented figure) is used as the general planning value: 100 cm between
+  rows, 35 cm within the row (midpoint of 30-40 cm). The wider garden/
+  commercial conflict range above remains documented as an open uncertainty
+  for other training methods (upright-trellised vs. ground-trailing).
+  Variety notes use the more specific spacing given by their own source where
+  available.
+- Yield: 2.0 kg/m² (`per_sqm`), used as a garden planning value. Source basis:
+  a garden-yield reference table on
+  [forum.garten-pur.de](https://forum.garten-pur.de/index.php?topic=28046.0)
+  gives "Gurken (Schälgurken) 1,6-2,4" kg/m²; `Schälgurke` (peeling/slicing
+  cucumber) is the closest garden-yield category to `Schlangengurke` in that
+  table. The midpoint, 2.0 kg/m², is used. This sits well below the
+  commercial intensive-cultivation figures above (4.5-10+ kg/m²), which use
+  trellising, fleece and drip irrigation not assumed for the garden planning
+  value. Uncertainty: moderate, since the forum table is a secondary
+  aggregation rather than a primary institutional source, and open-field vs.
+  greenhouse cultivation can shift yield substantially.
+- Thousand kernel weight: about 25 g, inferred as a general planning value
+  from two variety-specific figures: `Tanja` gives 15-30 g and `Arola` gives
+  27.55 g (see variety notes); the midpoint of the combined range is used.
+  This is an inferred general-crop value derived from variety data, not a
+  direct general-crop source measurement, and is documented as such rather
+  than presented as source-backed for the general crop itself.
 - Definition: growth duration is measured from planting out (transplant) to
   the first harvest, not from sowing. Direct-sown plants need roughly 10-14
   days longer from sowing because of germination and early growth
@@ -100,19 +132,24 @@
 - [ReinSaat - Schlangengurken](https://www.reinsaat.at/shop/DE/gurken/schlangengurken/)
 - [grove.eco - Gurke](https://www.grove.eco/pflanzen/cucumis-sativus/)
 - [Sperli - Kulturanleitung Gurken](https://www.sperli.de/anbauexperte/kulturanleitung-gurken/)
+- [forum.garten-pur.de - übliche Ertragsmengen im Hausgarten/Kleingarten](https://forum.garten-pur.de/index.php?topic=28046.0)
 
 ## Research Status
 - Researched on: 2026-09-18
 - Calendar values researched on: 2026-09-21
+- Yield and spacing values researched on: 2026-09-22
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: within-row/between-row spacing differs by training
   method (trellised vs. ground) and by garden vs. commercial source; not
-  silently resolved, see `Planning Value Derivations`.
+  silently resolved, see `Planning Value Derivations`. A structured general
+  planning value (100 x 35 cm) is now set from converging variety-level
+  sources, without erasing the documented wider-range conflict.
 - Open mapping questions: `Gurke` is used only as a generic alias in prose,
   never as a Kultur name; `Schlangengurke` and `Einlegegurke` are kept as
   separate Kulturen because their harvest logic differs (continuous slicing
   harvest vs. once-over/multi-pick pickling harvest). Calendar values are
   defined from planting out for the transplant variant; `Einlegegurke` is
   direct sown and uses sowing-based values (see `pickling-cucumber.md`).
-- Public-readiness: needs review; spacing conflict open; calendar values are
-  planning values documented above.
+- Public-readiness: needs review; wider spacing conflict remains open (a
+  planning-value compromise is now set); calendar values, yield, spacing and
+  thousand kernel weight are documented planning values above.

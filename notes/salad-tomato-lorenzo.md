@@ -35,6 +35,8 @@
   structure/stake for this indeterminate, vigorous variety.
 - Sowing: 02-01 to 04-15 (reused from the general `Salattomate` window; no
   Lorenzo-specific sowing date was published in the sources reviewed)
+- Sowing depth: about 0.5 cm, reused from the general `Salattomate` note; no
+  `Lorenzo`-specific figure was found.
 - Outdoor planting: from mid-May
 
 - Spacing: no Lorenzo-specific figure found; general `Salattomate` range of
@@ -74,8 +76,12 @@
   earliness or vigor in the sources was not converted into a number. This is a
   reuse, not a `Lorenzo`-specific source claim.
 - Spacing: no Lorenzo-specific value found beyond fruit weight; the general
-  `Salattomate` spacing is intentionally reused. Yield: left open on both
-  levels, consistent with the general crop note.
+  `Salattomate` spacing is intentionally reused.
+- Yield: the general `Salattomate` note now sets 5.5 kg/m² (see
+  `salad-tomato.md`). No `Lorenzo`-specific value was found, so the general
+  value is intentionally reused; no variety-specific source contradicts it.
+- Nutrient demand: reused from the general `Salattomate` note (high); no
+  `Lorenzo`-specific source was found.
 
 ## Planning Value Derivations
 - Growth duration 70 days, harvest window 70 days, propagation duration
@@ -84,6 +90,8 @@
 - Field/form constraint: whole integer days.
 - Uncertainty: fits a staked crop planted out in mid-May; protected
   cultivation or an earlier variety can start about four weeks earlier.
+- Yield: 5.5 kg/m², reused from the general `Salattomate` note.
+- Sowing depth: 0.5 cm, reused from the general `Salattomate` note.
 
 ## Sources
 - [Paramount Seeds - Lorenzo F1 Truss Tomato](https://paramountseeds.com/products/lorenzo-truss-tomato)
@@ -104,9 +112,11 @@
   medium-high-confidence inference from fruit size and truss growth habit,
   not a direct source classification; flagged for review if a source
   explicitly classifying `Lorenzo` (e.g. a ReinSaat-style category page) is
-  found later. Yield remains open pending a variety-specific or
-  reliable general-crop source; calendar values reuse the general crop.
+  found later. Yield, nutrient demand, sowing depth and calendar values are
+  all reused from the general crop; no `Lorenzo`-specific figures were
+  found.
 - Calendar values researched on: 2026-09-21
+- Yield and spacing values researched on: 2026-09-22
 - Public-readiness: needs review (Kultur assignment is inferred, and the
   duplicate "Lorenzo" naming across unrelated varieties should be checked
   against whatever seed source the OpenFarmPlanner project actually used)

@@ -50,7 +50,9 @@
   a wider range of 1.5-2.5 m between rows and 0.5-1.5 m within the row
   depending on variety vigor
   ([onfarming.at](https://www.onfarming.at/inhalt/sortiment-ratgeber/ratgeber/landwirte/ackerbau/aussaat/kurbis-sorten-anbau-und-kulturfuhrung)).
-  Variety notes give more specific figures where available.
+  As a general planning value, 1.5 m between rows and 0.75 m within the row is
+  used (see `Planning Value Derivations`), matching the vigorous-vining part
+  of this range; variety notes give more specific figures where available.
 - Site: full sun, warm, wind-sheltered; nutrient-rich, well-drained soil with
   high water demand during fruit development.
 
@@ -75,12 +77,30 @@
   should give more specific values where available.
 
 ## Planning Value Derivations
-- Yield: 5-15 kg/m² is a wide commercial-field range covering many pumpkin
-  and squash types of different fruit size; not narrowed to one general-crop
-  figure since `Hokkaido` (small, ~2-3 kg fruit) and `Butternut` (larger,
-  up to 3.5 kg fruit, different plant habit) diverge enough that a single
-  number would be falsely precise. Variety notes carry more specific figures
-  where sourced.
+- Yield: 7 kg/m² (`per_sqm`), used as a general garden/field planning value.
+  Source basis: [onfarming.at](https://www.onfarming.at/inhalt/sortiment-ratgeber/ratgeber/landwirte/ackerbau/aussaat/kurbis-sorten-anbau-und-kulturfuhrung)
+  gives about 5-15 kg/m² in commercial field cultivation, and a separate
+  garden-yield reference table on
+  [forum.garten-pur.de](https://forum.garten-pur.de/index.php?topic=28046.0)
+  gives "Kürbis 3,0-10,0" kg/m². The two ranges overlap at about 5-10 kg/m²;
+  7 kg/m² (the approximate midpoint of the overlap) is used as a general
+  planning value. This is explicitly a wide-range compromise, not a precise
+  figure: `Hokkaido` (small, ~2-3 kg fruit) and `Butternut` (larger, up to
+  3.5 kg fruit, different plant habit) diverge enough in fruit size that a
+  single number is approximate for either; both variety notes intentionally
+  reuse this general value rather than inventing variety-specific figures
+  from unreliable per-plant estimates found online (see variety notes).
+- Spacing: 1.5 m between rows, 0.75 m within the row, used as a general
+  planning value. Source basis: this sits inside the commercial range
+  (1.5-2.5 m x 0.5-1.5 m,
+  [onfarming.at](https://www.onfarming.at/inhalt/sortiment-ratgeber/ratgeber/landwirte/ackerbau/aussaat/kurbis-sorten-anbau-und-kulturfuhrung))
+  and above the tighter small-garden guidance (100-150 cm); it matches the
+  `Butternut` variety's own sourced spacing exactly
+  ([ReinSaat](https://www.reinsaat.at/shop/DE/kuerbis/speisekuerbis/butternut_waltham/))
+  and is close to (slightly tighter than) `Hokkaido`'s sourced 2 m x 1 m
+  ([ReinSaat](https://www.reinsaat.at/shop/EN/kuerbis/speisekuerbis/hokkaido_orange/)).
+  Used as a mid-range general value; variety notes keep their own more
+  specific sourced spacing.
 - Definition: growth duration is measured from planting out (transplant) to
   the first harvest of ripe fruit, not from sowing.
 - Propagation duration: 28 days. [Plantura](https://www.plantura.garden/gemuese/kuerbis/hokkaido-kuerbis) says Hokkaido seedlings can be
@@ -109,20 +129,27 @@
 - [Plantura - Hokkaido-Kürbis](https://www.plantura.garden/gemuese/kuerbis/hokkaido-kuerbis)
 - [Plantura - Butternut-Kürbis](https://www.plantura.garden/gemuese/kuerbis/butternut-kuerbis)
 - [Samen.de - Anbauanleitung Butternut-Kürbis](https://samen.de/blog/anbauanleitung-fuer-butternut-kuerbis-von-der-aussaat-bis-zur-ernte.html)
+- [forum.garten-pur.de - übliche Ertragsmengen im Hausgarten/Kleingarten](https://forum.garten-pur.de/index.php?topic=28046.0)
 
 ## Research Status
 - Researched on: 2026-09-18
 - Calendar values researched on: 2026-09-21
+- Yield and spacing values researched on: 2026-09-22
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: spacing given as 100-150 cm (garden guidance) vs.
-  1.5-2.5 m x 0.5-1.5 m (commercial guidance); not silently resolved, variety
-  notes use their own more specific sourced figures where available.
+  1.5-2.5 m x 0.5-1.5 m (commercial guidance); not silently resolved, a
+  general planning value (1.5 x 0.75 m) is now set within the commercial
+  range and variety notes use their own more specific sourced figures where
+  available.
 - Open mapping questions: `Hokkaido` (`Cucurbita maxima`) and `Butternut`
   (`Cucurbita moschata`) are different botanical species filed under one
   ReinSaat shop category and kept here as one `Kürbis` Kultur for
   garden-planning purposes; this botanical nuance is flagged explicitly
   rather than silently ignored. The general calendar values are compromises
-  between the two types; a single yield figure is left open because of the
-  species/type diversity.
-- Public-readiness: needs review; calendar values are documented planning
-  compromises, and a single general yield figure is intentionally left open.
+  between the two types. Thousand kernel weight remains open because seed
+  weight varies hugely by species/type (`Hokkaido` alone measures 224.64 g,
+  see `pumpkin-hokkaido.md`; `C. moschata` and `C. pepo` types are not
+  measured here); no single figure would be meaningful across the Kultur.
+- Public-readiness: needs review; calendar values, yield and spacing are
+  documented planning compromises given type diversity; thousand kernel
+  weight is intentionally left open.

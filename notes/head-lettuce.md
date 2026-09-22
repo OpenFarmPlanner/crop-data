@@ -9,6 +9,8 @@
   days). See `Planning Value Derivations`.
 - Harvest window: 7 days per planting.
 - Propagation duration: 28 days of pre-cultivation.
+- Expected yield: 4.0 kg/m² as a derived general planning value (see
+  `Planning Value Derivations`).
 
 ## Sowing & Planting
 
@@ -86,9 +88,22 @@
   search summaries only mention that heads past the firm stage become
   over-mature). Plausible range 3-10 days.
 - Field/form constraint: whole integer days.
-- Yield: left open; no general source reviewed here gives a reliable kg/m²
-  or piece-count figure.
-- Thousand kernel weight: left open; not reviewed in this research pass.
+- Yield: 4.0 kg/m², a derived value, not a direct source figure. Source
+  basis: [Hortipendium - Kopfsalat Erwerbsanbau](https://www.hortipendium.de/Kopfsalat_Erwerbsanbau)
+  gives a plant density of about 10-11 plants/m² and a target head weight of
+  about 350-400 g (350 g for early spring harvests, growers waiting for
+  400 g heads for quality). Derivation: 10.5 plants/m² x 375 g (the middle of
+  the density and weight ranges) = about 3.9 kg/m², rounded to 4.0 kg/m².
+  This is a plausibility-derived planning value, not a directly stated yield
+  figure, and does not account for trimming/outer-leaf losses at harvest,
+  which would lower the marketable figure somewhat. It also does not resolve
+  the head-type distinction (butterhead/iceberg/batavia), which changes head
+  weight and density.
+- Nutrient demand: medium, confirmed. Source basis: [BUND Region Hannover -
+  Stark-, Mittel- und Schwachzehrer im Gemüse- und Kräutergarten](https://bund-region-hannover.de/fileadmin/hannover/BUND_aktiv/Universum_Kleingarten/Publikationen_zum_Download/Handreichung_Stark-_Mittel-_und_Schwachzehrer.pdf)
+  lists "Salat" (lettuce) as a Mittelzehrer, matching the value already used
+  here.
+- Thousand kernel weight: left open; not found in this research pass.
 
 ## Sources
 - [Das Grüne Archiv - Kopfsalat](https://www.gruenes-archiv.de/kopfsalat-aussaat-pflege-sorten/)
@@ -100,19 +115,23 @@
 - [IVA - Kopfsalat: rechtzeitig ernten, sonst schießt er](https://www.iva.de/iva-magazin/schule-wissen/kopfsalat-rechtzeitig-ernten-sonst-schiesst-er)
 - [BZL - Rund ums Jahr Salat ernten](https://www.landwirtschaft.de/garten/selbst-anbauen/rund-ums-jahr-salat-ernten)
 - [Der kleine Garten - Kopfsalat anbauen](https://www.derkleinegarten.de/nutzgarten-kleingarten/gemuesegarten-anlegen/blattgemuese/salatanbau-kopfsalat-1.html)
+- [BUND Region Hannover - Stark-, Mittel- und Schwachzehrer im Gemüse- und Kräutergarten](https://bund-region-hannover.de/fileadmin/hannover/BUND_aktiv/Universum_Kleingarten/Publikationen_zum_Download/Handreichung_Stark-_Mittel-_und_Schwachzehrer.pdf)
 
 ## Research Status
 - Researched on: 2026-09-18
 - Calendar values researched on: 2026-09-21
 - Calendar values re-verified on: 2026-09-21 (harvest window 7 days kept after a second search round; only a 3-4 day commercial figure and qualitative "few days" statements exist; season dependence documented)
+- Yield and spacing values researched on: 2026-09-22
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: sources give differing growth durations by season
   and head type (36-60 days from planting in the Hortipendium table, "about
   8 weeks" elsewhere); the 50-day value is a documented average, not a
   resolution.
-- Open mapping questions: whether the harvest window should be split by season type (summer about 4 days vs spring/autumn about 7-10); yield and thousand kernel weight are left open;
+- Open mapping questions: whether the harvest window should be split by season type (summer about 4 days vs spring/autumn about 7-10); thousand kernel weight is left open;
   growth duration, harvest window and propagation duration are inferred
-  seasonal averages. Whether OpenFarmPlanner should
+  seasonal averages; yield (4.0 kg/m²) is derived from density and target
+  head weight, not a direct source figure. Whether OpenFarmPlanner should
   eventually split head lettuce by head type (butterhead/iceberg/batavia) as
   separate Kultur entries is an open question, not decided here.
-- Public-readiness: needs review; calendar values are inferred, yield is open.
+- Public-readiness: needs review; calendar values are inferred; yield is a
+  derived planning value.

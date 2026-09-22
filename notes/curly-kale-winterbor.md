@@ -43,11 +43,12 @@
   no variety-specific source contradicts it.
 - Spacing is reused from the general crop's range; no `Winterbor`-specific
   spacing figure was found in the sources checked.
-- Yield: no variety-specific figure was found; the general note itself leaves
-  yield as an open range rather than a single value, so no reusable single
-  number exists to carry over. Left open here as well, consistent with "do not
-  invent a value when neither a variety-specific nor a settled general value
-  exists."
+- Yield: no variety-specific figure was found; the general note now has a
+  source-backed planning value (2.2 kg/m², national statistical average),
+  which is intentionally reused here since no contradicting variety-specific
+  source was found.
+- Thousand kernel weight: 4.3 g, intentionally reused from the general note
+  (Hortipendium commercial range 3.5-5.0 g); no variety-specific figure found.
 - Nutrient demand: reused as `high`, consistent with the general crop and with
   other brassica leaf crops in this repository; no contradicting
   variety-specific source.
@@ -68,14 +69,15 @@
   in practice by harsh winters.
 - Propagation duration: 40 days, reused from the general note (5-6 weeks).
 - Field/form constraint: whole days.
-- Spacing and yield: no variety-specific source found; left open / reused from
-  the general range as documented above.
+- Spacing, yield and thousand kernel weight: no variety-specific source found;
+  reused from the general crop's values as documented above.
 
 ## Sources
 - [Treppens - Grünkohl 'Winterbor F1'](https://www.treppens.de/Saatgut/Gemuesesaatgut/Kohlgemuese/Gruenkohl-Winterbor-F1-Brassica-oleracea-var-sabellica::2353.html)
 - [Territorial Seed - Winterbor Kale](https://territorialseed.com/products/kale-winterbor)
 - [Fedco Seeds - Winterbor Curly Kale](https://fedcoseeds.com/seeds/winterbor-curly-kale-3453)
 - [Saatgut Dillmann - Grünkohl Winterbor F1](https://saatgut-dillmann.de/produkt/gruenkohl-winterbor-f1/)
+- General crop note `curly-kale.md` (yield and thousand kernel weight reuse)
 
 ## Research Status
 - Researched on: 2026-09-18
@@ -88,5 +90,7 @@
   about 90 days for the winter crop; the winter-crop reading is used and the
   difference is documented above. Values are inferred planning values.
 - Calendar values researched on: 2026-09-21
-- Public-readiness: needs review (calendar values inferred, yield left
-  open; no live sync performed).
+- Yield and spacing values researched on: 2026-09-22
+- Public-readiness: needs review (calendar values inferred; yield and
+  thousand kernel weight reused from the general crop; no live sync
+  performed).

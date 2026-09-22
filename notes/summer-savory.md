@@ -32,12 +32,11 @@
 - Description: direct sow from late spring once the soil has warmed; keep the
   fine seed only lightly covered and evenly moist until germination.
 - Sowing: about May to June outdoors.
-- Sowing depth: sow on the surface or only very shallowly covered (no precise
-  cm figure found in the sources checked; treated as a surface/very-shallow
-  sower like other small-seeded Lamiaceae herbs, but left open rather than
-  guessed as a specific number).
+- Sowing depth: about 1 cm, sown shallow and only lightly covered (see
+  `Planning Value Derivations` for the source conflict behind this figure).
 
-- Spacing: about 15-20 cm between plants.
+- Spacing: about 15-20 cm between plants; about 25 cm between rows (see
+  `Planning Value Derivations`).
 - Site: full sun, permeable, nutrient-rich but not heavily fertilized soil.
 
 ## Harvest & Use
@@ -73,6 +72,31 @@
   sowing in June or July gives younger, more aromatic shoots.
 - Identity caveat: the values apply to annual `Satureja hortensis` only, not
   to perennial winter savory.
+- Row spacing: 25 cm, used as a general-crop planning value. Source basis:
+  several seed-supplier and garden-guidance pages consulted on 2026-09-22
+  ([samen.de](https://samen.de/blog/anbau-von-bohnenkraut-eine-schritt-fuer-schritt-anleitung.html),
+  [gartenratgeber.net](https://www.gartenratgeber.net/pflanzen/bohnenkraut.html))
+  give about 20-30 cm between rows, most commonly stated as 25 cm; 25 cm is
+  used as the midpoint. This is a row-guidance convergence across multiple
+  retail/garden sources rather than one institutional figure.
+- Sowing depth: 1 cm. Source conflict, documented explicitly: most seed
+  suppliers describe summer savory seed as a light germinator
+  (`Lichtkeimer`) that should not be covered, or only very lightly (about
+  0.5-1 cm); one retail listing states 2-2.5 cm, which is deep for a
+  light-germinating small seed and is treated as an outlier. 1 cm is used as
+  the planning value, consistent with the light-germinator classification
+  given by the majority of sources checked.
+- Yield: left open. No kg/m² or per-cutting weight figure was found for
+  summer savory in any source checked (seed suppliers, garden guides,
+  Floragard, grove.eco); as a herb harvested by repeated cutting of shoots
+  rather than a single fruit/pod harvest, kg/m² figures appear to be rarely
+  published for this crop. Documented as a genuine gap, not a silent omission.
+- Thousand kernel weight: left open. No source giving a gram figure for
+  `Satureja hortensis` seed was found; the seed is very fine (sold and sown by
+  seed count per running metre, e.g. "50 Samen pro laufendem Meter" per
+  [samen.de](https://samen.de/blog/anbau-von-bohnenkraut-eine-schritt-fuer-schritt-anleitung.html)),
+  consistent with other small-seeded Lamiaceae herbs, but no measured weight
+  was found.
 
 ## Sources
 - [kraeuter-buch.de - Bohnenkraut (Satureja spec.)](https://www.kraeuter-buch.de/kraeuter/Bohnenkraut.html)
@@ -80,16 +104,22 @@
 - [naturadb.de - Satureja montana, Winter-Bohnenkraut](https://www.naturadb.de/pflanzen/satureja-montana/)
 - [grove.eco - Satureja hortensis](https://www.grove.eco/en/plants/satureja-hortensis/)
 - [Floragard - Satureja hortensis](https://www.floragard.de/de-de/pflanzeninfothek/pflanze/kraeuter/satureja-hortensis)
+- [samen.de - Anbau von Bohnenkraut: Eine Schritt-für-Schritt-Anleitung](https://samen.de/blog/anbau-von-bohnenkraut-eine-schritt-fuer-schritt-anleitung.html)
+- [gartenratgeber.net - Bohnenkraut: Pflege, Düngen & Schnitt](https://www.gartenratgeber.net/pflanzen/bohnenkraut.html)
+- [beetfreunde.de - Bohnenkraut im Garten](https://www.beetfreunde.de/magazin/bohnenkraut/)
 
 ## Research Status
 - Researched on: 2026-09-18
 - Calendar values researched on: 2026-09-21
+- Yield and spacing values researched on: 2026-09-22
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: none between sources on summer vs. winter savory
   characteristics; the conflict is the source ambiguity about which species
   "Bohnenkraut" refers to, documented above as an identity/mapping question.
+  Sowing depth sources conflict (light-germinator ~0.5-1 cm vs. one outlier
+  giving 2-2.5 cm); the light-germinator majority view is used.
 - Open mapping questions: species identity (`Satureja hortensis` vs. `Satureja
-  montana`) is assumed rather than confirmed; sowing depth for direct sowing
-  is left open pending a more precise source.
+  montana`) is assumed rather than confirmed. Yield and thousand kernel weight
+  remain open; no source with a usable figure was found for either.
 - Public-readiness: needs review; identity assumption must be confirmed before
-  any live sync.
+  any live sync. Yield and thousand kernel weight remain open.

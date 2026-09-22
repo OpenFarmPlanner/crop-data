@@ -30,6 +30,8 @@
 - Description: Start indoors, plant out after the last frost. Staking
   needed for indeterminate sauce-tomato varieties.
 - Sowing: 02-15 to 03-31
+- Sowing depth: about 0.5 cm (see `Planning Value Derivations`; reused from
+  the general `Fleischtomate` note's tomato-seed source).
 - Outdoor planting: from mid-May, after hardening off
 
 - Spacing: 70-100 cm between rows; 35-60 cm within the row (wide general
@@ -72,12 +74,28 @@
 - Uncertainty: protected cultivation (tunnel, greenhouse) can start about four
   weeks earlier and harvest longer; determinate or very early varieties
   finish faster. Variety values should replace these where a source exists.
+- Yield: 6.0 kg/m² (staked, single-stem, open-field to unheated-tunnel
+  cultivation). Source basis: [Lubera - Selbstversorgung mit Tomaten](https://www.lubera.com/at/gartenbuch/selbstversorgung-mit-tomaten-p5729)
+  gives 2-3 kg per plant as typical for paste/San-Marzano-type tomatoes in
+  hobby cultivation. Derivation: this note's own spacing range (70-100 cm
+  rows x 35-60 cm in-row) gives a midpoint density of about 2.5 plants/m²
+  (85 x 47.5 cm); 2-3 kg/plant x 2.5 plants/m² = 5-7.5 kg/m², midpoint
+  rounded to 6.0 kg/m². Inferred from a per-plant source, not a direct
+  area-based figure. The `Bolstar` variety note documents a directly
+  source-backed, much higher institutional-trial figure (10.2 kg/m²) for
+  protected/organic cultivation - a genuine variety-specific deviation, not
+  used to revise this general figure since it reflects one specific trial
+  and cultivation system.
+- Sowing depth: 0.5 cm, reused from the general `Fleischtomate` note's
+  tomato-seed source.
 
 ## Sources
 - [ReinSaat - Tomatoes/Paradeiser category page](https://www.reinsaat.at/shop/EN/tomaten_paradeiser/)
 - [saemereien.ch - Romatomate Bolstar Sensatica](https://www.saemereien.ch/tomatensamen-kaufen-roma-tomate-bolstar-sensatica-lycopersicon-esculentum-tomatensamen)
 - [Plantura - San-Marzano-Tomate](https://www.plantura.garden/gemuese/tomatensorten/san-marzano-tomate)
 - [gustini.de - San Marzano Tomaten im eigenen Garten anbauen](https://www.gustini.de/blog/tipps/san-marzano-anbauen-im-eigenen-garten/)
+- [Lubera - Selbstversorgung mit Tomaten](https://www.lubera.com/at/gartenbuch/selbstversorgung-mit-tomaten-p5729)
+- [Plantura - Starkzehrer, Mittelzehrer und Schwachzehrer](https://www.plantura.garden/gemuese/gemuese-anbauen/starkzehrer-mittelzehrer-und-schwachzehrer)
 
 ## Research Status
 - Researched on: 2026-09-18
@@ -89,6 +107,12 @@
   picking one; variety notes narrow this with source-specific values.
 - Open mapping questions: Roma-type vs. San-Marzano-type is documented as a
   type distinction inside this Kultur, not a separate Kultur, per project
-  guidance (ReinSaat files both under Sauce tomatoes).
+  guidance (ReinSaat files both under Sauce tomatoes). Yield (6.0 kg/m²) is
+  an inferred planning value from a per-plant source; `Bolstar`'s own
+  10.2 kg/m² institutional figure is kept as a documented variety-specific
+  deviation rather than folded into this general value.
 - Calendar values researched on: 2026-09-21
+- Yield and spacing values researched on: 2026-09-22
+- Nutrient demand: high (Starkzehrer), per [Plantura - Starkzehrer, Mittelzehrer und Schwachzehrer](https://www.plantura.garden/gemuese/gemuese-anbauen/starkzehrer-mittelzehrer-und-schwachzehrer),
+  which lists tomato explicitly among high-demand vegetables.
 - Public-readiness: ready

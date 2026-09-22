@@ -21,6 +21,7 @@
 - Spacing: 40 x 40 cm planning value (general crop); the supplier's 25-30 cm
   is a plant distance in the row only and is noted as a deviation, not adopted
   (see comparison).
+- Sowing depth: 0.5 cm, reused from the general note.
 - Site: sun, deep humus-rich, evenly moist soil.
 
 ## Harvest & Use
@@ -36,12 +37,15 @@
   recommendation fits sowing in mid-March with 9 weeks pre-culture, so no
   contradiction. Durations are counted from transplanting, as in the general
   note.
-- Yield: general 3.5 kg/m² intentionally reused; no reliable variety-specific
-  yield source found, no contradicting source.
+- Yield: general 4.6 kg/m² (updated national-statistics-based value)
+  intentionally reused; no reliable variety-specific yield source found, no
+  contradicting source.
 - Spacing: supplier gives 25-30 cm; general planning value 40 x 40 cm kept
   because the supplier gives no row spacing and the general sources
   consistently use wider spacing. Documented as an open deviation.
+- Sowing depth: general 0.5 cm reused; no variety-specific figure found.
 - Thousand kernel weight: general value reused; no variety figure found.
+- Nutrient demand: general `high` reused; no variety-specific source found.
 - Storage: variety described as storable; general crop notes that well-formed
   tubers store, so this is consistent, not a deviation.
 
@@ -62,4 +66,6 @@
 - Open mapping questions: no variety-specific growth duration, harvest
   window, yield, or breeder data found (a further search for `President`
   day counts found none); a breeder/seed-company datasheet would improve this.
+- Yield and spacing values researched on: 2026-09-22 (yield, sowing depth and
+  nutrient demand all reused from the updated general note)
 - Public-readiness: needs review; values rely on general-crop reuse.

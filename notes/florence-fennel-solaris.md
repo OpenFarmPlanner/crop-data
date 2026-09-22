@@ -29,8 +29,10 @@
 - Yield: general 3.0 kg/m² intentionally reused; no variety yield source
   found and none contradicts it.
 - Spacing, sowing depth, propagation 42 days: general values reused.
-- Seed: supplier sells pelleted seed by count (1,000 seeds per unit); no TKG
-  for the variety found; general TKG remains open in `florence-fennel.md`.
+- Seed: supplier sells pelleted seed by count (1,000 seeds per unit); no
+  variety-specific TKG found. The general note now has a source-backed TKG
+  (4.4 g, cross-variety planning value); intentionally reused here since no
+  contradicting variety-specific source was found.
 - Sowing windows: the variety-specific windows above are narrower than the
   general "from early March" statement; treated as variety-specific.
 
@@ -47,8 +49,10 @@
 - Calendar values researched on: 2026-09-21
 - General crop note exists: yes (`florence-fennel.md`)
 - Open source conflicts: none found.
-- Open mapping questions: no variety yield or TKG; no variety-specific
-  harvest window (general 14 days reused, from transplanting-based logic as
-  in `florence-fennel.md`); breeder datasheet not
-  read; the sowing-vs-planting label of the windows is unclear.
+- Open mapping questions: no variety-specific yield or TKG (general values
+  now reused, see above); no variety-specific harvest window (general 14 days
+  reused, from transplanting-based logic as in `florence-fennel.md`); breeder
+  datasheet not read; the sowing-vs-planting label of the windows is unclear.
+- Yield and spacing values researched on: 2026-09-22 (thousand kernel weight
+  now reused from the updated general note)
 - Public-readiness: needs review.

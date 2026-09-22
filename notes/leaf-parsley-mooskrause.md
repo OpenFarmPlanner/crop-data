@@ -50,10 +50,17 @@
   which have about 5 weeks between cuts; curly types about 6 weeks, so 3 x 42
   days). Both use the same definitions as `leaf-parsley.md` (growth duration
   from sowing; harvest window as cutting period).
-- Spacing, sowing depth, yield: general values or ranges reused where no
+- Spacing, sowing depth: general values or ranges reused where no
   `Mooskrause`-specific figure was found (intentional reuse, not a variety
   source claim).
-- Thousand kernel weight: left open, same as the general crop.
+- Yield: no `Mooskrause`-specific figure was found; the general crop's
+  2.4 kg/m² (first-cut) value is intentionally reused. No reliable
+  variety-specific yield source found; the general crop planning value was
+  intentionally reused.
+- Thousand kernel weight: no `Mooskrause`-specific figure was found; the
+  general crop's 1.5 g value is intentionally reused.
+- Nutrient demand: medium, reused from `leaf-parsley.md`; no variety-specific
+  source found.
 
 ## Planning Value Derivations
 - Growth duration: 97 days from direct sowing to first cut. Source basis: the
@@ -75,6 +82,7 @@
 ## Research Status
 - Researched on: 2026-09-18
 - Calendar values researched on: 2026-09-21
+- Yield, TKW and nutrient demand researched on: 2026-09-22
 - General crop note exists: yes (`leaf-parsley.md`)
 - Open source conflicts: none found among the cultivation figures used.
 - Open mapping questions: "Mooskrause" is used both as a named commercial
@@ -84,8 +92,8 @@
   "Mooskrause 2" or other closely related named cultivars as agronomically
   different. No `Mooskrause`-specific growth duration, harvest window, or
   yield source was found (calendar values use the general value plus the
-  curly-type delta; yield stays open); confirm whether it corresponds to the "Typ kraus"
-  entries in the LWG Veitshöchheim/DLR Rheinpfalz trial tables referenced in
-  `leaf-parsley.md`.
+  curly-type delta; yield and TKW are reused general values); confirm whether
+  it corresponds to the "Typ kraus" entries in the LWG Veitshöchheim/DLR
+  Rheinpfalz trial tables referenced in `leaf-parsley.md`.
 - Public-readiness: needs review; calendar values derived from general and
-  type-level figures; yield open; variety-identity caveat noted above.
+  type-level figures; yield/TKW reused; variety-identity caveat noted above.

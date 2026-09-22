@@ -76,15 +76,22 @@
 - Propagation duration: 40 days, the whole-day midpoint of the 5-6 weeks
   (35-42 days) after sowing given in `Transplants`; not a direct source value.
 - Field/form constraint: whole days.
-- Yield: left open. General garden sources give roughly 1.6-2.4 kg/m²
-  (16-24 kg per 10 m²) for home-garden cultivation
-  ([Gartenfreunde](https://www.gartenfreunde.de/gartenpraxis/gartengenuss/gruenkohl-anbauen/)),
-  which is broadly consistent with, but not identical to, the curly-kale
-  figures cited (and species-transferred to Siberian kale) at
-  [Open Organic Farm](https://openorganic.farm/plants/30) (organic average
-  about 1.40 kg/m², conventional close to 2 kg/m²). Kept as an open range
-  rather than a single value until a more authoritative commercial-yield
-  source is found.
+- Yield: 2.2 kg/m² (`per_sqm`) is used as the planning value, taken from
+  official German cultivation statistics: the
+  [Statistisches Bundesamt vegetable table](https://www.destatis.de/DE/Themen/Branchen-Unternehmen/Landwirtschaft-Forstwirtschaft-Fischerei/Obst-Gemuese-Gartenbau/Tabellen/betriebe-anbau-erntemenge-gemuese.html)
+  gives a 2025 national average yield of 224.8 dt/ha for Grünkohl, i.e.
+  2.248 kg/m², rounded to 2.2. This sits between the general garden range
+  found earlier (1.6-2.4 kg/m², [Gartenfreunde](https://www.gartenfreunde.de/gartenpraxis/gartengenuss/gruenkohl-anbauen/))
+  and a separate commercial figure of 200 dt/ha for hand harvest versus 400
+  dt/ha for mechanical harvest reported by [top agrar](https://www.topagrar.com/acker/news/so-funktioniert-der-anbau-von-grunkohl-20009049.html).
+  The official statistic is preferred as the single planning value because it
+  is a national, source-cited average rather than a garden estimate or a
+  best-case mechanical-harvest figure; the hand-harvest commercial figure
+  (200 dt/ha = 2.0 kg/m²) is close to it, which supports the choice.
+- Thousand kernel weight: 4.3 g, the midpoint of the 3.5-5.0 g range given by
+  [Hortipendium's commercial cultivation data](https://www.hortipendium.de/Gr%C3%BCnkohl_und_Palmkohl_Erwerbsanbau)
+  (200-285 seeds per gram, sowing depth 5-10 mm). Not a single-source direct
+  value.
 
 ## Sources
 - [Treppens - Grünkohl 'Winterbor F1'](https://www.treppens.de/Saatgut/Gemuesesaatgut/Kohlgemuese/Gruenkohl-Winterbor-F1-Brassica-oleracea-var-sabellica::2353.html)
@@ -92,6 +99,9 @@
 - [Gartenfreunde - Grünkohl anbauen](https://www.gartenfreunde.de/gartenpraxis/gartengenuss/gruenkohl-anbauen/)
 - [Open Organic Farm - Grünkohl](https://openorganic.farm/plants/30)
 - [Wildfind - Grünkohl](https://www.wildfind.com/pflanzen/gruenkohl)
+- [Statistisches Bundesamt - Anbau und Erntemenge von Gemüse](https://www.destatis.de/DE/Themen/Branchen-Unternehmen/Landwirtschaft-Forstwirtschaft-Fischerei/Obst-Gemuese-Gartenbau/Tabellen/betriebe-anbau-erntemenge-gemuese.html)
+- [top agrar - So funktioniert der Anbau von Grünkohl](https://www.topagrar.com/acker/news/so-funktioniert-der-anbau-von-grunkohl-20009049.html)
+- [Hortipendium - Grünkohl und Palmkohl Erwerbsanbau](https://www.hortipendium.de/Gr%C3%BCnkohl_und_Palmkohl_Erwerbsanbau)
 
 ## Research Status
 - Researched on: 2026-09-18
@@ -99,10 +109,14 @@
 - Open source conflicts: retail-variety pages and general garden guides
   describe the season differently (sowing-to-harvest vs. planting-to-harvest,
   harvest until February vs. April); resolved into planning values in
-  `Planning Value Derivations`. Yield remains an open range.
+  `Planning Value Derivations`. Yield sources (garden range, hand- vs.
+  mechanical-harvest commercial figures, national statistical average) also
+  differ; resolved by preferring the national average, documented above.
 - Calendar values researched on: 2026-09-21
 - Open mapping questions: none for identity; the `Grünkohl` / `Schnittkohl`
   species split itself is the resolved mapping question, cross-referenced in
   `notes/siberian-kale.md`.
+- Yield and spacing values researched on: 2026-09-22
 - Public-readiness: needs review (calendar values are inferred planning
-  values; yield left open; no live sync performed).
+  values; yield and thousand kernel weight now source-backed; no live sync
+  performed).

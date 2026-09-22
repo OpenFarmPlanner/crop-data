@@ -61,7 +61,11 @@
 - Yield: no variety-specific figure was found. The source only states that
   good head filling gives a comparatively high harvest weight relative to
   other endive varieties, which is a qualitative, not numeric, claim and is
-  not converted into a planning value here.
+  not converted into a planning value here. The general crop's yield is also
+  left open (see `endive.md`), so there is no general value to reuse either;
+  both remain open pending a better source.
+- Nutrient demand: medium, reused from `endive.md` (Mittelzehrer); no
+  variety-specific source found.
 - Bolting and tipburn resistance are variety-specific traits with no general
   crop equivalent; documented here as notes only, not as structured fields.
 
@@ -80,12 +84,14 @@
 ## Research Status
 - Researched on: 2026-09-18
 - Calendar values researched on: 2026-09-21
+- Yield and spacing values researched on: 2026-09-22
 - General crop note exists: yes (`endive.md`)
 - Open source conflicts: none found.
 - Open mapping questions: the primary variety source could not be fetched
   directly (403); its content is used only via a search-engine snippet and
   should be re-verified with direct page access before this note is treated
-  as fully source-checked. Yield is open. Calendar values are reused
-  general planning values, not variety-specific.
+  as fully source-checked. Yield is open, matching the general crop, which is
+  also open. Calendar values are reused general planning values, not
+  variety-specific.
 - Public-readiness: needs review; variety source access is incomplete and
   yield is open.

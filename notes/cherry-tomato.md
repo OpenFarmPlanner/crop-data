@@ -27,6 +27,8 @@
   support structure/stake, since cherry tomato plants can grow tall and
   carry heavy fruit clusters.
 - Sowing: 02-01 to 04-30
+- Sowing depth: about 0.5 cm (reused from the general `Fleischtomate` note's
+  tomato-seed source).
 - Outdoor planting: from mid-May, staked/trellised
 
 - Spacing: 80 cm between rows; 50 cm within the row (general range, based
@@ -67,17 +69,38 @@
 - Uncertainty: protected cultivation (tunnel, greenhouse) can start about four
   weeks earlier and harvest longer; determinate or very early varieties
   finish faster. Variety values should replace these where a source exists.
+- Yield: 5.0 kg/m² (staked, single-stem, open-field to unheated-tunnel
+  cultivation). Source basis: [Lubera - Selbstversorgung mit Tomaten](https://www.lubera.com/at/gartenbuch/selbstversorgung-mit-tomaten-p5729)
+  gives 1.5-2.5 kg per plant as typical for cherry/cocktail tomatoes in
+  hobby cultivation. Derivation: this note's own spacing (80 x 50 cm) gives
+  a density of 2.5 plants/m²; 1.5-2.5 kg/plant x 2.5 plants/m² = 3.75-6.25
+  kg/m², midpoint rounded to 5.0 kg/m². Inferred from a per-plant source, not
+  a direct area-based figure. Institutional cluster-harvest trials for
+  small/oval fruit report higher figures (about 7-12 kg/m²) under
+  professional greenhouse conditions with different training systems; this
+  general note keeps the more conservative home-garden-based figure and
+  notes the higher institutional range as context, not as the planning
+  value.
+- Sowing depth: 0.5 cm, reused from the general `Fleischtomate` note's
+  tomato-seed source.
 
 ## Sources
 - [ReinSaat - Tomatoes/Paradeiser category page](https://www.reinsaat.at/shop/EN/tomaten_paradeiser/)
 - [Tomaten.de - Tomate 'Philovita'](https://www.tomaten.de/tomate-philovita-cherrytomate/)
 - [Dürr Samen - Kirsch-Tomaten Philovita F1](https://shop.duerr-samen.de/kirsch-tomaten/kirsch-tomaten-philovita-f1.html)
+- [Lubera - Selbstversorgung mit Tomaten](https://www.lubera.com/at/gartenbuch/selbstversorgung-mit-tomaten-p5729)
+- [Plantura - Starkzehrer, Mittelzehrer und Schwachzehrer](https://www.plantura.garden/gemuese/gemuese-anbauen/starkzehrer-mittelzehrer-und-schwachzehrer)
 
 ## Research Status
 - Researched on: 2026-09-18
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: none found.
 - Open mapping questions: none beyond the general "Tomate as generic alias"
-  split documented in this note's Short Description.
+  split documented in this note's Short Description. Yield (5.0 kg/m²) is an
+  inferred planning value from a per-plant source and this note's own
+  spacing; institutional trials suggest higher figures are achievable under
+  professional protected cultivation.
 - Calendar values researched on: 2026-09-21
+- Yield and spacing values researched on: 2026-09-22
+- Nutrient demand: high (Starkzehrer), per [Plantura - Starkzehrer, Mittelzehrer und Schwachzehrer](https://www.plantura.garden/gemuese/gemuese-anbauen/starkzehrer-mittelzehrer-und-schwachzehrer).
 - Public-readiness: ready

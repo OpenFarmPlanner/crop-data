@@ -45,7 +45,18 @@
   ([Plantura/samen.de garden guidance, cross-checked](https://samen.de/blog/hokkaido-kuerbis-anbau-von-der-aussaat-bis-zur-ernte.html));
   the ReinSaat figure is used as the primary planning value since it comes
   from the variety's own seed source, with the narrower garden figure noted
-  as a plausible closer-spacing alternative for small gardens.
+  as a plausible closer-spacing alternative for small gardens. Re-verified
+  2026-09-22: the 2 m row spacing was flagged as potentially above the
+  plausible band and re-checked against independent sources. It is confirmed
+  as plausible, not an outlier: general commercial pumpkin row-spacing
+  guidance gives 1.5-2.5 m depending on variety vigor
+  ([onfarming.at](https://www.onfarming.at/inhalt/sortiment-ratgeber/ratgeber/landwirte/ackerbau/aussaat/kurbis-sorten-anbau-und-kulturfuhrung)),
+  and Dutch commercial Hokkaido practice explicitly uses up to 1.5 m for quick
+  ground cover, or wider for other goals
+  (referenced via [oekolandbau.nrw.de - Pflanzweiten bei Hokkaido](https://www.oekolandbau.nrw.de/projekt/unterschiedliche-pflanzweiten-bei-hokkaido-kuerbis)).
+  2 m sits at the upper end of this range, consistent with wide, untrellised
+  ground cultivation; it is kept as the ReinSaat-sourced planning value rather
+  than narrowed to the tighter garden alternative.
 - Site: full sun, warm, wind-sheltered; nutrient-rich, well-drained soil.
 
 ## Harvest & Use
@@ -79,9 +90,20 @@
   [Plantura](https://www.plantura.garden/gemuese/kuerbis/hokkaido-kuerbis) (seedlings planted out about 3 weeks after sowing).
 - Harvest window: 28 days, intentionally reused from the general crop; no
   variety-specific source contradicts it.
-- Yield: no kg/m² figure specific to `Hokkaido` was found; the general crop's
-  wide 5-15 kg/m² commercial range is not narrowed here for lack of a
-  variety-specific source; left open.
+- Yield: no reliable kg/m² figure specific to `Hokkaido` was found. Fruit
+  weight is 2-3 kg per source ([ReinSaat](https://www.reinsaat.at/shop/EN/kuerbis/speisekuerbis/hokkaido_orange/)),
+  and generic garden sources mention 0.5-1.5 kg fruits with 4 or more fruits
+  per plant when given more space, but do not give a reliable, consistent
+  per-m² conversion, and the sources found for these numbers are low-quality
+  gardening blogs/forums that were not used for a precise derivation. The
+  general crop's planning value of 7 kg/m² (set 2026-09-22, see `pumpkin.md`)
+  is intentionally reused instead; a rough cross-check (about 4 fruits x
+  1-1.5 kg on the 2 m² per plant implied by the 2 m x 1 m spacing above,
+  giving roughly 2-3 kg/m²) is noticeably lower than the reused general
+  value, which is documented here as an open uncertainty rather than silently
+  resolved - the general value is kept because it is the better-sourced
+  figure (institutional/aggregated garden-yield ranges), while the per-plant
+  cross-check depends on unreliable sources for fruit count and size.
 
 ## Planning Value Derivations
 
@@ -98,22 +120,32 @@
 - Harvest window: 28 days, reused from the general crop (September to
   October or November per [Plantura](https://www.plantura.garden/gemuese/kuerbis/hokkaido-kuerbis), one or two harvest passes before
   frost).
+- Yield: 7 kg/m², reused unchanged from the general crop's 2026-09-22 planning
+  value (see `pumpkin.md`); see `Comparison With General Crop Data` for the
+  lower informal per-plant cross-check that is documented but not used.
 
 ## Sources
 - [ReinSaat - Hokkaido Orange](https://www.reinsaat.at/shop/EN/kuerbis/speisekuerbis/hokkaido_orange/)
 - [ReinSaat - Edible Pumpkins/Squash (category)](https://www.reinsaat.at/shop/EN/kuerbis/speisekuerbis/)
 - [samen.de - Hokkaido-Kürbis: Anbau von der Aussaat bis zur Ernte](https://samen.de/blog/hokkaido-kuerbis-anbau-von-der-aussaat-bis-zur-ernte.html)
 - [Plantura - Hokkaido-Kürbis](https://www.plantura.garden/gemuese/kuerbis/hokkaido-kuerbis)
+- [onfarming.at - Kürbis: Sorten, Anbau und Kulturführung](https://www.onfarming.at/inhalt/sortiment-ratgeber/ratgeber/landwirte/ackerbau/aussaat/kurbis-sorten-anbau-und-kulturfuhrung)
+- [oekolandbau.nrw.de - Unterschiedliche Pflanzweiten bei Hokkaido-Kürbis](https://www.oekolandbau.nrw.de/projekt/unterschiedliche-pflanzweiten-bei-hokkaido-kuerbis)
 
 ## Research Status
 - Researched on: 2026-09-18
 - Calendar values researched on: 2026-09-21
+- Yield and spacing values researched on: 2026-09-22
 - General crop note exists: yes (`pumpkin.md`)
 - Open source conflicts: spacing given as 2 m x 1 m (ReinSaat, primary source
   used) vs. about 1 m x 1 m in a general garden-guidance source; not silently
-  resolved, primary variety source preferred.
+  resolved, primary variety source preferred and now independently confirmed
+  as plausible (within the 1.5-2.5 m commercial band). An informal per-plant
+  yield cross-check (~2-3 kg/m²) sits below the reused general planning value
+  (7 kg/m²); documented as an open uncertainty rather than silently resolved.
 - Open mapping questions: species difference from `Butternut` (`C. maxima` vs.
   `C. moschata`) despite shared shop category - see general `Kürbis` note.
-  Yield remains open (no source-backed figure found).
-- Public-readiness: needs review; yield open; calendar values are documented
+- Public-readiness: needs review; yield is an intentional reuse of the general
+  crop with a documented lower cross-check; row spacing has now been
+  independently verified as plausible; calendar values are documented
   planning values.

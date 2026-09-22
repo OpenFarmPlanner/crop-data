@@ -46,11 +46,15 @@
   supplier figures for this mid-early variety (see `Planning Value
   Derivations`).
 - Harvest window and yield are reused from the general crop note (11 days
-  harvest window, about 1.3 kg/m²). No `Maxi`-specific figures for these were
-  found; this is an intentional reuse of the general planning values, not a
+  harvest window, about 1.3 kg/m², re-confirmed against garden and trial
+  sources on 2026-09-22). No `Maxi`-specific figures for these were found;
+  this is an intentional reuse of the general planning values, not a
   variety-specific source claim. The source describes repeated picking from
   July to October across successive sowings, which does not contradict 11
   days for a single sowing.
+- Nutrient demand: reused from the general crop (`low`); the general note
+  documents a source conflict (`Schwachzehrer` vs `Mittelzehrer`) that is not
+  resolved for `Maxi` specifically either.
 - Thousand kernel weight: left open for this variety. The general crop uses
   160 g; `Maxi`'s seed is described as light brown and of ordinary bush-bean
   size, so no contradiction is known, but no source directly measures
@@ -86,6 +90,7 @@
 - Researched on: 2026-09-18
 - Calendar values researched on: 2026-09-21
 - Calendar values re-verified on: 2026-09-21
+- Yield and spacing values researched on: 2026-09-22
 - General crop note exists: yes (`bush-bean.md`)
 - Open source conflicts: `Maxi` seed suppliers disagree (Sperli 70-75 days,
   ReinSaat 42-56 days); 63 days chosen as an inferred compromise. The general crop

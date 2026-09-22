@@ -61,9 +61,22 @@
   to October cutting (about 184 days), which matches the general value; the
   match is documented as an intentional agreement of the general planning
   value with the variety source, not as independent confirmation.
-- Yield: left open, same as the general crop.
-- Thousand kernel weight: left open. No `Polyvert`-specific seed-weight source
-  was found.
+- Yield: no `Polyvert`-specific figure was found; the general crop's
+  3.0 kg/m² per-cut value is intentionally reused. No reliable
+  variety-specific yield source found; the general crop planning value was
+  intentionally reused.
+- Thousand kernel weight: no `Polyvert`-specific figure was found; the general
+  crop's 1.25 g value is intentionally reused.
+- Leaf/tube thickness conflict: resolved. [DLR Rheinpfalz - Anbau- und
+  Sortenhinweise Schnittlauch 2024/2025](https://www.wetter.rlp.de/Internet/global/themen.nsf/0/1ef319fcf05534dbc125876e002d5a6f/$FILE/Schnittlauch.pdf),
+  an independent regional extension-service variety table, lists `Polyvert`
+  under the "grob" (coarse-tubed) header alongside `Polyup`, `Splendidus`, and
+  `Staro`, describing it as the "Standardsorte" (standard variety) of the
+  coarse-tubed group. This independently confirms the seed producer's
+  coarse-tubed description and contradicts the single GemüseProfi
+  "feinröhrig" claim documented in `Notes` and `Research Status` below; the
+  GemüseProfi wording is now treated as the outlier, not left as an unresolved
+  conflict.
 
 ## Planning Value Derivations
 - Growth duration: 49 days used as a planning value (rounded to the middle of
@@ -79,32 +92,36 @@
   one cut is taken, so the value overstates year one. Inferred planning value.
 - Propagation duration: left empty; direct sown.
 - Field/form constraint: whole integer days.
+- Yield: 3.0 kg/m² per cut, reused from `chives.md` (DLR Rheinpfalz).
+- Thousand kernel weight: 1.25 g, reused from `chives.md` (DLR Rheinpfalz).
 
 ## Sources
 - [Quedlinburger Saatgut - Schnittlauch Polyvert](https://www.quedlinburger-saatgut.de/saatgut/artikel/schnittlauch-polyvert-291051.html)
 - [Austrosaat - Schnittlauch "Polyvert, mittelgrobröhrig"](https://www.austrosaat.at/shop/OShop/ViewProduct.aspx?ProductGUID=936f62d9-a46c-4db3-9d71-46c1669fe196&ParentProductCategoryGUID=4f8b1718-8c57-4b78-a063-dd9f19abc4e1)
 - [Beringmeier - Schnittlauch grobröhrig Polyvert](https://www.beringmeier.de/kraeuter-saatgut/kraeuter-ungebeizt/schnittlauch-grobroehrig-polyvert-ungebeizt.html)
 - [GemüseProfi - Schnittlauch](https://gemueseprofi.de/schnittlauch)
+- [DLR Rheinpfalz - Anbau- und Sortenhinweise Schnittlauch 2024/2025](https://www.wetter.rlp.de/Internet/global/themen.nsf/0/1ef319fcf05534dbc125876e002d5a6f/$FILE/Schnittlauch.pdf)
 
 ## Research Status
 - Researched on: 2026-09-18
 - Calendar values researched on: 2026-09-21
+- Yield and spacing values researched on: 2026-09-22
 - General crop note exists: yes (`chives.md`)
 - Open source conflicts: the seed producer (Quedlinburger Saatgut) and its
   resellers (Austrosaat, Beringmeier, and others) consistently describe
   `Polyvert` as coarse/thick-tubed ("grobröhrig", "mittelgrobröhrig",
   "dickröhrig", "extra groblaubig"). One nursery/seedling seller,
   [GemüseProfi](https://gemueseprofi.de/schnittlauch), instead describes the
-  same variety name as "feinröhrig" (fine-tubed) in its marketing copy. This
-  note follows the seed-producer description and the task's specification
-  (thick-tubed) as the more authoritative and more widely corroborated source,
-  but the GemüseProfi wording is flagged here explicitly rather than silently
-  dropped, since it directly contradicts the thick-tubed identity used in this
-  note. Cultivation figures (spacing, sowing window, growth duration) were
-  taken from GemüseProfi because no conflicting figures were found elsewhere
-  for those values specifically.
-- Open mapping questions: thousand kernel weight is unresolved; no
-  `Polyvert`-specific seed-weight source was found.
-- Public-readiness: needs review; thick-tubed vs. fine-tubed source conflict
-  should be checked against an additional independent source before live
-  sync.
+  same variety name as "feinröhrig" (fine-tubed) in its marketing copy. A
+  further, independent source, [DLR Rheinpfalz](https://www.wetter.rlp.de/Internet/global/themen.nsf/0/1ef319fcf05534dbc125876e002d5a6f/$FILE/Schnittlauch.pdf)
+  (checked 2026-09-22), lists `Polyvert` under "grob" (coarse) as the standard
+  coarse-tubed variety, resolving the conflict in favor of the coarse-tubed
+  description; GemüseProfi is now the documented outlier. Cultivation figures
+  (spacing, sowing window, growth duration) were taken from GemüseProfi
+  because no conflicting figures were found elsewhere for those values
+  specifically.
+- Open mapping questions: none remaining for leaf thickness; yield and
+  thousand kernel weight are reused general-crop values, not variety-specific
+  measurements.
+- Public-readiness: needs review; yield and TKW are reused, not
+  variety-specific.

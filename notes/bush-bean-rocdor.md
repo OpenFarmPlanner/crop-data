@@ -20,8 +20,8 @@
 - Sowing depth: reused from the general crop; no variety-specific depth was
   found (general guidance for bush beans: about 2-4 cm).
 
-- Spacing: reused from the general crop (about 40 cm between rows); no
-  `Rocdor`-specific spacing figure was found.
+- Spacing: reused from the general crop (about 40 cm between rows, 8 cm
+  within the row); no `Rocdor`-specific spacing figure was found.
 - Site: full sun, warm, well-drained, nutrient-rich soil.
 
 ## Harvest & Use
@@ -36,11 +36,16 @@
   No `Rocdor`-specific day count exists, and wax beans are not documented as
   faster or slower than green types (see `Planning Value Derivations`).
 - Harvest window and yield are likewise reused from the general crop note
-  (harvest window 11 days, yield about 1.3 kg/m²). No `Rocdor`-specific
-  figures were found and no source contradicts the general values.
-- Spacing and sowing depth are reused from the general crop; the product
+  (harvest window 11 days, yield about 1.3 kg/m², re-confirmed against garden
+  and trial sources on 2026-09-22). No `Rocdor`-specific figures were found
+  and no source contradicts the general values.
+- Spacing (including the general crop's newly documented 8 cm within-row
+  distance) and sowing depth are reused from the general crop; the product
   listings found for `Rocdor` did not give variety-specific spacing or depth
   figures, only general bush-bean guidance.
+- Nutrient demand: reused from the general crop (`low`); the general note
+  documents a source conflict (`Schwachzehrer` vs `Mittelzehrer`) that applies
+  equally here, no `Rocdor`-specific source was found to resolve it.
 - Thousand kernel weight: left open for this variety. The general crop uses
   160 g (green bush-bean planning value from the live `Faraday` record); no
   `Rocdor`-specific seed-weight figure was found, and pod/seed size looks
@@ -77,6 +82,7 @@
 ## Research Status
 - Researched on: 2026-09-18
 - Calendar values researched on: 2026-09-21
+- Yield and spacing values researched on: 2026-09-22
 - General crop note exists: yes (`bush-bean.md`)
 - Open source conflicts: none for `Rocdor` itself. The general crop was
   corrected from 49 to 56 days on 2026-09-21 (sources 50-60 days, about 56

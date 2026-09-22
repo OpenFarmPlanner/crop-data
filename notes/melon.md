@@ -93,29 +93,47 @@
   from [Plantura](https://www.plantura.garden/gemuese/melonen/melonen-pflanzen).
   Kept as an open range rather than a single invented figure; documented as an
   open source conflict.
-- Yield: no reliable general kg/m² figure was found for either type; left
-  open rather than estimated.
+- Yield: 2.0 kg/m² (`per_sqm`), used as a general planning value. Source
+  basis: [Hortipendium - Melonen Erwerbsanbau](https://hortipendium.de/Melonen_Erwerbsanbau)
+  gives a commercial open-field "Feldabfuhr" (harvested yield) of about
+  200 dt/ha, which converts to 2.0 kg/m²; the same source's field spacing
+  (150 cm rows x 60-100 cm within the row) is consistent with the spacing
+  guidance already documented above. Derivation: 200 dt/ha / 10,000 m² x
+  100 kg/dt = 2.0 kg/m², used directly without further rounding. Uncertainty:
+  this is a commercial open-field average across melon types at the wider end
+  of the spacing range; denser garden spacing or protected cultivation could
+  plausibly yield somewhat more per m², and the wide spacing conflict
+  documented above means this conversion is not cross-checked against a
+  second per-m² source. `Cantaloup-Typ` types typically fruit earlier and
+  smaller, `Honigmelone-Typ` types later and can store longer, but no
+  type-specific yield split was found.
 
 ## Sources
 - [ReinSaat - Sugar melons/Honey melons category](https://www.reinsaat.at/shop/EN/melone/zuckermelone_honigmelone/)
 - [Plantura - Melonen pflanzen](https://www.plantura.garden/gemuese/melonen/melonen-pflanzen)
 - [einrichtungsbeispiele.de - Cucumis melo](https://www.einrichtungsbeispiele.de/teich-pflanzen/diverse-biotope/cucumis-melo-slnk.html)
 - [Lubera - Melonen pflanzen](https://www.lubera.com/de/gartenbuch/melonen-pflanzen-p5150)
+- [Hortipendium - Melonen Erwerbsanbau](https://hortipendium.de/Melonen_Erwerbsanbau)
 
 ## Research Status
 - Researched on: 2026-09-18
 - Calendar values researched on: 2026-09-21
+- Yield and spacing values researched on: 2026-09-22
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: plant/row spacing figures vary widely (60 cm to 150
   cm class values) across general horticultural sources; no single figure was
-  chosen.
+  chosen. This also means the yield-per-m² conversion (from a commercial
+  200 dt/ha figure at 150 x 60-100 cm spacing) is not cross-checked against a
+  second per-m² source.
 - Open mapping questions: OpenFarmPlanner currently has no field to represent
   `Cantaloup-Typ` and `Honigmelone-Typ` as cultivar groups within one crop;
   they are documented here only as prose type notes. If a specific variety of
   either type is added later, it should get its own variety note compared
   explicitly against this general note, and the type distinction should be
-  carried into that variety's Short Description.
+  carried into that variety's Short Description. Thousand kernel weight was
+  searched for but no source giving a gram figure for `Cucumis melo` seed was
+  found; left open.
 - Public-readiness: identity and grouping decision documented; growth
-  duration, harvest window and propagation duration are set as representative
-  planning values (types differ, see `Planning Value Derivations`); yield is
-  intentionally left open pending a named variety.
+  duration, harvest window, propagation duration and yield are set as
+  representative planning values (types differ, see `Planning Value
+  Derivations`); thousand kernel weight remains open.

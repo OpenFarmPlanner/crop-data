@@ -28,6 +28,8 @@
 - Sowing: 02-01 to 04-01
 - Outdoor planting: from mid-May, staked/trellised
 
+- Sowing depth: about 0.2 cm, directly source-backed for this variety (see
+  `Planning Value Derivations`).
 - Spacing: no Sacher-specific figure found; general `Salattomate` range of
   60-90 cm rows x 45-70 cm in-row reused
 - Site: full sun, warm and sheltered; deep, humus-rich, evenly moist soil
@@ -65,8 +67,17 @@
   earliness or vigor in the sources was not converted into a number. This is a
   reuse, not a `Sacher Braun`-specific source claim.
 - Spacing: no Sacher-specific spacing was found; the general `Salattomate`
-  spacing range is intentionally reused. Yield: left open on both levels,
-  consistent with the general crop note.
+  spacing range is intentionally reused.
+- Sowing depth: about 0.2 cm deep is directly given by this variety's own
+  source, shallower than the general `Salattomate` note's reused 0.5 cm
+  tomato-seed guidance; kept as a real, source-backed variety-specific value
+  rather than overridden by the general figure.
+- Yield: the general `Salattomate` note now sets 5.5 kg/m² (see
+  `salad-tomato.md`). No `Sacher Braun`-specific value was found, so the
+  general value is intentionally reused; no variety-specific source
+  contradicts it.
+- Nutrient demand: reused from the general `Salattomate` note (high); no
+  `Sacher Braun`-specific source was found.
 
 ## Planning Value Derivations
 - Growth duration 70 days, harvest window 70 days, propagation duration
@@ -75,6 +86,11 @@
 - Field/form constraint: whole integer days.
 - Uncertainty: fits a staked crop planted out in mid-May; protected
   cultivation or an earlier variety can start about four weeks earlier.
+- Sowing depth: 0.2 cm. Source basis: this variety's own source describes
+  covering the seed only lightly, about 0.2 cm deep. Kept as-is rather than
+  replaced by the general `Salattomate` note's reused 0.5 cm figure, since
+  this is a direct variety-specific source value.
+- Yield: 5.5 kg/m², reused from the general `Salattomate` note.
 
 ## Sources
 - [Kiepenkerl - Salat-Tomate Sacher, F1](https://www.kiepenkerl.de/salat-tomatensamen-sacher-f1-2842/)
@@ -94,7 +110,10 @@
   exactly the retail "Sacher F1" line, or a distinct variant/local name, is
   unresolved. The Kultur determination (`Salattomate`, high confidence) does
   not depend on resolving this, since fruit size/shape data is consistent
-  across all sources found for "Sacher F1".
+  across all sources found for "Sacher F1". Yield and nutrient demand are
+  reused from the general crop; sowing depth (0.2 cm) is directly
+  source-backed for this variety.
 - Calendar values researched on: 2026-09-21
+- Yield and spacing values researched on: 2026-09-22
 - Public-readiness: needs review (variety-name match between "Sacher Braun"
   and retail "Sacher F1" is inferred, not confirmed verbatim)

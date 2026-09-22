@@ -59,8 +59,13 @@
 - Thousand kernel weight: 1.83 g is a variety-specific source value from
   ReinSaat; the general crop note leaves this open at the general level, so
   no comparison value exists yet.
-- Yield: left open; no numeric variety-specific figure was found beyond the
-  qualitative "good, reliable yields" and "high-yielding" claims.
+- Yield: no numeric variety-specific figure was found beyond the qualitative
+  "good, reliable yields" and "high-yielding" claims. The general crop's
+  1.0 kg/m² uncertain planning value (see `corn-salad.md`) is intentionally
+  reused; no reliable variety-specific yield source found, the general crop
+  planning value was intentionally reused.
+- Nutrient demand: low, reused from `corn-salad.md` (Schwachzehrer); no
+  variety-specific source found.
 
 ## Planning Value Derivations
 - Growth duration: 84 days, taken directly from the source's "total culture
@@ -78,8 +83,14 @@
 - Thousand kernel weight: 1.83 g, a direct source value from ReinSaat.
 - Sowing depth: 1 cm, a direct source value from ReinSaat.
 - Row spacing: 10-15 cm, taken from the parseable part of the source's
-  spacing text; the within-row figure is left open due to unclear source
-  wording (see `Notes`).
+  spacing text; the within-row figure is left open in the ReinSaat source due
+  to unclear wording (see `Notes`).
+- Distance within the row: 1.5 cm, reused from `corn-salad.md`'s
+  Hortipendium-derived general value, because the variety's own source text
+  is unparseable for this figure (see `Notes`). No reliable variety-specific
+  value found; the general crop planning value was intentionally reused.
+- Yield: 1.0 kg/m², reused from `corn-salad.md`; no variety-specific figure
+  found.
 
 ## Sources
 - [ReinSaat - Vit](https://www.reinsaat.at/shop/EN/salate/feldsalat/vit/)
@@ -87,12 +98,13 @@
 ## Research Status
 - Researched on: 2026-09-18
 - Calendar values researched on: 2026-09-21
+- Yield and spacing values researched on: 2026-09-22
 - General crop note exists: yes (`corn-salad.md`)
 - Open source conflicts: the ReinSaat spacing text ("10 - 30 x 1 cm row
   spacing 10-15 cm") is internally unclear; only the 10-15 cm row-spacing
-  portion is used, and the within-row figure is left open rather than
-  guessed.
-- Open mapping questions: within-row spacing is open; yield is open; the
-  90-day harvest window is inferred from a chart.
-- Public-readiness: needs review; spacing text needs re-verification against
-  the source, yield open.
+  portion is used from this source, and the within-row figure now uses the
+  reused, Hortipendium-derived general-crop value instead.
+- Open mapping questions: yield is a reused general-crop value, not
+  variety-specific; the 90-day harvest window is inferred from a chart.
+- Public-readiness: needs review; yield and within-row spacing are reused
+  general values, not variety-specific.

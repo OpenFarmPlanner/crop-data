@@ -47,10 +47,20 @@
 - Spacing and sowing depth: no variety-specific figures were found; the
   general crop's values are intentionally reused, since no contradicting
   variety-specific source was found.
-- Yield: no variety-specific figure was found; the general crop's 4-6 kg/m²
-  range is intentionally reused for the storage/full-size case, while noting
-  that early-bunching harvest at smaller root size would yield less per
-  developed root (not separately quantified here).
+- Yield: no variety-specific figure was found; the general crop's now
+  source-backed planning value (2.7 kg/m², trial average) is intentionally
+  reused for the storage/full-size case, while noting that this variety's
+  typical early-bunching harvest at smaller root size would yield less per
+  developed root (not separately quantified here, since no source gives a
+  bunching-size yield figure).
+- Thousand kernel weight: 10.5 g, **not** reused from the general note's 17.5 g
+  multi-germ figure. `Alvro Mono` is bred as monogerm seed (one true seed per
+  unit, not a multi-germ cluster), so the individual-seed weight applies
+  instead of the cluster weight: [Hortipendium](https://www.hortipendium.de/Speise_Bete_Erwerbsanbau)
+  gives 10-11 g for an individual beet seed, and 10.5 g (the midpoint) is used
+  here. This is a deliberate variety-specific deviation from the general
+  crop's seed-weight basis, justified by the monogerm trait documented above,
+  not a silent reuse.
 
 ## Planning Value Derivations
 - Definitions: growth duration counted from sowing (direct sown), as in the
@@ -64,12 +74,18 @@
   they are not used. Full-size roots need longer.
 - Harvest window: 30 days, reused from the general note.
 - Field/form constraint: whole days.
+- Yield: reused from the general note (2.7 kg/m²); see above for the
+  bunching-size caveat.
+- Thousand kernel weight: 10.5 g, derived from Hortipendium's individual-seed
+  weight range (10-11 g), used specifically for this monogerm variety instead
+  of the general note's multi-germ cluster figure; see above.
 
 ## Sources
 - [VOLTZ Maraîchage - Rote Bete Alvro Mono](https://de.de-shop.voltz-maraichage.com/bio-saatgut/gemuserube-alvro-mono?fc=204)
 - [Runåbergs fröer - Alvro Mono](https://en.runabergsfroer.se/?p=824)
 - [Tamar Organics - Organic Beetroot Alvro Mono](https://tamarorganics.co.uk/product/beetroot-alvro-mono)
 - [Beringmeier - Rote Rübe Alvro Mono Bio](https://www.beringmeier.de/wurzelgemuese-knollengemuese-saatgut/oeko-wurzel-knolle/Rrote-ruebe-alvro-mono-oeko.html)
+- [Hortipendium - Speise Bete Erwerbsanbau](https://www.hortipendium.de/Speise_Bete_Erwerbsanbau)
 
 ## Research Status
 - Researched on: 2026-09-18
@@ -78,4 +94,9 @@
 - Open mapping questions: none for calendar values; the 50-day value comes
   from one retail catalog (another listing reportedly gives 55-65 days,
   unverified). Calendar values researched on: 2026-09-21
-- Public-readiness: needs review (growth duration from one source); no live sync performed.
+- Yield and spacing values researched on: 2026-09-22 (thousand kernel weight
+  deliberately set differently from the general crop due to the monogerm
+  trait, documented above)
+- Public-readiness: needs review (growth duration from one source; yield
+  reused from the general crop; thousand kernel weight variety-specific); no
+  live sync performed.

@@ -62,8 +62,18 @@
 - Storage guidance (post-frost harvest, cold storage at high humidity) is
   variety-source-specific detail not present in the general note; consistent
   with, and an elaboration of, the general note's own frost/storage guidance.
-- Yield: no variety-specific figure was found; the general crop leaves yield
-  open, so nothing is reused here either.
+- Yield: no variety-specific figure was found; the general crop now has a
+  derived planning value (4.0 kg/m²), which is intentionally reused here
+  despite this variety's much tighter spacing (about 45 x 15 cm vs. the
+  general 45 x 35 cm), because no `Helenor`-specific root-weight source was
+  found to recompute a variety-specific figure; flagged as an uncertain
+  reuse rather than a confirmed match, since the tighter spacing likely
+  targets smaller, bunching-suited roots rather than the same per-plant
+  weight assumed for the general value.
+- Nutrient demand: `medium`, intentionally reused from the general note; no
+  variety-specific source found.
+- Thousand kernel weight: 3.0 g, intentionally reused from the general note;
+  no variety-specific figure found.
 
 ## Planning Value Derivations
 - Growth duration: 95 days, taken from
@@ -81,6 +91,8 @@
   [Johnny's Selected Seeds](https://www.johnnyseeds.com/vegetables/rutabagas/helenor-rutabaga-seed-197.html)
   ("sow 6 seeds per foot, 3/8 in deep, thin to 6 in apart, rows 18-24 in
   apart"), rounded to whole centimeters.
+- Yield, nutrient demand and thousand kernel weight: reused from the general
+  note (see `Comparison With General Crop Data`).
 
 ## Sources
 - [Johnny's Selected Seeds - Helenor Rutabaga Seed](https://www.johnnyseeds.com/vegetables/rutabagas/helenor-rutabaga-seed-197.html)
@@ -103,6 +115,10 @@
   spacing, converted from inches. A follow-up pass should re-check
   Dreschflegel or another German/Austrian source for locally-calibrated
   spacing and sowing-date guidance.
+- Yield and spacing values researched on: 2026-09-22 (yield reuse flagged as
+  uncertain due to the tighter variety spacing, documented above)
 - Public-readiness: needs review (identity confirmed with high confidence;
   growth duration source-backed; spacing sourced from a non-German source and
-  flagged for a follow-up check; no live sync performed).
+  flagged for a follow-up check; yield, nutrient demand and thousand kernel
+  weight reused from the general crop with the yield reuse flagged as
+  uncertain; no live sync performed).

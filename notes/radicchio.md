@@ -36,10 +36,25 @@
 - Harvest window: 30 days as a planning value, matching the live variety
   record; heads are cut over a fairly short autumn window, longer for protected
   winter types.
-- Yield: left open as a general value. The live variety record stores about
-  3.0 kg/m²; a general value should be confirmed against head weight and
-  spacing before being stored.
-- Harvest method: left open until a general yield basis exists.
+- Yield: 3.5 kg/m² as a derived general planning value, resolving the
+  previous "left open" status. Source basis:
+  [Hortipendium - Radicchio Erwerbsanbau](https://www.hortipendium.de/Radicchio_Erwerbsanbau)
+  gives a commercial planting density of 10 plants/m² (38 cm row spacing x
+  28 cm within-row spacing) and a target head weight of about 350 g per head
+  with outer leaves removed. Derivation: 10 plants/m² x 350 g = 3.5 kg/m².
+  This is a derived value, not a direct stated yield figure, and does not
+  subtract further trimming losses at retail. It is close to, and confirms
+  the plausibility of, the previously stored live variety figure of about
+  3.0 kg/m², which is kept as a separate, lower variety-level value rather
+  than overwritten.
+- Harvest method: `per_sqm`, now that a general yield basis exists.
+- Nutrient demand: moderate (medium), confirmed by [BUND Region Hannover -
+  Stark-, Mittel- und Schwachzehrer im Gemüse- und Kräutergarten](https://bund-region-hannover.de/fileadmin/hannover/BUND_aktiv/Universum_Kleingarten/Publikationen_zum_Download/Handreichung_Stark-_Mittel-_und_Schwachzehrer.pdf),
+  which explicitly lists "Radicchio" as a Mittelzehrer.
+- Spacing: 30 x 25 cm (rows x within-row) is close to, and now corroborated
+  by, Hortipendium's commercial figure of 38 x 28 cm; kept as the existing
+  value since it was not contradicted, with the Hortipendium figure noted as
+  a slightly wider commercial alternative.
 - Thousand kernel weight: 1.4 g as a planning value. Chicory seed is about
   600-900 seeds per gram, i.e. roughly 1.1-1.7 g per thousand
   ([Osborne Seed - Seed Count Chart](https://www.osborneseed.com/pages/seed-count-chart)).
@@ -48,9 +63,12 @@
 - [meine-ernte - Radicchio](https://www.meine-ernte.de/pflanzen-a-z/gemuese/radicchio/)
 - [Plantura - Radicchio Pflanzenportrait](https://www.plantura.garden/gemuese/radicchio/radicchio-pflanzenportrait)
 - [Sperli - Radicchio Kulturanleitung](https://www.sperli.de/anbauexperte/kulturanleitung-radicchio/)
+- [Hortipendium - Radicchio Erwerbsanbau](https://www.hortipendium.de/Radicchio_Erwerbsanbau)
+- [BUND Region Hannover - Stark-, Mittel- und Schwachzehrer im Gemüse- und Kräutergarten](https://bund-region-hannover.de/fileadmin/hannover/BUND_aktiv/Universum_Kleingarten/Publikationen_zum_Download/Handreichung_Stark-_Mittel-_und_Schwachzehrer.pdf)
 
 ## Research Status
 - Researched on: 2026-09-04
+- Yield and spacing values researched on: 2026-09-22
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: none; the day span is a type spread. Early types are
   much faster than the general value.
@@ -58,7 +76,8 @@
   `growth_duration_days` set to 85 and `harvest_duration_days` set to 30 (both
   were empty; growth duration blocked publishing).
   `thousand_kernel_weight_g` set to 1.4.
-- Open mapping questions: general yield and harvest method are open; no
-  crop-species link or display language is set.
+- Open mapping questions: no crop-species link or display language is set.
+  Yield (3.5 kg/m²) is a derived value from density and target head weight,
+  not a direct source figure.
 - Public-readiness: calendar values inferred and seed weight set and synced;
-  yield open.
+  yield is now a derived planning value with a documented basis.
