@@ -1,4 +1,4 @@
-# Migration Note: Splitting "Endiviensalat" Into Escariol And Frisée
+# Migration Note: Splitting "Endiviensalat" Into Glatte Endivie And Krause Endivie
 
 Prepared for a later Phase 2 sync. This document contains no project names,
 production IDs, or API details. Nothing has been written to any live project.
@@ -9,9 +9,9 @@ production IDs, or API details. Nothing has been written to any live project.
 different cultivation. Under the "lowest cultivation level" naming rule they
 are separate Kulturen:
 
-| | Escariol | Frisée |
+| | Glatte Endivie | Krause Endivie |
 |---|---|---|
-| Synonym (DE) | Glatte Endivie | Krause Endivie |
+| Synonyms (DE) | Escariol, Eskariol, Endiviensalat | Frisée, Endiviensalat |
 | English name | Escarole | Frisée (synonym: Curly endive) |
 | Botanical name | *Cichorium endivia* var. *latifolium* | *Cichorium endivia* var. *crispum* |
 | Note | [escarole.md](../notes/escarole.md) | [frisee.md](../notes/frisee.md) |
@@ -19,6 +19,13 @@ are separate Kulturen:
 "Endive" alone is not used as a name or synonym: in US English it usually
 means chicory (*Cichorium intybus*). `Endiviensalat` should be kept only as a
 synonym/alias of both Kulturen, the same mechanism as `Peperoni`.
+
+## Naming Decision
+
+Descriptive names were chosen on 2026-09-24 as more self-explanatory for
+users and as a symmetric pair (Glatte Endivie / Krause Endivie). The catalogue
+names Escariol and Frisée are kept as synonyms. The live records were first
+created as Escariol and Frisée and renamed afterwards.
 
 ## Naming And Rank Uncertainty
 
@@ -41,9 +48,9 @@ Checked read-only on 2026-09-24 in both available projects.
 
 | Variety | Type | Confidence | Basis |
 |---|---|---|---|
-| Anconi | Escariol (smooth) | high | Breeder pages titled "glattblättrig" / "Smooth endive". Those pages could only be read through search excerpts (HTTP 403), and ReinSaat does not list the variety. |
+| Anconi | Glatte Endivie (smooth) | high | Breeder pages titled "glattblättrig" / "Smooth endive". Those pages could only be read through search excerpts (HTTP 403), and ReinSaat does not list the variety. |
 
-No other variety is attached. Named candidates for a later Frisée variety
+No other variety is attached. Named candidates for a later Krause Endivie variety
 (from ReinSaat and Sativa, not researched as varieties): Capriccio, Très fine
 maraîchère, Wallonne, Grosse Pancalière. Diva, Nuance and Géante maraîchère
 are smooth types. Bubikopf 2 and Roxane are only described, so their type is
@@ -56,7 +63,7 @@ No variety is unassignable at present.
 Values were researched independently for each type. The former mixed note was
 not used as a source.
 
-| Field | Former mixed note | Escariol | Frisée |
+| Field | Former mixed note | Glatte Endivie | Krause Endivie |
 |---|---|---|---|
 | Growth duration (from transplanting) | 75 d | 70 d | 49 d |
 | Harvest window | 21 d | 21 d (inferred) | 14 d (inferred) |
@@ -73,21 +80,24 @@ types versus 350 dt/ha and 150 kg N/ha for curly types).
 
 ## Variety Values Stay Independent
 
-`Anconi` was rewritten against the Escariol general note with an explicit
+`Anconi` was rewritten against the Glatte Endivie general note with an explicit
 value-by-value comparison. Every value is either variety-sourced or an
-explicitly documented reuse of the Escariol value. Its growth duration changes
-from 75 to 70 days because it now follows the Escariol note.
+explicitly documented reuse of the Glatte Endivie value. Its growth duration changes
+from 75 to 70 days because it now follows the Glatte Endivie note.
 
 ## Recommended Phase 2 Handling
 
-1. Rename the existing general `Endiviensalat` record to `Escariol` and update
-   its values from `escarole.md`. Rename the variety record `Anconi` to the
-   crop name `Escariol` in the same step, so the group stays intact (the link
-   between general and variety records may be empty, in which case they are
-   grouped only by matching names). Then update the `Anconi` values from
+1. Rename the existing general `Endiviensalat` record to `Glatte Endivie` and
+   update its values from `escarole.md`. `Anconi` follows through the link to
+   its general record; if the link is empty, set its crop name to `Glatte
+   Endivie` in the same step so the group stays intact (they are then grouped
+   only by matching names). Then update the `Anconi` values from
    `escarole-anconi.md`.
-2. Create `Frisée` as a new general record from `frisee.md`, with no variety.
-3. Add `Endiviensalat` as a synonym/alias on both Kulturen. Display language
+2. Create `Krause Endivie` as a new general record from `frisee.md`, with no
+   variety.
+3. Add `Endiviensalat`, `Escariol` and `Frisée` as synonyms/aliases (UI step;
+   `Endiviensalat` on both Kulturen, `Escariol` on Glatte Endivie, `Frisée` on
+   Krause Endivie). Display language
    and localized crop-species names cannot be set through the sync token and
    need the OpenFarmPlanner UI.
 4. Link both records to an official crop species in the UI (see
@@ -102,17 +112,17 @@ equivalent in outcome.
 
 1. **Rename or replace** the existing `Endiviensalat` (recommendation above).
 2. **Frost hardiness:** sources contradict each other on which type is hardier
-   (one source says Frisée, two say Escariol). No frost value was set for
+   (one source says Frisée, two say Escariol; trade names as used by the sources). No frost value was set for
    either note.
 3. **Harvest windows** (21 d and 14 d) are inferred; no source gives one.
-4. **Yield gap:** Escariol 6 kg/m² comes from a fertilization-regulation
+4. **Yield gap:** Glatte Endivie 6 kg/m² comes from a fertilization-regulation
    yield level, while an Austrian guideline without type gives 3-4 kg/m². The
    6 kg/m² may be high for a garden crop.
 5. **Sowing depth** varies in sources (0.5-1 cm commercial, 2-3 cm garden).
 6. **Source gaps:** no LfL Bayern, Bio Austria, LWG or DLR sheet on either type
    could be read; values rest on ReinSaat, the fertilization-regulation table,
    Hortipendium and seed companies.
-7. **Named Frisée variety:** none is in the data yet. Add one (candidates
+7. **Named Krause Endivie variety:** none is in the data yet. Add one (candidates
    above) if a curly variety should be grown.
 8. **`crop-species-linking.md`** needs entries for both Kulturen.
 9. The old mixed note [endive.md](../notes/endive.md) is kept, marked

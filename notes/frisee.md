@@ -1,13 +1,15 @@
 ## Short Description
-- Frisée (`Frisée`, synonym `Krause Endivie`; English synonym "Curly endive") is
+- Krause Endivie (Kultur name; English name Frisée with synonym "Curly
+  endive"; German synonyms `Frisée`, `Endiviensalat`) is
   the curly, finely divided leaf type of `Cichorium endivia`, botanically
   `Cichorium endivia var. crispum` (see "Identity And Mapping Note" for the
   naming check). It forms a loose, flat to slightly upright rosette with a
   paler, partly self-blanching heart. It is grown mainly as a summer to autumn
   salad, transplanted after pre-cultivation.
 - This note covers the curly type only. The smooth, broad-leaved type
-  (Escariol) is a separate crop with its own note; sourced differences are
-  listed under "Differences To Escariol (Escarole)".
+  (Kultur `Glatte Endivie`, trade name Escariol) is a separate crop with its
+  own note; sourced differences are listed under "Differences To Glatte
+  Endivie (Escarole)".
 - Annual salad crop, family Asteraceae (Korbblütler), same family as lettuce,
   chicory and radicchio. Medium nutrient demand, needs even water supply.
   Fresh use only; keeps for a shorter time than escarole after harvest.
@@ -72,7 +74,7 @@
 - Leaf-edge burn and rot in dense, wet heads are typical problems; wet weather
   and high nitrogen increase them.
 
-## Differences To Escariol (Escarole)
+## Differences To Glatte Endivie (Escarole)
 Only sourced differences are listed; all values apply to Frisée first.
 - Spacing and blanching: [Hortipendium](https://www.hortipendium.de/Endivien_Erwerbsanbau)
   states that curly types can be planted closer and need a longer blanching
@@ -112,8 +114,9 @@ Only sourced differences are listed; all values apply to Frisée first.
 - Split decision: the previous single crop "Endiviensalat" (`Cichorium endivia`)
   mixed two botanical varieties with different cultivation logic (spacing,
   blanching effort, frost tolerance, storage, N need and yield level in the
-  DüV table). Following the lowest-cultivation-level rule, Frisée and Escariol
-  are documented as two crops. Broad names such as "Endivien" or "Endiviensalat"
+  DüV table). Following the lowest-cultivation-level rule, Krause Endivie and Glatte
+  Endivie are documented as two crops (descriptive German names chosen
+  2026-09-24; Frisée, Escariol and Endiviensalat are kept as synonyms). Broad names such as "Endivien" or "Endiviensalat"
   in shop and garden sources are context only and do not become the crop name.
 - Sources that speak only about "Endivie" in general (for example Sperli,
   Kiepenkerl, Bingenheimer, most Hortipendium figures) do not separate the two
@@ -205,7 +208,7 @@ Variety candidates (names only, no variety notes written; ReinSaat pages
 describe them as curly): Capriccio, Très fine maraîchère, Wallonne (medium-fine
 curled). Sativa also lists Grosse Pancalière (curly) and Wallonne. ReinSaat's
 other endive entries (Diva, Nuance, Géante maraîchère, Bubikopf 2, Escariol
-grüner, Roxane) are smooth types and belong to Escariol; Aurora is not an
+grüner, Roxane) are smooth types and belong to Glatte Endivie (escarole); Aurora is not an
 endive page. Type checks for Bubikopf 2 and Roxane rest on descriptions or
 names only.
 
@@ -230,7 +233,7 @@ names only.
   Veitshöchheim, DLR, Agroscope/Bioaktuell (searched; no accessible endive
   sheet), so figures rest on the DüV table, Hortipendium and seed companies.
   The 2005 LfL field-vegetable publication has no endive entry.
-- Open mapping questions: the split of Endiviensalat into Frisée and Escariol
+- Open mapping questions: the split of Endiviensalat into Krause Endivie and Glatte Endivie
   (documented above); botanical rank and naming; harvest window is an inferred
   value; nutrient demand "medium" is inferred; single spacing and no frost
   value chosen; sowing windows are year-dependent and only indicative in the

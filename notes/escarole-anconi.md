@@ -53,7 +53,7 @@
   equivalent; documented as notes only, not as structured values.
 
 ## Comparison With General Crop Data
-General crop note: `escarole.md` (checked value by value on 2026-09-24).
+Crop (Kultur): `Glatte Endivie`. General crop note: `escarole.md` (checked value by value on 2026-09-24).
 - Crop identity: matches; both are `Cichorium endivia` of the smooth
   (var. latifolium) type.
 - Growth duration: general 70 days from transplanting; variety 70 days,
@@ -103,7 +103,7 @@ General crop note: `escarole.md` (checked value by value on 2026-09-24).
 
 ## Research Status
 - Researched on: 2026-09-24
-- General crop note exists: yes (`escarole.md`)
+- General crop note exists: yes (`escarole.md`, Kultur `Glatte Endivie`)
 - Open source conflicts: none specific to the variety; conflicts of the
   general values are listed in `escarole.md`.
 - Open mapping questions: the breeder page could not be read directly (403);

@@ -48,7 +48,7 @@
   be checked per type rather than assumed equal.
 - Superseded (2026-09-24): this mixed note breaks the "lowest cultivation
   level" naming rule. It is replaced by two separate Kulturen,
-  [Escariol](escarole.md) and [Frisée](frisee.md); `Anconi` now lives in
+  [Glatte Endivie](escarole.md) and [Krause Endivie](frisee.md); `Anconi` now lives in
   [escarole-anconi.md](escarole-anconi.md). See
   [the migration note](../docs/endive-split-migration.md). Its values were not
   carried over into the new notes.

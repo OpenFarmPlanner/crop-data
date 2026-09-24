@@ -1,14 +1,15 @@
 ## Short Description
-- Escarole (`Escariol`, also `Eskariol`; synonym `Glatte Endivie`) is the
+- Glatte Endivie (Kultur name; English name Escarole; synonyms `Escariol`,
+  `Eskariol`, `Endiviensalat`) is the
   smooth, broad-leaved type of `Cichorium endivia`, usually written as
   `Cichorium endivia var. latifolium` (see "Identity And Mapping Note" for the
   naming question). It forms a fairly open to compact head of broad, fleshy,
   slightly wavy leaves whose inner leaves turn pale yellow, either on their own
   (self-blanching types) or after blanching.
-- This note covers escarole only. The curly type (`Frisée`, var. crispum) is a
+- This note covers escarole only. The curly type (Kultur `Krause Endivie`, trade name `Frisée`, var. crispum) is a
   separate crop note, because the two types differ in frost hardiness, bolting
-  tolerance and best planting dates (see "Differences To Frisée (Curly
-  Endive)").
+  tolerance and best planting dates (see "Differences To Krause Endivie
+  (Frisée)").
 - Asteraceae (Korbblütler). Sown in early summer, transplanted in July to
   August and harvested in autumn; the type is regarded as very frost tolerant
   and is the preferred type for late autumn and early winter harvest. Medium
@@ -66,7 +67,7 @@
 - Bolting risk and crown rot (Kranzfäule) are the main risks; keep a 3-4 year
   break for endive on the same bed.
 
-## Differences To Frisée (Curly Endive)
+## Differences To Krause Endivie (Frisée)
 - Frost: garden and seed-company guides describe escarole as clearly more
   frost tolerant and better for late harvest than the curly type
   ([Sperli](https://www.sperli.de/anbauexperte/kulturanleitung-endivien/),
@@ -86,7 +87,7 @@
 
 ## Identity And Mapping Note
 - The former Kultur "Endiviensalat" (`Cichorium endivia`) is split by cultivation
-  type. This note is the escarole (smooth) Kultur; the curly type is a
+  type. This note is the Kultur `Glatte Endivie` (escarole, smooth); the curly type is a
   separate note. Reason: the lowest-cultivation-level rule; the types differ in
   frost hardiness, bolting behaviour and planting window. Sources that only
   say "Endivie" without naming the type are marked as unspecific below and
@@ -102,8 +103,10 @@
   `var. latifolium` is unverified; the widely used horticultural name is kept.
 - Naming: bare "Endive" is not used here because in US English it means
   chicory (`Cichorium intybus`, Belgian endive). The English name is
-  "Escarole". The German name is "Escariol" (spelled "Eskariol" by some
-  sources) with the synonym "Glatte Endivie".
+  "Escarole". The German Kultur name is "Glatte Endivie" (chosen 2026-09-24 as the
+  self-explanatory name, symmetric to "Krause Endivie"); "Escariol"
+  (spelled "Eskariol" by some sources) and "Endiviensalat" are kept as
+  synonyms.
 - Sources that call the crop "Endivien" in general (Bio Austria style
   fertilization tables, seed-company guides) were used only for values noted
   as unspecific.
