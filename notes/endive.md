@@ -42,10 +42,16 @@
 - The curly-leaved (`frisée`) and broad-leaved (`Eskariol`/escarole) groups
   are both `Cichorium endivia` but differ in leaf shape, bitterness, and
   typical season; this note treats them as one crop-culture level Kultur,
-  consistent with how the variety `Anconi` (a broad-leaved type) is mapped in
-  `endive-anconi.md`. If a future variety of the curly type is added, the
-  same general note applies, but growth-duration and harvest-window planning
-  values should be checked per type rather than assumed equal.
+  consistent with how the variety `Anconi` (a broad-leaved type) was first
+  mapped. If a future variety of the curly type is added, the same general
+  note applies, but growth-duration and harvest-window planning values should
+  be checked per type rather than assumed equal.
+- Superseded (2026-09-24): this mixed note breaks the "lowest cultivation
+  level" naming rule. It is replaced by two separate Kulturen,
+  [Escariol](escarole.md) and [Frisée](frisee.md); `Anconi` now lives in
+  [escarole-anconi.md](escarole-anconi.md). See
+  [the migration note](../docs/endive-split-migration.md). Its values were not
+  carried over into the new notes.
 
 ## Planning Value Derivations
 - Definitions: growth duration counts from transplanting to harvest;
