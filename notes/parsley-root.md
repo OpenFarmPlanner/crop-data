@@ -1,6 +1,7 @@
 ## Short Description
 - Parsley root (`Wurzelpetersilie`, synonym `Hamburg parsley`; German also
-  `Petersilienwurzel`) is `Petroselinum crispum` subsp. `tuberosum`, grown for
+  `Petersilienwurzel`) is `Petroselinum crispum` var. `tuberosum` (also written subsp. or convar. in
+  other sources; see the mapping note), grown for
   the thickened, parsnip-like taproot. The identity is the harvested root
   (storage crop, soup greens). The leaves are edible but are only a by-product;
   leaf types are separate Kulturen (curly and flat-leaf parsley). The plain
@@ -28,9 +29,10 @@
 - Sowing depth: 1-2 cm (Hortipendium, garden seed shop); ReinSaat says shallow,
   up to about 1 cm. Planning value 1 cm.
 
-- Spacing: 30 cm between rows; 3 cm within the row after thinning (ReinSaat
-  30-50 cm x 2 cm; garden sources 30-40 cm x 2-3 cm; Hortipendium about 75 cm
-  bed spacing with band sowing and 30-40 plants/m²).
+- Spacing: planning value 30 cm between rows; about 9 cm within the row after
+  thinning (about 37 plants/m², Hortipendium 30-40 plants/m² for full-size
+  roots). Dense garden spacing of 2-3 cm within the row (ReinSaat 30-50 cm x
+  2 cm; garden sources 30-40 cm x 2-3 cm) gives small roots and lower yields.
 - Site: sun, deep loose humus-rich soil, even moisture.
 
 ## Harvest & Use
@@ -60,9 +62,13 @@
   from earliest usable size is used; not a direct source value.
 - Sowing depth: 1 cm, lower bound of the 1-2 cm range, consistent with
   ReinSaat's "up to about 1 cm"; rounded to a whole centimeter.
-- Spacing: 30 cm x 3 cm; ReinSaat and garden sources overlap here. About 110
-  plants/m² is far above Hortipendium's 30-40 plants/m² for large commercial
-  roots; a mismatch, see Research Status.
+- Spacing: 30 cm x 9 cm (about 37 plants/m²). Decision 2026-09-25: the
+  spacing is tied to the same source as the yield, Hortipendium (30-40
+  plants/m² and 400 dt/ha), so both values describe the same crop. The tighter
+  2-3 cm in-row spacing of ReinSaat and garden sources (about 110 plants/m²)
+  is not used as the planning value because it belongs to small roots and the
+  4.0 kg/m² yield would not fit it. In-row distance is derived
+  (1 / (0.30 m x 35 plants/m²) is about 9.5 cm, rounded down to 9 cm).
 - Yield: 4.0 kg/m² (`per_sqm`, root without foliage). Hortipendium gives about
   400 dt/ha = 4.0 kg/m². A garden source (search-result summary only, not
   verified on the page) mentions 1-1.6 kg/m². The commercial value is used
@@ -86,9 +92,11 @@
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: botanical rank (subsp. `tuberosum` in Hortipendium,
   Wikipedia and ReinSaat; `var. tuberosum` and `convar. radicosum` appear in
-  other sources; subsp. is used, not verified in a taxonomic database);
+  other sources; var. is used here by project decision of 2026-09-25, not
+  verified in a taxonomic database);
   culture duration 170-180 vs 180-210 days; yield 4.0 vs 1-1.6 kg/m²; row
-  spacing 30 cm vs 75 cm beds; sowing depth up to 1 vs 1-2 cm; germination
+  spacing 30 cm vs 75 cm beds; in-row spacing 2-3 cm (small roots) vs about 9 cm
+  (full-size roots, chosen); sowing depth up to 1 vs 1-2 cm; germination
   12-45 vs 15-20 days.
 - Open mapping questions: nutrient demand is weakly source-backed; harvest
   window inferred; LfL Bayern, Bio Austria, Agroscope and KTBL pages were not
