@@ -1,6 +1,6 @@
 ## Short Description
 - Glatte Endivie (Kultur name; English name Escarole; synonyms `Escariol`,
-  `Eskariol`, `Endiviensalat`) is the
+  `Eskariol`, `Winterendivie`) is the
   smooth, broad-leaved type of `Cichorium endivia`, usually written as
   `Cichorium endivia var. latifolium` (see "Identity And Mapping Note" for the
   naming question). It forms a fairly open to compact head of broad, fleshy,
@@ -105,8 +105,9 @@
   chicory (`Cichorium intybus`, Belgian endive). The English name is
   "Escarole". The German Kultur name is "Glatte Endivie" (chosen 2026-09-24 as the
   self-explanatory name, symmetric to "Krause Endivie"); "Escariol"
-  (spelled "Eskariol" by some sources) and "Endiviensalat" are kept as
-  synonyms.
+  (spelled "Eskariol" by some sources) and "Winterendivie" are kept as
+  synonyms. "Endiviensalat" is deliberately not used as a synonym (see the
+  migration note).
 - Sources that call the crop "Endivien" in general (Bio Austria style
   fertilization tables, seed-company guides) were used only for values noted
   as unspecific.

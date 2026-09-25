@@ -11,14 +11,14 @@ are separate Kulturen:
 
 | | Glatte Endivie | Krause Endivie |
 |---|---|---|
-| Synonyms (DE) | Escariol, Eskariol, Endiviensalat | Frisée, Endiviensalat |
+| Synonyms (DE) | Escariol, Eskariol, Winterendivie | Frisée, Friséesalat |
 | English name | Escarole | Frisée (synonym: Curly endive) |
 | Botanical name | *Cichorium endivia* var. *latifolium* | *Cichorium endivia* var. *crispum* |
 | Note | [escarole.md](../notes/escarole.md) | [frisee.md](../notes/frisee.md) |
 
 "Endive" alone is not used as a name or synonym: in US English it usually
-means chicory (*Cichorium intybus*). `Endiviensalat` should be kept only as a
-synonym/alias of both Kulturen, the same mechanism as `Peperoni`.
+means chicory (*Cichorium intybus*). `Endiviensalat` is deliberately not added as a
+synonym of either Kultur, see "Synonym Handling" below.
 
 ## Naming Decision
 
@@ -26,6 +26,15 @@ Descriptive names were chosen on 2026-09-24 as more self-explanatory for
 users and as a symmetric pair (Glatte Endivie / Krause Endivie). The catalogue
 names Escariol and Frisée are kept as synonyms. The live records were first
 created as Escariol and Frisée and renamed afterwards.
+
+Regional check (2026-09-24): the assumption that Escariol/Eskariol is mainly
+Austrian/Swiss and that Glatte/Krause Endivie is more usual in Germany is not
+supported by the sources found. The German Wikipedia lists "Escariol, Eskariol,
+Eskarol, Glatte Endivie, Winterendivie" as common names in Germany without
+assigning them to regions; Austrian and Swiss shops use Escariol/Eskariol, and
+German shops do as well. No source shows Glatte/Krause Endivie to be more usual
+in Germany, and none contradicts it either. The descriptive names were kept as
+a decision, not as a source-backed finding.
 
 ## Naming And Rank Uncertainty
 
@@ -85,6 +94,21 @@ value-by-value comparison. Every value is either variety-sourced or an
 explicitly documented reuse of the Glatte Endivie value. Its growth duration changes
 from 75 to 70 days because it now follows the Glatte Endivie note.
 
+## Synonym Handling
+
+Synonyms belong to the official crop species (its translation), not to the
+private crop records, so they cannot be set with a sync token. In the system
+they are described as pure search aliases, but they also feed exact-identity
+checks (duplicate detection when proposing a species, and the "is this name
+known" lookup). They are therefore not search-only. As agreed, `Endiviensalat`
+is left out. The library guidelines would allow an ambiguous term as a synonym
+of every species it can mean (like `Peperoni`), which remains an option.
+The official library already has one species `Endivie` (English name "Endive",
+synonyms Winterendivie and Escariol); both Kulturen would link to it, and its
+English name conflicts with the rule not to use "Endive" alone. Regional
+display names exist only for Austria and Switzerland (Escariol and Eskariol
+would be candidates, based on shop usage only).
+
 ## Recommended Phase 2 Handling
 
 1. Rename the existing general `Endiviensalat` record to `Glatte Endivie` and
@@ -95,9 +119,8 @@ from 75 to 70 days because it now follows the Glatte Endivie note.
    `escarole-anconi.md`.
 2. Create `Krause Endivie` as a new general record from `frisee.md`, with no
    variety.
-3. Add `Endiviensalat`, `Escariol` and `Frisée` as synonyms/aliases (UI step;
-   `Endiviensalat` on both Kulturen, `Escariol` on Glatte Endivie, `Frisée` on
-   Krause Endivie). Display language
+3. Add the synonyms in the UI: `Escariol`, `Eskariol` and `Winterendivie` on
+   Glatte Endivie; `Frisée` and `Friséesalat` on Krause Endivie. Display language
    and localized crop-species names cannot be set through the sync token and
    need the OpenFarmPlanner UI.
 4. Link both records to an official crop species in the UI (see

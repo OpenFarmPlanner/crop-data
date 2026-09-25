@@ -1,6 +1,6 @@
 ## Short Description
 - Krause Endivie (Kultur name; English name Frisée with synonym "Curly
-  endive"; German synonyms `Frisée`, `Endiviensalat`) is
+  endive"; German synonyms `Frisée`, `Friséesalat`) is
   the curly, finely divided leaf type of `Cichorium endivia`, botanically
   `Cichorium endivia var. crispum` (see "Identity And Mapping Note" for the
   naming check). It forms a loose, flat to slightly upright rosette with a
@@ -116,7 +116,7 @@ Only sourced differences are listed; all values apply to Frisée first.
   blanching effort, frost tolerance, storage, N need and yield level in the
   DüV table). Following the lowest-cultivation-level rule, Krause Endivie and Glatte
   Endivie are documented as two crops (descriptive German names chosen
-  2026-09-24; Frisée, Escariol and Endiviensalat are kept as synonyms). Broad names such as "Endivien" or "Endiviensalat"
+  2026-09-24; Frisée and Friséesalat are kept as synonyms for this crop, Escariol for the smooth crop). Broad names such as "Endivien" or "Endiviensalat"
   in shop and garden sources are context only and do not become the crop name.
 - Sources that speak only about "Endivie" in general (for example Sperli,
   Kiepenkerl, Bingenheimer, most Hortipendium figures) do not separate the two
