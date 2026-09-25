@@ -54,6 +54,12 @@
   sources used here; both types are grown the same way agronomically.
 
 ## Identity And Mapping Note
+- Superseded (2026-09-25): this mixed note breaks the "lowest cultivation
+  level" naming rule. It is replaced by three separate Kulturen,
+  [Krause Petersilie](curly-parsley.md), [Glatte Petersilie](flat-leaf-parsley.md)
+  and [Wurzelpetersilie](parsley-root.md). See
+  [the migration note](../docs/parsley-split-migration.md). Its values were not
+  carried over into the new notes.
 - This project's standing rule is that Kultur should always be the lowest,
   most specific cultivation-relevant level, never a genus-level umbrella
   term. Glatt and kraus parsley are botanically distinct cultivar groups, and
