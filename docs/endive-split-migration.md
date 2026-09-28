@@ -1,5 +1,12 @@
 # Migration Note: Splitting "Endiviensalat" Into Glatte Endivie And Krause Endivie
 
+**Superseded (2026-09-28):** this split was reversed after further research
+found most of the underlying differences did not hold up independently. See
+[endive-merge-2026-09-28.md](endive-merge-2026-09-28.md) for the
+counter-research and the merge decision, and [endive.md](../notes/endive.md)
+for the current single Kultur. Kept for the original sourced reasoning and
+history; do not use it as the current state.
+
 Prepared for a later Phase 2 sync. This document contains no project names,
 production IDs, or API details. Nothing has been written to any live project.
 
@@ -14,7 +21,7 @@ are separate Kulturen:
 | Synonyms (DE) | Escariol, Eskariol, Winterendivie | Frisée, Friséesalat |
 | English name | Escarole | Frisée (synonym: Curly endive) |
 | Botanical name | *Cichorium endivia* var. *latifolium* | *Cichorium endivia* var. *crispum* |
-| Note | [escarole.md](../notes/escarole.md) | [frisee.md](../notes/frisee.md) |
+| Note | `escarole.md` (removed 2026-09-28, see git history) | `frisee.md` (removed 2026-09-28, see git history) |
 
 "Endive" alone is not used as a name or synonym: in US English it usually
 means chicory (*Cichorium intybus*). `Endiviensalat` is deliberately not added as a
