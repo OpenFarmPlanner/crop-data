@@ -71,6 +71,20 @@
   no source separates the two types; the sources speak about "Petersilie" or
   "Blattpetersilie" in general. The values below are therefore shared
   leaf-parsley values, not curly-specific measurements.
+- Independent corroboration (2026-09-29): a [GRAB 2019 organic variety
+  trial](https://www.grab.fr/wp-content/uploads/2020/02/5-compte-rendu-vari%C3%A9t%C3%A9s-persil-plat-et-fris%C3%A9-abris-GRAB-2019.pdf)
+  grew flat-leaf and curly parsley side by side under identical conditions and
+  spacing (15 plants/m², 25x27 cm). At the same calendar date, curly's first
+  cut averaged 1.10 kg/m² against 1.50 kg/m² for flat-leaf ("le rendement est
+  beaucoup plus faible qu'en persil plat"); curly needed 82 days between the
+  first and second cut versus 69 days for flat-leaf, a measured ~13-day gap
+  matching the DLR/RLP "+7 days for curly" figure in direction; and curly
+  plants were shorter at every cut (21 cm vs 29 cm at the first cut). This is
+  real field-trial evidence, not a planning/fertilization table, and it
+  independently confirms that curly parsley grows and regrows more slowly
+  than flat-leaf under the same conditions - unlike the endive leaf-type
+  split, which did not hold up under equivalent scrutiny (see
+  `docs/endive-merge-2026-09-28.md`).
 
 ## Identity And Mapping Note
 - The former Kultur "Petersilie, Blatt" (`Petroselinum crispum`) is split into
@@ -146,6 +160,7 @@
 - Frost tolerance and overwintering: qualitative, no planning field.
 
 ## Sources
+- [GRAB 2019 - Persil plat et frisé, essai variétal sous abris (organic field trial)](https://www.grab.fr/wp-content/uploads/2020/02/5-compte-rendu-vari%C3%A9t%C3%A9s-persil-plat-et-fris%C3%A9-abris-GRAB-2019.pdf)
 - [DLR/RLP - Anbau- und Sortenhinweise Petersilie, Blatt (PDF)](https://www.bbs-landwirtschaft.de/Internet/global/themen.nsf/0/1ef319fcf05534dbc125876e002d5a6f/$FILE/Petersilie,%20Blatt.pdf)
 - [Hortipendium - Petersilie Erwerbsanbau](https://www.hortipendium.de/Petersilie_Erwerbsanbau)
 - [Kiepenkerl - Petersilie](https://www.kiepenkerl.de/kulturanleitungen/petersilie/)
@@ -155,7 +170,8 @@
 - [LfL Bayern - Anbau von Arznei- und Gewürzpflanzen](https://www.lfl.bayern.de/ipz/heilpflanzen/030497/)
 
 ## Research Status
-- Researched on: 2026-09-25
+- Researched on: 2026-09-25; leaf-type split re-checked against independent
+  field-trial evidence on 2026-09-29 (see Differences To Glatte Petersilie)
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts:
   - Frost limit: about -7 °C foliage dieback (Hortipendium) versus survival
@@ -165,6 +181,12 @@
   - Time to first cut: 80-92 days (table, flat-leaf reference) versus 90-100
     days (Hortipendium).
   - Curly frost hardiness versus flat-leaf rests on one garden source.
+  - Growth speed/yield gap between leaf types: no longer only a single
+    planning-table claim; the 2026-09-29 GRAB field trial independently
+    confirms curly parsley grows and regrows more slowly than flat-leaf under
+    identical conditions (see Differences To Glatte Petersilie). This is
+    treated as resolved in favor of keeping the leaf-type split, unlike the
+    analogous endive question.
 - Open mapping questions: split of "Petersilie, Blatt" into three Kulturen;
   botanical rank of `var. crispum` (POWO page not opened; cultivar-group
   treatment possible); yield unit per cut versus per season (per season used);
