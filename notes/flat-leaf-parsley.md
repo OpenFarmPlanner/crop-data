@@ -92,6 +92,19 @@
   and the DLR table; no flat-leaf-specific difference was found.
 - Frost: a search-result summary suggested curly parsley is somewhat more
   cold tolerant; the source pages read did not confirm a measured difference.
+- Independent corroboration (2026-09-29): a [GRAB 2019 organic variety
+  trial](https://www.grab.fr/wp-content/uploads/2020/02/5-compte-rendu-vari%C3%A9t%C3%A9s-persil-plat-et-fris%C3%A9-abris-GRAB-2019.pdf)
+  grew flat-leaf and curly parsley side by side under identical conditions and
+  spacing (15 plants/m², 25x27 cm), removing the "not separated by sources"
+  gap for growth speed/yield specifically. At the same calendar date,
+  flat-leaf's first cut averaged 1.50 kg/m² against 1.10 kg/m² for curly, and
+  flat-leaf needed only 69 days between the first and second cut versus 82
+  days for curly. This is real field-trial evidence, not a planning table,
+  and independently confirms flat-leaf's faster growth and regrowth - unlike
+  the analogous endive leaf-type split, which did not hold up under
+  equivalent scrutiny (see `docs/endive-merge-2026-09-28.md`). Spacing itself
+  was identical in the trial for both types, so that part of "not separated
+  by sources" still stands.
 
 ## Identity And Mapping Note
 - The former Kultur "Petersilie, Blatt" (`Petroselinum crispum`) is split into
@@ -182,6 +195,7 @@
 - Crop family: Apiaceae (all sources).
 
 ## Sources
+- [GRAB 2019 - Persil plat et frisé, essai variétal sous abris (organic field trial)](https://www.grab.fr/wp-content/uploads/2020/02/5-compte-rendu-vari%C3%A9t%C3%A9s-persil-plat-et-fris%C3%A9-abris-GRAB-2019.pdf)
 - [DLR Rheinpfalz - Anbau- und Sortenhinweise Petersilie, Blatt](https://www.bbs-landwirtschaft.de/Internet/global/themen.nsf/0/1ef319fcf05534dbc125876e002d5a6f/$FILE/Petersilie,%20Blatt.pdf)
 - [Hortipendium - Petersilie Erwerbsanbau](https://www.hortipendium.de/Petersilie_Erwerbsanbau)
 - [Hortipendium - Petersilie im Hausgarten](https://www.hortipendium.de/Petersilie_im_Hausgarten)
@@ -191,7 +205,8 @@
 - [Plants of the World Online - Petroselinum crispum var. neapolitanum](https://powo.science.kew.org/taxon/urn:lsid:ipni.org:names:60453819-2) (page not opened)
 
 ## Research Status
-- Researched on: 2026-09-25
+- Researched on: 2026-09-25; leaf-type split re-checked against independent
+  field-trial evidence on 2026-09-29 (see Differences To Krause Petersilie)
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts:
   - Botanical rank: `var. neapolitanum` (commercial sources) versus synonym of
@@ -202,8 +217,14 @@
   - Frost difference to curly: search summary only, unconfirmed.
   - Nutrient demand class: high (from N and K figures) versus possible medium
     in garden lists (not read).
-  - Yield: no flat-leaf-specific yield found; the value is a general leaf
-    parsley level.
+  - Yield: still no flat-leaf-specific *season* yield level (this note's 6
+    kg/m² planning value is still a general leaf-parsley figure). The
+    growth-speed/first-cut-yield gap itself is no longer only a
+    planning-table claim, though: the 2026-09-29 GRAB field trial
+    independently confirms flat-leaf grows and regrows faster than curly
+    under identical conditions (see Differences To Krause Petersilie). This
+    is treated as resolved in favor of keeping the leaf-type split, unlike
+    the analogous endive question.
   - The requested primary sources LfL Bayern, Bio Austria, Agroscope
     (PDF returned 404) and KTBL yielded no readable flat-leaf pages in this
     session; the ReinSaat parsley page returned 404; the LWG Veitshöchheim and
