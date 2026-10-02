@@ -1,10 +1,12 @@
 ## Short Description
-- Flowersprout (brand name `Kalettes`, also called `Flower Sprouts`, `Petit
-  Posy`, `Brukale`) is a modern hybrid vegetable bred from a cross of
+- `Kohlröschen` (also marketed as `Flowersprout`, `Flower Sprout`, `Kalette`/
+  `Kalettes`, `Petit Posy`, `Brukale`; occasionally `Wilder Rosenkohl` or the
+  affectionate `Pettikohl`) is a modern hybrid vegetable bred from a cross of
   Brussels sprouts and kale, both `Brassica oleracea`. The hybrid itself does
   not have a separate botanical variety epithet in the sources checked; it is
   documented and marketed as a named hybrid/brand rather than a classical
-  botanical rank.
+  botanical rank. `Kohlröschen` is used here as the bundesdeutsch canonical
+  name; see `Naming` below.
 - Hybrid origin: bred by Tozer Seeds (UK), with development starting around
   1995 and taking about 15 years to reach a market-ready product; introduced
   to the UK market in 2010 as `Flower Sprouts` and to the US market in 2014
@@ -45,6 +47,29 @@
   method to Brussels sprouts; flavor is said to sweeten with cold exposure,
   consistent with both parent crops.
 - Eaten cooked, typically roasted or sautéed.
+
+## Naming
+- No established German name was found at the time of initial research
+  (2026-09-18); the English brand names (`Flowersprout`, `Kalette`) were used
+  as a placeholder, which does not fit this repository's `Bundesdeutsch
+  kanonisch` naming rule.
+- Follow-up research (2026-10-02) found three German descriptive/common names
+  attested in German-language consumer sources: `Kohlröschen` and
+  `Wilder Rosenkohl` as names used in trade, and the affectionate nickname
+  `Pettikohl` (alluding to the florets' petticoat-like look), all per
+  [yumda.com](https://www.yumda.com/de/lexikon/Kalettes.html). `Kohlröschen`
+  is independently used descriptively by [AOK](https://www.aok.de/pk/magazin/ernaehrung/gesunde-ernaehrung/flower-sprouts-trendgemuese-fuer-den-herbst/)
+  ("krause Kohlröschen mit lilafarbenem Stiel"), which is the stronger,
+  two-source attestation among the three. [Plantura](https://www.plantura.garden/gemuese/flower-sprout/flower-sprout-pflanzenportrait)
+  only uses the purely descriptive, non-proper-noun term `Kohl-Kreuzung` and
+  is not used as a name candidate here.
+- Decision: `Kohlröschen` is adopted as the canonical (bundesdeutsch) crop
+  name, confirmed by the user on 2026-10-02. `Flowersprout`, `Flower Sprout`,
+  `Kalette`, `Kalettes`, `Wilder Rosenkohl`, and `Pettikohl` are kept as
+  structured synonyms rather than the display name, per this repository's
+  naming convention. This supersedes `Flowersprout` as used in the live
+  OpenFarmPlanner instance prior to this decision; renaming the live crop is
+  a separate Phase 2 step requiring explicit confirmation before any write.
 
 ## Notes
 - Why a separate Kultur from Rosenkohl and Grünkohl: flowersprout is not a
@@ -132,9 +157,12 @@
 - Calendar values researched on: 2026-09-21
 - Open mapping questions: OpenFarmPlanner's crop-family/species mapping for a
   named commercial hybrid brand (rather than a classical botanical variety) is
-  unclear; `Kalette`/`Flowersprout` may need to be entered as its own crop
-  species distinct from both `Rosenkohl` and `Grünkohl` species entries. Not
-  resolved here; flagged for the publish/crop-species step.
+  unclear; `Kohlröschen` may need to be entered as its own crop species
+  distinct from both `Rosenkohl` and `Grünkohl` species entries. Not resolved
+  here; flagged for the publish/crop-species step.
+- Naming resolved on: 2026-10-02 (`Kohlröschen` adopted as canonical name; see
+  `Naming`). The live instance still shows `Flowersprout` as of this writing;
+  renaming it is an unperformed Phase 2 step.
 - Yield and spacing values researched on: 2026-09-22
 - Public-readiness: needs review (spacing, sowing depth, nutrient demand and
   thousand kernel weight now source-backed; yield left open because no

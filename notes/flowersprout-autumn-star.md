@@ -1,7 +1,8 @@
 ## Short Description
 - `Autumn Star` is the earliest-maturing variety in the `Kalettes`
-  (flowersprout) series, matched to the general crop note
-  `notes/flowersprout.md`.
+  (`Kohlröschen`, formerly referred to here as flowersprout) series, matched
+  to the general crop note `notes/flowersprout.md`. See that note's `Naming`
+  section for the `Kohlröschen` canonical-name decision (2026-10-02).
 - Distinguishing trait: blue-green florets with lavender veins on a deep
   lavender stalk; earliest of the three named Kalettes varieties
   (`Autumn Star`, `Mistletoe`, `Snowdrop`), which mature in that order through
@@ -110,6 +111,8 @@
   general note (a named hybrid brand rather than a classical botanical
   variety); no sowing-date source was found specifically for `Autumn Star`
   beyond the February-April window, left open rather than guessed.
+- Naming resolved on: 2026-10-02, matching the general note's `Kohlröschen`
+  decision (see `notes/flowersprout.md`, `Naming`).
 - Yield and spacing values researched on: 2026-09-22
 - Public-readiness: needs review (calendar values source-backed or inferred;
   spacing, sowing depth, nutrient demand and thousand kernel weight now
