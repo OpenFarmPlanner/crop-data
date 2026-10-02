@@ -60,6 +60,13 @@ These appear to derive from the linked official crop species
 language and the localized crop-species names needs the OpenFarmPlanner UI
 publish / crop-species step, not the sync token.
 
+The underlying species records (names, synonyms, regional names) *are* now
+writable, just not through this Culture token or this endpoint — see
+[`crop-species-api.md`](crop-species-api.md) for the separate admin token and
+`/crop-species/` endpoint that does that. The Culture-to-species *link*
+itself remains UI-only either way; see
+[`crop-species-linking.md`](crop-species-linking.md).
+
 ## Endpoints Blocked for API Tokens
 
 - `GET /` -> `403` `"This endpoint is not available for API tokens."`

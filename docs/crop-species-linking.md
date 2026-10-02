@@ -4,11 +4,18 @@ Before an OpenFarmPlanner culture can be published, it must be linked to an
 official public crop species ("offizielle Kulturart"). The general data of that
 culture is then published under the species.
 
-The crop-species link **cannot be set through the sync API token** (a PATCH to
-`crop_species` is silently ignored). It has to be chosen in the OpenFarmPlanner
-UI publish dialog. This document is the reference for that manual step: it maps
-each crop identity used in the notes to a recommended official crop species and
-its botanical name.
+The crop-species **link** (which species a Culture points at) still **cannot
+be set through any API token** (a PATCH to `crop_species` is silently
+ignored) — it has to be chosen in the OpenFarmPlanner UI publish dialog. This
+document is the reference for that manual step: it maps each crop identity
+used in the notes to a recommended official crop species and its botanical
+name.
+
+The species records themselves (name, synonyms, regional names, new
+proposals) *can* now be written directly through a separate admin token —
+see [`crop-species-api.md`](crop-species-api.md). That closes the "propose or
+correct a species" half of this workflow; the "point this Culture at that
+species" half below is still manual.
 
 It contains no tokens, project identifiers, or production IDs.
 

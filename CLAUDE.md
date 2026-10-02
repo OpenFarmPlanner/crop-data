@@ -24,6 +24,11 @@ repository.
 - Phase 1: research, source review, and public notes in this repository.
 - Phase 2: optional private sync into an OpenFarmPlanner project using
   `PHASE2_PROMPT.md` or project-specific tooling outside this public repo.
+  This includes an optional, admin-only sub-flow for writing official crop
+  species metadata (synonyms, regional names, proposals) directly — see
+  `docs/crop-species-api.md`. It uses a separate credential from the
+  Culture sync token and is never part of the default Phase 2 flow unless
+  explicitly requested.
 
 Do not write to a live API during Phase 1.
 

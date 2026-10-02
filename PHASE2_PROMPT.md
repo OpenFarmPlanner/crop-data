@@ -10,6 +10,12 @@ IDs, production IDs, or sync reports in this public repository.
 Read approved notes from this repository and write selected values into the
 token-bound OpenFarmPlanner project's private crop library.
 
+This covers private Culture records (`openfarmplanner-api.md`). Writing
+official crop species metadata (synonyms, regional names, new species
+proposals) is a separate, admin-only credential and workflow — see
+`crop-species-api.md` — and is not part of the default Culture sync flow
+below unless explicitly requested.
+
 ## Rules
 
 - Confirm the token-bound project context before writing.
