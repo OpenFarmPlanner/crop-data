@@ -14,7 +14,10 @@ in `sync-private/target-notes.md`.
 
 See [`openfarmplanner-api.md`](openfarmplanner-api.md) for host-neutral API
 mechanics: culture endpoints, which fields a sync token can and cannot write,
-and the recommended sync sequence.
+and the recommended sync sequence. See
+[`crop-species-api.md`](crop-species-api.md) for the separate, admin-only
+token that can write official crop species, synonyms, and regional names —
+a different credential from the Culture sync token above.
 
 ## What To Commit
 
