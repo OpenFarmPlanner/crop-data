@@ -22,7 +22,9 @@ edits species metadata; it does not decide taxonomy on its own authority.
 
 - Never invent a synonym, regional name, or new species that is not already
   documented and approved in this repository's public notes
-  (`notes/*.md`, `docs/crop-species-linking.md`). If the live library is
+  (`notes/*.md`, `docs/crop-species-linking.md`, and for French and Spanish
+  translations `docs/crop-species-names-fr-es.md`). Write only rows of that
+  translation list that carry no open flag. If the live library is
   missing something the notes already establish, sync it. If the notes
   themselves are unclear or incomplete, stop and research/document that
   first — do not fill the gap by guessing through the API.
@@ -61,8 +63,11 @@ edits species metadata; it does not decide taxonomy on its own authority.
 3. `GET /crop-species/?q=<name>` to find the current live record, if any.
 4. Compare the live record's `translations` (`common_name`, `synonyms`,
    `regional_names`) against the note. Build a minimal PATCH (existing
-   species) or POST (missing species) with only the fields that need to
-   change.
+   species) or POST (missing species) with only the languages that need to
+   change. For each language you send, include its complete `synonyms` and
+   `regional_names` lists: they replace the stored lists, so a partial list
+   deletes the aliases you left out. Save the pre-PATCH record to
+   `sync-private/` before writing.
 5. PATCH/POST, then `GET` the record back and diff every field you intended
    to change.
 6. Write a short result log to `sync-private/` (never to git): what changed,
