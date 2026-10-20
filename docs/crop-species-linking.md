@@ -71,6 +71,13 @@ It contains no tokens, project identifiers, or production IDs.
 | Zucchini | Zucchini / Courgette | *Cucurbita pepo* subsp. *pepo* | Summer-squash form of *C. pepo*; distinct calendar from winter squash. |
 | Zuckererbse | Zuckererbse / Sugar & snow pea | *Pisum sativum* var. *saccharatum* | Edible-pod pea; see `notes/sugar-pea.md`. |
 
+## Green manure and cut flowers
+
+| Crop identity | Recommended species (de / en) | Botanical name | Notes |
+|---|---|---|---|
+| Gelbsenf | Gelbsenf / White mustard | *Sinapis alba* | The live species is named `Senf` without a botanical name. `Senf` is an umbrella over *Sinapis alba*, *Brassica juncea* and *B. nigra*; the record sits among the library's green manures, so it was fixed on 2026-10-20 as Gelbsenf (*Sinapis alba*). Proposed rename: de `Gelbsenf` with `Senf` as a synonym (also on `Blattsenf`, *B. juncea*), en `White mustard`. Seed mustard of other species would be a separate species. |
+| Bischofskraut | Bischofskraut / Ammi | *Ammi majus* | The live species has no botanical name, and the German name is used for both *Ammi majus* and *A. visnaga*. Fixed on 2026-10-20 as *Ammi majus*, the cut-flower species, because the record sits among the library's cut flowers. *A. visnaga* (Khella) would be a separate species if needed. |
+
 ## Already linked
 
 These general crops already have an official crop species and need no action:
