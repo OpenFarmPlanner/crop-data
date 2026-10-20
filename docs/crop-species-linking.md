@@ -75,8 +75,8 @@ It contains no tokens, project identifiers, or production IDs.
 
 | Crop identity | Recommended species (de / en) | Botanical name | Notes |
 |---|---|---|---|
-| Gelbsenf | Gelbsenf / White mustard | *Sinapis alba* | The live species is named `Senf` without a botanical name. `Senf` is an umbrella over *Sinapis alba*, *Brassica juncea* and *B. nigra*; the record sits among the library's green manures, so it was fixed on 2026-10-20 as Gelbsenf (*Sinapis alba*). Proposed rename: de `Gelbsenf` with `Senf` as a synonym (also on `Blattsenf`, *B. juncea*), en `White mustard`. Seed mustard of other species would be a separate species. |
-| Bischofskraut | Bischofskraut / Ammi | *Ammi majus* | The live species has no botanical name, and the German name is used for both *Ammi majus* and *A. visnaga*. Fixed on 2026-10-20 as *Ammi majus*, the cut-flower species, because the record sits among the library's cut flowers. *A. visnaga* (Khella) would be a separate species if needed. |
+| Gelbsenf | Gelbsenf / White mustard | *Sinapis alba* | Renamed from `Senf` on 2026-10-20 (no crop was linked). `Senf` is an umbrella over *Sinapis alba*, *Brassica juncea* and *B. nigra*; the record sits among the library's green manures, so it was fixed as Gelbsenf. `Senf` is now a de synonym here and on `Blattsenf` (*B. juncea*); en changed from `Mustard` to `White mustard`. Seed mustard of other species would be a separate species. |
+| Bischofskraut | Bischofskraut / Ammi | *Ammi majus* | The German name is used for both *Ammi majus* and *A. visnaga*. Fixed on 2026-10-20 as *Ammi majus*, the cut-flower species, because the record sits among the library's cut flowers; the botanical name is set on the live species. *A. visnaga* (Khella) would be a separate species if needed. |
 
 ## Already linked
 
