@@ -38,12 +38,13 @@ It contains no tokens, project identifiers, or production IDs.
 | Radieschen | Radieschen / Radish | *Raphanus sativus* var. *sativus* | Same species as Rettich but a distinct crop calendar (~30 d); keep separate. |
 | Rettich | Rettich / Daikon & winter radish | *Raphanus sativus* var. *longipinnatus* (daikon), var. *niger* (black) | Same species as Radieschen; longer calendar (~50-70 d). |
 | Winterkresse | Winterkresse / Land cress | *Barbarea verna* | Sometimes sold as *Barbarea vulgaris*; confirm against the seed source before linking. |
+| Kohlröschen | Kohlröschen / (no canonical English name decided yet) | *Brassica oleracea* (hybrid; no separate varietal epithet found) | Bred hybrid of Brussels sprouts and kale; kept as its own species, distinct from both `Rosenkohl` and `Grünkohl`, confirmed by the user on 2026-10-02. No existing live species found under this or related names (`Kalette`, `Pettikohl`, `Wilder Rosenkohl`); new species proposal pending moderator approval. See `notes/flowersprout.md`. |
 
 ## Chicory / lettuce (Asteraceae)
 
 | Crop identity | Recommended species (de / en) | Botanical name | Notes |
 |---|---|---|---|
-| Salat | Salat / Lettuce | *Lactuca sativa* | Head, cut, and romaine types share one species and calendar frame. |
+| Kopfsalat | Kopfsalat / Butterhead lettuce | *Lactuca sativa* var. *capitata* | Removed the former "Salat" entry (2026-10-02): too general a crop identity, mixing head, cut, and romaine types with different calendar logic under one species, and the live library already carries `Eisbergsalat`/`Iceberg lettuce` and `Römersalat`/`Romaine lettuce` as separate species (confirmed by a 2026-10-02 `q=Salat`/`q=Kopfsalat` search), so a shared generic species contradicts the "narrowest reusable crop identity" rule. `Kopfsalat` here means the butterhead type specifically, matching that existing split. See `notes/head-lettuce.md`; note that note's own "Short Description" still describes head lettuce as covering butterhead, iceberg, and batavia together and has not yet been split to match — flagged as an open point, not resolved here. |
 | Radicchio | Radicchio / Red chicory | *Cichorium intybus* var. *foliosum* | Heading red chicory. See `notes/radicchio.md`. |
 | Puntarelle | Puntarelle / Catalogna chicory | *Cichorium intybus* var. *foliosum* | Same botanical variety as Radicchio, but the harvest form (flower shoots) and calendar differ enough to justify a separate official species rather than one shared "leaf chicory". Flag for the OpenFarmPlanner maintainers. See `notes/puntarelle.md`. |
 | Strohblume | Strohblume / Strawflower | *Xerochrysum bracteatum* (syn. *Helichrysum bracteatum*) | Ornamental cut flower; yield stays open. See `notes/strawflower.md`. |
@@ -60,6 +61,8 @@ It contains no tokens, project identifiers, or production IDs.
 |---|---|---|---|
 | Stangensellerie | Stangensellerie / Celery | *Apium graveolens* var. *dulce* | Distinct from celeriac (var. *rapaceum*). |
 | Koriander | Koriander / Coriander | *Coriandrum sativum* | Linked here as the leaf crop; the seed-spice use shares the species. See `notes/coriander.md`. |
+| Krause Petersilie | Krause Petersilie / Curly parsley | *Petroselinum crispum* var. *crispum* | Already an official, published species. Kept separate from Glatte Petersilie; see the 2026-10-02 decision below. |
+| Glatte Petersilie | Glatte Petersilie / Flat-leaf parsley | *Petroselinum crispum* var. *neapolitanum* | Separate official species from Krause Petersilie, not a shared "Petersilie" species. This reverses the shared-species plan in `../docs/parsley-split-migration.md`'s "Synonym Handling" section; split confirmed by the user on 2026-10-02 after the live library turned out to already carry Krause Petersilie as its own species. See `notes/flat-leaf-parsley.md`. |
 
 ## Other families
 
