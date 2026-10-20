@@ -98,9 +98,29 @@ they also feed exact-identity checks (duplicate detection when proposing a
 species, and the "is this name known" lookup), so they are not search-only. The
 official library already has the species `Petersilie` (English "Parsley") and a
 separate species `Wurzelpetersilie` (English "Parsley root"), so `Wurzelpetersilie`
-already has an official counterpart. Both leaf Kulturen would link to the single
-leaf species `Petersilie`. Synonyms cannot be set with a sync token and need the
-UI.
+already has an official counterpart. Synonyms cannot be set with a sync token and
+need the UI, except for the admin crop-species-library token described in
+`crop-species-api.md`.
+
+**Update (2026-10-02):** the original plan below ("both leaf Kulturen would
+link to the single leaf species `Petersilie`") is superseded. A 2026-10-02
+species-library sync found that the live library already carries `Krause
+Petersilie` / `Curly parsley` as its own published, moderator-reviewed species,
+separate from the generic `Petersilie`. The user confirmed
+on 2026-10-02 that Glatte and Krause Petersilie should be kept as two separate
+official species rather than sharing `Petersilie`. See
+`docs/crop-species-linking.md`'s Apiaceae table for the current recommendation.
+~~Both leaf Kulturen would link to the single leaf species `Petersilie`.~~
+
+**Swiss German check (2026-10-02):** [yumda.com](https://www.yumda.com/de/lexikon/Petersilie.html)
+documents `Peterli` as a Swiss trivial name for parsley (attested for
+Graubünden, Bern, Zürich, St. Gallen), alongside `Peterle`, `Peterling`,
+`Petergrün`. The term is type-neutral (does not distinguish glatt/kraus), so
+by the same reasoning that keeps bare `Petersilie`/`Parsley` off the two
+leaf-type species, `Peterli` is recorded as a Swiss regional name
+(`regional_names.switzerland`) only on the generic `Petersilie` species,
+not on `Glatte Petersilie` or `Krause Petersilie`. No Austria-specific
+term was found or added.
 
 ## Recommended Phase 2 Handling
 

@@ -71,6 +71,18 @@ API prefix is identical — only the path segment and the bearer token differ).
 - Sending a `translations` entry **upserts** that language only — languages
   you omit stay untouched. There is no way to delete a translation through
   this API; that stays a moderator UI action.
+- Within a language you do send, `synonyms` and `regional_names` are
+  **replaced**, not merged: an omitted field is cleared. Always `GET` the
+  species first and send the complete lists for that language, or existing
+  aliases are lost.
+- An entry without `common_name` is skipped silently, so a synonyms-only
+  update must still repeat the current `common_name`. Read the record back
+  after every write.
+- Supported `language_code` values are `de`, `en`, `fr` and `es` (the
+  planner's `SUPPORTED_LANGUAGE_CODES`). `de` is the canonical language; add
+  other languages as separate entries. For `fr` and `es`, send only
+  `common_name` and `synonyms`; `regional_names` stays empty because its keys
+  are limited to `austria` and `switzerland`.
 - Before deciding synonym vs. regional name vs. "this needs a new species",
   follow the planner repo's
   [`docs/crop-taxonomy-guidelines.md`](https://github.com/OpenFarmPlanner/planner/blob/main/docs/crop-taxonomy-guidelines.md)

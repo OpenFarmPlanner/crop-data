@@ -70,6 +70,27 @@
   naming convention. This supersedes `Flowersprout` as used in the live
   OpenFarmPlanner instance prior to this decision; renaming the live crop is
   a separate Phase 2 step requiring explicit confirmation before any write.
+- English canonical name (decided 2026-10-02): `Kalettes`. [FreshPlaza -
+  Europe says hello to Kalettes](https://www.freshplaza.com/north-america/article/2153495/europe-says-hello-to-kalettes-r/)
+  quotes Tozer Seeds' Marketing and Sales Manager Robin Bartels: "We have
+  decided to go for one name and brand image worldwide which will be
+  Kalettes®", i.e. the breeder itself standardized the English/international
+  brand name away from the earlier UK-only `Flower Sprout`. Independently
+  corroborated by a second, earlier source: [Fruitnet - Flower Sprouts
+  renamed for US](https://fruitnet.com/fresh-produce-journal/flower-sprouts-renamed-for-us/162640.article)
+  (2014) quotes the US marketer: "We are introducing them as Kalettes in the
+  United States to best reach our own kale-loving population" - confirming
+  the 2014 split was regional (UK `Flower Sprouts`, US `Kalettes`), which the
+  2016 FreshPlaza announcement then resolved by adopting `Kalettes`
+  worldwide with a transition period. The two sources are consistent in
+  timeline, not contradictory. `Flower Sprout`, `Flowersprout` and `Kalette`
+  are kept as English synonyms (prior/regional brand forms), not the display
+  name.
+- Swiss German check (2026-10-02): no distinct Swiss name was found.
+  [FreshPlaza - Kalettes thriving in the Seeland area](https://www.freshplaza.com/europe/article/9037310/kalettes-thriving-particularly-well-in-the-seeland-area/)
+  and [yumda.com](https://www.yumda.com/de/lexikon/Kalettes.html) both use
+  `Kohlröschen`/`Kalettes` for the Swiss market without a separate regional
+  term. No `regional_names.switzerland` entry written for this reason.
 
 ## Notes
 - Why a separate Kultur from Rosenkohl and Grünkohl: flowersprout is not a
@@ -139,6 +160,9 @@
   repository's read-the-source rule.
 
 ## Sources
+- [FreshPlaza - Europe says hello to Kalettes](https://www.freshplaza.com/north-america/article/2153495/europe-says-hello-to-kalettes-r/) (2026-10-02 research: Tozer Seeds' worldwide brand-name decision)
+- [FreshPlaza - Kalettes thriving particularly well in the Seeland area](https://www.freshplaza.com/europe/article/9037310/kalettes-thriving-particularly-well-in-the-seeland-area/) (2026-10-02 research: Swiss market, no distinct regional name)
+- [yumda.com - Kalettes](https://www.yumda.com/de/lexikon/Kalettes.html) (2026-10-02 research: name list, no Swiss-specific term)
 - [Wikipedia - Kalette](https://en.wikipedia.org/wiki/Kalette)
 - [Tasting Table - Kalettes Are The Kale And Brussels Sprouts Mashup You Need To Try](https://www.tastingtable.com/1507382/kalettes-kale-brussels-sprouts-explained/)
 - [Harris Seeds - Kalette Autumn Star F1](https://www.harrisseeds.com/products/12769-kalette-autumn-star-f1)
@@ -156,10 +180,18 @@
   Derivations`).
 - Calendar values researched on: 2026-09-21
 - Open mapping questions: OpenFarmPlanner's crop-family/species mapping for a
-  named commercial hybrid brand (rather than a classical botanical variety) is
+  named commercial hybrid brand (rather than a classical botanical variety) was
   unclear; `Kohlröschen` may need to be entered as its own crop species
-  distinct from both `Rosenkohl` and `Grünkohl` species entries. Not resolved
-  here; flagged for the publish/crop-species step.
+  distinct from both `Rosenkohl` and `Grünkohl` species entries. Resolved on
+  2026-10-02: the user confirmed `Kohlröschen` should be proposed as its own
+  new official crop species, not merged into either parent. A 2026-10-02
+  duplicate check (`q=Kalette`, `q=Pettikohl`, `q=Wilder Rosenkohl`,
+  `q=Rosenkohl`, `q=Grünkohl`) found no existing species using these synonyms;
+  the closest typo-tolerant matches were the unrelated species `Grünkohl`,
+  `Chinakohl`, `Rosenkohl` and `Bärlauch`. No canonical English display name
+  was decided (the English brand names remain synonyms only), so the initial
+  species proposal carries only the German translation; an English
+  translation is an open follow-up once a canonical English name is chosen.
 - Naming resolved on: 2026-10-02 (`Kohlröschen` adopted as canonical name; see
   `Naming`). The live instance still shows `Flowersprout` as of this writing;
   renaming it is an unperformed Phase 2 step.

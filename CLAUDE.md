@@ -82,6 +82,45 @@ and the intended harvest logic. Document the discarded broad category and the
 reason it was not used when the source could otherwise be misread as the crop
 name.
 
+## Crop Species Names In Other Languages
+
+When researching names of official crop species for a language other than
+German (for example `fr` or `es`), keep the identity of the German record and
+apply the planner's
+[crop taxonomy guidelines](https://github.com/OpenFarmPlanner/planner/blob/main/docs/crop-taxonomy-guidelines.md)
+to that language:
+
+- Keep the specificity of the German name. Never map a specific species to an
+  umbrella term (`Buschbohne` is `Haricot nain` / `Judía enana`, not `Haricot`
+  / `Judía`).
+- The common name is the usual name in the reference country (France for
+  `fr`, Spain for `es`). Variants from other countries (Belgium, Switzerland,
+  Canada, Latin America) are synonyms only.
+- Do not set `regional_names` for these languages; the only keys are
+  `austria` and `switzerland`.
+- A term that names different crops in different countries, or different crops
+  within the reference country, is a synonym on every species it can mean and
+  never a common name (the "Peperoni" rule).
+- Do not add bare umbrella words (`Pois`, `Haricot`, `Col`, `Chou`) as
+  synonyms; they would match many species.
+- If the German record itself is broad or unclear, translate it with the same
+  breadth and document the open identity question instead of narrowing it.
+
+Source order for names:
+
+1. Official multilingual references by scientific name, such as
+   [UPOV GENIE](https://www.upov.int/genie/en/) and CPVO technical protocols.
+2. Seed catalogues and agricultural statistics from the reference country.
+3. Dictionaries, counted only when the definition names the crop meant.
+
+Wikipedia and Wikidata are cross-checks only, never the sole source. Spot-check
+automatic text matches against catalogues; a name inside an unrelated product
+(for example `tomate cerise` for cherries) is not evidence.
+
+The reviewed result lives in
+[`docs/crop-species-names-fr-es.md`](docs/crop-species-names-fr-es.md). Rows
+with an open flag are not written in Phase 2 until the flag is resolved.
+
 ## Compare Varieties Explicitly
 
 General crop data and variety data must never be silently treated as the same,

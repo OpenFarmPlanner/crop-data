@@ -1,7 +1,9 @@
 ## Short Description
-- Head lettuce (`Kopfsalat`) is `Lactuca sativa var. capitata`, grown for a
-  firm head. It covers several head types (e.g. butterhead, iceberg,
-  batavia) that share cultivation logic but differ in growth speed.
+- `Kopfsalat` (Kultur name; English name Butterhead lettuce) is `Lactuca
+  sativa var. capitata`, grown for a firm head. This note covers the
+  butterhead type specifically; `Eisbergsalat` (iceberg) and `Römersalat`
+  (romaine) are separate Kulturen/official crop species and need their own
+  general crop notes (see "Identity And Mapping Note").
 - Moderate nutrient demand; needs a sunny site and well-drained, humus-rich
   soil to head up reliably.
 - Growth duration: 50 days from transplanting to harvest as a general
@@ -39,6 +41,35 @@
   germination).
 - Seeds are covered only lightly, 0-0.5 cm, and germinate in about 6-15 days
   at 10-16 °C soil temperature.
+
+## Identity And Mapping Note
+- Scope narrowed (2026-10-02): this note previously described "head lettuce"
+  as covering butterhead, iceberg, and batavia types together under one
+  Kultur. That framing is reversed here because the official crop-species
+  library already carries `Eisbergsalat`/`Iceberg lettuce` and
+  `Römersalat`/`Romaine lettuce` as separate, published species,
+  distinct from a (newly proposed) `Kopfsalat`/`Butterhead lettuce` species;
+  treating all three as one Kultur would contradict this
+  repository's "narrowest reusable crop identity" rule once the library
+  split is accounted for. See `docs/crop-species-linking.md`'s Chicory/
+  lettuce table for the current recommendation.
+- Most of this note's sourced planning values were already butterhead-
+  specific before this rescoping: [Hortipendium - Kopfsalat
+  Erwerbsanbau](https://www.hortipendium.de/Kopfsalat_Erwerbsanbau) and
+  [Plantura - Kopfsalat](https://www.plantura.garden/gemuese/salat/kopfsalat)
+  are both Kopfsalat/butterhead pages by name, so no re-derivation was
+  needed for growth duration, propagation, or yield.
+- One value is not type-specific and is flagged as a known limitation: the
+  harvest-window source [Land schafft Leben - Salat: Ernte und
+  Verkauf](https://www.landschafftleben.at/lebensmittel/salat/herstellung/ernte-und-verkauf)
+  discusses "Salat"/lettuce in general, not butterhead specifically; the
+  7-day planning value derived from it is kept as a cross-type estimate, not
+  re-verified as butterhead-specific in this pass.
+- Open gap, not resolved here: `Eisbergsalat` and `Römersalat` do not yet
+  have their own general crop notes in this repository, even though they are
+  already separate official crop species live. Per "Always Carry General
+  Crop Data", each needs its own researched general crop note before any
+  variety-level or Phase 2 work for those two Kulturen.
 
 ## Planning Value Derivations
 - Definitions: growth duration counts from transplanting to harvest;
@@ -130,8 +161,11 @@
 - Open mapping questions: whether the harvest window should be split by season type (summer about 4 days vs spring/autumn about 7-10); thousand kernel weight is left open;
   growth duration, harvest window and propagation duration are inferred
   seasonal averages; yield (4.0 kg/m²) is derived from density and target
-  head weight, not a direct source figure. Whether OpenFarmPlanner should
-  eventually split head lettuce by head type (butterhead/iceberg/batavia) as
-  separate Kultur entries is an open question, not decided here.
+  head weight, not a direct source figure. Splitting head lettuce by head
+  type is resolved (2026-10-02): `Eisbergsalat` and `Römersalat` are separate
+  Kulturen/species, this note covers butterhead (`Kopfsalat`) only; see
+  "Identity And Mapping Note". Remaining gap: `Eisbergsalat` and `Römersalat`
+  still need their own general crop notes researched from scratch, not
+  derived from this one.
 - Public-readiness: needs review; calendar values are inferred; yield is a
   derived planning value.
