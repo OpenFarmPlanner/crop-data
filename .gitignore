@@ -12,3 +12,7 @@ private/
 .DS_Store
 *.swp
 *.swo
+
+# Local agent settings and caches
+.claude/settings.local.json
+__pycache__/
