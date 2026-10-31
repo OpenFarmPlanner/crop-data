@@ -47,9 +47,6 @@
 - Researched on: 2026-09-04
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: none.
-- Synced 2026-09-04 to the live `Zwiebelzopf` project on `openfarmplanner.org`:
-  `thousand_kernel_weight_g` set to 0.6 (was empty). Other fields were already
-  present.
 - Open mapping questions: yield and harvest method are intentionally left open
   for this ornamental crop.
 - Public-readiness: seed weight added; yield deliberately open.

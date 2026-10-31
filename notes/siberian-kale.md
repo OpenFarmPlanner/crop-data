@@ -99,12 +99,6 @@
 - Open source conflicts: growth duration varies strongly by harvest form
   (baby leaf vs developed leaf vs overwintered); this is a harvest-logic
   spread, not a botanical conflict.
-- Synced on 2026-09-04 to the live `Zwiebelzopf` project on `openfarmplanner.org`
-  (records for the general crop and for `Winter Red`): `name` changed from
-  `Grünkohl/Schnittkohl` to `Schnittkohl`, growth duration set to 55 days,
-  German cultivation notes updated. A curly-kale (`Brassica oleracea`) variety
-  is not planned under this crop; if added later it needs its own `Grünkohl`
-  crop entry.
 - Open mapping questions:
   - The `crop_display_language_code` (`de`) and the German/English
     `crop_species_translations` could not be written through the sync token;
@@ -112,5 +106,5 @@
     set. Needs the OpenFarmPlanner publish/crop-species step in the UI.
   - Yield (1.5 kg/m²) is species-transferred from curly kale and should be
     replaced when a Siberian-kale-specific source is found.
-- Public-readiness: identity and calendar values researched and synced; yield
+- Public-readiness: identity and calendar values researched; yield
   and the crop-species link still need review.

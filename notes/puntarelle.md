@@ -55,10 +55,6 @@
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: "leaf cut" vs "shoot harvest" timing differ by design;
   the general value is the shoot harvest.
-- Synced 2026-09-04 to the live `Zwiebelzopf` project on `openfarmplanner.org`:
-  `growth_duration_days` set to 70 and `harvest_duration_days` set to 30 (both
-  were empty; growth duration blocked publishing).
-  `thousand_kernel_weight_g` set to 1.4.
 - Open mapping questions: yield and harvest method are open; no crop-species
   link or display language is set.
-- Public-readiness: calendar values and seed weight set and synced; yield open.
+- Public-readiness: calendar values and seed weight set; yield open.

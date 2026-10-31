@@ -48,8 +48,6 @@
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: none; the 50-150 day span is a type spread, not a
   conflict. The general value is deliberately set for the storage type.
-- Synced 2026-09-04 to the live `Zwiebelzopf` project on `openfarmplanner.org`:
-  `growth_duration_days` set to 120 (was empty; blocked publishing).
 - Open mapping questions: if an early white-cabbage variety is added, its
   growth duration must be researched separately, not inherited from this value.
-- Public-readiness: growth duration set for the storage type and synced.
+- Public-readiness: growth duration set for the storage type.

@@ -47,10 +47,7 @@
 - Researched on: 2026-09-04
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: none of substance; timing varies with heat.
-- Synced 2026-09-04 to the live `Zwiebelzopf` project on `openfarmplanner.org`:
-  `growth_duration_days` set to 30 and `harvest_duration_days` set to 60 (both
-  were empty; growth duration blocked publishing).
 - Open mapping questions: leaf yield and harvest method are unresolved; the
   `crop_display_language_code` and crop-species link are not set and cannot be
   set through the sync token.
-- Public-readiness: calendar values inferred and synced; yield open.
+- Public-readiness: calendar values inferred; yield open.

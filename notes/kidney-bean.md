@@ -53,9 +53,6 @@
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: garden sources give broad ranges (8 weeks green to
   4 months dry); no direct conflict.
-- Synced 2026-09-04 to the live `Zwiebelzopf` project on `openfarmplanner.org`:
-  `growth_duration_days` set to 100 (was empty; blocked publishing).
-  `thousand_kernel_weight_g` set to 470.
 - Open mapping questions: a firmer dry-seed yield value still needs a source.
-- Public-readiness: growth duration and seed weight set and synced; yield needs
+- Public-readiness: growth duration and seed weight set; yield needs
   review.
