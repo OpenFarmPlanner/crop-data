@@ -91,8 +91,8 @@ file.
 | --- | --- | --- |
 | Research or edit a general crop or variety note (Phase 1) | [`docs/rules/crop-research.md`](docs/rules/crop-research.md), [`templates/crop-note.md`](templates/crop-note.md) | `research-crop-note` |
 | Name, translate, or import official crop species | [`docs/rules/crop-species-naming.md`](docs/rules/crop-species-naming.md) | `import-crop-species-list` (crop lists), `grin-species-batch` (GRIN) |
-| Sync approved notes into a project's Cultures (Phase 2) | [`PHASE2_PROMPT.md`](PHASE2_PROMPT.md), [`docs/private-sync.md`](docs/private-sync.md), [`docs/culture-field-mapping.md`](docs/culture-field-mapping.md) | |
-| Write official crop species metadata (Phase 2, admin only) | [`PHASE2_SPECIES_PROMPT.md`](PHASE2_SPECIES_PROMPT.md), [`docs/crop-species-api.md`](docs/crop-species-api.md), [`docs/rules/crop-species-naming.md`](docs/rules/crop-species-naming.md) | |
+| Sync approved notes into a project's Cultures (Phase 2) | [`PHASE2_PROMPT.md`](PHASE2_PROMPT.md), [`docs/private-sync.md`](docs/private-sync.md), [`docs/culture-field-mapping.md`](docs/culture-field-mapping.md) | `phase2-culture-sync` |
+| Write official crop species metadata (Phase 2, admin only) | [`PHASE2_SPECIES_PROMPT.md`](PHASE2_SPECIES_PROMPT.md), [`docs/crop-species-api.md`](docs/crop-species-api.md), [`docs/rules/crop-species-naming.md`](docs/rules/crop-species-naming.md) | `phase2-species-sync` |
 
 ## Commits
 

@@ -72,15 +72,8 @@
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: none; the day span is a type spread. Early types are
   much faster than the general value.
-- Synced 2026-09-04 to the live `Zwiebelzopf` project on `openfarmplanner.org`:
-  `growth_duration_days` set to 85 and `harvest_duration_days` set to 30 (both
-  were empty; growth duration blocked publishing).
-  `thousand_kernel_weight_g` set to 1.4.
-- Synced 2026-09-22: `expected_yield` set to 3.5 and `harvest_method` set to
-  `per_sqm` (both were empty). Nutrient demand already matched (`medium`) and
-  was left unchanged.
 - Open mapping questions: no crop-species link or display language is set.
   Yield (3.5 kg/m²) is a derived value from density and target head weight,
   not a direct source figure.
-- Public-readiness: calendar values inferred and seed weight set and synced;
+- Public-readiness: calendar values inferred and seed weight set;
   yield is now a derived planning value with a documented basis.

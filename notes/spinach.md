@@ -62,11 +62,7 @@
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: "full plant" vs "leaf harvest" timing differ; the
   planning value is set for leaf harvest.
-- Synced 2026-09-04 to the live `Zwiebelzopf` project on `openfarmplanner.org`:
-  `growth_duration_days` set to 50 and `harvest_duration_days` set to 21 (both
-  were empty; growth duration blocked publishing).
-  `thousand_kernel_weight_g` set to 12.
 - Open mapping questions: overwintering spinach has a very different effective
   duration; the seed weight is a type value, not variety-measured.
-- Public-readiness: calendar values inferred and synced; seed weight set from a
+- Public-readiness: calendar values inferred; seed weight set from a
   seed-count chart.

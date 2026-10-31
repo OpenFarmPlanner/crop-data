@@ -48,9 +48,6 @@
 - Researched on: 2026-09-04
 - General crop note exists: not applicable (this is the general crop note)
 - Open source conflicts: none; the wide day range is a type spread.
-- Synced 2026-09-04 to the live `Zwiebelzopf` project on `openfarmplanner.org`:
-  `growth_duration_days` set to 95 (was empty; blocked publishing).
 - Open mapping questions: early summer savoy, if added, needs its own growth
   duration.
-- Public-readiness: growth duration inferred for the autumn/winter type and
-  synced.
+- Public-readiness: growth duration inferred for the autumn/winter type.

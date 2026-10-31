@@ -75,21 +75,14 @@
   created because only the variety `Lorenzo` existed)
 - Open source conflicts: from-planting vs from-sowing durations differ by the
   pre-cultivation phase; no conflict once that is separated.
-- Synced 2026-09-04 to the live `Zwiebelzopf` project on `openfarmplanner.org`:
-  general `Knollenfenchel` culture created (was missing) with growth duration
-  70, harvest window 14, propagation 42, spacing 0.40 x 0.30 m, sowing depth
-  0.01 m, yield 3.0 kg/m², crop family Apiaceae, nutrient demand medium.
 - Open mapping questions: none remaining for thousand kernel weight; it is
   now a cross-variety planning value rather than an individually-sourced
   general figure (documented above).
-- Synced 2026-09-22 to the live `Zwiebelzopf` project on `openfarmplanner.org`:
-  `thousand_kernel_weight_g` set to 4.4 (was empty). All other fields already
-  matched and were left unchanged.
 - Yield and spacing values researched on: 2026-09-22 (yield 3.0 kg/m²,
   spacing 0.40 x 0.30 m and nutrient demand `medium` re-checked; no better
   source found to change them; thousand kernel weight added, see above; no
   official German national-average yield figure for fennel was found in the
   Statistisches Bundesamt vegetable table used for several other crops in
   this research pass).
-- Public-readiness: general crop created and synced; seed weight now
+- Public-readiness: general crop created; seed weight now
   source-backed.

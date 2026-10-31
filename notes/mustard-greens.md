@@ -82,10 +82,7 @@
 - Open source conflicts: no conflict on `Green in Snow` belonging to
   `Brassica juncea`; broad category sources remain mixed and should not define
   the crop identity.
-- Synced 2026-09-04 to the live `Zwiebelzopf` project on `openfarmplanner.org`:
-  `growth_duration_days` set to 50 and `harvest_duration_days` set to 90 (both
-  were empty; growth duration blocked publishing).
 - Open mapping questions: the stored growth duration and harvest window are
   inferred; spacing and yield still need more mustard-greens-specific sources.
-- Public-readiness: identity mapped; calendar values inferred and synced,
+- Public-readiness: identity mapped; calendar values inferred,
   spacing and yield need review.

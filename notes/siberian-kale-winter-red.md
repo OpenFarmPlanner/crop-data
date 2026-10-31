@@ -97,13 +97,8 @@
 - General crop note exists: yes (`siberian-kale.md`)
 - Open source conflicts: none botanical. Growth duration depends on harvest
   form; the developed-leaf planning value is inferred.
-- Synced on 2026-09-04 to the live `Zwiebelzopf` project on `openfarmplanner.org`:
-  `name` changed from `Grünkohl/Schnittkohl` to `Schnittkohl`, growth duration
-  changed from 75 to 55 days, German cultivation notes updated. Spacing
-  (50 x 10 cm), sowing depth (1 cm), harvest window (120 days), yield
-  (1.5 kg/m²) and seed requirement were already correct and left unchanged.
 - Open mapping questions: `crop_display_language_code` and
   `crop_species_translations` could not be set through the sync token; needs
   the crop-species / publish step in the OpenFarmPlanner UI.
-- Public-readiness: identity and calendar values researched and synced; yield
+- Public-readiness: identity and calendar values researched; yield
   still species-transferred.
