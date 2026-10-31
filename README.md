@@ -16,7 +16,8 @@ live sync logs, and no environment-specific production history belong here.
 - `docs/rules/` - task-specific rules: `crop-research.md` for crop and variety
   notes, `crop-species-naming.md` for official crop species names.
 - `.claude/skills/` - agent workflows: `research-crop-note`,
-  `import-crop-species-list`, `grin-species-batch`.
+  `import-crop-species-list`, `grin-species-batch`, `phase2-culture-sync`,
+  `phase2-species-sync`.
 - `notes/` - public crop research notes in English.
 - `examples/` - completed example notes that demonstrate the expected style.
 - `docs/culture-field-mapping.md` - mapping between note concepts and
