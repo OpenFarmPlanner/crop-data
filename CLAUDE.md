@@ -82,151 +82,17 @@ and the intended harvest logic. Document the discarded broad category and the
 reason it was not used when the source could otherwise be misread as the crop
 name.
 
-## Crop Species Names In Other Languages
+## Task Guides
 
-When researching names of official crop species for a language other than
-German (for example `fr` or `es`), keep the identity of the German record and
-apply the planner's
-[crop taxonomy guidelines](https://github.com/OpenFarmPlanner/planner/blob/main/docs/crop-taxonomy-guidelines.md)
-to that language:
+Read only the guide for the task at hand. Each guide adds rules on top of this
+file.
 
-- Keep the specificity of the German name. Never map a specific species to an
-  umbrella term (`Buschbohne` is `Haricot nain` / `Judía enana`, not `Haricot`
-  / `Judía`).
-- The common name is the usual name in the reference country (France for
-  `fr`, Spain for `es`). Variants from other countries (Belgium, Switzerland,
-  Canada, Latin America) are synonyms only.
-- Do not set `regional_names` for these languages; the only keys are
-  `austria` and `switzerland`.
-- A term that names different crops in different countries, or different crops
-  within the reference country, is a synonym on every species it can mean and
-  never a common name (the "Peperoni" rule).
-- Do not add bare umbrella words (`Pois`, `Haricot`, `Col`, `Chou`) as
-  synonyms; they would match many species.
-- If the German record itself is broad or unclear, translate it with the same
-  breadth and document the open identity question instead of narrowing it.
-
-Source order for names:
-
-1. Official multilingual references by scientific name, such as
-   [UPOV GENIE](https://www.upov.int/genie/en/) and CPVO technical protocols.
-2. Seed catalogues and agricultural statistics from the reference country.
-3. Dictionaries, counted only when the definition names the crop meant.
-
-Wikipedia and Wikidata are cross-checks only, never the sole source. Spot-check
-automatic text matches against catalogues; a name inside an unrelated product
-(for example `tomate cerise` for cherries) is not evidence.
-
-The reviewed result lives in
-[`docs/crop-species-names-fr-es.md`](docs/crop-species-names-fr-es.md). Rows
-with an open flag are not written in Phase 2 until the flag is resolved.
-
-## Compare Varieties Explicitly
-
-General crop data and variety data must never be silently treated as the same,
-even if only one variety exists. Each variety is researched independently and
-explicitly compared with the general crop values.
-
-Variety-specific deviations must be justified with variety-specific sources.
-Intentional matches must also be documented, for example:
-`no reliable variety-specific yield source found; the general crop planning value was intentionally reused`.
-
-## Always Carry General Crop Data
-
-Every variety note must have a corresponding general crop note. If it is
-missing, create or research the general crop note first.
-
-A variety must not remain the only maintained data record for a crop. The
-general crop note must contain reliable general facts, known source ranges, and
-open uncertainties. If a structured general value would be falsely precise
-because varieties, crop cycles, harvest methods, or overwintering logic differ
-strongly, leave the value open and document the reason.
-
-If the crop identity itself is unclear, do not create a silent general crop
-entry. Document the case as an identity or mapping question.
-
-## Intentional General Planning Values
-
-If no reliable variety-specific value is found but a reliable general crop
-planning value exists, first verify and maintain the general crop value. The
-variety may then intentionally reuse that value if it fits botanically and no
-variety-specific source contradicts it.
-
-Document the reuse in:
-
-- `Comparison With General Crop Data`
-- `Planning Value Derivations`, when applicable
-- `Research Status`
-- live notes during any private sync, when useful to users
-
-Do not present a reused general value as a variety-specific source claim.
-
-If neither a reliable general value nor a variety-specific value exists, leave
-the value open and mark it as an open research or mapping question.
-
-## Keep Yield Units Consistent Per Crop
-
-Within one crop, use the same yield unit for the general crop and its varieties
-whenever possible. This keeps OpenFarmPlanner tables comparable.
-
-Preferred rule:
-
-- If the general crop uses kg/m², varieties should also use kg/m².
-- If a reliable variety source gives head weight, piece weight, or kg/plant,
-  convert it to kg/m² using the documented spacing or plant density.
-- Document the source value, calculation, rounding, and uncertainty in
-  `Planning Value Derivations`.
-- If the per-plant value is only an old project value or otherwise not
-  source-backed, do not convert it into a falsely precise kg/m² value. Reuse a
-  reliable general crop planning value instead and document that reuse.
-- Keep a different yield unit only when the crop's harvest logic truly needs
-  it. Mark unclear cases as mapping questions.
-
-## Model Calendar Values Deliberately
-
-General crop records must not contain falsely precise calendar values when
-varieties, crop cycles, harvest forms, or overwintering logic differ strongly.
-In those cases, leave values such as growth duration or harvest window open and
-document the source ranges.
-
-Variety records should contain concrete growth duration and harvest window
-values whenever possible, because the crop calendar needs them. If a value can
-only be inferred from wording such as "ongoing", "several weeks", or a source
-range, the inferred planning value may be used only when the source basis,
-derivation, and uncertainty are documented. Never present an inferred planning
-value as a direct source value.
-
-## Respect Field And Form Constraints
-
-Structured live values must satisfy the strictest known constraint from the API,
-UI form, and data model. If the API accepts decimals but the UI form only allows
-integers, the integer rule applies for live sync.
-
-Do not silently write derived decimal values into structured fields that expect
-integers. Choose a plausible integer value, document the rounding, and keep the
-mathematical derivation as an explanation only. If no plausible rounding is
-possible, leave the value open and mark the case as a mapping question.
-
-## Live Notes With Sources
-
-If notes from this repository are copied into a live OpenFarmPlanner instance,
-the live-visible notes may include traceable sources, practical additional
-information, and derivations of planning values when useful to users.
-
-Allowed in live notes:
-
-- practical cultivation guidance
-- short source lists
-- concise explanations for inferred planning values
-- relevant crop-specific caveats
-
-Not allowed in live notes:
-
-- private sync status
-- production IDs
-- API jargon
-- token or project details
-- raw copied shop text such as prices, delivery dates, or availability text
+| Task | Read first | Skill |
+| --- | --- | --- |
+| Research or edit a general crop or variety note (Phase 1) | [`docs/rules/crop-research.md`](docs/rules/crop-research.md), [`templates/crop-note.md`](templates/crop-note.md) | `research-crop-note` |
+| Name, translate, or import official crop species | [`docs/rules/crop-species-naming.md`](docs/rules/crop-species-naming.md) | `import-crop-species-list` (crop lists), `grin-species-batch` (GRIN) |
+| Sync approved notes into a project's Cultures (Phase 2) | [`PHASE2_PROMPT.md`](PHASE2_PROMPT.md), [`docs/private-sync.md`](docs/private-sync.md), [`docs/culture-field-mapping.md`](docs/culture-field-mapping.md) | |
+| Write official crop species metadata (Phase 2, admin only) | [`PHASE2_SPECIES_PROMPT.md`](PHASE2_SPECIES_PROMPT.md), [`docs/crop-species-api.md`](docs/crop-species-api.md), [`docs/rules/crop-species-naming.md`](docs/rules/crop-species-naming.md) | |
 
 ## Commits
 
