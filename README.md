@@ -13,6 +13,10 @@ live sync logs, and no environment-specific production history belong here.
 ## Repository Layout
 
 - `templates/crop-note.md` - canonical template for crop and variety notes.
+- `docs/rules/` - task-specific rules: `crop-research.md` for crop and variety
+  notes, `crop-species-naming.md` for official crop species names.
+- `.claude/skills/` - agent workflows: `research-crop-note`,
+  `import-crop-species-list`, `grin-species-batch`.
 - `notes/` - public crop research notes in English.
 - `examples/` - completed example notes that demonstrate the expected style.
 - `docs/culture-field-mapping.md` - mapping between note concepts and
