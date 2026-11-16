@@ -23,8 +23,11 @@ edits species metadata; it does not decide taxonomy on its own authority.
 - Never invent a synonym, regional name, or new species that is not already
   documented and approved in this repository's public notes
   (`notes/*.md`, `docs/crop-species-linking.md`, and for French and Spanish
-  translations `docs/crop-species-names-fr-es.md`). Write only rows of that
-  translation list that carry no open flag. If the live library is
+  translations `docs/crop-species-names-fr-es.md`, and for Italian, Portuguese
+  and Dutch `docs/crop-species-names-it-pt-nl.md` with
+  `data/crop-species-names-it-pt-nl.csv`). Write only translation rows that
+  carry no open flag or have per-language status `reviewed`. Candidate names
+  in unresolved rows are not approved common names or synonyms. If the live library is
   missing something the notes already establish, sync it. If the notes
   themselves are unclear or incomplete, stop and research/document that
   first — do not fill the gap by guessing through the API.
@@ -75,6 +78,19 @@ edits species metadata; it does not decide taxonomy on its own authority.
 7. Report a summary to the user: what was written, what is still pending
    moderator approval, and any identity questions this surfaced that the
    taxonomy guidelines did not resolve.
+
+For the it/pt/nl backfill, first verify the target language is enabled in the
+deployed API; planner#949 being closed alone does not establish deployment.
+Use Italy, Portugal (pt-PT) and the Netherlands respectively. Audit every
+current published species immediately before preparing the review diff; never
+assume the historical 202-species fr/es snapshot covers it. Use the
+[`offline planner`](scripts/plan_species_translations.py) as documented in the
+[research notes](docs/crop-species-names-it-pt-nl.md), then obtain the separate
+authorization for that exact diff required by issue #9. Compare a fresh GET
+with each before-image immediately before writing. Re-read every change,
+verify labels and synonym searches by the same species ID, check omitted
+languages and scientific names, and confirm a repeat plan is empty. Persist
+all operational artifacts only in `sync-private/`.
 
 ## When To Stop And Ask
 
