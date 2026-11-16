@@ -4,13 +4,15 @@ Read this before naming, translating, or importing official crop species
 (the suggestion list), including species imports from crop lists or from GRIN.
 The always-on rules in [`CLAUDE.md`](../../CLAUDE.md) apply as well; the
 reviewed fr/es names live in
-[`docs/crop-species-names-fr-es.md`](../crop-species-names-fr-es.md).
+[`docs/crop-species-names-fr-es.md`](../crop-species-names-fr-es.md), and the
+it/pt/nl research and exceptions in
+[`docs/crop-species-names-it-pt-nl.md`](../crop-species-names-it-pt-nl.md).
 
 ## Crop Species Names In Other Languages
 
 When researching names of official crop species for a language other than
-German (for example `fr` or `es`), keep the identity of the German record and
-apply the planner's
+German (including `fr`, `es`, `it`, `pt` and `nl`), keep the identity of the
+German record and apply the planner's
 [crop taxonomy guidelines](https://github.com/OpenFarmPlanner/planner/blob/main/docs/crop-taxonomy-guidelines.md)
 to that language:
 
@@ -18,8 +20,11 @@ to that language:
   umbrella term (`Buschbohne` is `Haricot nain` / `Judía enana`, not `Haricot`
   / `Judía`).
 - The common name is the usual name in the reference country (France for
-  `fr`, Spain for `es`). Variants from other countries (Belgium, Switzerland,
-  Canada, Latin America) are synonyms only.
+  `fr`, Spain for `es`, Italy for `it`, Portugal for `pt`, the Netherlands for
+  `nl`). `pt` means European Portuguese (pt-PT), not Brazilian Portuguese.
+  Verified variants from other countries (Belgium, Switzerland, Canada,
+  Brazil, other Latin American countries) are synonyms only when they mean
+  the same crop/use form. Do not create `pt-BR` entries or new regional keys.
 - Do not set `regional_names` for these languages; the only keys are
   `austria` and `switzerland`.
 - A term that names different crops in different countries, or different crops
@@ -27,6 +32,10 @@ to that language:
   never a common name (the "Peperoni" rule).
 - Do not add bare umbrella words (`Pois`, `Haricot`, `Col`, `Chou`) as
   synonyms; they would match many species.
+- If no unambiguous reference-country vernacular is established after research,
+  a scientific display label needs an explicit, sourced decision in the table.
+  Record the missing vernacular evidence and rejected false matches. Do not
+  present that label as a verified native translation or an English fallback.
 - If the German record itself is broad or unclear, translate it with the same
   breadth and document the open identity question instead of narrowing it.
 
@@ -50,6 +59,18 @@ not that it is in use.
 The reviewed result lives in
 [`docs/crop-species-names-fr-es.md`](../crop-species-names-fr-es.md). Rows
 with an open flag are not written in Phase 2 until the flag is resolved.
+For Italian, Portuguese and Dutch, use the per-language `reviewed` status in
+the [reference table](../../data/crop-species-names-it-pt-nl.csv). An unresolved
+language does not prevent reviewing another language of the same identity.
+Candidate botanical names are evidence to investigate, not approved synonyms.
+
+Always audit the current published catalogue, following every pagination link.
+Historical counts are not a coverage guarantee. Match by German common name
+**and** scientific name; multiple use forms can share the same botanical name.
+Do not change scientific names, existing identities or variety/trade names as
+part of translation work. Added, removed or changed identities require a fresh
+review before sync. Review adjacent plant-family and public-library text
+separately; crop-species translations do not populate those entities.
 
 ## Crops Without An Established German Name
 

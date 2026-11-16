@@ -78,11 +78,26 @@ API prefix is identical — only the path segment and the bearer token differ).
 - An entry without `common_name` is skipped silently, so a synonyms-only
   update must still repeat the current `common_name`. Read the record back
   after every write.
-- Supported `language_code` values are `de`, `en`, `fr` and `es` (the
-  planner's `SUPPORTED_LANGUAGE_CODES`). `de` is the canonical language; add
-  other languages as separate entries. For `fr` and `es`, send only
-  `common_name` and `synonyms`; `regional_names` stays empty because its keys
-  are limited to `austria` and `switzerland`.
+- The planner's `SUPPORTED_LANGUAGE_CODES` includes `de`, `en`, `fr`, `es`,
+  `it`, `pt` and `nl` after planner#949. This is a source-code contract, not
+  proof that a particular deployment supports a language. Verify deployment
+  support before writing each new language; a closed application issue or a
+  fallback display label is insufficient evidence. Do not probe with writes.
+  `de` remains canonical. `it` uses Italy, `pt` uses Portugal (pt-PT), and
+  `nl` uses the Netherlands as reference countries. This does not change
+  mandatory-translation or fallback policies.
+- A read-only deployment check can use unauthenticated `GET /version/` (omit the catalogue token, which is intentionally restricted to catalogue endpoints), then inspect
+  `backend/config/languages.py` and the crop-species translation validator in
+  `backend/crops/serializers.py` at that exact release tag. Confirm both that
+  the language is listed and that the validator uses that supported-language
+  configuration. Keep the observed deployment version and evidence in the
+  private review log. A generic schema may omit the crop-species endpoints;
+  its absence is not proof that the endpoint or language is unsupported.
+- New `fr`/`es`/`it`/`pt`/`nl` entries use `common_name`, `synonyms` and
+  `regional_names: {}`. Never introduce regional display keys for Brazil,
+  Belgium or Italy. When updating an existing entry, preserve its approved
+  aliases and regional names: never clear a live list merely because a new
+  research row has no aliases.
 - Before deciding synonym vs. regional name vs. "this needs a new species",
   follow the planner repo's
   [`docs/crop-taxonomy-guidelines.md`](https://github.com/OpenFarmPlanner/planner/blob/main/docs/crop-taxonomy-guidelines.md)
@@ -117,3 +132,87 @@ API prefix is identical — only the path segment and the bearer token differ).
 7. A proposal this created (`status: "proposed"`) still needs a human
    moderator to `approve`/`reject` it in the UI — note that as an open item
    rather than treating the proposal as done.
+
+## Italian, Portuguese And Dutch Backfill
+
+The [research and coverage notes](crop-species-names-it-pt-nl.md) and
+[per-language reference table](../data/crop-species-names-it-pt-nl.csv) are the
+Phase 1 basis. `reviewed` means a research recommendation, not live-write
+authorization. Unresolved rows and their botanical candidates are excluded.
+
+The [offline planner](../scripts/plan_species_translations.py) validates the
+table and compares it with a complete, fresh published-catalogue snapshot. It
+has no API access or live-write capability. Its private plan contains full before-images
+and exact translation-only PATCH bodies; each existing target-language alias
+and regional-name map is preserved. Unchanged translations produce no patch.
+It refuses changes in catalogue coverage and identity rather than quietly
+reusing the historical snapshot. See the research notes for usage.
+
+Before a separately authorized sync, refresh the catalogue, verify enabled
+languages from deployment evidence, regenerate the diff and review every
+changed language. Immediately before each PATCH, GET the record and compare
+with the plan's before-image. If anything changed, regenerate and review the
+diff; do not send a stale replacement list. Do not POST, rename identities or
+change scientific names for this backfill.
+
+After every authorized PATCH, GET the same ID and compare all intended fields,
+as well as omitted-language translations, identity and scientific name with
+the before-image. Check `display_name` **and** `display_language_code` in each
+written request language to detect fallback. Search each new common name and
+alias with `?q=` and verify that the original species ID appears (follow
+pagination, and allow shared synonyms to return multiple crops). Record these
+checks privately. Replanning against the verified snapshot must yield no
+remaining patches for those entries.
+
+### Search Ranking Follow-up
+
+A successful translation readback does not guarantee that autocomplete returns
+every exact synonym. The
+[species search service](https://github.com/OpenFarmPlanner/planner/blob/main/backend/crops/services.py)
+sorts by match source before exactness: displayed-name matches precede synonym
+matches, including when the displayed-name match is only partial. The
+[list endpoint](https://github.com/OpenFarmPlanner/planner/blob/main/backend/crops/views.py)
+caps results at 20 and returns no next page for that ranked search, even with
+`page_size=500`.
+
+Tracked in [planner #1159](https://github.com/OpenFarmPlanner/planner/issues/1159).
+Reproducible examples with the reviewed names:
+
+- `GET /crop-species/?language=it&q=Cavolo%20verza` returns the Savoy cabbage
+  identity under its Italian common name.
+- `GET /crop-species/?language=it&q=Cavolo%20di%20Milano` can omit that same
+  identity: other displayed-name token matches occupy the capped result set
+  before the exact synonym is reached.
+- The stored synonym is returned for the same query with `language=en`,
+  confirming that it is indexed rather than missing from the translation.
+- The same failure occurs for Italian `Spinacio di Giava` (current name
+  `Spinacio di Suriname`) and Portuguese `Tomate de carne` (current name
+  `Tomate carnudo`). Their exact synonyms are stored; changing only the
+  request language to English returns the expected identity.
+
+Application follow-up: review exact-synonym versus partial-display-name ranking
+and add a regression check for this capped-result case. This belongs to the
+planner search implementation, independently of the catalogue translation
+payload. Keep the approved synonym intact. Record such a search check as an
+explicit failed verification with a reproducible query; do not count it as
+passed just because readback, another request language or an empty repeat plan
+succeeds.
+
+## Adjacent Persisted Text
+
+- `GET /plant-families/` returns family names and their translation map. The
+  translation-only admin action shipped in planner v1.171.0:
+  `PATCH /plant-families/{botanical_name}/translations/`, with a translation map.
+  The [family research and API workflow](plant-family-names.md) documents its
+  supported authentication, validation and preservation rules. Verify the
+  target deployment before using it. A species PATCH
+  can change its family association, not translate the family name.
+- Public-library descriptions belong to `PublicCropTranslation`, independently
+  of species names. The application's session-authorized
+  `/public-crops/<id>/translations/` GET/PUT workflow handles editorial text;
+  it is not a crop-library-token surface. Variety trade names require sourced
+  trade-name evidence and their own authorized workflow. Do not translate
+  original variety names as common names or descriptions.
+- Track unsupported work explicitly using the
+  [adjacent-text audit](crop-species-names-it-pt-nl.md#adjacent-persisted-text).
+  Do not use SQL or seed/migration edits to bypass unavailable API capabilities.
