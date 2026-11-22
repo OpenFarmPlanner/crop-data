@@ -28,6 +28,13 @@ live sync logs, and no environment-specific production history belong here.
   botanical names for linking cultures before publishing (a manual UI step).
 - `docs/crop-species-names-fr-es.md` - researched French and Spanish names for
   the official crop species, with sources and open questions.
+- `docs/crop-species-names-it-pt-nl.md` - current-catalogue coverage, source
+  decisions and complete Italian, European Portuguese and Dutch name coverage;
+  `data/crop-species-names-it-pt-nl.csv` contains the per-language evidence.
+- `docs/plant-family-names.md` and `data/plant-family-names.csv` - sourced
+  labels for all 16 plant families in all seven languages.
+- `scripts/plan_species_translations.py` - offline research validation and
+  private translation-only review plans; makes no live requests or writes.
 - `PHASE2_PROMPT.md` - optional prompt for copying approved notes into a private
   OpenFarmPlanner project. Keep live credentials and sync logs outside this
   public repository.
