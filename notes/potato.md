@@ -59,6 +59,41 @@ replaces the template's sowing framing.)*
   light (greening) and late frost; wider row spacing eases this operation and
   improves air circulation to reduce late blight risk.
 
+## Germination
+- Not applicable: the crop is planted from seed tubers, not sown. True
+  potato seed is not covered by this note.
+
+## Companion Planting
+Evidence: unless stated otherwise, every entry comes from the
+[BUND - Mischkultur: Gute und schlechte Nachbarn](https://www.bund.net/fileadmin/user_upload_bund/publikationen/naturnahes-gaertnern/Mischkultur-Gemuese-BUND.pdf) neighbour table, a list of gardening experience without reasons or
+trial data, so the reason is "other" throughout. The
+[Bayerische Gartenakademie - Mischkulturen im Gemüsegarten, Merkblatt 2104](https://www.lwg.bayern.de/mam/cms06/gartenakademie/dateien/2104-2020.pdf) states that neighbour effects are hard to prove and that reported
+observations often contradict each other, because site and care matter as
+well. Treat these entries as gardening tradition. "Both rows" means the
+table lists the pair under each of the two crops; "one row" means only under
+the crop named.
+
+Good neighbours:
+- Bush bean (`Buschbohne`): other; both rows.
+- Spinach (`Spinat`): other; both rows.
+- Kohlrabi: other; both rows.
+- Horseradish (`Meerrettich`): other; both rows.
+- Dill: other; potato row only.
+- Peppermint (`Pfefferminze`): other; potato row only.
+- Sweet corn (`Mais`): other; corn row only.
+
+Bad neighbours:
+- Tomato (`Tomate`): shares pests or diseases; both rows. Late blight
+  (`Kraut- und Braunfäule`) attacks potato and tomato alike
+  ([Sächsische Gartenakademie - Kraut- und Braunfäule an Tomaten und Kartoffeln](https://www.gartenakademie.sachsen.de/download/Kraut_Braunfaeule_Tomaten_Kartoffeln.pdf)). The same source notes that the spores travel far on the
+  wind, so distance within one garden lowers the risk only a little;
+  keeping foliage dry and choosing resistant varieties matter more.
+- Celeriac (`Sellerie`): other; both rows.
+- Shelling pea (`Erbse`): other; both rows.
+- Strawberry (`Erdbeere`): other; strawberry row only.
+- Cabbage crops (`Kohlgewächse`): other; both rows. Mapping open; the
+  same table lists kohlrabi, itself a cabbage crop, as good.
+
 ## Harvest & Use
 - Harvest timing depends on maturity group: very early varieties from about
   mid-June, mid-early varieties from about late August, with late varieties
@@ -149,6 +184,10 @@ replaces the template's sowing framing.)*
 - [Plantura - Starkzehrer, Mittelzehrer und Schwachzehrer](https://www.plantura.garden/gemuese/gemuese-anbauen/starkzehrer-mittelzehrer-und-schwachzehrer)
 - [garten-querbeet.de - Wie viel kg Kartoffeln pro qm](https://www.garten-querbeet.de/anbauen/wie-viel-kg-kartoffeln-pro-qm/)
 - [AELF Ansbach - Sortenempfehlungen Kartoffeln 2026](https://www.aelf-an.bayern.de/landwirtschaft/pflanzenbau/234700/index.php)
+- [ProSpecieRara - Angaben zur Pflanzenanzucht](https://cms.prospecierara.ch/assets/website/prospecierara.ch/Pflanzen/Wissen/20221214_Angaben_zur_Pflanzenzucht_by_ProSpecieRara.pdf)
+- [BUND - Mischkultur: Gute und schlechte Nachbarn](https://www.bund.net/fileadmin/user_upload_bund/publikationen/naturnahes-gaertnern/Mischkultur-Gemuese-BUND.pdf)
+- [Bayerische Gartenakademie - Mischkulturen im Gemüsegarten, Merkblatt 2104](https://www.lwg.bayern.de/mam/cms06/gartenakademie/dateien/2104-2020.pdf)
+- [Sächsische Gartenakademie - Kraut- und Braunfäule an Tomaten und Kartoffeln](https://www.gartenakademie.sachsen.de/download/Kraut_Braunfaeule_Tomaten_Kartoffeln.pdf)
 
 ## Research Status
 - Researched on: 2026-09-18
@@ -169,6 +208,12 @@ replaces the template's sowing framing.)*
   the other crops in this repository.
 - Calendar values researched on: 2026-09-21
 - Yield and spacing values researched on: 2026-09-22
+- Germination and companion planting researched on: 2026-11-26
+- Companion conflict: the BUND beetroot row lists potato as both good
+  and bad, and the potato row lists beetroot as bad; the pair is left
+  out. `Kohlgewächse` is not resolved (see `notes/bush-bean.md`).
+  Tomato applies to every tomato crop identity in this repository;
+  the other side is not yet recorded in the tomato and kohlrabi notes.
 - Public-readiness: needs review (yield and calendar values are
   representative planning values for a mid-early garden crop; two source
   conflicts documented; seed-tuber planting framing is a documented template

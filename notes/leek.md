@@ -31,6 +31,46 @@
 - Site: full sun, deep, fertile, well-drained soil; consistent moisture
   supports shaft development.
 
+## Germination
+- Optimal germination temperature: 20-25 °C; minimum: 2 °C
+- Germination time: 15-20 days
+- Source: [ProSpecieRara - Angaben zur Pflanzenanzucht](https://cms.prospecierara.ch/assets/website/prospecierara.ch/Pflanzen/Wissen/20221214_Angaben_zur_Pflanzenzucht_by_ProSpecieRara.pdf).
+- Source conflict: this note earlier gave about 10-20 days at 16-20 °C
+  without a recorded source. Both agree on a slow start; the
+  ProSpecieRara values are used because they are traceable.
+
+## Companion Planting
+Evidence: unless stated otherwise, every entry comes from the
+[BUND - Mischkultur: Gute und schlechte Nachbarn](https://www.bund.net/fileadmin/user_upload_bund/publikationen/naturnahes-gaertnern/Mischkultur-Gemuese-BUND.pdf) neighbour table, a list of gardening experience without reasons or
+trial data, so the reason is "other" throughout. The
+[Bayerische Gartenakademie - Mischkulturen im Gemüsegarten, Merkblatt 2104](https://www.lwg.bayern.de/mam/cms06/gartenakademie/dateien/2104-2020.pdf) states that neighbour effects are hard to prove and that reported
+observations often contradict each other, because site and care matter as
+well. Treat these entries as gardening tradition. "Both rows" means the
+table lists the pair under each of the two crops; "one row" means only under
+the crop named.
+
+Good neighbours:
+- Celeriac (`Sellerie`): other; both rows.
+- Head lettuce (`Kopfsalat`): other; both rows.
+- Tomato (`Tomate`): other; both rows.
+- Kohlrabi: other; both rows.
+- Endive (`Endivie`): other; both rows.
+- Carrot (`Möhre`, `Karotte`): other; both rows. The carrot-fly
+  protection often given for this pair is doubtful: the
+  [Bayerische Gartenakademie - Mischkulturen im Gemüsegarten, Merkblatt 2104](https://www.lwg.bayern.de/mam/cms06/gartenakademie/dateien/2104-2020.pdf) advises against the analogous onion-carrot pair, because
+  nutrient and water needs differ and the fly protection works only
+  in a few cases.
+- Black salsify (`Schwarzwurzel`): other; both rows.
+- Strawberry (`Erdbeere`): other; both rows.
+- Sweet pepper (`Paprika`): other; pepper row only.
+- Cabbage crops (`Kohlgewächse`): other; both rows. Mapping open.
+
+Bad neighbours:
+- Bush bean (`Buschbohne`): other; both rows.
+- Pole bean (`Stangenbohne`): other; both rows.
+- Shelling pea (`Erbse`): other; both rows.
+- Beetroot (`Rote Bete`): other; both rows.
+
 ## Harvest & Use
 - Early/summer types are harvested mid-July through August; late/winter types
   are harvested from October through the following spring, often directly
@@ -44,7 +84,6 @@
   general value regardless; the single general values below are therefore
   deliberate compromises and must not be read as typical for either extreme.
   Concrete values are assigned at the variety level.
-- Germination takes about 10-20 days at 16-20°C.
 
 ## Planning Value Derivations
 - All values below are inferred planning values, not direct source figures.
@@ -100,6 +139,9 @@
 - [Hortipendium - Porree Erwerbsanbau](https://www.hortipendium.de/Porree_Erwerbsanbau)
 - [LfL Bayern - Nmin und Kalkulationsdaten Kartoffel/Gemüse](https://www.lfl.bayern.de/mam/cms07/iab/dateien/blw_heft_10_nmin_kartoffel_2020.pdf)
 - [BUND Region Hannover - Stark-, Mittel- und Schwachzehrer im Gemüse- und Kräutergarten](https://bund-region-hannover.de/fileadmin/hannover/BUND_aktiv/Universum_Kleingarten/Publikationen_zum_Download/Handreichung_Stark-_Mittel-_und_Schwachzehrer.pdf)
+- [ProSpecieRara - Angaben zur Pflanzenanzucht](https://cms.prospecierara.ch/assets/website/prospecierara.ch/Pflanzen/Wissen/20221214_Angaben_zur_Pflanzenzucht_by_ProSpecieRara.pdf)
+- [BUND - Mischkultur: Gute und schlechte Nachbarn](https://www.bund.net/fileadmin/user_upload_bund/publikationen/naturnahes-gaertnern/Mischkultur-Gemuese-BUND.pdf)
+- [Bayerische Gartenakademie - Mischkulturen im Gemüsegarten, Merkblatt 2104](https://www.lwg.bayern.de/mam/cms06/gartenakademie/dateien/2104-2020.pdf)
 
 ## Research Status
 - Researched on: 2026-09-18
@@ -116,5 +158,10 @@
   across maturity groups; whether OpenFarmPlanner should split leek by
   maturity group is open. Yield (3.5 kg/m²) is a garden-scale planning value,
   not a verified commercial-trial figure.
+- Germination and companion planting researched on: 2026-11-26
+- Companion mapping questions: `Kohlgewächse` is not resolved (see
+  `notes/bush-bean.md`); pole bean has no confirmed crop note here
+  yet. The other side is not yet recorded for tomato, kohlrabi,
+  endive and sweet pepper.
 - Public-readiness: needs review; calendar values are inferred compromise
   values; yield is not from a fully verified authoritative source.
