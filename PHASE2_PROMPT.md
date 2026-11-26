@@ -36,6 +36,34 @@ below unless explicitly requested.
 - Respect the strictest known API, UI, and data-model constraints.
 - Never put private sync bookkeeping, production IDs, API jargon, tokens,
   delivery dates, prices, or copied shop fragments into live-visible notes.
+- Write plant family, nutrient demand, and rotation break on the general crop
+  only; a linked variety cannot hold its own value.
+- Map germination, site, winter hardiness, and pests-and-diseases text to
+  their own fields (see `docs/culture-field-mapping.md`) instead of the live
+  notes. Do not repeat the same content in both.
+- Do not write structured plant-health selections (`plant_health`) until the
+  plant-health catalogue is researched and approved.
+- Sowing and planting windows are project data. Write them only when the user
+  explicitly asks for this project, never as a general default.
+- Good and bad neighbours cannot be written with a project token. Prepare
+  them for the user to enter in the OpenFarmPlanner UI (see Companions below).
+- The first sync of a field that is not yet on the confirmed-writable list in
+  `docs/openfarmplanner-api.md` needs a readback check of that field.
+
+## Companions
+
+For each general crop with approved neighbours, give the user a short list
+to enter in the crop's companion editor or through the UI spreadsheet import:
+
+- neighbour: an existing general crop of the project or a plant family
+- good or bad
+- reason (competition, inhibits the other plant, repels or lures pests,
+  improves the soil, shares pests or diseases, other)
+- a short note with the source, at most 500 characters
+
+Read `/crop-companions/?crop=<id>` first and list only relations that are
+missing or differ. Flag a neighbour that has no general crop in the project
+instead of turning it into free text silently.
 
 ## Live Notes
 
@@ -59,12 +87,14 @@ Live-visible notes must not include:
 
 1. Load private environment variables from an ignored local file.
 2. Read token context from the OpenFarmPlanner API.
-3. Read the API schema.
+3. Read the API schema (`/agent/openapi.json`, if the token can read it) for
+   current field names, enums, and bounds.
 4. Read the target live crop record, if it already exists.
 5. Build a minimal patch that changes only approved fields.
 6. Check live notes for forbidden private or technical patterns.
 7. Write the patch.
 8. Read the record back and verify the changed fields.
+   Then hand the user the companion list for UI entry, if any.
 9. Record the sync result in a private sync log, not in this public repository.
 10. Only update public notes after syncing when the update improves reusable
     crop knowledge rather than documenting private operational state.
