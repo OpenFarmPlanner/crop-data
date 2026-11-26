@@ -44,6 +44,41 @@
   content and good warming are preferred; consistently moist but not
   waterlogged.
 
+## Germination
+- Optimal germination temperature: 20-30 °C; minimum: 13 °C
+- Germination time: 5-15 days
+- Young plants should never be exposed to less than about 10 °C.
+- Source: [ProSpecieRara - Angaben zur Pflanzenanzucht](https://cms.prospecierara.ch/assets/website/prospecierara.ch/Pflanzen/Wissen/20221214_Angaben_zur_Pflanzenzucht_by_ProSpecieRara.pdf) (row for cucumber).
+
+## Companion Planting
+Evidence: unless stated otherwise, every entry comes from the
+[BUND - Mischkultur: Gute und schlechte Nachbarn](https://www.bund.net/fileadmin/user_upload_bund/publikationen/naturnahes-gaertnern/Mischkultur-Gemuese-BUND.pdf) neighbour table, a list of gardening experience without reasons or
+trial data, so the reason is "other" throughout. The
+[Bayerische Gartenakademie - Mischkulturen im Gemüsegarten, Merkblatt 2104](https://www.lwg.bayern.de/mam/cms06/gartenakademie/dateien/2104-2020.pdf) states that neighbour effects are hard to prove and that reported
+observations often contradict each other, because site and care matter as
+well. Treat these entries as gardening tradition. "Both rows" means the
+table lists the pair under each of the two crops; "one row" means only under
+the crop named.
+
+Good neighbours:
+- Bush bean (`Buschbohne`): other; both rows.
+- Pole bean (`Stangenbohne`): other; both rows.
+- Celeriac (`Sellerie`): other; both rows.
+- Beetroot (`Rote Bete`): other; both rows.
+- Head lettuce (`Kopfsalat`): other; both rows.
+- Florence fennel (`Fenchel`): other; both rows.
+- Onion (`Zwiebel`): other; both rows.
+- Garlic (`Knoblauch`): other; both rows.
+- Dill: other; both rows.
+- Sweet corn (`Mais`): other; corn row only.
+- Sweet pepper (`Paprika`): other; pepper row only.
+- Cabbage crops (`Kohlgewächse`): other; both rows. Mapping open.
+
+Bad neighbours:
+- Radish (`Radieschen`, `Rettich`): other; both rows.
+- Pumpkin (`Kürbis`): other; pumpkin row only. Both are Cucurbitaceae;
+  the source gives no reason.
+
 ## Harvest & Use
 - Harvest young, small fruits (typically a few cm to about 10 cm depending on
   the intended pickle size) while still firm and seedless-feeling; frequent
@@ -113,6 +148,9 @@
 - [Sperli - Kulturanleitung Gurken](https://www.sperli.de/anbauexperte/kulturanleitung-gurken/)
 - [ackerhelden.de - Gurken: Anbau, Pflege, Ernte](https://ackerhelden.de/blogs/bio-garten-blog/gurken-anbau-pflege-ernte)
 - [forum.garten-pur.de - übliche Ertragsmengen im Hausgarten/Kleingarten](https://forum.garten-pur.de/index.php?topic=28046.0)
+- [ProSpecieRara - Angaben zur Pflanzenanzucht](https://cms.prospecierara.ch/assets/website/prospecierara.ch/Pflanzen/Wissen/20221214_Angaben_zur_Pflanzenzucht_by_ProSpecieRara.pdf)
+- [BUND - Mischkultur: Gute und schlechte Nachbarn](https://www.bund.net/fileadmin/user_upload_bund/publikationen/naturnahes-gaertnern/Mischkultur-Gemuese-BUND.pdf)
+- [Bayerische Gartenakademie - Mischkulturen im Gemüsegarten, Merkblatt 2104](https://www.lwg.bayern.de/mam/cms06/gartenakademie/dateien/2104-2020.pdf)
 
 ## Research Status
 - Researched on: 2026-09-18
@@ -130,6 +168,12 @@
   demand and thousand kernel weight are reused from the `Schlangengurke`
   general crop (same species) rather than independently sourced for
   `Einlegegurke`.
+- Germination and companion planting researched on: 2026-11-26
+- Companion mapping questions: the BUND table says `Gurken` without
+  separating pickling and slicing cucumber; it is applied to pickling
+  cucumber here, and snake cucumber stays open. `Kohlgewächse` is not
+  resolved (see `notes/bush-bean.md`). The other side is not yet
+  recorded for sweet pepper and pumpkin.
 - Public-readiness: needs review; growth duration rests on a single regional
   source; harvest window is an inferred planning value; nutrient demand and
   thousand kernel weight are cross-crop reuses.

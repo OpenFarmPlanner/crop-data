@@ -37,6 +37,51 @@
 - Site: full sun, warm and wind-sheltered location; deep, humus-rich,
   evenly moist but well-drained soil
 
+## Germination
+- Optimal germination temperature: 22-28 °C; minimum: 18 °C
+- Germination time: 10-15 days
+- Young plants should never be exposed to less than about 10 °C.
+- Source: [ProSpecieRara - Angaben zur Pflanzenanzucht](https://cms.prospecierara.ch/assets/website/prospecierara.ch/Pflanzen/Wissen/20221214_Angaben_zur_Pflanzenzucht_by_ProSpecieRara.pdf) (row for tomato; applies to all tomato types).
+
+## Companion Planting
+Evidence: unless stated otherwise, every entry comes from the
+[BUND - Mischkultur: Gute und schlechte Nachbarn](https://www.bund.net/fileadmin/user_upload_bund/publikationen/naturnahes-gaertnern/Mischkultur-Gemuese-BUND.pdf) neighbour table, a list of gardening experience without reasons or
+trial data, so the reason is "other" throughout. The
+[Bayerische Gartenakademie - Mischkulturen im Gemüsegarten, Merkblatt 2104](https://www.lwg.bayern.de/mam/cms06/gartenakademie/dateien/2104-2020.pdf) states that neighbour effects are hard to prove and that reported
+observations often contradict each other, because site and care matter as
+well. Treat these entries as gardening tradition. "Both rows" means the
+table lists the pair under each of the two crops; "one row" means only under
+the crop named.
+
+Good neighbours:
+- Bush bean (`Buschbohne`): other; both rows.
+- Celeriac (`Sellerie`): other; both rows.
+- Spinach (`Spinat`): other; both rows.
+- Head lettuce (`Kopfsalat`): other; both rows.
+- Leek (`Lauch`, `Porree`): other; both rows.
+- Kohlrabi: other; both rows.
+- Carrot (`Möhre`, `Karotte`): other; both rows.
+- Garlic (`Knoblauch`): other; both rows.
+- Radish (`Radieschen`, `Rettich`): other; both rows.
+- Leaf lettuce (`Pflücksalat`): other; both rows.
+- Parsley (`Petersilie`): other; both rows. Which parsley is open.
+- Peppermint (`Pfefferminze`): other; both rows.
+- Cabbage crops (`Kohlgewächse`): other; both rows. Mapping open.
+
+Bad neighbours:
+- Potato (`Kartoffel`): shares pests or diseases; both rows. Late blight
+  (`Kraut- und Braunfäule`) attacks tomato and potato alike
+  ([Sächsische Gartenakademie - Kraut- und Braunfäule an Tomaten und Kartoffeln](https://www.gartenakademie.sachsen.de/download/Kraut_Braunfaeule_Tomaten_Kartoffeln.pdf)). The spores travel far on the wind, so distance within one
+  garden lowers the risk only a little; dry foliage, rain cover and
+  resistant varieties matter more.
+- Shelling pea (`Erbse`): other; both rows.
+- Florence fennel (`Fenchel`): other; both rows.
+- Strawberry (`Erdbeere`): other; strawberry row only.
+- Pumpkin (`Kürbis`): other; pumpkin row only.
+- Endive (`Endivie`): other; endive row only. The tomato row lists
+  chicory salads (`Zichoriensalat`) as good, which may include endive;
+  see `Research Status`.
+
 ## Harvest & Use
 - Harvest when fruit is fully colored and gives slightly to gentle pressure.
 - Used fresh: sliced for sandwiches and salads, valued for thick, low-seed
@@ -96,6 +141,10 @@
 - [Lubera - Selbstversorgung mit Tomaten](https://www.lubera.com/at/gartenbuch/selbstversorgung-mit-tomaten-p5729)
 - [bioseeds.bplaced.net - Aussaathinweise für Paprika und Tomaten](http://bioseeds.bplaced.net/Shop/anzuchttipps.html)
 - [Plantura - Starkzehrer, Mittelzehrer und Schwachzehrer](https://www.plantura.garden/gemuese/gemuese-anbauen/starkzehrer-mittelzehrer-und-schwachzehrer)
+- [ProSpecieRara - Angaben zur Pflanzenanzucht](https://cms.prospecierara.ch/assets/website/prospecierara.ch/Pflanzen/Wissen/20221214_Angaben_zur_Pflanzenzucht_by_ProSpecieRara.pdf)
+- [BUND - Mischkultur: Gute und schlechte Nachbarn](https://www.bund.net/fileadmin/user_upload_bund/publikationen/naturnahes-gaertnern/Mischkultur-Gemuese-BUND.pdf)
+- [Bayerische Gartenakademie - Mischkulturen im Gemüsegarten, Merkblatt 2104](https://www.lwg.bayern.de/mam/cms06/gartenakademie/dateien/2104-2020.pdf)
+- [Sächsische Gartenakademie - Kraut- und Braunfäule an Tomaten und Kartoffeln](https://www.gartenakademie.sachsen.de/download/Kraut_Braunfaeule_Tomaten_Kartoffeln.pdf)
 
 ## Research Status
 - Researched on: 2026-09-18
@@ -114,4 +163,12 @@
   lists tomato explicitly among high-demand vegetables, consistent with
   other Starkzehrer overview sources grouping tomato with potato, pepper and
   eggplant.
+- Germination and companion planting researched on: 2026-11-26
+- Companion conflict: the tomato row lists sweet corn (`Mais`) as good,
+  the corn row lists tomato as bad; the pair is left out. `Zichoriensalat`
+  (good) is ambiguous and was left out; read as including endive it
+  would contradict the endive row. The BUND table says `Tomaten` for
+  all tomato types; the same list is used for every tomato crop in this
+  repository. Parsley, `Rüben` and `Kohlgewächse` are not resolved
+  (see `notes/bush-bean.md`).
 - Public-readiness: ready

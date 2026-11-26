@@ -25,6 +25,42 @@
 - Site: full sun, deep humus-rich moisture-retentive soil. Even watering and,
   once bulbs reach a few cm, earthing up support growth and blanching.
 
+## Germination
+- Optimal germination temperature: 22-30 °C; minimum: 6 °C
+- Germination time: 12-16 days
+- Plant transplants no deeper than they stood in the tray.
+- Source: [ProSpecieRara - Angaben zur Pflanzenanzucht](https://cms.prospecierara.ch/assets/website/prospecierara.ch/Pflanzen/Wissen/20221214_Angaben_zur_Pflanzenzucht_by_ProSpecieRara.pdf) (`Fenchel (Knollen-)`).
+
+## Companion Planting
+Evidence: unless stated otherwise, every entry comes from the
+[BUND - Mischkultur: Gute und schlechte Nachbarn](https://www.bund.net/fileadmin/user_upload_bund/publikationen/naturnahes-gaertnern/Mischkultur-Gemuese-BUND.pdf) neighbour table, a list of gardening experience without reasons or
+trial data, so the reason is "other" throughout. The
+[Bayerische Gartenakademie - Mischkulturen im Gemüsegarten, Merkblatt 2104](https://www.lwg.bayern.de/mam/cms06/gartenakademie/dateien/2104-2020.pdf) states that neighbour effects are hard to prove and that reported
+observations often contradict each other, because site and care matter as
+well. Treat these entries as gardening tradition. "Both rows" means the
+table lists the pair under each of the two crops; "one row" means only under
+the crop named.
+
+Good neighbours:
+- Head lettuce (`Kopfsalat`): other; both rows.
+- Leaf lettuce (`Pflücksalat`): other; both rows.
+- Cucumber (`Gurke`): other; both rows.
+- Shelling pea (`Erbse`): other; both rows.
+- Endive (`Endivie`): other; both rows.
+- Sage (`Salbei`): other; both rows.
+- Lettuce, cucumber, pea and sage also appear in the [Gartenakademie Rheinland-Pfalz - Übersicht: Kultur verschiedener Gemüsearten im Hausgarten](https://www.dlr-rnh.rlp.de/Internet/global/themen.nsf/857f32bab23bcd4cc1258195002d7ee3/63ddf8fb46aba087c12572f8004eab8e/$FILE/Gem%C3%BCsearten%20f%C3%BCr%20den%20Hausgarten.pdf) table
+  (2006).
+
+Bad neighbours:
+- Tomato (`Tomate`): other; both rows, and also in the Rhineland-Palatinate
+  table.
+- Bush bean (`Buschbohne`): other; both rows, and in the
+  Rhineland-Palatinate table (`Bohnen`).
+- Pole bean (`Stangenbohne`): other; both rows.
+- Dill: other; dill row only. Both are Apiaceae; the source gives no
+  reason.
+- Sweet pepper (`Paprika`): other; pepper row only.
+
 ## Harvest & Use
 - Cut bulbs from about fist size. Early sowings are harvested before flowering;
   late sowings can be lifted with the root from October/November and tolerate
@@ -68,6 +104,10 @@
 - [Hortipendium - Knollenfenchel Erwerbsanbau](https://www.hortipendium.de/Knollenfenchel_Erwerbsanbau)
 - [Der kleine Garten - Knollenfenchel anbauen](https://www.derkleinegarten.de/nutzgarten-kleingarten/gemuesegarten-anlegen/blattgemuese/knollenfenchel-anbauen.html)
 - [LWG Bayern - Knollenfenchel](https://www.lwg.bayern.de/gartenakademie/gartendokumente/infoschriften/157796/index.php)
+- [ProSpecieRara - Angaben zur Pflanzenanzucht](https://cms.prospecierara.ch/assets/website/prospecierara.ch/Pflanzen/Wissen/20221214_Angaben_zur_Pflanzenzucht_by_ProSpecieRara.pdf)
+- [BUND - Mischkultur: Gute und schlechte Nachbarn](https://www.bund.net/fileadmin/user_upload_bund/publikationen/naturnahes-gaertnern/Mischkultur-Gemuese-BUND.pdf)
+- [Bayerische Gartenakademie - Mischkulturen im Gemüsegarten, Merkblatt 2104](https://www.lwg.bayern.de/mam/cms06/gartenakademie/dateien/2104-2020.pdf)
+- [Gartenakademie Rheinland-Pfalz - Übersicht: Kultur verschiedener Gemüsearten im Hausgarten](https://www.dlr-rnh.rlp.de/Internet/global/themen.nsf/857f32bab23bcd4cc1258195002d7ee3/63ddf8fb46aba087c12572f8004eab8e/$FILE/Gem%C3%BCsearten%20f%C3%BCr%20den%20Hausgarten.pdf)
 
 ## Research Status
 - Researched on: 2026-09-04
@@ -84,5 +124,12 @@
   official German national-average yield figure for fennel was found in the
   Statistisches Bundesamt vegetable table used for several other crops in
   this research pass).
+- Germination and companion planting researched on: 2026-11-26
+- Companion mapping questions: both tables list chicory salads
+  (`Zichoriensalat`, `Chicoree`) as good; the group is broad and was
+  left out except endive, which the BUND table names separately. The
+  tables say `Fenchel`; in a vegetable table this is read as Florence
+  fennel, not herb fennel. The other side is not yet recorded for
+  endive and sweet pepper.
 - Public-readiness: general crop created; seed weight now
   source-backed.

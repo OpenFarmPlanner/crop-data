@@ -34,13 +34,41 @@
 - Site: sun to partial shade, sheltered; humus- and nutrient-rich soil, pH
   about 6.4-7.2.
 
+## Germination
+- Optimal germination temperature: 16-22 °C; minimum: 6 °C
+- Germination time: 8-14 days
+- Source: [ProSpecieRara - Angaben zur Pflanzenanzucht](https://cms.prospecierara.ch/assets/website/prospecierara.ch/Pflanzen/Wissen/20221214_Angaben_zur_Pflanzenzucht_by_ProSpecieRara.pdf) (`Krautstiel, Mangold`).
+- Source conflict: this note earlier gave about 4-10 days at 14-18 °C
+  soil temperature without a recorded source. The ProSpecieRara values
+  are used because they are traceable.
+
+## Companion Planting
+Evidence: unless stated otherwise, every entry comes from the
+[BUND - Mischkultur: Gute und schlechte Nachbarn](https://www.bund.net/fileadmin/user_upload_bund/publikationen/naturnahes-gaertnern/Mischkultur-Gemuese-BUND.pdf) neighbour table, a list of gardening experience without reasons or
+trial data, so the reason is "other" throughout. The
+[Bayerische Gartenakademie - Mischkulturen im Gemüsegarten, Merkblatt 2104](https://www.lwg.bayern.de/mam/cms06/gartenakademie/dateien/2104-2020.pdf) states that neighbour effects are hard to prove and that reported
+observations often contradict each other, because site and care matter as
+well. Treat these entries as gardening tradition. "Both rows" means the
+table lists the pair under each of the two crops; "one row" means only under
+the crop named.
+
+Good neighbours:
+- Bush bean (`Buschbohne`): other; both rows.
+- Radish (`Radieschen`, `Rettich`): other; both rows.
+- Carrot (`Möhre`, `Karotte`): other; both rows.
+- Cabbage crops (`Kohlgewächse`): other; both rows. Mapping open.
+- The same four neighbours also appear in the [Gartenakademie Rheinland-Pfalz - Übersicht: Kultur verschiedener Gemüsearten im Hausgarten](https://www.dlr-rnh.rlp.de/Internet/global/themen.nsf/857f32bab23bcd4cc1258195002d7ee3/63ddf8fb46aba087c12572f8004eab8e/$FILE/Gem%C3%BCsearten%20f%C3%BCr%20den%20Hausgarten.pdf) table (2006).
+
+Bad neighbours:
+- Spinach (`Spinat`): other; spinach row only. Both are Amaranthaceae;
+  the source gives no reason, so a shared-pest reason is not assumed.
+
 ## Harvest & Use
 - Leaf/cut chard is harvested repeatedly by cutting outer leaves or a third
   of the leaf mass, leaving the heart to regrow. Stalk chard is harvested
   later, typically as whole mature stalks with attached leaves.
 
 ## Notes
-- Germination takes about 4-10 days at 14-18 °C soil temperature.
 - The leaf/cut vs. stalk distinction is treated here as an internal type
   note rather than a Kultur split, matching how the task's assigned crop
   name `Mangold` is used; this must be revisited explicitly if
@@ -104,6 +132,10 @@
 - [Kiepenkerl - Mangold Kulturanleitung](https://www.kiepenkerl.de/kulturanleitungen/mangold/)
 - [Hortipendium - Mangold Erwerbsanbau](https://www.hortipendium.de/Mangold_Erwerbsanbau)
 - [BUND Region Hannover - Stark-, Mittel- und Schwachzehrer im Gemüse- und Kräutergarten](https://bund-region-hannover.de/fileadmin/hannover/BUND_aktiv/Universum_Kleingarten/Publikationen_zum_Download/Handreichung_Stark-_Mittel-_und_Schwachzehrer.pdf)
+- [ProSpecieRara - Angaben zur Pflanzenanzucht](https://cms.prospecierara.ch/assets/website/prospecierara.ch/Pflanzen/Wissen/20221214_Angaben_zur_Pflanzenzucht_by_ProSpecieRara.pdf)
+- [BUND - Mischkultur: Gute und schlechte Nachbarn](https://www.bund.net/fileadmin/user_upload_bund/publikationen/naturnahes-gaertnern/Mischkultur-Gemuese-BUND.pdf)
+- [Bayerische Gartenakademie - Mischkulturen im Gemüsegarten, Merkblatt 2104](https://www.lwg.bayern.de/mam/cms06/gartenakademie/dateien/2104-2020.pdf)
+- [Gartenakademie Rheinland-Pfalz - Übersicht: Kultur verschiedener Gemüsearten im Hausgarten](https://www.dlr-rnh.rlp.de/Internet/global/themen.nsf/857f32bab23bcd4cc1258195002d7ee3/63ddf8fb46aba087c12572f8004eab8e/$FILE/Gem%C3%BCsearten%20f%C3%BCr%20den%20Hausgarten.pdf)
 
 ## Research Status
 - Researched on: 2026-09-18
@@ -117,6 +149,11 @@
   documented explicitly rather than silently decided; thousand kernel weight
   remains open. Growth duration, harvest window, and yield are inferred/
   derived values that mix both types or target the cut-chard case only.
+- Germination and companion planting researched on: 2026-11-26
+- Companion mapping questions: both tables also list `Rüben` as good;
+  it is ambiguous (beets or turnips) and was left out. `Kohlgewächse`
+  is not resolved (see `notes/bush-bean.md`). The neighbours apply to
+  both leaf and stalk chard; the sources do not separate them.
 - Public-readiness: needs review; type-split question is open; yield is an
   uncertain derived value; sowing depth and nutrient demand are now decided
   with sources.

@@ -32,6 +32,42 @@
   promotes woody or split bulbs. Net cover against cabbage fly and flea
   beetles is useful, especially for young plants.
 
+## Germination
+- Optimal germination temperature: 18-22 °C; minimum: 12 °C
+- Germination time: 6-12 days
+- Source: [ProSpecieRara - Angaben zur Pflanzenanzucht](https://cms.prospecierara.ch/assets/website/prospecierara.ch/Pflanzen/Wissen/20221214_Angaben_zur_Pflanzenzucht_by_ProSpecieRara.pdf). The minimum is higher than the 8 °C the same
+  table gives for head cabbage; the source value is kept as given and not
+  explained further.
+
+## Companion Planting
+Evidence: unless stated otherwise, every entry comes from the
+[BUND - Mischkultur: Gute und schlechte Nachbarn](https://www.bund.net/fileadmin/user_upload_bund/publikationen/naturnahes-gaertnern/Mischkultur-Gemuese-BUND.pdf) neighbour table, a list of gardening experience without reasons or
+trial data, so the reason is "other" throughout. The
+[Bayerische Gartenakademie - Mischkulturen im Gemüsegarten, Merkblatt 2104](https://www.lwg.bayern.de/mam/cms06/gartenakademie/dateien/2104-2020.pdf) states that neighbour effects are hard to prove and that reported
+observations often contradict each other, because site and care matter as
+well. Treat these entries as gardening tradition. "Both rows" means the
+table lists the pair under each of the two crops; "one row" means only under
+the crop named.
+
+Good neighbours:
+- Bush bean (`Buschbohne`): other; both rows.
+- Pole bean (`Stangenbohne`): other; both rows.
+- Shelling pea (`Erbse`): other; both rows.
+- Tomato (`Tomate`): other; both rows.
+- Celeriac (`Sellerie`): other; both rows.
+- Leek (`Lauch`, `Porree`): other; both rows.
+- Spinach (`Spinat`): other; both rows.
+- Potato (`Kartoffel`): other; both rows.
+- Beetroot (`Rote Bete`): other; both rows.
+- Head lettuce (`Kopfsalat`): other; both rows.
+- Radish (`Radieschen`, `Rettich`): other; both rows.
+- Black salsify (`Schwarzwurzel`): other; both rows.
+- Asparagus (`Spargel`): other; both rows.
+- Pumpkin (`Kürbis`): other; pumpkin row only.
+
+Bad neighbours:
+- Endive (`Endivie`): other; endive row only.
+
 ## Harvest & Use
 - Harvest as soon as the bulb reaches usable size (roughly tennis-ball size
   for standard types); quality drops quickly if left too long, especially in
@@ -83,6 +119,9 @@
 - [ReinSaat - Superschmelz](https://www.reinsaat.at/shop/EN/kohlgewaechse/kohlrabi/superschmelz/)
 - [Hortipendium - Kohlrabi Erwerbsanbau](https://www.hortipendium.de/Kohlrabi_Erwerbsanbau)
 - [Statistisches Bundesamt - Anbau und Erntemenge von Gemüse](https://www.destatis.de/DE/Themen/Branchen-Unternehmen/Landwirtschaft-Forstwirtschaft-Fischerei/Obst-Gemuese-Gartenbau/Tabellen/betriebe-anbau-erntemenge-gemuese.html)
+- [ProSpecieRara - Angaben zur Pflanzenanzucht](https://cms.prospecierara.ch/assets/website/prospecierara.ch/Pflanzen/Wissen/20221214_Angaben_zur_Pflanzenzucht_by_ProSpecieRara.pdf)
+- [BUND - Mischkultur: Gute und schlechte Nachbarn](https://www.bund.net/fileadmin/user_upload_bund/publikationen/naturnahes-gaertnern/Mischkultur-Gemuese-BUND.pdf)
+- [Bayerische Gartenakademie - Mischkulturen im Gemüsegarten, Merkblatt 2104](https://www.lwg.bayern.de/mam/cms06/gartenakademie/dateien/2104-2020.pdf)
 
 ## Research Status
 - Researched on: 2026-09-18
@@ -93,5 +132,11 @@
 - Open mapping questions: none for identity.
 - Calendar values researched on: 2026-09-21
 - Yield and spacing values researched on: 2026-09-22
+- Germination and companion planting researched on: 2026-11-26
+- Companion mapping questions: the kohlrabi row lists no bad
+  neighbours, but the BUND cabbage-crop row lists other cabbage crops
+  as bad. Whether that covers kohlrabi is open; kohlrabi and the other
+  cabbages are Brassicaceae, so rotation already keeps them apart. The
+  other side is not yet recorded for endive and pumpkin.
 - Public-readiness: needs review (calendar values inferred; yield and
   thousand kernel weight now source-backed; no live sync performed).
