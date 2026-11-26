@@ -29,18 +29,62 @@
   Plant shallowly - deep planting prevents proper heading and increases risk
   of soil-borne fungal or bacterial infection.
 
+## Germination
+- Optimal germination temperature: 15-18 °C; minimum: 4 °C
+- Germination time: 7-14 days
+- Light requirement: light germinator (`Lichtkeimer`); seed is covered
+  only lightly (0-0.5 cm).
+- Germination is inhibited at high temperatures: no germination above
+  about 18 °C. Summer sowings therefore need cool, shaded conditions.
+- Source: [ProSpecieRara - Angaben zur Pflanzenanzucht](https://cms.prospecierara.ch/assets/website/prospecierara.ch/Pflanzen/Wissen/20221214_Angaben_zur_Pflanzenzucht_by_ProSpecieRara.pdf).
+- Source conflict: this note earlier gave an optimum of about 10-15 °C
+  and 6-15 days at 10-16 °C soil temperature, without a recorded
+  source. The ProSpecieRara values are used because they are
+  traceable.
+
+## Companion Planting
+Evidence: unless stated otherwise, every entry comes from the
+[BUND - Mischkultur: Gute und schlechte Nachbarn](https://www.bund.net/fileadmin/user_upload_bund/publikationen/naturnahes-gaertnern/Mischkultur-Gemuese-BUND.pdf) neighbour table, a list of gardening experience without reasons or
+trial data, so the reason is "other" throughout. The
+[Bayerische Gartenakademie - Mischkulturen im Gemüsegarten, Merkblatt 2104](https://www.lwg.bayern.de/mam/cms06/gartenakademie/dateien/2104-2020.pdf) states that neighbour effects are hard to prove and that reported
+observations often contradict each other, because site and care matter as
+well. Treat these entries as gardening tradition. "Both rows" means the
+table lists the pair under each of the two crops; "one row" means only under
+the crop named.
+
+Good neighbours:
+- Bush bean (`Buschbohne`): other; both rows.
+- Pole bean (`Stangenbohne`): other; both rows.
+- Shelling pea (`Erbse`): other; both rows.
+- Leek (`Lauch`, `Porree`): other; both rows.
+- Onion (`Zwiebel`): other; both rows.
+- Tomato (`Tomate`): other; both rows.
+- Cucumber (`Gurke`): other; both rows.
+- Kohlrabi: other; both rows.
+- Radish (`Radieschen`, `Rettich`): other; both rows.
+- Florence fennel (`Fenchel`): other; both rows.
+- Strawberry (`Erdbeere`): other; both rows.
+- Dill: other; both rows.
+- Sweet corn (`Mais`): other; both rows.
+- Black salsify (`Schwarzwurzel`): other; both rows.
+- Asparagus (`Spargel`): other; both rows.
+- Rhubarb (`Rhabarber`): other; both rows.
+- Peppermint (`Pfefferminze`): other; both rows.
+- Celeriac (`Sellerie`): other; celery row only.
+- Cabbage crops (`Kohlgewächse`): other; both rows. Mapping open.
+
+Bad neighbours:
+- Parsley (`Petersilie`): other; both rows. The source does not say
+  which parsley; this repository has curly, flat-leaf and leaf parsley
+  and parsley root as separate crops.
+
 ## Harvest & Use
 - Cut heads once firm; a self-sown/self-thinned stand can be ready in about
   8 weeks under favourable conditions, but this varies by season and type.
 
 ## Notes
-- Germination is temperature-sensitive: optimum germination around 10-15 °C,
-  with cooler temperatures (about 6-8 °C) afterward favouring firm head
-  formation; germination is inhibited by high summer temperatures, which is
-  why summer sowings often need extra care (e.g. pre-chilled seed or shaded
-  germination).
-- Seeds are covered only lightly, 0-0.5 cm, and germinate in about 6-15 days
-  at 10-16 °C soil temperature.
+- Cooler temperatures (about 6-8 °C) after germination favour firm head
+  formation.
 
 ## Identity And Mapping Note
 - Scope narrowed (2026-10-02): this note previously described "head lettuce"
@@ -147,6 +191,9 @@
 - [BZL - Rund ums Jahr Salat ernten](https://www.landwirtschaft.de/garten/selbst-anbauen/rund-ums-jahr-salat-ernten)
 - [Der kleine Garten - Kopfsalat anbauen](https://www.derkleinegarten.de/nutzgarten-kleingarten/gemuesegarten-anlegen/blattgemuese/salatanbau-kopfsalat-1.html)
 - [BUND Region Hannover - Stark-, Mittel- und Schwachzehrer im Gemüse- und Kräutergarten](https://bund-region-hannover.de/fileadmin/hannover/BUND_aktiv/Universum_Kleingarten/Publikationen_zum_Download/Handreichung_Stark-_Mittel-_und_Schwachzehrer.pdf)
+- [ProSpecieRara - Angaben zur Pflanzenanzucht](https://cms.prospecierara.ch/assets/website/prospecierara.ch/Pflanzen/Wissen/20221214_Angaben_zur_Pflanzenzucht_by_ProSpecieRara.pdf)
+- [BUND - Mischkultur: Gute und schlechte Nachbarn](https://www.bund.net/fileadmin/user_upload_bund/publikationen/naturnahes-gaertnern/Mischkultur-Gemuese-BUND.pdf)
+- [Bayerische Gartenakademie - Mischkulturen im Gemüsegarten, Merkblatt 2104](https://www.lwg.bayern.de/mam/cms06/gartenakademie/dateien/2104-2020.pdf)
 
 ## Research Status
 - Researched on: 2026-09-18
@@ -167,5 +214,12 @@
   "Identity And Mapping Note". Remaining gap: `Eisbergsalat` and `Römersalat`
   still need their own general crop notes researched from scratch, not
   derived from this one.
+- Germination and companion planting researched on: 2026-11-26
+- Companion mapping questions: the table names `Kopfsalat` and
+  `Pflücksalat` separately; only the `Kopfsalat` row is used here.
+  `Zichoriensalat` (chicory salads) and `Rüben` are ambiguous and were
+  left out. Parsley and `Kohlgewächse` are not resolved. The other
+  side is not yet recorded for tomato, cucumber, kohlrabi, Florence
+  fennel and the parsley notes.
 - Public-readiness: needs review; calendar values are inferred; yield is a
   derived planning value.

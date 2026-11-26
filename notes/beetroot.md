@@ -24,6 +24,38 @@
   (wider spacing for later, larger storage roots; tighter for bunching types).
 - Site: sun to partial shade; humus-rich, evenly moist, well-drained soil.
 
+## Germination
+- Optimal germination temperature: 16-22 °C; minimum: 2 °C
+- Germination time: 10-20 days
+- Source: [ProSpecieRara - Angaben zur Pflanzenanzucht](https://cms.prospecierara.ch/assets/website/prospecierara.ch/Pflanzen/Wissen/20221214_Angaben_zur_Pflanzenzucht_by_ProSpecieRara.pdf) (`Rande, Rote Bete`; direct sowing or transplants).
+
+## Companion Planting
+Evidence: unless stated otherwise, every entry comes from the
+[BUND - Mischkultur: Gute und schlechte Nachbarn](https://www.bund.net/fileadmin/user_upload_bund/publikationen/naturnahes-gaertnern/Mischkultur-Gemuese-BUND.pdf) neighbour table, a list of gardening experience without reasons or
+trial data, so the reason is "other" throughout. The
+[Bayerische Gartenakademie - Mischkulturen im Gemüsegarten, Merkblatt 2104](https://www.lwg.bayern.de/mam/cms06/gartenakademie/dateien/2104-2020.pdf) states that neighbour effects are hard to prove and that reported
+observations often contradict each other, because site and care matter as
+well. Treat these entries as gardening tradition. "Both rows" means the
+table lists the pair under each of the two crops; "one row" means only under
+the crop named.
+
+Good neighbours:
+- Bush bean (`Buschbohne`): other; both rows.
+- Onion (`Zwiebel`): other; both rows.
+- Garlic (`Knoblauch`): other; both rows.
+- Kohlrabi: other; both rows.
+- Cucumber (`Gurke`): other; both rows.
+- Leaf lettuce (`Pflücksalat`): other; both rows.
+- Strawberry (`Erdbeere`): other; both rows.
+- Dill: other; both rows.
+
+Bad neighbours:
+- Leek (`Lauch`, `Porree`): other; both rows.
+- Sweet corn (`Mais`): other; both rows.
+- Spinach (`Spinat`): other; spinach row only. Spinach and beetroot
+  are both Amaranthaceae; the source gives no reason, so a
+  shared-pest reason is not assumed.
+
 ## Harvest & Use
 - Harvest from about 5-6 weeks after sowing for baby beets, through 3-4 months
   for full-size roots; can be left in the ground into autumn in mild sites or
@@ -91,6 +123,9 @@
 - [ReinSaat - Tonda di Chioggia](https://www.reinsaat.at/shop/EN/rote_ruebe/tonda_di_chioggia/)
 - [Hortigate - Rote Bete Sortenversuch](https://www.hortigate.de/publikation/71367/Rote-Bete-Sortenversuch/)
 - [Hortipendium - Speise Bete Erwerbsanbau](https://www.hortipendium.de/Speise_Bete_Erwerbsanbau)
+- [ProSpecieRara - Angaben zur Pflanzenanzucht](https://cms.prospecierara.ch/assets/website/prospecierara.ch/Pflanzen/Wissen/20221214_Angaben_zur_Pflanzenzucht_by_ProSpecieRara.pdf)
+- [BUND - Mischkultur: Gute und schlechte Nachbarn](https://www.bund.net/fileadmin/user_upload_bund/publikationen/naturnahes-gaertnern/Mischkultur-Gemuese-BUND.pdf)
+- [Bayerische Gartenakademie - Mischkulturen im Gemüsegarten, Merkblatt 2104](https://www.lwg.bayern.de/mam/cms06/gartenakademie/dateien/2104-2020.pdf)
 
 ## Research Status
 - Researched on: 2026-09-18
@@ -105,6 +140,11 @@
   trial average, garden range and fertilizer-planning ceiling documented
   above and resolved in favor of the trial average; thousand kernel weight
   now source-backed)
+- Germination and companion planting researched on: 2026-11-26
+- Companion conflict: the BUND beetroot row lists potato as both a
+  good and a bad neighbour, and the potato row lists beetroot as bad.
+  The pair is left out until another source resolves it. The other
+  side is not yet recorded for kohlrabi and cucumber.
 - Public-readiness: needs review (calendar values inferred, yield now a
   single documented planning value with a noted source conflict; no live
   sync performed).

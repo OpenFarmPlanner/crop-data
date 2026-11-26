@@ -27,6 +27,42 @@
 - Site: sun to light shade; cool, moisture-retentive, not freshly manured
   soil. Provide support for taller varieties.
 
+## Germination
+- Optimal germination temperature: 15-20 °C; minimum: 6 °C
+- Germination time: 8-14 days
+- Source: [ProSpecieRara - Angaben zur Pflanzenanzucht](https://cms.prospecierara.ch/assets/website/prospecierara.ch/Pflanzen/Wissen/20221214_Angaben_zur_Pflanzenzucht_by_ProSpecieRara.pdf) (row for pea and snow pea; direct sowing). Wrinkled-seed
+  `Markerbse` types need warmer soil than this minimum (see `Sowing &
+  Planting`).
+
+## Companion Planting
+Evidence: unless stated otherwise, every entry comes from the
+[BUND - Mischkultur: Gute und schlechte Nachbarn](https://www.bund.net/fileadmin/user_upload_bund/publikationen/naturnahes-gaertnern/Mischkultur-Gemuese-BUND.pdf) neighbour table, a list of gardening experience without reasons or
+trial data, so the reason is "other" throughout. The
+[Bayerische Gartenakademie - Mischkulturen im Gemüsegarten, Merkblatt 2104](https://www.lwg.bayern.de/mam/cms06/gartenakademie/dateien/2104-2020.pdf) states that neighbour effects are hard to prove and that reported
+observations often contradict each other, because site and care matter as
+well. Treat these entries as gardening tradition. "Both rows" means the
+table lists the pair under each of the two crops; "one row" means only under
+the crop named.
+
+Good neighbours:
+- Radish (`Radieschen`, `Rettich`): other; both rows. The
+  [Bayerische Gartenakademie - Mischkulturen im Gemüsegarten, Merkblatt 2104](https://www.lwg.bayern.de/mam/cms06/gartenakademie/dateien/2104-2020.pdf) uses a radish row between two pea rows as an example of good
+  use of bed space.
+- Head lettuce (`Kopfsalat`): other; both rows.
+- Kohlrabi: other; both rows.
+- Florence fennel (`Fenchel`): other; both rows.
+- Dill: other; both rows.
+- Carrot (`Möhre`, `Karotte`): other; both rows.
+- Pumpkin (`Kürbis`): other; pumpkin row only.
+- Cabbage crops (`Kohlgewächse`): other; both rows. Mapping open.
+
+Bad neighbours:
+- Tomato (`Tomate`): other; both rows.
+- Leek (`Lauch`, `Porree`): other; both rows.
+- Garlic (`Knoblauch`): other; both rows.
+- Potato (`Kartoffel`): other; both rows.
+- Bush bean (`Buschbohne`): other; bean row only.
+
 ## Harvest & Use
 - Pick pods once the seeds have filled out but are still tender, roughly 60-70
   days after sowing for early varieties; shell for fresh use, freezing, or
@@ -82,6 +118,9 @@
 - [gartenbau.sachsen.de - Markerbsen (2024 Sortenversuch)](https://www.gartenbau.sachsen.de/markerbsen-41106.html)
 - [forum.garten-pur.de - übliche Ertragsmengen im Hausgarten/Kleingarten](https://forum.garten-pur.de/index.php?topic=28046.0)
 - [raimund Biogartenbedarf - Markerbse 'Wunder von Kelvedon'](https://www.biogartenbedarf.de/bio-saatgut/erbsen-saatgut/markerbse-wunder-von-kelvedon/)
+- [ProSpecieRara - Angaben zur Pflanzenanzucht](https://cms.prospecierara.ch/assets/website/prospecierara.ch/Pflanzen/Wissen/20221214_Angaben_zur_Pflanzenzucht_by_ProSpecieRara.pdf)
+- [BUND - Mischkultur: Gute und schlechte Nachbarn](https://www.bund.net/fileadmin/user_upload_bund/publikationen/naturnahes-gaertnern/Mischkultur-Gemuese-BUND.pdf)
+- [Bayerische Gartenakademie - Mischkulturen im Gemüsegarten, Merkblatt 2104](https://www.lwg.bayern.de/mam/cms06/gartenakademie/dateien/2104-2020.pdf)
 
 ## Research Status
 - Researched on: 2026-09-18
@@ -96,6 +135,15 @@
   be split into separate Kultur identities (similar to the bean/wax-bean
   color split) is left open; this note currently treats them as sub-types of
   one general `Erbse`/shelling-pea Kultur per the task framing.
+- Germination and companion planting researched on: 2026-11-26
+- Companion conflict: the BUND pole-bean (`Stangenbohne`) row lists
+  peas as both good and bad, and the pea row lists pole beans as bad.
+  The pole-bean pair is left out until resolved.
+  Companion mapping questions: the table says `Erbsen` without
+  separating shelling pea and sugar pea; it is applied to shelling pea
+  only, and sugar pea stays open. `Kohlgewächse` and `Rüben` are not
+  resolved (see `notes/bush-bean.md`). The other side is not yet
+  recorded for tomato, kohlrabi, Florence fennel and pumpkin.
 - Public-readiness: needs review; thousand kernel weight is intentionally left
   open pending variety-level data. Growth duration, harvest window and yield
   are set as mid-season planning values.

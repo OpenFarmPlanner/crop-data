@@ -38,6 +38,41 @@
   point at soil level (not deep). Removing some soil from the upper roots once
   the tuber is walnut sized is a common practice.
 
+## Germination
+- Optimal germination temperature: 22-30 °C; minimum: 18 °C
+- Germination time: 10-14 days
+- Light requirement: light germinator (`Lichtkeimer`); both
+  [ProSpecieRara - Angaben zur Pflanzenanzucht](https://cms.prospecierara.ch/assets/website/prospecierara.ch/Pflanzen/Wissen/20221214_Angaben_zur_Pflanzenzucht_by_ProSpecieRara.pdf) and [Sativa Rheinau](https://www.sativa-rheinau.ch/hausgarten/tipps/kulturblaetter/knollensellerie.html) say so.
+- Source conflict: [Sativa Rheinau](https://www.sativa-rheinau.ch/hausgarten/tipps/kulturblaetter/knollensellerie.html) gives about 6-15 days at
+  18-22 °C, ProSpecieRara 10-14 days with an optimum of 22-30 °C. Both
+  ranges are kept as source values; the planner field uses the
+  ProSpecieRara range.
+
+## Companion Planting
+Evidence: unless stated otherwise, every entry comes from the
+[BUND - Mischkultur: Gute und schlechte Nachbarn](https://www.bund.net/fileadmin/user_upload_bund/publikationen/naturnahes-gaertnern/Mischkultur-Gemuese-BUND.pdf) neighbour table, a list of gardening experience without reasons or
+trial data, so the reason is "other" throughout. The
+[Bayerische Gartenakademie - Mischkulturen im Gemüsegarten, Merkblatt 2104](https://www.lwg.bayern.de/mam/cms06/gartenakademie/dateien/2104-2020.pdf) states that neighbour effects are hard to prove and that reported
+observations often contradict each other, because site and care matter as
+well. Treat these entries as gardening tradition. "Both rows" means the
+table lists the pair under each of the two crops; "one row" means only under
+the crop named.
+
+Good neighbours:
+- Tomato (`Tomate`): other; both rows.
+- Leek (`Lauch`, `Porree`): other; both rows.
+- Spinach (`Spinat`): other; both rows.
+- Bush bean (`Buschbohne`): other; both rows.
+- Pole bean (`Stangenbohne`): other; both rows.
+- Kohlrabi: other; both rows.
+- Cucumber (`Gurke`): other; both rows.
+- Head lettuce (`Kopfsalat`): other; celery row only.
+- Cabbage crops (`Kohlgewächse`): other; both rows. Mapping open.
+
+Bad neighbours:
+- Potato (`Kartoffel`): other; both rows.
+- Sweet corn (`Mais`): other; both rows.
+
 ## Harvest & Use
 - Harvest from about September to October before hard frost; well-formed
   tubers store cool and moist (moist sand, frost-free) until about
@@ -98,6 +133,9 @@
 - [Plantura - Knollensellerie](https://www.plantura.garden/gemuese/sellerie/knollensellerie)
 - [Arenenberg - Kulturblatt Sellerie](https://arenenberg.tg.ch/public/upload/assets/9009/2015_Kulturblatt_Sellerie.pdf) (listed only; PDF text could not be extracted, no values taken from it)
 - [Statistisches Bundesamt - Anbau und Erntemenge von Gemüse](https://www.destatis.de/DE/Themen/Branchen-Unternehmen/Landwirtschaft-Forstwirtschaft-Fischerei/Obst-Gemuese-Gartenbau/Tabellen/betriebe-anbau-erntemenge-gemuese.html)
+- [ProSpecieRara - Angaben zur Pflanzenanzucht](https://cms.prospecierara.ch/assets/website/prospecierara.ch/Pflanzen/Wissen/20221214_Angaben_zur_Pflanzenzucht_by_ProSpecieRara.pdf)
+- [BUND - Mischkultur: Gute und schlechte Nachbarn](https://www.bund.net/fileadmin/user_upload_bund/publikationen/naturnahes-gaertnern/Mischkultur-Gemuese-BUND.pdf)
+- [Bayerische Gartenakademie - Mischkulturen im Gemüsegarten, Merkblatt 2104](https://www.lwg.bayern.de/mam/cms06/gartenakademie/dateien/2104-2020.pdf)
 
 ## Research Status
 - Researched on: 2026-09-21
@@ -114,5 +152,11 @@
   Celeriac vs. stalk celery separation is a deliberate Kultur decision.
 - Yield and spacing values researched on: 2026-09-22 (yield updated, sowing
   depth and nutrient-demand classification added, both documented above)
+- Germination and companion planting researched on: 2026-11-26
+- Companion mapping questions: the table says `Sellerie` without
+  separating celeriac and celery; it is applied to celeriac here, and
+  celery stays open. `Kohlgewächse` is not resolved (see
+  `notes/bush-bean.md`). The other side is not yet recorded for
+  tomato, kohlrabi and cucumber.
 - Public-readiness: needs review (harvest window inferred; yield, sowing
   depth and nutrient demand now source-backed).

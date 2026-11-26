@@ -20,6 +20,47 @@
   `Planning Value Derivations`).
 - Site: full sun, warm, sheltered, well-drained soil.
 
+## Germination
+- Optimal germination temperature: 18-25 °C; minimum: 8 °C
+- Germination time: 8-14 days
+- Light requirement: not stated by the source; the seed is covered only
+  thinly. Seedlings do not tolerate frost.
+- Source: [ProSpecieRara - Angaben zur Pflanzenanzucht](https://cms.prospecierara.ch/assets/website/prospecierara.ch/Pflanzen/Wissen/20221214_Angaben_zur_Pflanzenzucht_by_ProSpecieRara.pdf) (row for bush and pole beans).
+
+## Companion Planting
+Evidence: unless stated otherwise, every entry comes from the
+[BUND - Mischkultur: Gute und schlechte Nachbarn](https://www.bund.net/fileadmin/user_upload_bund/publikationen/naturnahes-gaertnern/Mischkultur-Gemuese-BUND.pdf) neighbour table, a list of gardening experience without reasons or
+trial data, so the reason is "other" throughout. The
+[Bayerische Gartenakademie - Mischkulturen im Gemüsegarten, Merkblatt 2104](https://www.lwg.bayern.de/mam/cms06/gartenakademie/dateien/2104-2020.pdf) states that neighbour effects are hard to prove and that reported
+observations often contradict each other, because site and care matter as
+well. Treat these entries as gardening tradition. "Both rows" means the
+table lists the pair under each of the two crops; "one row" means only under
+the crop named.
+
+Good neighbours:
+- Celeriac (`Sellerie`): other; both rows. The source says `Sellerie`
+  without separating celeriac and celery.
+- Beetroot (`Rote Bete`): other; both rows.
+- Head lettuce (`Kopfsalat`): other; both rows.
+- Potato (`Kartoffel`): other; both rows.
+- Tomato (`Tomate`): other; both rows.
+- Cucumber (`Gurke`): other; both rows.
+- Kohlrabi: other; both rows.
+- Swiss chard (`Mangold`): other; both rows.
+- Radish (`Radieschen`, `Rettich`): other; both rows.
+- Rhubarb (`Rhabarber`): other; both rows.
+- Leaf lettuce (`Pflücksalat`): other; both rows.
+- Cabbage crops (`Kohlgewächse`): other; both rows. Mapping open, see
+  `Research Status`.
+
+Bad neighbours:
+- Leek (`Lauch`, `Porree`): other; both rows.
+- Onion (`Zwiebel`, *Allium cepa*): other; both rows.
+- Garlic (`Knoblauch`): other; both rows (garlic row says `Bohnen`).
+- Florence fennel (`Fenchel`): other; both rows.
+- Shelling pea (`Erbse`): other; bean row only. The pea row names only
+  pole beans as bad.
+
 ## Harvest & Use
 - Pick pods young and tender, repeatedly over a few weeks; regular picking
   keeps the plant producing.
@@ -91,6 +132,9 @@
 - [hortigate - Rund die Hälfte der feinen Buschbohnensorten mit >= 1,6 kg Ertrag/m²](https://www.hortigate.de/publikation/99555/Rund-die-H%C3%A4lfte-der-feinen-Buschbohnensorten-mit-%E2%89%A5-1,6-kg-Ertrag-m%C2%B2/)
 - [naturadb.de - Gemüsepflanzen mit niedrigem Nährstoffbedarf (Schwachzehrer)](https://www.naturadb.de/themen/gemuesepflanzen-mit-einem-niedrigen-naehrstoffbedarf-schwachzehrer/)
 - [Wildfind - Starkzehrer, Mittelzehrer, Schwachzehrer](https://www.wildfind.com/artikel/starkzehrer-mittelzehrer-schwachzehrer)
+- [ProSpecieRara - Angaben zur Pflanzenanzucht](https://cms.prospecierara.ch/assets/website/prospecierara.ch/Pflanzen/Wissen/20221214_Angaben_zur_Pflanzenzucht_by_ProSpecieRara.pdf)
+- [BUND - Mischkultur: Gute und schlechte Nachbarn](https://www.bund.net/fileadmin/user_upload_bund/publikationen/naturnahes-gaertnern/Mischkultur-Gemuese-BUND.pdf)
+- [Bayerische Gartenakademie - Mischkulturen im Gemüsegarten, Merkblatt 2104](https://www.lwg.bayern.de/mam/cms06/gartenakademie/dateien/2104-2020.pdf)
 
 ## Research Status
 - Researched on: 2026-09-04
@@ -104,5 +148,13 @@
   note. Nutrient-demand classification conflicts between sources
   (`Schwachzehrer` vs `Mittelzehrer`); `low` is kept as documented above.
 - Open mapping questions: none outstanding for the structured fields.
+- Germination and companion planting researched on: 2026-11-26
+- Companion mapping questions: `Kohlgewächse` (cabbage crops) is a broad
+  group and is not resolved to species or to Brassicaceae, because the
+  table lists kohlrabi and radish separately. `Rüben` (good) is ambiguous
+  (beets or turnips) and was left out. Tomato applies to every tomato
+  crop identity in this repository (beefsteak, cherry, salad, sauce).
+  The other side of each pair is not yet recorded in the notes for
+  tomato, cucumber, kohlrabi, Swiss chard and Florence fennel.
 - Public-readiness: seed weight added; the rest of the record was already
   complete.

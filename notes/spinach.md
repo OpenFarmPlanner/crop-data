@@ -17,6 +17,42 @@
 - Site: sun to light shade; cool conditions; humus-rich, moisture-retentive
   soil. Warm long days trigger bolting.
 
+## Germination
+- Optimal germination temperature: 10-20 °C; minimum: 2 °C
+- Germination time: 6-15 days
+- Source: [ProSpecieRara - Angaben zur Pflanzenanzucht](https://cms.prospecierara.ch/assets/website/prospecierara.ch/Pflanzen/Wissen/20221214_Angaben_zur_Pflanzenzucht_by_ProSpecieRara.pdf) (direct sowing; spring and late-summer sowings).
+
+## Companion Planting
+Evidence: unless stated otherwise, every entry comes from the
+[BUND - Mischkultur: Gute und schlechte Nachbarn](https://www.bund.net/fileadmin/user_upload_bund/publikationen/naturnahes-gaertnern/Mischkultur-Gemuese-BUND.pdf) neighbour table, a list of gardening experience without reasons or
+trial data, so the reason is "other" throughout. The
+[Bayerische Gartenakademie - Mischkulturen im Gemüsegarten, Merkblatt 2104](https://www.lwg.bayern.de/mam/cms06/gartenakademie/dateien/2104-2020.pdf) states that neighbour effects are hard to prove and that reported
+observations often contradict each other, because site and care matter as
+well. Treat these entries as gardening tradition. "Both rows" means the
+table lists the pair under each of the two crops; "one row" means only under
+the crop named.
+
+Good neighbours:
+- Celeriac (`Sellerie`): other; both rows.
+- Potato (`Kartoffel`): other; both rows.
+- Tomato (`Tomate`): other; both rows.
+- Pole bean (`Stangenbohne`): other; both rows.
+- Kohlrabi: other; both rows.
+- Radish (`Radieschen`, `Rettich`): other; both rows.
+- Rhubarb (`Rhabarber`): other; both rows.
+- Strawberry (`Erdbeere`): other; both rows.
+- Sweet corn (`Mais`): other (use of free space). The
+  [Bayerische Gartenakademie - Mischkulturen im Gemüsegarten, Merkblatt 2104](https://www.lwg.bayern.de/mam/cms06/gartenakademie/dateien/2104-2020.pdf) sows spinach between young sweet-corn rows from early March
+  and harvests it by mid-May; spinach left too long stunts the corn.
+  Extension example, not in the BUND table.
+- Cabbage crops (`Kohlgewächse`): other; both rows. Mapping open.
+
+Bad neighbours:
+- Beetroot (`Rote Bete`): other; spinach row only.
+- Swiss chard (`Mangold`): other; spinach row only. All three crops are
+  Amaranthaceae; the source gives no reason, so a shared-pest reason is
+  not assumed.
+
 ## Harvest & Use
 - Cut whole young plants or pick outer leaves. Overwintered stands are cut in
   early spring.
@@ -55,6 +91,9 @@
 - [Kiepenkerl - Spinat Kulturanleitung](https://www.kiepenkerl.de/kulturanleitungen/spinat/)
 - [LVG Baden-Württemberg - Öko-Versuchsbericht Spinat Satz 1 (2012)](https://lvg.landwirtschaft-bw.de/site/pbs-bw-mlr-root/get/documents_E-680384267/MLR.LEL/PB5Documents/lvg/pdf/2/2012%20%C3%96ko%20Versuchsbericht%20Spinat%20Satz%201.pdf?attachment=true)
 - [BUND Region Hannover - Stark-, Mittel- und Schwachzehrer im Gemüse- und Kräutergarten](https://bund-region-hannover.de/fileadmin/hannover/BUND_aktiv/Universum_Kleingarten/Publikationen_zum_Download/Handreichung_Stark-_Mittel-_und_Schwachzehrer.pdf)
+- [ProSpecieRara - Angaben zur Pflanzenanzucht](https://cms.prospecierara.ch/assets/website/prospecierara.ch/Pflanzen/Wissen/20221214_Angaben_zur_Pflanzenzucht_by_ProSpecieRara.pdf)
+- [BUND - Mischkultur: Gute und schlechte Nachbarn](https://www.bund.net/fileadmin/user_upload_bund/publikationen/naturnahes-gaertnern/Mischkultur-Gemuese-BUND.pdf)
+- [Bayerische Gartenakademie - Mischkulturen im Gemüsegarten, Merkblatt 2104](https://www.lwg.bayern.de/mam/cms06/gartenakademie/dateien/2104-2020.pdf)
 
 ## Research Status
 - Researched on: 2026-09-04
@@ -64,5 +103,11 @@
   planning value is set for leaf harvest.
 - Open mapping questions: overwintering spinach has a very different effective
   duration; the seed weight is a type value, not variety-measured.
+- Germination and companion planting researched on: 2026-11-26
+- Companion mapping questions: `Rüben` (good) is ambiguous and was
+  left out; read as beets it would contradict the beetroot entry.
+  `Kohlgewächse` is not resolved (see `notes/bush-bean.md`). The
+  other side is not yet recorded for tomato, kohlrabi and Swiss
+  chard.
 - Public-readiness: calendar values inferred; seed weight set from a
   seed-count chart.
