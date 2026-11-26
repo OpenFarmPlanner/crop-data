@@ -27,6 +27,10 @@ project) in an ignored local file such as `sync-private/target-notes.md`.
 
 Trailing slash is required (a missing slash returns `301`).
 
+The planner's current name for this resource is `/crops/`; `/cultures/` is
+kept as a legacy alias for the same view (planner v1.220.0). Both paths take
+the same requests.
+
 ## Record Model Notes
 
 - A general crop record has an empty `variety`. Variety records repeat the crop
@@ -47,6 +51,37 @@ Confirmed writable by PATCH: `name`, `crop_display_name`,
 `growth_duration_days`, `harvest_duration_days`, `propagation_duration_days`,
 `expected_yield`, `harvest_method`, `nutrient_demand`, `notes`, spacing and
 sowing-depth fields, `thousand_kernel_weight_g`, seed-rate fields.
+
+Writable crop fields in the planner's crop serializer (v1.220.0), which also
+serves token PATCH requests, but **not yet confirmed by a readback** in a sync
+from this repository: `botanical_name`,
+`seed_type`, `life_cycle`, `standing_time_years`, `rotation_break_years`,
+`annual_harvest_window`, `first_harvest_delay_years`, the germination and
+stratification fields, `light_requirement`, `water_requirement`,
+`winter_hardiness`, `pests_diseases`, `sowing_depth_max_m`,
+`default_harvest_unit`, `average_harvest_piece_weight_g`,
+`average_harvest_bunch_weight_g`, `specific_properties`, and
+`timing_windows` (a write replaces the crop's whole window list). Verify each
+one by readback the first time it is synced, then move it to the confirmed
+list above.
+
+On a variety linked to its general crop, `crop_family`, `nutrient_demand` and
+`rotation_break_years` are species-invariant: a value sent for the variety is
+routed to the general crop or rejected. Write them on the general crop only.
+
+`plant_health` (structured pest and disease selections) is writable but must
+stay untouched until the plant-health catalogue is researched (crop-data issue
+#8). Omitting the field preserves existing selections; `null` would reset a
+variety to inherit.
+
+## Companions (Good And Bad Neighbours)
+
+Neighbours are separate records at `/crop-companions/` (`?crop=<id>` filters
+by general crop). A project API token can only **read** them; the planner
+offers no token write for companions. Enter approved neighbours through the
+OpenFarmPlanner UI (crop details, companion editor) or the UI spreadsheet
+import (`Gute Nachbarn` / `Schlechte Nachbarn` columns). In a Phase 2 sync,
+prepare the list for the user instead of writing it.
 
 ## Fields Silently Ignored via an API Token
 
@@ -71,7 +106,12 @@ itself remains UI-only either way; see
 
 - `GET /` -> `403` `"This endpoint is not available for API tokens."`
 - `OPTIONS` metadata -> `"The action 'metadata' is not available for API tokens."`
-- No `/token`, `/me`, `/schema`, or OpenAPI document is exposed to tokens.
+- No `/token`, `/me`, `/schema`, or OpenAPI document was exposed to tokens
+  when this was last checked. The planner docs for v1.220.0 list
+  `GET /agent/context/` (token context) and `GET /agent/openapi.json` (crop
+  field schema with enums, units and bounds) as token-readable. Try them first
+  in a sync; if they answer, prefer them over this file for field names and
+  allowed values.
 
 ## Recommended Sync Sequence
 
